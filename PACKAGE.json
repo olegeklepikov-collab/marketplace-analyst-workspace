@@ -1,8 +1,9 @@
 {
   "archive_url": "https://github.com/olegeklepikov-collab/marketplace-analyst-workspace/releases/latest/download/analyst-workspace.zip",
-  "archive_sha256": "a6eb57c92aeed5f80da59f0712e1d836f7b25dcdeaf76b85e868c76f63d65837",
-  "archive_bytes": 286836154,
-  "workspace_files": 5299,
+  "archive_sha256": "86f3b39db30a5f6c0517e0052e451815148a398c2953245ab5ec6d081bda4e4d",
+  "archive_bytes": 286786976,
+  "workspace_files": 5306,
   "base_cards": 129,
-  "public": true
+  "public": true,
+  "delivery": "Git repository and native ZIP; no hosted website"
 }
