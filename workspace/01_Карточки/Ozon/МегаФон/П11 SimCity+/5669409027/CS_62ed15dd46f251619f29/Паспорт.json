@@ -1,0 +1,405 @@
+{
+  "record_type": "CAPTURE",
+  "intake_id": "BASE:CS_62ed15dd46f251619f29",
+  "card_id": "OZON:5669409027",
+  "capture_id": "CS_62ed15dd46f251619f29",
+  "intake_status": "ACCEPTED",
+  "registered_at": null,
+  "platform": "Ozon",
+  "external_card_id": {
+    "state": "KNOWN",
+    "value": "5669409027",
+    "basis": "OBSERVED",
+    "scope": "внешний номер",
+    "source_locator": "01_Карточки/Ozon/МегаФон/П11 SimCity+/5669409027/CS_62ed15dd46f251619f29/01_Материалы/card_data.json:sku"
+  },
+  "observed_at": {
+    "state": "KNOWN",
+    "value": "2026-09-25T09:41:49.181Z",
+    "basis": "OBSERVED",
+    "scope": "время наблюдения",
+    "source_locator": "01_Карточки/Ozon/МегаФон/П11 SimCity+/5669409027/CS_62ed15dd46f251619f29/01_Материалы/card_data.json:collected_at"
+  },
+  "seller_display_name": {
+    "state": "KNOWN",
+    "value": "SimCity+",
+    "basis": "OBSERVED",
+    "scope": "точная строка продавца",
+    "source_locator": "01_Карточки/Ozon/МегаФон/П11 SimCity+/5669409027/CS_62ed15dd46f251619f29/01_Материалы/card_data.json:seller"
+  },
+  "seller_label_code": "П11",
+  "brand": {
+    "state": "KNOWN",
+    "value": "МегаФон",
+    "basis": "OBSERVED",
+    "scope": "заявленный бренд",
+    "source_locator": "01_Карточки/Ozon/МегаФон/П11 SimCity+/5669409027/CS_62ed15dd46f251619f29/01_Материалы/card_data.json"
+  },
+  "title": {
+    "state": "KNOWN",
+    "value": "МегаФон Сим-карта 1000 минут безлимитный интернет за 350 руб в месяц",
+    "basis": "OBSERVED",
+    "scope": "заголовок",
+    "source_locator": "01_Карточки/Ozon/МегаФон/П11 SimCity+/5669409027/CS_62ed15dd46f251619f29/01_Материалы/card_data.json:title"
+  },
+  "source_origin": "Сохранённая страница маркетплейса; дата наблюдения указана в паспорте.",
+  "actual_relative_path": "01_Карточки/Ozon/МегаФон/П11 SimCity+/5669409027/CS_62ed15dd46f251619f29",
+  "mission": "Требует уточнения",
+  "offer_model": "Услуга, условия не подтверждены",
+  "collection_region": "Moscow",
+  "materials": [
+    {
+      "placement_id": "CS_62ed15dd46f251619f29:Gallery/G01.jpg",
+      "surface": "GALLERY",
+      "position": 1,
+      "relative_file": "01_Карточки/Ozon/МегаФон/П11 SimCity+/5669409027/CS_62ed15dd46f251619f29/01_Материалы/Gallery/G01.jpg",
+      "integrity_state": "VERIFIED",
+      "sha256": "5cd15855eea404418fd66fc6569a75cdb810b368f4c948dd9470e8f2e529287b",
+      "bytes": 270523
+    },
+    {
+      "placement_id": "CS_62ed15dd46f251619f29:Gallery/G02.jpg",
+      "surface": "GALLERY",
+      "position": 2,
+      "relative_file": "01_Карточки/Ozon/МегаФон/П11 SimCity+/5669409027/CS_62ed15dd46f251619f29/01_Материалы/Gallery/G02.jpg",
+      "integrity_state": "VERIFIED",
+      "sha256": "4fa8a6ea42030322e70ccf7c5092cc10496bd9be3800eae6ce791e1258ca23cb",
+      "bytes": 354166
+    },
+    {
+      "placement_id": "CS_62ed15dd46f251619f29:Gallery/G03.jpg",
+      "surface": "GALLERY",
+      "position": 3,
+      "relative_file": "01_Карточки/Ozon/МегаФон/П11 SimCity+/5669409027/CS_62ed15dd46f251619f29/01_Материалы/Gallery/G03.jpg",
+      "integrity_state": "VERIFIED",
+      "sha256": "6ec54c4c1c3b4c3f1f8e27c2614520a38d1d0398a88173b9c2816cfc54cdbcfc",
+      "bytes": 172485
+    },
+    {
+      "placement_id": "CS_62ed15dd46f251619f29:Gallery/G04.jpg",
+      "surface": "GALLERY",
+      "position": 4,
+      "relative_file": "01_Карточки/Ozon/МегаФон/П11 SimCity+/5669409027/CS_62ed15dd46f251619f29/01_Материалы/Gallery/G04.jpg",
+      "integrity_state": "VERIFIED",
+      "sha256": "724ed5f37b5ee7e0c68cb9c33fb587c2a5e30520b3627abbeb6c9da253d5fedf",
+      "bytes": 271768
+    },
+    {
+      "placement_id": "CS_62ed15dd46f251619f29:Gallery/G05.jpg",
+      "surface": "GALLERY",
+      "position": 5,
+      "relative_file": "01_Карточки/Ozon/МегаФон/П11 SimCity+/5669409027/CS_62ed15dd46f251619f29/01_Материалы/Gallery/G05.jpg",
+      "integrity_state": "VERIFIED",
+      "sha256": "31089b9ef055a8bcf717f0d8c72293dc30645de6e6a1eb398f2c44e838f553e7",
+      "bytes": 378629
+    },
+    {
+      "placement_id": "CS_62ed15dd46f251619f29:Gallery/G06.jpg",
+      "surface": "GALLERY",
+      "position": 6,
+      "relative_file": "01_Карточки/Ozon/МегаФон/П11 SimCity+/5669409027/CS_62ed15dd46f251619f29/01_Материалы/Gallery/G06.jpg",
+      "integrity_state": "VERIFIED",
+      "sha256": "14622a54b32ffda25cc5d7d347eeaab17928c9d9abb7473760ac9c4ccbb74166",
+      "bytes": 129383
+    },
+    {
+      "placement_id": "CS_62ed15dd46f251619f29:Gallery/G07.jpg",
+      "surface": "GALLERY",
+      "position": 7,
+      "relative_file": "01_Карточки/Ozon/МегаФон/П11 SimCity+/5669409027/CS_62ed15dd46f251619f29/01_Материалы/Gallery/G07.jpg",
+      "integrity_state": "VERIFIED",
+      "sha256": "629b316e59925ef9336057118e83d2bcc87d4e8d5f8668f26d5daf82ac0c4854",
+      "bytes": 211731
+    },
+    {
+      "placement_id": "CS_62ed15dd46f251619f29:Gallery/G08.jpg",
+      "surface": "GALLERY",
+      "position": 8,
+      "relative_file": "01_Карточки/Ozon/МегаФон/П11 SimCity+/5669409027/CS_62ed15dd46f251619f29/01_Материалы/Gallery/G08.jpg",
+      "integrity_state": "VERIFIED",
+      "sha256": "5bbfb8f237459ef93bb0c6a350b72345b81ed7d3abb4287b6034c6eee09f8d43",
+      "bytes": 323610
+    },
+    {
+      "placement_id": "CS_62ed15dd46f251619f29:Gallery/G09.jpg",
+      "surface": "GALLERY",
+      "position": 9,
+      "relative_file": "01_Карточки/Ozon/МегаФон/П11 SimCity+/5669409027/CS_62ed15dd46f251619f29/01_Материалы/Gallery/G09.jpg",
+      "integrity_state": "VERIFIED",
+      "sha256": "86bf9a03ebd33cb55cc14497860af4d7520aa7f87130130bc0c49e11af7681a0",
+      "bytes": 93292
+    },
+    {
+      "placement_id": "CS_62ed15dd46f251619f29:Gallery/G10.jpg",
+      "surface": "GALLERY",
+      "position": 10,
+      "relative_file": "01_Карточки/Ozon/МегаФон/П11 SimCity+/5669409027/CS_62ed15dd46f251619f29/01_Материалы/Gallery/G10.jpg",
+      "integrity_state": "VERIFIED",
+      "sha256": "a970454c76fcaf837240445909a289d7b58934091efca339867bb41f1dd02201",
+      "bytes": 193308
+    },
+    {
+      "placement_id": "CS_62ed15dd46f251619f29:Gallery/G11.jpg",
+      "surface": "GALLERY",
+      "position": 11,
+      "relative_file": "01_Карточки/Ozon/МегаФон/П11 SimCity+/5669409027/CS_62ed15dd46f251619f29/01_Материалы/Gallery/G11.jpg",
+      "integrity_state": "VERIFIED",
+      "sha256": "ffe14c899d977bfaf129797ce3eee41e1dc9971bf9626f6b1c0fc1a7394032ee",
+      "bytes": 388273
+    },
+    {
+      "placement_id": "CS_62ed15dd46f251619f29:Gallery/G12.jpg",
+      "surface": "GALLERY",
+      "position": 12,
+      "relative_file": "01_Карточки/Ozon/МегаФон/П11 SimCity+/5669409027/CS_62ed15dd46f251619f29/01_Материалы/Gallery/G12.jpg",
+      "integrity_state": "VERIFIED",
+      "sha256": "cc628a79cccb2bf269adc3566adb83d9745d951e3b18a84e28d2297a4b8244fd",
+      "bytes": 262709
+    },
+    {
+      "placement_id": "CS_62ed15dd46f251619f29:Rich/R01.jpg",
+      "surface": "RICH",
+      "position": 1,
+      "relative_file": "01_Карточки/Ozon/МегаФон/П11 SimCity+/5669409027/CS_62ed15dd46f251619f29/01_Материалы/Rich/R01.jpg",
+      "integrity_state": "VERIFIED",
+      "sha256": "6cfa73d570b916d17db45d5a6a50dfd82377921382cc7f4af912c746b8c23dc5",
+      "bytes": 157061
+    },
+    {
+      "placement_id": "CS_62ed15dd46f251619f29:Rich/R02.jpg",
+      "surface": "RICH",
+      "position": 2,
+      "relative_file": "01_Карточки/Ozon/МегаФон/П11 SimCity+/5669409027/CS_62ed15dd46f251619f29/01_Материалы/Rich/R02.jpg",
+      "integrity_state": "VERIFIED",
+      "sha256": "c76b95e6e2c5d05114d009401173133a31bd583279d78718d7a3e39f30cbd6a6",
+      "bytes": 233441
+    },
+    {
+      "placement_id": "CS_62ed15dd46f251619f29:Rich/R03.jpg",
+      "surface": "RICH",
+      "position": 3,
+      "relative_file": "01_Карточки/Ozon/МегаФон/П11 SimCity+/5669409027/CS_62ed15dd46f251619f29/01_Материалы/Rich/R03.jpg",
+      "integrity_state": "VERIFIED",
+      "sha256": "ef9839c58684b25dcff3154bb22fcb3237f053600e75d97ab0aaf04382b6e4e8",
+      "bytes": 159656
+    },
+    {
+      "placement_id": "CS_62ed15dd46f251619f29:Rich/rich_ocr.json",
+      "surface": "RICH",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/МегаФон/П11 SimCity+/5669409027/CS_62ed15dd46f251619f29/01_Материалы/Rich/rich_ocr.json",
+      "integrity_state": "VERIFIED",
+      "sha256": "6ea3a8be2fa3ccb3e8045799e02ad84a27e46a1cbc060c068819a534f35564b4",
+      "bytes": 5268
+    },
+    {
+      "placement_id": "CS_62ed15dd46f251619f29:Rich/rich_text.txt",
+      "surface": "RICH",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/МегаФон/П11 SimCity+/5669409027/CS_62ed15dd46f251619f29/01_Материалы/Rich/rich_text.txt",
+      "integrity_state": "VERIFIED",
+      "sha256": "3e60a871b2542c487aa4f57d28d680c6a6b87883dc60e79c5356a3c8e45ff735",
+      "bytes": 935
+    },
+    {
+      "placement_id": "CS_62ed15dd46f251619f29:analytics_rank.txt",
+      "surface": "OTHER",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/МегаФон/П11 SimCity+/5669409027/CS_62ed15dd46f251619f29/01_Материалы/analytics_rank.txt",
+      "integrity_state": "VERIFIED",
+      "sha256": "606b7d0891b4db74edb21c241c302f298bf6ca4a6158deca6b58c15c950ab5f2",
+      "bytes": 3
+    },
+    {
+      "placement_id": "CS_62ed15dd46f251619f29:availability.txt",
+      "surface": "OTHER",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/МегаФон/П11 SimCity+/5669409027/CS_62ed15dd46f251619f29/01_Материалы/availability.txt",
+      "integrity_state": "VERIFIED",
+      "sha256": "f3db355a863e0dd7fa5ca1c95f35969d61f7cfb1f7a1c64da40b68a8ebed9c4d",
+      "bytes": 26
+    },
+    {
+      "placement_id": "CS_62ed15dd46f251619f29:card_data.json",
+      "surface": "OTHER",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/МегаФон/П11 SimCity+/5669409027/CS_62ed15dd46f251619f29/01_Материалы/card_data.json",
+      "integrity_state": "VERIFIED",
+      "sha256": "a401419b221d01c9529d2561b2bf9c96a6154025a74a2e602631776c17dd7d6e",
+      "bytes": 4071
+    },
+    {
+      "placement_id": "CS_62ed15dd46f251619f29:characteristics.txt",
+      "surface": "CHARACTERISTICS",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/МегаФон/П11 SimCity+/5669409027/CS_62ed15dd46f251619f29/01_Материалы/characteristics.txt",
+      "integrity_state": "VERIFIED",
+      "sha256": "5dd753eb6abb87673fced48a9eea1afa31862b4c1604a96a39f83f0f86cc6930",
+      "bytes": 1204
+    },
+    {
+      "placement_id": "CS_62ed15dd46f251619f29:collection_status.txt",
+      "surface": "OTHER",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/МегаФон/П11 SimCity+/5669409027/CS_62ed15dd46f251619f29/01_Материалы/collection_status.txt",
+      "integrity_state": "VERIFIED",
+      "sha256": "cf01585829633e2debef0696d8101ca4fb4702310a2f2256b3b17bd0e753ce8c",
+      "bytes": 10
+    },
+    {
+      "placement_id": "CS_62ed15dd46f251619f29:content_type.txt",
+      "surface": "OTHER",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/МегаФон/П11 SimCity+/5669409027/CS_62ed15dd46f251619f29/01_Материалы/content_type.txt",
+      "integrity_state": "VERIFIED",
+      "sha256": "96e6625bbd580d529a6384d96146fa3a05f7fb416cb4614fd8cd7135be2d77d1",
+      "bytes": 28
+    },
+    {
+      "placement_id": "CS_62ed15dd46f251619f29:description.txt",
+      "surface": "DESCRIPTION",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/МегаФон/П11 SimCity+/5669409027/CS_62ed15dd46f251619f29/01_Материалы/description.txt",
+      "integrity_state": "VERIFIED",
+      "sha256": "cfe12a6d70106473638332fbeb30598b4cf94051f939c88fd0705157433b38f1",
+      "bytes": 36
+    },
+    {
+      "placement_id": "CS_62ed15dd46f251619f29:manifest.json",
+      "surface": "OTHER",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/МегаФон/П11 SimCity+/5669409027/CS_62ed15dd46f251619f29/01_Материалы/manifest.json",
+      "integrity_state": "VERIFIED",
+      "sha256": "a5c499906eb16335b0660f717773abd06ee5dbdeda3c50fd515e153b2a5474b7",
+      "bytes": 8392
+    },
+    {
+      "placement_id": "CS_62ed15dd46f251619f29:price.txt",
+      "surface": "OTHER",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/МегаФон/П11 SimCity+/5669409027/CS_62ed15dd46f251619f29/01_Материалы/price.txt",
+      "integrity_state": "VERIFIED",
+      "sha256": "53c234e5e8472b6ac51c1ae1cab3fe06fad053beb8ebfd8977b010655bfdd3c3",
+      "bytes": 2
+    },
+    {
+      "placement_id": "CS_62ed15dd46f251619f29:rating.txt",
+      "surface": "OTHER",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/МегаФон/П11 SimCity+/5669409027/CS_62ed15dd46f251619f29/01_Материалы/rating.txt",
+      "integrity_state": "VERIFIED",
+      "sha256": "335f6442cc8f7e4980fe4ba346115a00101db5a939992b25b27ebf595238e8d5",
+      "bytes": 4
+    },
+    {
+      "placement_id": "CS_62ed15dd46f251619f29:reviews_count.txt",
+      "surface": "OTHER",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/МегаФон/П11 SimCity+/5669409027/CS_62ed15dd46f251619f29/01_Материалы/reviews_count.txt",
+      "integrity_state": "VERIFIED",
+      "sha256": "20cace6d85957965450e4b68f033a23abd2e924adf39f854993d54cd50015d06",
+      "bytes": 5
+    },
+    {
+      "placement_id": "CS_62ed15dd46f251619f29:seller.txt",
+      "surface": "OTHER",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/МегаФон/П11 SimCity+/5669409027/CS_62ed15dd46f251619f29/01_Материалы/seller.txt",
+      "integrity_state": "VERIFIED",
+      "sha256": "3a786f69a93c06b88ce72245113586a4b4b2e894790538b8140966c150c139e4",
+      "bytes": 9
+    },
+    {
+      "placement_id": "CS_62ed15dd46f251619f29:tags.txt",
+      "surface": "OTHER",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/МегаФон/П11 SimCity+/5669409027/CS_62ed15dd46f251619f29/01_Материалы/tags.txt",
+      "integrity_state": "VERIFIED",
+      "sha256": "3e436e7b9e69b71d2b1e9677f882ce3a3ddc1b3286742d2465c6d52bed0f9769",
+      "bytes": 36
+    },
+    {
+      "placement_id": "CS_62ed15dd46f251619f29:title.txt",
+      "surface": "TITLE",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/МегаФон/П11 SimCity+/5669409027/CS_62ed15dd46f251619f29/01_Материалы/title.txt",
+      "integrity_state": "VERIFIED",
+      "sha256": "888c01bd9af9ed1955ce2047ff271f700846affed8848daf51ac9743c7e3344f",
+      "bytes": 119
+    },
+    {
+      "placement_id": "CS_62ed15dd46f251619f29:url.txt",
+      "surface": "OTHER",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/МегаФон/П11 SimCity+/5669409027/CS_62ed15dd46f251619f29/01_Материалы/url.txt",
+      "integrity_state": "VERIFIED",
+      "sha256": "da34c868c2f4f5f2c8ce9104b1dad6cf2c973c775faf8d6977880248be51e327",
+      "bytes": 125
+    }
+  ],
+  "data_format": "CAPTURE",
+  "change_number": 1,
+  "coverage_scope": "Все файлы предоставленного снимка; полнота действующей страницы и исполнение услуги отдельно не подтверждены.",
+  "source_note": "Точные сведения источника не являются независимой проверкой тарифного договора или юридических полномочий.",
+  "attributes": {
+    "preliminary_classification": {
+      "task_focus": "UNDETERMINED",
+      "bundle_focus": "NOT_EMPHASIZED_IN_TITLE",
+      "configuration_focus": "NOT_EMPHASIZED_IN_TITLE",
+      "period_focus": "NOT_EMPHASIZED_IN_TITLE",
+      "group_id": "",
+      "group_name": "",
+      "device_claims": [],
+      "device_claims_status": "UNDETERMINED_IN_ROUTING_SCOPE",
+      "money_roles": [],
+      "money_review_scope": "NOT_ATOMICALLY_REVIEWED",
+      "porting_role": "NOT_ESTABLISHED_IN_ROUTING_SCOPE",
+      "geo_claims": {
+        "legacy_title_claim": "REGION_NOT_IN_TITLE",
+        "verification": "NOT_VERIFIED",
+        "collection_region": "Moscow"
+      },
+      "targeted_evidence": [
+        {
+          "surface": "TITLE",
+          "source_path": "analysis_handoff_2026-10-27 2/01_current_corpus_master129/Megafon_competitors/5669409027/card_data.json",
+          "locator": "$.title",
+          "quote": "МегаФон Сим-карта 1000 минут безлимитный интернет за 350 руб в месяц"
+        }
+      ],
+      "review_note": "Конкретная задача и класс устройства по имеющимся основаниям не установлены. Значение Smart и изображение человека не переводятся в назначение для смартфона.",
+      "flags": [],
+      "legal_party_id": "",
+      "authority_status": "UNKNOWN_IN_INSPECTED_INPUTS",
+      "commercial_readiness": "NOT_ESTABLISHED",
+      "content_effect": "NOT_ASSESSED",
+      "market_row_present": "True",
+      "promotion_row_present": "False",
+      "routing_support": {
+        "surface": "G01",
+        "source_file": "01_Карточки/Ozon/МегаФон/П11 SimCity+/5669409027/CS_62ed15dd46f251619f29/01_Материалы/Gallery/G01.jpg",
+        "basis_text": "TITLE, характеристики, описание и G01 не дают однозначной основной задачи; прочие кадры требуют отдельного просмотра.",
+        "basis_kind": "VISUAL_EXPLANATION_REQUIRES_REVIEW",
+        "literal_text_match": null,
+        "source_classification_status": "PROVISIONAL_CONTENT_ROUTING",
+        "evidence_status": "INHERITED_NOT_INDEPENDENT_RECODE",
+        "scope_note": "Предоставленное основание предварительной группы; не новая независимая разметка и не проверка совместимости или эффекта."
+      },
+      "device_scope_note": "Перечень устройств является исходной маршрутизацией, а не полной проверкой совместимости."
+    },
+    "classification_status": "PRELIMINARY_CONTENT_ROUTE_NOT_SALES_RANK",
+    "channel": {
+      "platform": "Ozon",
+      "legal_party": "UNKNOWN",
+      "shop_type": "UNKNOWN",
+      "brand_owner": "UNKNOWN",
+      "distributor_status": "UNKNOWN",
+      "budget": "UNKNOWN"
+    },
+    "source_url": "https://www.ozon.ru/product/megafon-sim-karta-1000-minut-bezlimitnyy-internet-za-350-rub-v-mesyats-5669409027/?sh=f35iFfy3FQ"
+  },
+  "metadata_files": [
+    "01_Карточки/Ozon/МегаФон/П11 SimCity+/5669409027/CS_62ed15dd46f251619f29/02_Метаданные/Фрагменты источника.jsonl",
+    "01_Карточки/Ozon/МегаФон/П11 SimCity+/5669409027/CS_62ed15dd46f251619f29/02_Метаданные/Извлечённые сведения.jsonl"
+  ]
+}

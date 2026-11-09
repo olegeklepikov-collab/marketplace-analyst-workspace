@@ -1,0 +1,454 @@
+{
+  "record_type": "CAPTURE",
+  "intake_id": "BASE:CS_8cdc75ba85b2d0fbeee7",
+  "card_id": "OZON:5355539007",
+  "capture_id": "CS_8cdc75ba85b2d0fbeee7",
+  "intake_status": "ACCEPTED",
+  "registered_at": null,
+  "platform": "Ozon",
+  "external_card_id": {
+    "state": "KNOWN",
+    "value": "5355539007",
+    "basis": "OBSERVED",
+    "scope": "внешний номер",
+    "source_locator": "01_Карточки/Ozon/МегаФон/П15 SimSurf/5355539007/CS_8cdc75ba85b2d0fbeee7/01_Материалы/card_data.json:sku"
+  },
+  "observed_at": {
+    "state": "KNOWN",
+    "value": "2026-09-25T09:41:13.756Z",
+    "basis": "OBSERVED",
+    "scope": "время наблюдения",
+    "source_locator": "01_Карточки/Ozon/МегаФон/П15 SimSurf/5355539007/CS_8cdc75ba85b2d0fbeee7/01_Материалы/card_data.json:collected_at"
+  },
+  "seller_display_name": {
+    "state": "KNOWN",
+    "value": "SimSurf",
+    "basis": "OBSERVED",
+    "scope": "точная строка продавца",
+    "source_locator": "01_Карточки/Ozon/МегаФон/П15 SimSurf/5355539007/CS_8cdc75ba85b2d0fbeee7/01_Материалы/card_data.json:seller"
+  },
+  "seller_label_code": "П15",
+  "brand": {
+    "state": "KNOWN",
+    "value": "МегаФон",
+    "basis": "OBSERVED",
+    "scope": "заявленный бренд",
+    "source_locator": "01_Карточки/Ozon/МегаФон/П15 SimSurf/5355539007/CS_8cdc75ba85b2d0fbeee7/01_Материалы/card_data.json"
+  },
+  "title": {
+    "state": "KNOWN",
+    "value": "Скоростной безлимитный интернет для модема и умных устройств 350 руб в мес + 1000 мин (выбор номера и региона)",
+    "basis": "OBSERVED",
+    "scope": "заголовок",
+    "source_locator": "01_Карточки/Ozon/МегаФон/П15 SimSurf/5355539007/CS_8cdc75ba85b2d0fbeee7/01_Материалы/card_data.json:title"
+  },
+  "source_origin": "Сохранённая страница маркетплейса; дата наблюдения указана в паспорте.",
+  "actual_relative_path": "01_Карточки/Ozon/МегаФон/П15 SimSurf/5355539007/CS_8cdc75ba85b2d0fbeee7",
+  "mission": "Подключение: основное предложение",
+  "offer_model": "Услуга, условия не подтверждены",
+  "collection_region": "Moscow",
+  "materials": [
+    {
+      "placement_id": "CS_8cdc75ba85b2d0fbeee7:Gallery/G01.jpg",
+      "surface": "GALLERY",
+      "position": 1,
+      "relative_file": "01_Карточки/Ozon/МегаФон/П15 SimSurf/5355539007/CS_8cdc75ba85b2d0fbeee7/01_Материалы/Gallery/G01.jpg",
+      "integrity_state": "VERIFIED",
+      "sha256": "48b7af8f9f2eec41d4b1eb21162e7d95cca28d26170bd830e9d60aaaaaceb481",
+      "bytes": 91827
+    },
+    {
+      "placement_id": "CS_8cdc75ba85b2d0fbeee7:Gallery/G02.jpg",
+      "surface": "GALLERY",
+      "position": 2,
+      "relative_file": "01_Карточки/Ozon/МегаФон/П15 SimSurf/5355539007/CS_8cdc75ba85b2d0fbeee7/01_Материалы/Gallery/G02.jpg",
+      "integrity_state": "VERIFIED",
+      "sha256": "db2fbca212146fee790ab7830ae7a708b7f70a7cf266faa4fa6b731fc7dfbb20",
+      "bytes": 343387
+    },
+    {
+      "placement_id": "CS_8cdc75ba85b2d0fbeee7:Gallery/G03.jpg",
+      "surface": "GALLERY",
+      "position": 3,
+      "relative_file": "01_Карточки/Ozon/МегаФон/П15 SimSurf/5355539007/CS_8cdc75ba85b2d0fbeee7/01_Материалы/Gallery/G03.jpg",
+      "integrity_state": "VERIFIED",
+      "sha256": "141a3198cfce550457bf58703a0f517810507594678a41b53c5c554ede416df6",
+      "bytes": 271260
+    },
+    {
+      "placement_id": "CS_8cdc75ba85b2d0fbeee7:Gallery/G04.jpg",
+      "surface": "GALLERY",
+      "position": 4,
+      "relative_file": "01_Карточки/Ozon/МегаФон/П15 SimSurf/5355539007/CS_8cdc75ba85b2d0fbeee7/01_Материалы/Gallery/G04.jpg",
+      "integrity_state": "VERIFIED",
+      "sha256": "b3a8b8da712c513c2123d536a48a17ad82a5bdbcb0acab1a8398f4924e6f1523",
+      "bytes": 275296
+    },
+    {
+      "placement_id": "CS_8cdc75ba85b2d0fbeee7:Gallery/G05.jpg",
+      "surface": "GALLERY",
+      "position": 5,
+      "relative_file": "01_Карточки/Ozon/МегаФон/П15 SimSurf/5355539007/CS_8cdc75ba85b2d0fbeee7/01_Материалы/Gallery/G05.jpg",
+      "integrity_state": "VERIFIED",
+      "sha256": "0de74b741eaa3b644a248f0b086b0bc7434907b1032a353433bd8538adf273ee",
+      "bytes": 93930
+    },
+    {
+      "placement_id": "CS_8cdc75ba85b2d0fbeee7:Gallery/G06.jpg",
+      "surface": "GALLERY",
+      "position": 6,
+      "relative_file": "01_Карточки/Ozon/МегаФон/П15 SimSurf/5355539007/CS_8cdc75ba85b2d0fbeee7/01_Материалы/Gallery/G06.jpg",
+      "integrity_state": "VERIFIED",
+      "sha256": "7ed61dc11d343fd4025f7305cf7e7b2febae8ddc3730efd671ad297f969d4ce3",
+      "bytes": 247393
+    },
+    {
+      "placement_id": "CS_8cdc75ba85b2d0fbeee7:Gallery/G07.jpg",
+      "surface": "GALLERY",
+      "position": 7,
+      "relative_file": "01_Карточки/Ozon/МегаФон/П15 SimSurf/5355539007/CS_8cdc75ba85b2d0fbeee7/01_Материалы/Gallery/G07.jpg",
+      "integrity_state": "VERIFIED",
+      "sha256": "cc4dd7e11d61c966dabec4e76c3e01feee4ca4f71a9b951d3f8138c76913fd64",
+      "bytes": 282648
+    },
+    {
+      "placement_id": "CS_8cdc75ba85b2d0fbeee7:Gallery/G08.jpg",
+      "surface": "GALLERY",
+      "position": 8,
+      "relative_file": "01_Карточки/Ozon/МегаФон/П15 SimSurf/5355539007/CS_8cdc75ba85b2d0fbeee7/01_Материалы/Gallery/G08.jpg",
+      "integrity_state": "VERIFIED",
+      "sha256": "d8473803c12b2e7f54ed4cb035a8010a9497dcdfe5b735f15cfe238962a064a5",
+      "bytes": 200599
+    },
+    {
+      "placement_id": "CS_8cdc75ba85b2d0fbeee7:Gallery/G09.jpg",
+      "surface": "GALLERY",
+      "position": 9,
+      "relative_file": "01_Карточки/Ozon/МегаФон/П15 SimSurf/5355539007/CS_8cdc75ba85b2d0fbeee7/01_Материалы/Gallery/G09.jpg",
+      "integrity_state": "VERIFIED",
+      "sha256": "dd9c87393ed5ba1e94e0dd49768092486727815abece091884366003cab5b3a7",
+      "bytes": 83667
+    },
+    {
+      "placement_id": "CS_8cdc75ba85b2d0fbeee7:Gallery/G10.jpg",
+      "surface": "GALLERY",
+      "position": 10,
+      "relative_file": "01_Карточки/Ozon/МегаФон/П15 SimSurf/5355539007/CS_8cdc75ba85b2d0fbeee7/01_Материалы/Gallery/G10.jpg",
+      "integrity_state": "VERIFIED",
+      "sha256": "fd69c0672eaa71e957342740523e06eebe66b14816236de755ca75db4577b778",
+      "bytes": 292716
+    },
+    {
+      "placement_id": "CS_8cdc75ba85b2d0fbeee7:Gallery/G11.jpg",
+      "surface": "GALLERY",
+      "position": 11,
+      "relative_file": "01_Карточки/Ozon/МегаФон/П15 SimSurf/5355539007/CS_8cdc75ba85b2d0fbeee7/01_Материалы/Gallery/G11.jpg",
+      "integrity_state": "VERIFIED",
+      "sha256": "1e8bfa74f9eee95aaf13b0f2f55c3864c803ab5638421bc2bae76fbe63ef72fb",
+      "bytes": 338395
+    },
+    {
+      "placement_id": "CS_8cdc75ba85b2d0fbeee7:Gallery/G12.jpg",
+      "surface": "GALLERY",
+      "position": 12,
+      "relative_file": "01_Карточки/Ozon/МегаФон/П15 SimSurf/5355539007/CS_8cdc75ba85b2d0fbeee7/01_Материалы/Gallery/G12.jpg",
+      "integrity_state": "VERIFIED",
+      "sha256": "f4998df8d7ca091f907feac29210bf26d0726ef092c4d3028ee5807b53894d0f",
+      "bytes": 350370
+    },
+    {
+      "placement_id": "CS_8cdc75ba85b2d0fbeee7:Gallery/G13.jpg",
+      "surface": "GALLERY",
+      "position": 13,
+      "relative_file": "01_Карточки/Ozon/МегаФон/П15 SimSurf/5355539007/CS_8cdc75ba85b2d0fbeee7/01_Материалы/Gallery/G13.jpg",
+      "integrity_state": "VERIFIED",
+      "sha256": "31322340650d99013c70ea3a4a2dd693dde6c99b738cdfe5482e2f14ad815eb8",
+      "bytes": 406227
+    },
+    {
+      "placement_id": "CS_8cdc75ba85b2d0fbeee7:Gallery/G14.jpg",
+      "surface": "GALLERY",
+      "position": 14,
+      "relative_file": "01_Карточки/Ozon/МегаФон/П15 SimSurf/5355539007/CS_8cdc75ba85b2d0fbeee7/01_Материалы/Gallery/G14.jpg",
+      "integrity_state": "VERIFIED",
+      "sha256": "3e68ed9fbd5e6ace121bddd1aba0c424117bbdff6fdb53997ab263f5cc780772",
+      "bytes": 128226
+    },
+    {
+      "placement_id": "CS_8cdc75ba85b2d0fbeee7:Gallery/G15.jpg",
+      "surface": "GALLERY",
+      "position": 15,
+      "relative_file": "01_Карточки/Ozon/МегаФон/П15 SimSurf/5355539007/CS_8cdc75ba85b2d0fbeee7/01_Материалы/Gallery/G15.jpg",
+      "integrity_state": "VERIFIED",
+      "sha256": "9e195361dd674473f3f94648899a23d55297cf12318f02628b6c1a48b7c5dffd",
+      "bytes": 104291
+    },
+    {
+      "placement_id": "CS_8cdc75ba85b2d0fbeee7:Gallery/G16.jpg",
+      "surface": "GALLERY",
+      "position": 16,
+      "relative_file": "01_Карточки/Ozon/МегаФон/П15 SimSurf/5355539007/CS_8cdc75ba85b2d0fbeee7/01_Материалы/Gallery/G16.jpg",
+      "integrity_state": "VERIFIED",
+      "sha256": "450555472975a1043190c8be8c32fa60431c09d08d950f1ab80b0a0e6588a09b",
+      "bytes": 67521
+    },
+    {
+      "placement_id": "CS_8cdc75ba85b2d0fbeee7:Rich/R01.jpg",
+      "surface": "RICH",
+      "position": 1,
+      "relative_file": "01_Карточки/Ozon/МегаФон/П15 SimSurf/5355539007/CS_8cdc75ba85b2d0fbeee7/01_Материалы/Rich/R01.jpg",
+      "integrity_state": "VERIFIED",
+      "sha256": "29b968310276a69e3eb245e87cf24a66ebddc27374b217d700641e83dc311ba1",
+      "bytes": 369977
+    },
+    {
+      "placement_id": "CS_8cdc75ba85b2d0fbeee7:Rich/R02.jpg",
+      "surface": "RICH",
+      "position": 2,
+      "relative_file": "01_Карточки/Ozon/МегаФон/П15 SimSurf/5355539007/CS_8cdc75ba85b2d0fbeee7/01_Материалы/Rich/R02.jpg",
+      "integrity_state": "VERIFIED",
+      "sha256": "5cf016784868f07aab98d55b1d1eca142dd778abf8e2b2057ffbab5f3d85a143",
+      "bytes": 304936
+    },
+    {
+      "placement_id": "CS_8cdc75ba85b2d0fbeee7:Rich/R03.jpg",
+      "surface": "RICH",
+      "position": 3,
+      "relative_file": "01_Карточки/Ozon/МегаФон/П15 SimSurf/5355539007/CS_8cdc75ba85b2d0fbeee7/01_Материалы/Rich/R03.jpg",
+      "integrity_state": "VERIFIED",
+      "sha256": "535918a1ebda27452589cb1ea465a4d68fa4b7e7eada620f26f553627bee2576",
+      "bytes": 415156
+    },
+    {
+      "placement_id": "CS_8cdc75ba85b2d0fbeee7:Rich/R04.jpg",
+      "surface": "RICH",
+      "position": 4,
+      "relative_file": "01_Карточки/Ozon/МегаФон/П15 SimSurf/5355539007/CS_8cdc75ba85b2d0fbeee7/01_Материалы/Rich/R04.jpg",
+      "integrity_state": "VERIFIED",
+      "sha256": "59cd9b0d158e12c6ca0fc4a63956dff24070a18d77f39de67c99e82b2694fee6",
+      "bytes": 250013
+    },
+    {
+      "placement_id": "CS_8cdc75ba85b2d0fbeee7:Rich/R05.jpg",
+      "surface": "RICH",
+      "position": 5,
+      "relative_file": "01_Карточки/Ozon/МегаФон/П15 SimSurf/5355539007/CS_8cdc75ba85b2d0fbeee7/01_Материалы/Rich/R05.jpg",
+      "integrity_state": "VERIFIED",
+      "sha256": "292d491cdd7fc448f6f7d80be252339c086e51c59b557b081687daddc139faf5",
+      "bytes": 331282
+    },
+    {
+      "placement_id": "CS_8cdc75ba85b2d0fbeee7:Rich/rich_ocr.json",
+      "surface": "RICH",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/МегаФон/П15 SimSurf/5355539007/CS_8cdc75ba85b2d0fbeee7/01_Материалы/Rich/rich_ocr.json",
+      "integrity_state": "VERIFIED",
+      "sha256": "5a4ee40f338ff30e45134d1395524a0a76c2ca9b972b69bc1b3b99976abf3ebb",
+      "bytes": 18161
+    },
+    {
+      "placement_id": "CS_8cdc75ba85b2d0fbeee7:Rich/rich_text.txt",
+      "surface": "RICH",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/МегаФон/П15 SimSurf/5355539007/CS_8cdc75ba85b2d0fbeee7/01_Материалы/Rich/rich_text.txt",
+      "integrity_state": "VERIFIED",
+      "sha256": "ba9c36f5bd951f0bab2523a0d49cd21fff6cb157ffbc66b366816bef3d08e161",
+      "bytes": 4637
+    },
+    {
+      "placement_id": "CS_8cdc75ba85b2d0fbeee7:analytics_rank.txt",
+      "surface": "OTHER",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/МегаФон/П15 SimSurf/5355539007/CS_8cdc75ba85b2d0fbeee7/01_Материалы/analytics_rank.txt",
+      "integrity_state": "VERIFIED",
+      "sha256": "20d2add851bf39edcc6b5e830930f962db7e19dffa2cab8610eed551eda6c302",
+      "bytes": 3
+    },
+    {
+      "placement_id": "CS_8cdc75ba85b2d0fbeee7:availability.txt",
+      "surface": "OTHER",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/МегаФон/П15 SimSurf/5355539007/CS_8cdc75ba85b2d0fbeee7/01_Материалы/availability.txt",
+      "integrity_state": "VERIFIED",
+      "sha256": "f3db355a863e0dd7fa5ca1c95f35969d61f7cfb1f7a1c64da40b68a8ebed9c4d",
+      "bytes": 26
+    },
+    {
+      "placement_id": "CS_8cdc75ba85b2d0fbeee7:card_data.json",
+      "surface": "OTHER",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/МегаФон/П15 SimSurf/5355539007/CS_8cdc75ba85b2d0fbeee7/01_Материалы/card_data.json",
+      "integrity_state": "VERIFIED",
+      "sha256": "bf86b9f9808c9b9a0aade8416ae69fdc34b8b6692f5c621ae2866ae64825e91c",
+      "bytes": 13519
+    },
+    {
+      "placement_id": "CS_8cdc75ba85b2d0fbeee7:characteristics.txt",
+      "surface": "CHARACTERISTICS",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/МегаФон/П15 SimSurf/5355539007/CS_8cdc75ba85b2d0fbeee7/01_Материалы/characteristics.txt",
+      "integrity_state": "VERIFIED",
+      "sha256": "1a5fe146c9b6a070b68de2c0d8e47aaa65570bdd2171e6212bf0317c4b29bd43",
+      "bytes": 1216
+    },
+    {
+      "placement_id": "CS_8cdc75ba85b2d0fbeee7:collection_status.txt",
+      "surface": "OTHER",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/МегаФон/П15 SimSurf/5355539007/CS_8cdc75ba85b2d0fbeee7/01_Материалы/collection_status.txt",
+      "integrity_state": "VERIFIED",
+      "sha256": "cf01585829633e2debef0696d8101ca4fb4702310a2f2256b3b17bd0e753ce8c",
+      "bytes": 10
+    },
+    {
+      "placement_id": "CS_8cdc75ba85b2d0fbeee7:content_type.txt",
+      "surface": "OTHER",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/МегаФон/П15 SimSurf/5355539007/CS_8cdc75ba85b2d0fbeee7/01_Материалы/content_type.txt",
+      "integrity_state": "VERIFIED",
+      "sha256": "96e6625bbd580d529a6384d96146fa3a05f7fb416cb4614fd8cd7135be2d77d1",
+      "bytes": 28
+    },
+    {
+      "placement_id": "CS_8cdc75ba85b2d0fbeee7:description.txt",
+      "surface": "DESCRIPTION",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/МегаФон/П15 SimSurf/5355539007/CS_8cdc75ba85b2d0fbeee7/01_Материалы/description.txt",
+      "integrity_state": "VERIFIED",
+      "sha256": "2d517e07a2a1e3003172a3ac31238c6e30cdb0cb54cf316f9b7446fd99126e40",
+      "bytes": 7412
+    },
+    {
+      "placement_id": "CS_8cdc75ba85b2d0fbeee7:manifest.json",
+      "surface": "OTHER",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/МегаФон/П15 SimSurf/5355539007/CS_8cdc75ba85b2d0fbeee7/01_Материалы/manifest.json",
+      "integrity_state": "VERIFIED",
+      "sha256": "6e9a647c0a3f29e98cab72df4a088ec5c190a8527b81f0fb5c78566ca40a28d1",
+      "bytes": 11175
+    },
+    {
+      "placement_id": "CS_8cdc75ba85b2d0fbeee7:price.txt",
+      "surface": "OTHER",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/МегаФон/П15 SimSurf/5355539007/CS_8cdc75ba85b2d0fbeee7/01_Материалы/price.txt",
+      "integrity_state": "VERIFIED",
+      "sha256": "53c234e5e8472b6ac51c1ae1cab3fe06fad053beb8ebfd8977b010655bfdd3c3",
+      "bytes": 2
+    },
+    {
+      "placement_id": "CS_8cdc75ba85b2d0fbeee7:rating.txt",
+      "surface": "OTHER",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/МегаФон/П15 SimSurf/5355539007/CS_8cdc75ba85b2d0fbeee7/01_Материалы/rating.txt",
+      "integrity_state": "VERIFIED",
+      "sha256": "8048d1e7e392843de42064d4c1ae59880ce5b149895a2cb79b0680fbf35e488c",
+      "bytes": 4
+    },
+    {
+      "placement_id": "CS_8cdc75ba85b2d0fbeee7:reviews_count.txt",
+      "surface": "OTHER",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/МегаФон/П15 SimSurf/5355539007/CS_8cdc75ba85b2d0fbeee7/01_Материалы/reviews_count.txt",
+      "integrity_state": "VERIFIED",
+      "sha256": "e0a861d1524d329f85e027707b5c10c83ad5cb72743154c70186b9b68e882826",
+      "bytes": 5
+    },
+    {
+      "placement_id": "CS_8cdc75ba85b2d0fbeee7:seller.txt",
+      "surface": "OTHER",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/МегаФон/П15 SimSurf/5355539007/CS_8cdc75ba85b2d0fbeee7/01_Материалы/seller.txt",
+      "integrity_state": "VERIFIED",
+      "sha256": "53b379dfd3a838cfad226d2e8d2219b07e30985b221f4cfefdb98b426aa785d0",
+      "bytes": 8
+    },
+    {
+      "placement_id": "CS_8cdc75ba85b2d0fbeee7:tags.txt",
+      "surface": "OTHER",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/МегаФон/П15 SimSurf/5355539007/CS_8cdc75ba85b2d0fbeee7/01_Материалы/tags.txt",
+      "integrity_state": "VERIFIED",
+      "sha256": "bc36b20bb214af92ac5dd8e8f3755ded578c50eb17d06bc60bf150d5d402ff82",
+      "bytes": 995
+    },
+    {
+      "placement_id": "CS_8cdc75ba85b2d0fbeee7:title.txt",
+      "surface": "TITLE",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/МегаФон/П15 SimSurf/5355539007/CS_8cdc75ba85b2d0fbeee7/01_Материалы/title.txt",
+      "integrity_state": "VERIFIED",
+      "sha256": "4e80e1bb48d853c09cb4ec4f6c14024791e93cd501e7efdcc81fb5eb43c49f42",
+      "bytes": 193
+    },
+    {
+      "placement_id": "CS_8cdc75ba85b2d0fbeee7:url.txt",
+      "surface": "OTHER",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/МегаФон/П15 SimSurf/5355539007/CS_8cdc75ba85b2d0fbeee7/01_Материалы/url.txt",
+      "integrity_state": "VERIFIED",
+      "sha256": "d8ca64496a1f64c5e5c2657ec9486ea4003d5285851079f590496e41da7f5b1f",
+      "bytes": 152
+    }
+  ],
+  "data_format": "CAPTURE",
+  "change_number": 1,
+  "coverage_scope": "Все файлы предоставленного снимка; полнота действующей страницы и исполнение услуги отдельно не подтверждены.",
+  "source_note": "Точные сведения источника не являются независимой проверкой тарифного договора или юридических полномочий.",
+  "attributes": {
+    "preliminary_classification": {
+      "task_focus": "CONNECT",
+      "bundle_focus": "NOT_EMPHASIZED_IN_TITLE",
+      "configuration_focus": "NOT_EMPHASIZED_IN_TITLE",
+      "period_focus": "NOT_EMPHASIZED_IN_TITLE",
+      "group_id": "CONNECT_BASE",
+      "group_name": "Подключение: основное предложение",
+      "device_claims": [
+        "MULTIPLE_CLASSES_NOT_ENUMERATED"
+      ],
+      "device_claims_status": "PARTIAL_MULTIPLE_CLASS_CLAIM",
+      "money_roles": [],
+      "money_review_scope": "NOT_ATOMICALLY_REVIEWED",
+      "porting_role": "NOT_ESTABLISHED_IN_ROUTING_SCOPE",
+      "geo_claims": {
+        "legacy_title_claim": "REGION_NOT_IN_TITLE",
+        "verification": "NOT_VERIFIED",
+        "collection_region": "Moscow"
+      },
+      "targeted_evidence": [],
+      "review_note": "",
+      "flags": [],
+      "legal_party_id": "",
+      "authority_status": "UNKNOWN_IN_INSPECTED_INPUTS",
+      "commercial_readiness": "NOT_ESTABLISHED",
+      "content_effect": "NOT_ASSESSED",
+      "market_row_present": "True",
+      "promotion_row_present": "True",
+      "routing_support": {
+        "surface": "TITLE",
+        "source_file": "01_Карточки/Ozon/МегаФон/П15 SimSurf/5355539007/CS_8cdc75ba85b2d0fbeee7/01_Материалы/title.txt",
+        "basis_text": "несколько классов устройств в TITLE",
+        "basis_kind": "PROVIDED_ROUTING_EXPLANATION",
+        "literal_text_match": false,
+        "source_classification_status": "PROVISIONAL_CONTENT_ROUTING",
+        "evidence_status": "INHERITED_NOT_INDEPENDENT_RECODE",
+        "scope_note": "Предоставленное основание предварительной группы; не новая независимая разметка и не проверка совместимости или эффекта."
+      },
+      "device_scope_note": "Перечень устройств является исходной маршрутизацией, а не полной проверкой совместимости."
+    },
+    "classification_status": "PRELIMINARY_CONTENT_ROUTE_NOT_SALES_RANK",
+    "channel": {
+      "platform": "Ozon",
+      "legal_party": "UNKNOWN",
+      "shop_type": "UNKNOWN",
+      "brand_owner": "UNKNOWN",
+      "distributor_status": "UNKNOWN",
+      "budget": "UNKNOWN"
+    },
+    "source_url": "https://www.ozon.ru/product/skorostnoy-bezlimitnyy-internet-dlya-modema-i-umnyh-ustroystv-350-rub-v-mes-1000-min-vybor-nomera-5355539007/?sh=f35iFSoX6A"
+  },
+  "metadata_files": [
+    "01_Карточки/Ozon/МегаФон/П15 SimSurf/5355539007/CS_8cdc75ba85b2d0fbeee7/02_Метаданные/Фрагменты источника.jsonl",
+    "01_Карточки/Ozon/МегаФон/П15 SimSurf/5355539007/CS_8cdc75ba85b2d0fbeee7/02_Метаданные/Извлечённые сведения.jsonl"
+  ]
+}

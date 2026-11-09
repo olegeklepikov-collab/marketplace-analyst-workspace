@@ -1,0 +1,359 @@
+{
+  "record_type": "CAPTURE",
+  "intake_id": "BASE:CS_999c68b048ec2856d2e1",
+  "card_id": "OZON:4388757452",
+  "capture_id": "CS_999c68b048ec2856d2e1",
+  "intake_status": "ACCEPTED",
+  "registered_at": null,
+  "platform": "Ozon",
+  "external_card_id": {
+    "state": "KNOWN",
+    "value": "4388757452",
+    "basis": "OBSERVED",
+    "scope": "внешний номер",
+    "source_locator": "01_Карточки/Ozon/МегаФон/П34 Тариф Маркет/4388757452/CS_999c68b048ec2856d2e1/01_Материалы/card_data.json:sku"
+  },
+  "observed_at": {
+    "state": "KNOWN",
+    "value": "2026-09-25T09:41:04.762Z",
+    "basis": "OBSERVED",
+    "scope": "время наблюдения",
+    "source_locator": "01_Карточки/Ozon/МегаФон/П34 Тариф Маркет/4388757452/CS_999c68b048ec2856d2e1/01_Материалы/card_data.json:collected_at"
+  },
+  "seller_display_name": {
+    "state": "KNOWN",
+    "value": "Тариф Маркет",
+    "basis": "OBSERVED",
+    "scope": "точная строка продавца",
+    "source_locator": "01_Карточки/Ozon/МегаФон/П34 Тариф Маркет/4388757452/CS_999c68b048ec2856d2e1/01_Материалы/card_data.json:seller"
+  },
+  "seller_label_code": "П34",
+  "brand": {
+    "state": "KNOWN",
+    "value": "МегаФон",
+    "basis": "OBSERVED",
+    "scope": "заявленный бренд",
+    "source_locator": "01_Карточки/Ozon/МегаФон/П34 Тариф Маркет/4388757452/CS_999c68b048ec2856d2e1/01_Материалы/card_data.json"
+  },
+  "title": {
+    "state": "KNOWN",
+    "value": "МегаФон SIM-карта сим карта для умных часов 2 гб + 100 мин за 200 руб/мес (Вся Россия)",
+    "basis": "OBSERVED",
+    "scope": "заголовок",
+    "source_locator": "01_Карточки/Ozon/МегаФон/П34 Тариф Маркет/4388757452/CS_999c68b048ec2856d2e1/01_Материалы/card_data.json:title"
+  },
+  "source_origin": "Сохранённая страница маркетплейса; дата наблюдения указана в паспорте.",
+  "actual_relative_path": "01_Карточки/Ozon/МегаФон/П34 Тариф Маркет/4388757452/CS_999c68b048ec2856d2e1",
+  "mission": "Подключение: основное предложение",
+  "offer_model": "Услуга, условия не подтверждены",
+  "collection_region": "Moscow",
+  "materials": [
+    {
+      "placement_id": "CS_999c68b048ec2856d2e1:Gallery/G01.jpg",
+      "surface": "GALLERY",
+      "position": 1,
+      "relative_file": "01_Карточки/Ozon/МегаФон/П34 Тариф Маркет/4388757452/CS_999c68b048ec2856d2e1/01_Материалы/Gallery/G01.jpg",
+      "integrity_state": "VERIFIED",
+      "sha256": "18d30f773847ceff8c71ede16200fd14caef369543857e233c5d7acef4849fef",
+      "bytes": 88470
+    },
+    {
+      "placement_id": "CS_999c68b048ec2856d2e1:Gallery/G02.jpg",
+      "surface": "GALLERY",
+      "position": 2,
+      "relative_file": "01_Карточки/Ozon/МегаФон/П34 Тариф Маркет/4388757452/CS_999c68b048ec2856d2e1/01_Материалы/Gallery/G02.jpg",
+      "integrity_state": "VERIFIED",
+      "sha256": "c1e452e8bf6e975a0a998b875fe449f32b89aadc94fcd754bce75631c9a8ccf5",
+      "bytes": 105233
+    },
+    {
+      "placement_id": "CS_999c68b048ec2856d2e1:Gallery/G03.jpg",
+      "surface": "GALLERY",
+      "position": 3,
+      "relative_file": "01_Карточки/Ozon/МегаФон/П34 Тариф Маркет/4388757452/CS_999c68b048ec2856d2e1/01_Материалы/Gallery/G03.jpg",
+      "integrity_state": "VERIFIED",
+      "sha256": "193ebac4eb41eff3050a6c60230753a50451e6c50136a696d01d2ceac8daa866",
+      "bytes": 87602
+    },
+    {
+      "placement_id": "CS_999c68b048ec2856d2e1:Gallery/G04.jpg",
+      "surface": "GALLERY",
+      "position": 4,
+      "relative_file": "01_Карточки/Ozon/МегаФон/П34 Тариф Маркет/4388757452/CS_999c68b048ec2856d2e1/01_Материалы/Gallery/G04.jpg",
+      "integrity_state": "VERIFIED",
+      "sha256": "58154cc8a86b358f974a8467008d728696e981b6b3f8c9bb0d7c0128b7eb35b8",
+      "bytes": 79591
+    },
+    {
+      "placement_id": "CS_999c68b048ec2856d2e1:Gallery/G05.jpg",
+      "surface": "GALLERY",
+      "position": 5,
+      "relative_file": "01_Карточки/Ozon/МегаФон/П34 Тариф Маркет/4388757452/CS_999c68b048ec2856d2e1/01_Материалы/Gallery/G05.jpg",
+      "integrity_state": "VERIFIED",
+      "sha256": "fdc877f8990e3e81d0d5768c424528ebb661766d1feb807ba8417ba5a43dc490",
+      "bytes": 97459
+    },
+    {
+      "placement_id": "CS_999c68b048ec2856d2e1:Gallery/G06.jpg",
+      "surface": "GALLERY",
+      "position": 6,
+      "relative_file": "01_Карточки/Ozon/МегаФон/П34 Тариф Маркет/4388757452/CS_999c68b048ec2856d2e1/01_Материалы/Gallery/G06.jpg",
+      "integrity_state": "VERIFIED",
+      "sha256": "b87709769ead0127538732988fc17e39bd514ad7ed015d31df20f5b2555fd0cf",
+      "bytes": 85494
+    },
+    {
+      "placement_id": "CS_999c68b048ec2856d2e1:Rich/R01.jpg",
+      "surface": "RICH",
+      "position": 1,
+      "relative_file": "01_Карточки/Ozon/МегаФон/П34 Тариф Маркет/4388757452/CS_999c68b048ec2856d2e1/01_Материалы/Rich/R01.jpg",
+      "integrity_state": "VERIFIED",
+      "sha256": "b9c021b1fbf855937bddbd4c31a8d94cbc4b6db29b50a1e325a2d141ce0fe221",
+      "bytes": 135428
+    },
+    {
+      "placement_id": "CS_999c68b048ec2856d2e1:Rich/R02.jpg",
+      "surface": "RICH",
+      "position": 2,
+      "relative_file": "01_Карточки/Ozon/МегаФон/П34 Тариф Маркет/4388757452/CS_999c68b048ec2856d2e1/01_Материалы/Rich/R02.jpg",
+      "integrity_state": "VERIFIED",
+      "sha256": "9e2f75f0227b213bf242215aa3cde16e2d645886467642cd306407baae0224de",
+      "bytes": 108186
+    },
+    {
+      "placement_id": "CS_999c68b048ec2856d2e1:Rich/R03.jpg",
+      "surface": "RICH",
+      "position": 3,
+      "relative_file": "01_Карточки/Ozon/МегаФон/П34 Тариф Маркет/4388757452/CS_999c68b048ec2856d2e1/01_Материалы/Rich/R03.jpg",
+      "integrity_state": "VERIFIED",
+      "sha256": "f37ebe02d0af0fe76ecd066db67818a6b20454fe5456a24973a270b882a0c3e2",
+      "bytes": 111448
+    },
+    {
+      "placement_id": "CS_999c68b048ec2856d2e1:Rich/rich_ocr.json",
+      "surface": "RICH",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/МегаФон/П34 Тариф Маркет/4388757452/CS_999c68b048ec2856d2e1/01_Материалы/Rich/rich_ocr.json",
+      "integrity_state": "VERIFIED",
+      "sha256": "8efb46bbe37f2dfe043e9d141db37a335dcac159e96c42e4fa327f1841fa79d5",
+      "bytes": 2319
+    },
+    {
+      "placement_id": "CS_999c68b048ec2856d2e1:Rich/rich_text.txt",
+      "surface": "RICH",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/МегаФон/П34 Тариф Маркет/4388757452/CS_999c68b048ec2856d2e1/01_Материалы/Rich/rich_text.txt",
+      "integrity_state": "VERIFIED",
+      "sha256": "4eacfbf33a2dd07460b409dc50c9df1f8b3bb3fcc8fa914eac70386919d9558f",
+      "bytes": 294
+    },
+    {
+      "placement_id": "CS_999c68b048ec2856d2e1:analytics_rank.txt",
+      "surface": "OTHER",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/МегаФон/П34 Тариф Маркет/4388757452/CS_999c68b048ec2856d2e1/01_Материалы/analytics_rank.txt",
+      "integrity_state": "VERIFIED",
+      "sha256": "6fc16b03d8c15b9885876848a301a01816cccaf7b48e74f2b51db99c007a3bd5",
+      "bytes": 3
+    },
+    {
+      "placement_id": "CS_999c68b048ec2856d2e1:availability.txt",
+      "surface": "OTHER",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/МегаФон/П34 Тариф Маркет/4388757452/CS_999c68b048ec2856d2e1/01_Материалы/availability.txt",
+      "integrity_state": "VERIFIED",
+      "sha256": "f3db355a863e0dd7fa5ca1c95f35969d61f7cfb1f7a1c64da40b68a8ebed9c4d",
+      "bytes": 26
+    },
+    {
+      "placement_id": "CS_999c68b048ec2856d2e1:card_data.json",
+      "surface": "OTHER",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/МегаФон/П34 Тариф Маркет/4388757452/CS_999c68b048ec2856d2e1/01_Материалы/card_data.json",
+      "integrity_state": "VERIFIED",
+      "sha256": "f29353fad55a66d36f4bd175507d8e18054011c05bf8b5a7e8e7813ebe780391",
+      "bytes": 9233
+    },
+    {
+      "placement_id": "CS_999c68b048ec2856d2e1:characteristics.txt",
+      "surface": "CHARACTERISTICS",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/МегаФон/П34 Тариф Маркет/4388757452/CS_999c68b048ec2856d2e1/01_Материалы/characteristics.txt",
+      "integrity_state": "VERIFIED",
+      "sha256": "1726a4cfded7929effe158d5829bf818d759784bdf20080cd68a0fb4ad14590d",
+      "bytes": 1179
+    },
+    {
+      "placement_id": "CS_999c68b048ec2856d2e1:collection_status.txt",
+      "surface": "OTHER",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/МегаФон/П34 Тариф Маркет/4388757452/CS_999c68b048ec2856d2e1/01_Материалы/collection_status.txt",
+      "integrity_state": "VERIFIED",
+      "sha256": "cf01585829633e2debef0696d8101ca4fb4702310a2f2256b3b17bd0e753ce8c",
+      "bytes": 10
+    },
+    {
+      "placement_id": "CS_999c68b048ec2856d2e1:content_type.txt",
+      "surface": "OTHER",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/МегаФон/П34 Тариф Маркет/4388757452/CS_999c68b048ec2856d2e1/01_Материалы/content_type.txt",
+      "integrity_state": "VERIFIED",
+      "sha256": "96e6625bbd580d529a6384d96146fa3a05f7fb416cb4614fd8cd7135be2d77d1",
+      "bytes": 28
+    },
+    {
+      "placement_id": "CS_999c68b048ec2856d2e1:description.txt",
+      "surface": "DESCRIPTION",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/МегаФон/П34 Тариф Маркет/4388757452/CS_999c68b048ec2856d2e1/01_Материалы/description.txt",
+      "integrity_state": "VERIFIED",
+      "sha256": "8a099ac21d5e5ad326c2db0d9bfe73ba4d63c7e8bf63c630bdbdbdf5b42f0837",
+      "bytes": 4189
+    },
+    {
+      "placement_id": "CS_999c68b048ec2856d2e1:manifest.json",
+      "surface": "OTHER",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/МегаФон/П34 Тариф Маркет/4388757452/CS_999c68b048ec2856d2e1/01_Материалы/manifest.json",
+      "integrity_state": "VERIFIED",
+      "sha256": "9151de82685aa410f492220bce63bfad499201dba57346a129f7458bccda174f",
+      "bytes": 5701
+    },
+    {
+      "placement_id": "CS_999c68b048ec2856d2e1:price.txt",
+      "surface": "OTHER",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/МегаФон/П34 Тариф Маркет/4388757452/CS_999c68b048ec2856d2e1/01_Материалы/price.txt",
+      "integrity_state": "VERIFIED",
+      "sha256": "53c234e5e8472b6ac51c1ae1cab3fe06fad053beb8ebfd8977b010655bfdd3c3",
+      "bytes": 2
+    },
+    {
+      "placement_id": "CS_999c68b048ec2856d2e1:rating.txt",
+      "surface": "OTHER",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/МегаФон/П34 Тариф Маркет/4388757452/CS_999c68b048ec2856d2e1/01_Материалы/rating.txt",
+      "integrity_state": "VERIFIED",
+      "sha256": "597fd61a4dc22d0cf28dd3e89619b1e8cab79ebc61a95aa784a93baab3eecc3a",
+      "bytes": 4
+    },
+    {
+      "placement_id": "CS_999c68b048ec2856d2e1:reviews_count.txt",
+      "surface": "OTHER",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/МегаФон/П34 Тариф Маркет/4388757452/CS_999c68b048ec2856d2e1/01_Материалы/reviews_count.txt",
+      "integrity_state": "VERIFIED",
+      "sha256": "32a3eb8a7e705be7a925ed34e3edfaa943216fca57c82616fe637811ebef66ce",
+      "bytes": 4
+    },
+    {
+      "placement_id": "CS_999c68b048ec2856d2e1:seller.txt",
+      "surface": "OTHER",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/МегаФон/П34 Тариф Маркет/4388757452/CS_999c68b048ec2856d2e1/01_Материалы/seller.txt",
+      "integrity_state": "VERIFIED",
+      "sha256": "0209223140438a51bc2cb200e5682273c3306d31d7e8a1d334d74f68056c5eec",
+      "bytes": 24
+    },
+    {
+      "placement_id": "CS_999c68b048ec2856d2e1:tags.txt",
+      "surface": "OTHER",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/МегаФон/П34 Тариф Маркет/4388757452/CS_999c68b048ec2856d2e1/01_Материалы/tags.txt",
+      "integrity_state": "VERIFIED",
+      "sha256": "c35a7e5f90765130b545a9d8477538a16c20bb21ebfa2148a3282c0186e3d9ef",
+      "bytes": 1047
+    },
+    {
+      "placement_id": "CS_999c68b048ec2856d2e1:title.txt",
+      "surface": "TITLE",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/МегаФон/П34 Тариф Маркет/4388757452/CS_999c68b048ec2856d2e1/01_Материалы/title.txt",
+      "integrity_state": "VERIFIED",
+      "sha256": "6c07cd57d2e786f5033f98cfd0960e53f5218396aafaca7a9873c7e12b18b5d7",
+      "bytes": 142
+    },
+    {
+      "placement_id": "CS_999c68b048ec2856d2e1:url.txt",
+      "surface": "OTHER",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/МегаФон/П34 Тариф Маркет/4388757452/CS_999c68b048ec2856d2e1/01_Материалы/url.txt",
+      "integrity_state": "VERIFIED",
+      "sha256": "a581a8c443852db974e9b39c98b0f3215aaa5367c14f6627854f65500f968998",
+      "bytes": 141
+    }
+  ],
+  "data_format": "CAPTURE",
+  "change_number": 1,
+  "coverage_scope": "Все файлы предоставленного снимка; полнота действующей страницы и исполнение услуги отдельно не подтверждены.",
+  "source_note": "Точные сведения источника не являются независимой проверкой тарифного договора или юридических полномочий.",
+  "attributes": {
+    "preliminary_classification": {
+      "task_focus": "CONNECT",
+      "bundle_focus": "NOT_EMPHASIZED_IN_TITLE",
+      "configuration_focus": "NOT_EMPHASIZED_IN_TITLE",
+      "period_focus": "NOT_EMPHASIZED_IN_TITLE",
+      "group_id": "CONNECT_BASE",
+      "group_name": "Подключение: основное предложение",
+      "device_claims": [
+        "IOT"
+      ],
+      "device_claims_status": "POSITIVE_SOURCE_CLAIM_NOT_VERIFIED",
+      "money_roles": [],
+      "money_review_scope": "NOT_ATOMICALLY_REVIEWED",
+      "porting_role": "NOT_ESTABLISHED_IN_ROUTING_SCOPE",
+      "geo_claims": {
+        "legacy_title_claim": "ALL_RUSSIA_CLAIM",
+        "verification": "NOT_VERIFIED",
+        "collection_region": "Moscow"
+      },
+      "targeted_evidence": [
+        {
+          "surface": "TITLE",
+          "source_path": "analysis_handoff_2026-10-27 2/01_current_corpus_master129/Megafon_unofficial/4388757452/card_data.json",
+          "locator": "$.title",
+          "quote": "МегаФон SIM-карта сим карта для умных часов 2 гб + 100 мин за 200 руб/мес (Вся Россия)"
+        },
+        {
+          "surface": "DESCRIPTION",
+          "source_path": "analysis_handoff_2026-10-27 2/01_current_corpus_master129/Megafon_unofficial/4388757452/card_data.json",
+          "locator": "$.description chars 1221:1336",
+          "quote": "Тариф рассчитан на умные устройства. Для модема или роутера лучше выбрать отдельную Сим-карту с подходящим тарифом."
+        }
+      ],
+      "review_note": "Назначение для умных устройств явно заявлено. Совет выбрать другой тариф для модема/роутера не кодируется как доказанный технический запрет.",
+      "flags": [],
+      "legal_party_id": "",
+      "authority_status": "UNKNOWN_IN_INSPECTED_INPUTS",
+      "commercial_readiness": "NOT_ESTABLISHED",
+      "content_effect": "NOT_ASSESSED",
+      "market_row_present": "True",
+      "promotion_row_present": "True",
+      "routing_support": {
+        "surface": "TITLE",
+        "source_file": "01_Карточки/Ozon/МегаФон/П34 Тариф Маркет/4388757452/CS_999c68b048ec2856d2e1/01_Материалы/title.txt",
+        "basis_text": "камера / умное устройство / часы",
+        "basis_kind": "PROVIDED_ROUTING_EXPLANATION",
+        "literal_text_match": false,
+        "source_classification_status": "PROVISIONAL_CONTENT_ROUTING",
+        "evidence_status": "INHERITED_NOT_INDEPENDENT_RECODE",
+        "scope_note": "Предоставленное основание предварительной группы; не новая независимая разметка и не проверка совместимости или эффекта."
+      },
+      "device_scope_note": "Перечень устройств является исходной маршрутизацией, а не полной проверкой совместимости."
+    },
+    "classification_status": "PRELIMINARY_CONTENT_ROUTE_NOT_SALES_RANK",
+    "channel": {
+      "platform": "Ozon",
+      "legal_party": "UNKNOWN",
+      "shop_type": "UNKNOWN",
+      "brand_owner": "UNKNOWN",
+      "distributor_status": "UNKNOWN",
+      "budget": "UNKNOWN"
+    },
+    "source_url": "https://www.ozon.ru/product/megafon-sim-karta-sim-karta-dlya-umnyh-chasov-2-gb-100-min-za-200-rub-mes-vsya-rossiya-4388757452/?sh=f35iFSoX6A"
+  },
+  "metadata_files": [
+    "01_Карточки/Ozon/МегаФон/П34 Тариф Маркет/4388757452/CS_999c68b048ec2856d2e1/02_Метаданные/Фрагменты источника.jsonl",
+    "01_Карточки/Ozon/МегаФон/П34 Тариф Маркет/4388757452/CS_999c68b048ec2856d2e1/02_Метаданные/Извлечённые сведения.jsonl"
+  ]
+}

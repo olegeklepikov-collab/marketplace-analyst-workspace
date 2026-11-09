@@ -1,0 +1,347 @@
+{
+  "record_type": "CAPTURE",
+  "intake_id": "BASE:CS_6e14f929c4a2f475197b",
+  "card_id": "OZON:5253884791",
+  "capture_id": "CS_6e14f929c4a2f475197b",
+  "intake_status": "ACCEPTED",
+  "registered_at": null,
+  "platform": "Ozon",
+  "external_card_id": {
+    "state": "KNOWN",
+    "value": "5253884791",
+    "basis": "OBSERVED",
+    "scope": "внешний номер",
+    "source_locator": "01_Карточки/Ozon/Yota/П11 SimCity+/5253884791/CS_6e14f929c4a2f475197b/01_Материалы/card_data.json:sku"
+  },
+  "observed_at": {
+    "state": "KNOWN",
+    "value": "2026-09-25T09:42:01.213Z",
+    "basis": "OBSERVED",
+    "scope": "время наблюдения",
+    "source_locator": "01_Карточки/Ozon/Yota/П11 SimCity+/5253884791/CS_6e14f929c4a2f475197b/01_Материалы/card_data.json:collected_at"
+  },
+  "seller_display_name": {
+    "state": "KNOWN",
+    "value": "SimCity+",
+    "basis": "OBSERVED",
+    "scope": "точная строка продавца",
+    "source_locator": "01_Карточки/Ozon/Yota/П11 SimCity+/5253884791/CS_6e14f929c4a2f475197b/01_Материалы/card_data.json:seller"
+  },
+  "seller_label_code": "П11",
+  "brand": {
+    "state": "KNOWN",
+    "value": "Yota",
+    "basis": "OBSERVED",
+    "scope": "заявленный бренд",
+    "source_locator": "01_Карточки/Ozon/Yota/П11 SimCity+/5253884791/CS_6e14f929c4a2f475197b/01_Материалы/card_data.json"
+  },
+  "title": {
+    "state": "KNOWN",
+    "value": "Сим-карта Yota с безлимитным интернетом, 1000 мин. Тариф Просто за 350 руб/мес.",
+    "basis": "OBSERVED",
+    "scope": "заголовок",
+    "source_locator": "01_Карточки/Ozon/Yota/П11 SimCity+/5253884791/CS_6e14f929c4a2f475197b/01_Материалы/card_data.json:title"
+  },
+  "source_origin": "Сохранённая страница маркетплейса; дата наблюдения указана в паспорте.",
+  "actual_relative_path": "01_Карточки/Ozon/Yota/П11 SimCity+/5253884791/CS_6e14f929c4a2f475197b",
+  "mission": "Подключение: основное предложение",
+  "offer_model": "Услуга, условия не подтверждены",
+  "collection_region": "Moscow",
+  "materials": [
+    {
+      "placement_id": "CS_6e14f929c4a2f475197b:Gallery/G01.jpg",
+      "surface": "GALLERY",
+      "position": 1,
+      "relative_file": "01_Карточки/Ozon/Yota/П11 SimCity+/5253884791/CS_6e14f929c4a2f475197b/01_Материалы/Gallery/G01.jpg",
+      "integrity_state": "VERIFIED",
+      "sha256": "027c85df7571ed2de18b8b7512deeaa8bc09cbabed2764c76b67457a014c0ac2",
+      "bytes": 150702
+    },
+    {
+      "placement_id": "CS_6e14f929c4a2f475197b:Gallery/G02.jpg",
+      "surface": "GALLERY",
+      "position": 2,
+      "relative_file": "01_Карточки/Ozon/Yota/П11 SimCity+/5253884791/CS_6e14f929c4a2f475197b/01_Материалы/Gallery/G02.jpg",
+      "integrity_state": "VERIFIED",
+      "sha256": "b817490add9848f9c90866eb1195a2e1871280ce14af76f08a53e282fa65ef7d",
+      "bytes": 152381
+    },
+    {
+      "placement_id": "CS_6e14f929c4a2f475197b:Gallery/G03.jpg",
+      "surface": "GALLERY",
+      "position": 3,
+      "relative_file": "01_Карточки/Ozon/Yota/П11 SimCity+/5253884791/CS_6e14f929c4a2f475197b/01_Материалы/Gallery/G03.jpg",
+      "integrity_state": "VERIFIED",
+      "sha256": "a0e69b58af6712e8afd1d8ceccbcfb41c07b9d0360d1994202649bae5e142fb9",
+      "bytes": 287118
+    },
+    {
+      "placement_id": "CS_6e14f929c4a2f475197b:Gallery/G04.jpg",
+      "surface": "GALLERY",
+      "position": 4,
+      "relative_file": "01_Карточки/Ozon/Yota/П11 SimCity+/5253884791/CS_6e14f929c4a2f475197b/01_Материалы/Gallery/G04.jpg",
+      "integrity_state": "VERIFIED",
+      "sha256": "a80ba9fab599eff88c4589332bd2a5e7f605d92be5909438c765bb73d676fea4",
+      "bytes": 305870
+    },
+    {
+      "placement_id": "CS_6e14f929c4a2f475197b:Gallery/G05.jpg",
+      "surface": "GALLERY",
+      "position": 5,
+      "relative_file": "01_Карточки/Ozon/Yota/П11 SimCity+/5253884791/CS_6e14f929c4a2f475197b/01_Материалы/Gallery/G05.jpg",
+      "integrity_state": "VERIFIED",
+      "sha256": "1d6f666328855a1ce1a4d5dbd5e95bf8f75375dd7efb7eb993f7820dcbbbf9f6",
+      "bytes": 347460
+    },
+    {
+      "placement_id": "CS_6e14f929c4a2f475197b:Gallery/G06.jpg",
+      "surface": "GALLERY",
+      "position": 6,
+      "relative_file": "01_Карточки/Ozon/Yota/П11 SimCity+/5253884791/CS_6e14f929c4a2f475197b/01_Материалы/Gallery/G06.jpg",
+      "integrity_state": "VERIFIED",
+      "sha256": "15f75e3536315e063869001370308ac11f418cd945c9fbafb7e65deb4737b45d",
+      "bytes": 257705
+    },
+    {
+      "placement_id": "CS_6e14f929c4a2f475197b:Gallery/G07.jpg",
+      "surface": "GALLERY",
+      "position": 7,
+      "relative_file": "01_Карточки/Ozon/Yota/П11 SimCity+/5253884791/CS_6e14f929c4a2f475197b/01_Материалы/Gallery/G07.jpg",
+      "integrity_state": "VERIFIED",
+      "sha256": "9a6456592be5c165140699a38906f09a8c404a74ac760c957a7c23ac31acd75a",
+      "bytes": 469542
+    },
+    {
+      "placement_id": "CS_6e14f929c4a2f475197b:Gallery/G08.jpg",
+      "surface": "GALLERY",
+      "position": 8,
+      "relative_file": "01_Карточки/Ozon/Yota/П11 SimCity+/5253884791/CS_6e14f929c4a2f475197b/01_Материалы/Gallery/G08.jpg",
+      "integrity_state": "VERIFIED",
+      "sha256": "dc2a346b5638c1d387c095e303eee4f0ddb034d76390d108d9c2cbe57766a8e2",
+      "bytes": 387562
+    },
+    {
+      "placement_id": "CS_6e14f929c4a2f475197b:Gallery/G09.jpg",
+      "surface": "GALLERY",
+      "position": 9,
+      "relative_file": "01_Карточки/Ozon/Yota/П11 SimCity+/5253884791/CS_6e14f929c4a2f475197b/01_Материалы/Gallery/G09.jpg",
+      "integrity_state": "VERIFIED",
+      "sha256": "469c8604e63b90c4775120a6cc5d73ca408987184100dfd99df8665560dfa89a",
+      "bytes": 413037
+    },
+    {
+      "placement_id": "CS_6e14f929c4a2f475197b:Rich/rich_ocr.json",
+      "surface": "RICH",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/Yota/П11 SimCity+/5253884791/CS_6e14f929c4a2f475197b/01_Материалы/Rich/rich_ocr.json",
+      "integrity_state": "VERIFIED",
+      "sha256": "988ed507813946c9432b35c87631c6925b8ea3ad1bc7d1a0c6b9523cf593f0ad",
+      "bytes": 428
+    },
+    {
+      "placement_id": "CS_6e14f929c4a2f475197b:Rich/rich_text.txt",
+      "surface": "RICH",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/Yota/П11 SimCity+/5253884791/CS_6e14f929c4a2f475197b/01_Материалы/Rich/rich_text.txt",
+      "integrity_state": "VERIFIED",
+      "sha256": "475c6d9f67450ad806600893977435aa206f13a1fc313805a11336835014fb2e",
+      "bytes": 17
+    },
+    {
+      "placement_id": "CS_6e14f929c4a2f475197b:analytics_rank.txt",
+      "surface": "OTHER",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/Yota/П11 SimCity+/5253884791/CS_6e14f929c4a2f475197b/01_Материалы/analytics_rank.txt",
+      "integrity_state": "VERIFIED",
+      "sha256": "f14b4987904bcb5814e4459a057ed4d20f58a633152288a761214dcd28780b56",
+      "bytes": 3
+    },
+    {
+      "placement_id": "CS_6e14f929c4a2f475197b:availability.txt",
+      "surface": "OTHER",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/Yota/П11 SimCity+/5253884791/CS_6e14f929c4a2f475197b/01_Материалы/availability.txt",
+      "integrity_state": "VERIFIED",
+      "sha256": "f3db355a863e0dd7fa5ca1c95f35969d61f7cfb1f7a1c64da40b68a8ebed9c4d",
+      "bytes": 26
+    },
+    {
+      "placement_id": "CS_6e14f929c4a2f475197b:card_data.json",
+      "surface": "OTHER",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/Yota/П11 SimCity+/5253884791/CS_6e14f929c4a2f475197b/01_Материалы/card_data.json",
+      "integrity_state": "VERIFIED",
+      "sha256": "46045991ac30ad25f81c0ae3ae8ff52a756f714eaa84656ea0260a91a0c4a41d",
+      "bytes": 6326
+    },
+    {
+      "placement_id": "CS_6e14f929c4a2f475197b:characteristics.txt",
+      "surface": "CHARACTERISTICS",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/Yota/П11 SimCity+/5253884791/CS_6e14f929c4a2f475197b/01_Материалы/characteristics.txt",
+      "integrity_state": "VERIFIED",
+      "sha256": "235062700e2d3a06dcfea7027812433d1d30d5bcf435ac05aff3be4f8a55e96a",
+      "bytes": 1144
+    },
+    {
+      "placement_id": "CS_6e14f929c4a2f475197b:collection_status.txt",
+      "surface": "OTHER",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/Yota/П11 SimCity+/5253884791/CS_6e14f929c4a2f475197b/01_Материалы/collection_status.txt",
+      "integrity_state": "VERIFIED",
+      "sha256": "cf01585829633e2debef0696d8101ca4fb4702310a2f2256b3b17bd0e753ce8c",
+      "bytes": 10
+    },
+    {
+      "placement_id": "CS_6e14f929c4a2f475197b:content_type.txt",
+      "surface": "OTHER",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/Yota/П11 SimCity+/5253884791/CS_6e14f929c4a2f475197b/01_Материалы/content_type.txt",
+      "integrity_state": "VERIFIED",
+      "sha256": "ef2f19aa952ed53e7278d36afe2186ded6897e77c46984147cc568a21901af62",
+      "bytes": 12
+    },
+    {
+      "placement_id": "CS_6e14f929c4a2f475197b:description.txt",
+      "surface": "DESCRIPTION",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/Yota/П11 SimCity+/5253884791/CS_6e14f929c4a2f475197b/01_Материалы/description.txt",
+      "integrity_state": "VERIFIED",
+      "sha256": "fb02bf4ada4996626d5eed263029c0659d018db903b0b1a0e590deb124362c80",
+      "bytes": 2822
+    },
+    {
+      "placement_id": "CS_6e14f929c4a2f475197b:manifest.json",
+      "surface": "OTHER",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/Yota/П11 SimCity+/5253884791/CS_6e14f929c4a2f475197b/01_Материалы/manifest.json",
+      "integrity_state": "VERIFIED",
+      "sha256": "c5057ff880288f2dae70b96547c699f608a4d2c6ce3364272904c18f9a1ecc12",
+      "bytes": 5689
+    },
+    {
+      "placement_id": "CS_6e14f929c4a2f475197b:price.txt",
+      "surface": "OTHER",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/Yota/П11 SimCity+/5253884791/CS_6e14f929c4a2f475197b/01_Материалы/price.txt",
+      "integrity_state": "VERIFIED",
+      "sha256": "53c234e5e8472b6ac51c1ae1cab3fe06fad053beb8ebfd8977b010655bfdd3c3",
+      "bytes": 2
+    },
+    {
+      "placement_id": "CS_6e14f929c4a2f475197b:rating.txt",
+      "surface": "OTHER",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/Yota/П11 SimCity+/5253884791/CS_6e14f929c4a2f475197b/01_Материалы/rating.txt",
+      "integrity_state": "VERIFIED",
+      "sha256": "e09be1d5329b21e0d48ccf64d5617f1dd0a511da244b9cb28b5b469a8cb52bec",
+      "bytes": 4
+    },
+    {
+      "placement_id": "CS_6e14f929c4a2f475197b:reviews_count.txt",
+      "surface": "OTHER",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/Yota/П11 SimCity+/5253884791/CS_6e14f929c4a2f475197b/01_Материалы/reviews_count.txt",
+      "integrity_state": "VERIFIED",
+      "sha256": "917df3320d778ddbaa5c5c7742bc4046bf803c36ed2b050f30844ed206783469",
+      "bytes": 3
+    },
+    {
+      "placement_id": "CS_6e14f929c4a2f475197b:seller.txt",
+      "surface": "OTHER",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/Yota/П11 SimCity+/5253884791/CS_6e14f929c4a2f475197b/01_Материалы/seller.txt",
+      "integrity_state": "VERIFIED",
+      "sha256": "3a786f69a93c06b88ce72245113586a4b4b2e894790538b8140966c150c139e4",
+      "bytes": 9
+    },
+    {
+      "placement_id": "CS_6e14f929c4a2f475197b:tags.txt",
+      "surface": "OTHER",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/Yota/П11 SimCity+/5253884791/CS_6e14f929c4a2f475197b/01_Материалы/tags.txt",
+      "integrity_state": "VERIFIED",
+      "sha256": "5d7eb8b95060d757b974cacc737931708bfbfc7d7c240b0f9abf0f9bdc7bf6db",
+      "bytes": 18
+    },
+    {
+      "placement_id": "CS_6e14f929c4a2f475197b:title.txt",
+      "surface": "TITLE",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/Yota/П11 SimCity+/5253884791/CS_6e14f929c4a2f475197b/01_Материалы/title.txt",
+      "integrity_state": "VERIFIED",
+      "sha256": "e93b042a009781d8be87b17dee18eef3eba0f75f36933689ec3df60ddf055e29",
+      "bytes": 132
+    },
+    {
+      "placement_id": "CS_6e14f929c4a2f475197b:url.txt",
+      "surface": "OTHER",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/Yota/П11 SimCity+/5253884791/CS_6e14f929c4a2f475197b/01_Материалы/url.txt",
+      "integrity_state": "VERIFIED",
+      "sha256": "7e44156f7cd0a879ceee630c18f1047d9be2bd134e4cada1830b5d8d56fd50d3",
+      "bytes": 131
+    }
+  ],
+  "data_format": "CAPTURE",
+  "change_number": 1,
+  "coverage_scope": "Все файлы предоставленного снимка; полнота действующей страницы и исполнение услуги отдельно не подтверждены.",
+  "source_note": "Точные сведения источника не являются независимой проверкой тарифного договора или юридических полномочий.",
+  "attributes": {
+    "preliminary_classification": {
+      "task_focus": "CONNECT",
+      "bundle_focus": "NOT_EMPHASIZED_IN_TITLE",
+      "configuration_focus": "NOT_EMPHASIZED_IN_TITLE",
+      "period_focus": "NOT_EMPHASIZED_IN_TITLE",
+      "group_id": "CONNECT_BASE",
+      "group_name": "Подключение: основное предложение",
+      "device_claims": [
+        "MULTIPLE_CLASSES_NOT_ENUMERATED"
+      ],
+      "device_claims_status": "PARTIAL_MULTIPLE_CLASS_CLAIM",
+      "money_roles": [],
+      "money_review_scope": "NOT_ATOMICALLY_REVIEWED",
+      "porting_role": "NOT_ESTABLISHED_IN_ROUTING_SCOPE",
+      "geo_claims": {
+        "legacy_title_claim": "REGION_NOT_IN_TITLE",
+        "verification": "NOT_VERIFIED",
+        "collection_region": "Moscow"
+      },
+      "targeted_evidence": [],
+      "review_note": "",
+      "flags": [],
+      "legal_party_id": "",
+      "authority_status": "UNKNOWN_IN_INSPECTED_INPUTS",
+      "commercial_readiness": "NOT_ESTABLISHED",
+      "content_effect": "NOT_ASSESSED",
+      "market_row_present": "True",
+      "promotion_row_present": "False",
+      "routing_support": {
+        "surface": "DESCRIPTION",
+        "source_file": "01_Карточки/Ozon/Yota/П11 SimCity+/5253884791/CS_6e14f929c4a2f475197b/01_Материалы/description.txt",
+        "basis_text": "Универсальное решение для всех ваших гаджетов и умных устройств:",
+        "basis_kind": "EXACT_STORED_TEXT",
+        "literal_text_match": true,
+        "source_classification_status": "PROVISIONAL_CONTENT_ROUTING",
+        "evidence_status": "INHERITED_NOT_INDEPENDENT_RECODE",
+        "scope_note": "Предоставленное основание предварительной группы; не новая независимая разметка и не проверка совместимости или эффекта.",
+        "quote": "Универсальное решение для всех ваших гаджетов и умных устройств:"
+      },
+      "device_scope_note": "Перечень устройств является исходной маршрутизацией, а не полной проверкой совместимости."
+    },
+    "classification_status": "PRELIMINARY_CONTENT_ROUTE_NOT_SALES_RANK",
+    "channel": {
+      "platform": "Ozon",
+      "legal_party": "UNKNOWN",
+      "shop_type": "UNKNOWN",
+      "brand_owner": "UNKNOWN",
+      "distributor_status": "UNKNOWN",
+      "budget": "UNKNOWN"
+    },
+    "source_url": "https://www.ozon.ru/product/sim-karta-yota-s-bezlimitnym-internetom-1000-min-tarif-prosto-za-350-rub-mes-5253884791/?sh=f35iFbOWYQ"
+  },
+  "metadata_files": [
+    "01_Карточки/Ozon/Yota/П11 SimCity+/5253884791/CS_6e14f929c4a2f475197b/02_Метаданные/Фрагменты источника.jsonl",
+    "01_Карточки/Ozon/Yota/П11 SimCity+/5253884791/CS_6e14f929c4a2f475197b/02_Метаданные/Извлечённые сведения.jsonl"
+  ]
+}

@@ -1,0 +1,391 @@
+{
+  "record_type": "CAPTURE",
+  "intake_id": "BASE:CS_fd2d1f024cbf487f8000",
+  "card_id": "OZON:1763772220",
+  "capture_id": "CS_fd2d1f024cbf487f8000",
+  "intake_status": "ACCEPTED",
+  "registered_at": null,
+  "platform": "Ozon",
+  "external_card_id": {
+    "state": "KNOWN",
+    "value": "1763772220",
+    "basis": "OBSERVED",
+    "scope": "внешний номер",
+    "source_locator": "01_Карточки/Ozon/МегаФон/П28 Мой товар/1763772220/CS_fd2d1f024cbf487f8000/01_Материалы/card_data.json:sku"
+  },
+  "observed_at": {
+    "state": "KNOWN",
+    "value": "2026-09-25T09:39:34.176Z",
+    "basis": "OBSERVED",
+    "scope": "время наблюдения",
+    "source_locator": "01_Карточки/Ozon/МегаФон/П28 Мой товар/1763772220/CS_fd2d1f024cbf487f8000/01_Материалы/card_data.json:collected_at"
+  },
+  "seller_display_name": {
+    "state": "KNOWN",
+    "value": "Мой товар",
+    "basis": "OBSERVED",
+    "scope": "точная строка продавца",
+    "source_locator": "01_Карточки/Ozon/МегаФон/П28 Мой товар/1763772220/CS_fd2d1f024cbf487f8000/01_Материалы/card_data.json:seller"
+  },
+  "seller_label_code": "П28",
+  "brand": {
+    "state": "KNOWN",
+    "value": "МегаФон",
+    "basis": "OBSERVED",
+    "scope": "заявленный бренд",
+    "source_locator": "01_Карточки/Ozon/МегаФон/П28 Мой товар/1763772220/CS_fd2d1f024cbf487f8000/01_Материалы/card_data.json"
+  },
+  "title": {
+    "state": "KNOWN",
+    "value": "Сим-карта МегаФон для умных устройств, 2Гб, 100 мин, 100 смс",
+    "basis": "OBSERVED",
+    "scope": "заголовок",
+    "source_locator": "01_Карточки/Ozon/МегаФон/П28 Мой товар/1763772220/CS_fd2d1f024cbf487f8000/01_Материалы/card_data.json:title"
+  },
+  "source_origin": "Сохранённая страница маркетплейса; дата наблюдения указана в паспорте.",
+  "actual_relative_path": "01_Карточки/Ozon/МегаФон/П28 Мой товар/1763772220/CS_fd2d1f024cbf487f8000",
+  "mission": "Подключение: основное предложение",
+  "offer_model": "Услуга, условия не подтверждены",
+  "collection_region": "Moscow",
+  "materials": [
+    {
+      "placement_id": "CS_fd2d1f024cbf487f8000:Gallery/G01.jpg",
+      "surface": "GALLERY",
+      "position": 1,
+      "relative_file": "01_Карточки/Ozon/МегаФон/П28 Мой товар/1763772220/CS_fd2d1f024cbf487f8000/01_Материалы/Gallery/G01.jpg",
+      "integrity_state": "VERIFIED",
+      "sha256": "efe0e6d052c8208864e43b853a485cd4a6da28bff743f0a3b7cc8e4c83e8904f",
+      "bytes": 83002
+    },
+    {
+      "placement_id": "CS_fd2d1f024cbf487f8000:Gallery/G02.jpg",
+      "surface": "GALLERY",
+      "position": 2,
+      "relative_file": "01_Карточки/Ozon/МегаФон/П28 Мой товар/1763772220/CS_fd2d1f024cbf487f8000/01_Материалы/Gallery/G02.jpg",
+      "integrity_state": "VERIFIED",
+      "sha256": "7e2c683b2a2dd4e302b67c3c2002dcb7fca0691b6ec020ae4b29554977f4f26d",
+      "bytes": 291268
+    },
+    {
+      "placement_id": "CS_fd2d1f024cbf487f8000:Gallery/G03.jpg",
+      "surface": "GALLERY",
+      "position": 3,
+      "relative_file": "01_Карточки/Ozon/МегаФон/П28 Мой товар/1763772220/CS_fd2d1f024cbf487f8000/01_Материалы/Gallery/G03.jpg",
+      "integrity_state": "VERIFIED",
+      "sha256": "37af1703cbcb316538b6afca9a9acd19201a8fb572385546834c76343023ab44",
+      "bytes": 69569
+    },
+    {
+      "placement_id": "CS_fd2d1f024cbf487f8000:Gallery/G04.jpg",
+      "surface": "GALLERY",
+      "position": 4,
+      "relative_file": "01_Карточки/Ozon/МегаФон/П28 Мой товар/1763772220/CS_fd2d1f024cbf487f8000/01_Материалы/Gallery/G04.jpg",
+      "integrity_state": "VERIFIED",
+      "sha256": "8853168093fccc8415c2bf7f6a67916c67fa09d0cd940560e1603df3b3986744",
+      "bytes": 204025
+    },
+    {
+      "placement_id": "CS_fd2d1f024cbf487f8000:Gallery/G05.jpg",
+      "surface": "GALLERY",
+      "position": 5,
+      "relative_file": "01_Карточки/Ozon/МегаФон/П28 Мой товар/1763772220/CS_fd2d1f024cbf487f8000/01_Материалы/Gallery/G05.jpg",
+      "integrity_state": "VERIFIED",
+      "sha256": "e1d46350b5f737860abe880b35e7fa94b0baa6233ca3f50594d9ccd06aecb9a4",
+      "bytes": 314012
+    },
+    {
+      "placement_id": "CS_fd2d1f024cbf487f8000:Gallery/G06.jpg",
+      "surface": "GALLERY",
+      "position": 6,
+      "relative_file": "01_Карточки/Ozon/МегаФон/П28 Мой товар/1763772220/CS_fd2d1f024cbf487f8000/01_Материалы/Gallery/G06.jpg",
+      "integrity_state": "VERIFIED",
+      "sha256": "680936f9a97652f29a5a5f608208c0d2a2294d1f9aa6454961d4b9729b297f7f",
+      "bytes": 233764
+    },
+    {
+      "placement_id": "CS_fd2d1f024cbf487f8000:Gallery/G07.jpg",
+      "surface": "GALLERY",
+      "position": 7,
+      "relative_file": "01_Карточки/Ozon/МегаФон/П28 Мой товар/1763772220/CS_fd2d1f024cbf487f8000/01_Материалы/Gallery/G07.jpg",
+      "integrity_state": "VERIFIED",
+      "sha256": "173e6a8924ee72d1bb57abd4d7fb45cf3f325c640a28e3fed83fb160dfd48f23",
+      "bytes": 264432
+    },
+    {
+      "placement_id": "CS_fd2d1f024cbf487f8000:Gallery/G08.jpg",
+      "surface": "GALLERY",
+      "position": 8,
+      "relative_file": "01_Карточки/Ozon/МегаФон/П28 Мой товар/1763772220/CS_fd2d1f024cbf487f8000/01_Материалы/Gallery/G08.jpg",
+      "integrity_state": "VERIFIED",
+      "sha256": "e6c0154369fdd89706b3cf635916b2e40b74f6c1b867613ba550ce22c31bfd8d",
+      "bytes": 89666
+    },
+    {
+      "placement_id": "CS_fd2d1f024cbf487f8000:Gallery/G09.jpg",
+      "surface": "GALLERY",
+      "position": 9,
+      "relative_file": "01_Карточки/Ozon/МегаФон/П28 Мой товар/1763772220/CS_fd2d1f024cbf487f8000/01_Материалы/Gallery/G09.jpg",
+      "integrity_state": "VERIFIED",
+      "sha256": "0437f56c3651dd2165011b884afc3954735ba2605c7fa0e1492223a6f8cbc5f3",
+      "bytes": 65233
+    },
+    {
+      "placement_id": "CS_fd2d1f024cbf487f8000:Gallery/G10.jpg",
+      "surface": "GALLERY",
+      "position": 10,
+      "relative_file": "01_Карточки/Ozon/МегаФон/П28 Мой товар/1763772220/CS_fd2d1f024cbf487f8000/01_Материалы/Gallery/G10.jpg",
+      "integrity_state": "VERIFIED",
+      "sha256": "d79fa83a2624f003b4600ee216b9c699b7589547292ca6b71161468ea8030f94",
+      "bytes": 180260
+    },
+    {
+      "placement_id": "CS_fd2d1f024cbf487f8000:Rich/R01.jpg",
+      "surface": "RICH",
+      "position": 1,
+      "relative_file": "01_Карточки/Ozon/МегаФон/П28 Мой товар/1763772220/CS_fd2d1f024cbf487f8000/01_Материалы/Rich/R01.jpg",
+      "integrity_state": "VERIFIED",
+      "sha256": "e34db2449e897374cac810d39fad6a0161134e40f4f62c3f1e9bfc31d46c2099",
+      "bytes": 102968
+    },
+    {
+      "placement_id": "CS_fd2d1f024cbf487f8000:Rich/R02.jpg",
+      "surface": "RICH",
+      "position": 2,
+      "relative_file": "01_Карточки/Ozon/МегаФон/П28 Мой товар/1763772220/CS_fd2d1f024cbf487f8000/01_Материалы/Rich/R02.jpg",
+      "integrity_state": "VERIFIED",
+      "sha256": "623ab475490cd10d43d41a346a75312d8d90b1e90aa60537a1d4dfc15cc7e5a8",
+      "bytes": 80363
+    },
+    {
+      "placement_id": "CS_fd2d1f024cbf487f8000:Rich/R03.jpg",
+      "surface": "RICH",
+      "position": 3,
+      "relative_file": "01_Карточки/Ozon/МегаФон/П28 Мой товар/1763772220/CS_fd2d1f024cbf487f8000/01_Материалы/Rich/R03.jpg",
+      "integrity_state": "VERIFIED",
+      "sha256": "95ef120724cccde0631d02a5fbbc8cbe928a5655dc64566074b37a749e8bb089",
+      "bytes": 110648
+    },
+    {
+      "placement_id": "CS_fd2d1f024cbf487f8000:Rich/R04.jpg",
+      "surface": "RICH",
+      "position": 4,
+      "relative_file": "01_Карточки/Ozon/МегаФон/П28 Мой товар/1763772220/CS_fd2d1f024cbf487f8000/01_Материалы/Rich/R04.jpg",
+      "integrity_state": "VERIFIED",
+      "sha256": "5a05e112575fca9a07bba372286c45bac55a2c123e5cade380b60cb697472644",
+      "bytes": 85027
+    },
+    {
+      "placement_id": "CS_fd2d1f024cbf487f8000:Rich/rich_ocr.json",
+      "surface": "RICH",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/МегаФон/П28 Мой товар/1763772220/CS_fd2d1f024cbf487f8000/01_Материалы/Rich/rich_ocr.json",
+      "integrity_state": "VERIFIED",
+      "sha256": "40c160dd4f06ecccfbebf4c21dc3e962dbe1082e503e29f86b16a4d7df05c627",
+      "bytes": 2547
+    },
+    {
+      "placement_id": "CS_fd2d1f024cbf487f8000:Rich/rich_text.txt",
+      "surface": "RICH",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/МегаФон/П28 Мой товар/1763772220/CS_fd2d1f024cbf487f8000/01_Материалы/Rich/rich_text.txt",
+      "integrity_state": "VERIFIED",
+      "sha256": "31bf6dc6ba04af4b88efed5b40de097614fc38aeb15efb9123ca2ca14c7d2eda",
+      "bytes": 317
+    },
+    {
+      "placement_id": "CS_fd2d1f024cbf487f8000:analytics_rank.txt",
+      "surface": "OTHER",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/МегаФон/П28 Мой товар/1763772220/CS_fd2d1f024cbf487f8000/01_Материалы/analytics_rank.txt",
+      "integrity_state": "VERIFIED",
+      "sha256": "7ee29791fc17e986b97128845622b077fb45e349fdb80523fac9dba879b4ad60",
+      "bytes": 3
+    },
+    {
+      "placement_id": "CS_fd2d1f024cbf487f8000:availability.txt",
+      "surface": "OTHER",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/МегаФон/П28 Мой товар/1763772220/CS_fd2d1f024cbf487f8000/01_Материалы/availability.txt",
+      "integrity_state": "VERIFIED",
+      "sha256": "f3db355a863e0dd7fa5ca1c95f35969d61f7cfb1f7a1c64da40b68a8ebed9c4d",
+      "bytes": 26
+    },
+    {
+      "placement_id": "CS_fd2d1f024cbf487f8000:card_data.json",
+      "surface": "OTHER",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/МегаФон/П28 Мой товар/1763772220/CS_fd2d1f024cbf487f8000/01_Материалы/card_data.json",
+      "integrity_state": "VERIFIED",
+      "sha256": "37566c0dca71c54e1ab9b1ddb9cd3ab5b655c6926d2ae49ecc413dccd3d43881",
+      "bytes": 10190
+    },
+    {
+      "placement_id": "CS_fd2d1f024cbf487f8000:characteristics.txt",
+      "surface": "CHARACTERISTICS",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/МегаФон/П28 Мой товар/1763772220/CS_fd2d1f024cbf487f8000/01_Материалы/characteristics.txt",
+      "integrity_state": "VERIFIED",
+      "sha256": "997bdf6c12da0ec6a719b9001c55bbc81cfb82ddd4afabb1ffa3b6c7a3ec8fab",
+      "bytes": 1143
+    },
+    {
+      "placement_id": "CS_fd2d1f024cbf487f8000:collection_status.txt",
+      "surface": "OTHER",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/МегаФон/П28 Мой товар/1763772220/CS_fd2d1f024cbf487f8000/01_Материалы/collection_status.txt",
+      "integrity_state": "VERIFIED",
+      "sha256": "cf01585829633e2debef0696d8101ca4fb4702310a2f2256b3b17bd0e753ce8c",
+      "bytes": 10
+    },
+    {
+      "placement_id": "CS_fd2d1f024cbf487f8000:content_type.txt",
+      "surface": "OTHER",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/МегаФон/П28 Мой товар/1763772220/CS_fd2d1f024cbf487f8000/01_Материалы/content_type.txt",
+      "integrity_state": "VERIFIED",
+      "sha256": "96e6625bbd580d529a6384d96146fa3a05f7fb416cb4614fd8cd7135be2d77d1",
+      "bytes": 28
+    },
+    {
+      "placement_id": "CS_fd2d1f024cbf487f8000:description.txt",
+      "surface": "DESCRIPTION",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/МегаФон/П28 Мой товар/1763772220/CS_fd2d1f024cbf487f8000/01_Материалы/description.txt",
+      "integrity_state": "VERIFIED",
+      "sha256": "3bf7b243ab75543ccb2cc98dcaa1fd9c034e0779bae0d4684d18ded7b43cec57",
+      "bytes": 5902
+    },
+    {
+      "placement_id": "CS_fd2d1f024cbf487f8000:manifest.json",
+      "surface": "OTHER",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/МегаФон/П28 Мой товар/1763772220/CS_fd2d1f024cbf487f8000/01_Материалы/manifest.json",
+      "integrity_state": "VERIFIED",
+      "sha256": "61aa66fc6c244d64e1fee43cb0def3744d0547d62176210c457f800cbead5998",
+      "bytes": 7876
+    },
+    {
+      "placement_id": "CS_fd2d1f024cbf487f8000:price.txt",
+      "surface": "OTHER",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/МегаФон/П28 Мой товар/1763772220/CS_fd2d1f024cbf487f8000/01_Материалы/price.txt",
+      "integrity_state": "VERIFIED",
+      "sha256": "53c234e5e8472b6ac51c1ae1cab3fe06fad053beb8ebfd8977b010655bfdd3c3",
+      "bytes": 2
+    },
+    {
+      "placement_id": "CS_fd2d1f024cbf487f8000:rating.txt",
+      "surface": "OTHER",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/МегаФон/П28 Мой товар/1763772220/CS_fd2d1f024cbf487f8000/01_Материалы/rating.txt",
+      "integrity_state": "VERIFIED",
+      "sha256": "597fd61a4dc22d0cf28dd3e89619b1e8cab79ebc61a95aa784a93baab3eecc3a",
+      "bytes": 4
+    },
+    {
+      "placement_id": "CS_fd2d1f024cbf487f8000:reviews_count.txt",
+      "surface": "OTHER",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/МегаФон/П28 Мой товар/1763772220/CS_fd2d1f024cbf487f8000/01_Материалы/reviews_count.txt",
+      "integrity_state": "VERIFIED",
+      "sha256": "c76619cecc534d68a47299c4e8f51e3533fa0a7d3c613587938587b7eaf4d7b6",
+      "bytes": 4
+    },
+    {
+      "placement_id": "CS_fd2d1f024cbf487f8000:seller.txt",
+      "surface": "OTHER",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/МегаФон/П28 Мой товар/1763772220/CS_fd2d1f024cbf487f8000/01_Материалы/seller.txt",
+      "integrity_state": "VERIFIED",
+      "sha256": "107058cc482dec9a8517f60f0b0985be085a8a0590b99bdf852e3f22ac02b1cf",
+      "bytes": 18
+    },
+    {
+      "placement_id": "CS_fd2d1f024cbf487f8000:tags.txt",
+      "surface": "OTHER",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/МегаФон/П28 Мой товар/1763772220/CS_fd2d1f024cbf487f8000/01_Материалы/tags.txt",
+      "integrity_state": "VERIFIED",
+      "sha256": "900cd14a68bbb4723870b8d84298e0f0c241f57244003d9e383e307ebbc29715",
+      "bytes": 236
+    },
+    {
+      "placement_id": "CS_fd2d1f024cbf487f8000:title.txt",
+      "surface": "TITLE",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/МегаФон/П28 Мой товар/1763772220/CS_fd2d1f024cbf487f8000/01_Материалы/title.txt",
+      "integrity_state": "VERIFIED",
+      "sha256": "73b6d36ce386a781ef81d3af007f6730c517183696323bfd1b90894ed9b9ab36",
+      "bytes": 101
+    },
+    {
+      "placement_id": "CS_fd2d1f024cbf487f8000:url.txt",
+      "surface": "OTHER",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/МегаФон/П28 Мой товар/1763772220/CS_fd2d1f024cbf487f8000/01_Материалы/url.txt",
+      "integrity_state": "VERIFIED",
+      "sha256": "1f1ad98e35b291e20325558bec274e0532fac45a0d873c483259ae3f4343d804",
+      "bytes": 113
+    }
+  ],
+  "data_format": "CAPTURE",
+  "change_number": 1,
+  "coverage_scope": "Все файлы предоставленного снимка; полнота действующей страницы и исполнение услуги отдельно не подтверждены.",
+  "source_note": "Точные сведения источника не являются независимой проверкой тарифного договора или юридических полномочий.",
+  "attributes": {
+    "preliminary_classification": {
+      "task_focus": "CONNECT",
+      "bundle_focus": "NOT_EMPHASIZED_IN_TITLE",
+      "configuration_focus": "NOT_EMPHASIZED_IN_TITLE",
+      "period_focus": "NOT_EMPHASIZED_IN_TITLE",
+      "group_id": "CONNECT_BASE",
+      "group_name": "Подключение: основное предложение",
+      "device_claims": [
+        "IOT"
+      ],
+      "device_claims_status": "POSITIVE_SOURCE_CLAIM_NOT_VERIFIED",
+      "money_roles": [],
+      "money_review_scope": "NOT_ATOMICALLY_REVIEWED",
+      "porting_role": "NOT_ESTABLISHED_IN_ROUTING_SCOPE",
+      "geo_claims": {
+        "legacy_title_claim": "REGION_NOT_IN_TITLE",
+        "verification": "NOT_VERIFIED",
+        "collection_region": "Moscow"
+      },
+      "targeted_evidence": [],
+      "review_note": "",
+      "flags": [],
+      "legal_party_id": "",
+      "authority_status": "UNKNOWN_IN_INSPECTED_INPUTS",
+      "commercial_readiness": "NOT_ESTABLISHED",
+      "content_effect": "NOT_ASSESSED",
+      "market_row_present": "True",
+      "promotion_row_present": "False",
+      "routing_support": {
+        "surface": "TITLE",
+        "source_file": "01_Карточки/Ozon/МегаФон/П28 Мой товар/1763772220/CS_fd2d1f024cbf487f8000/01_Материалы/title.txt",
+        "basis_text": "камера / умное устройство / часы",
+        "basis_kind": "PROVIDED_ROUTING_EXPLANATION",
+        "literal_text_match": false,
+        "source_classification_status": "PROVISIONAL_CONTENT_ROUTING",
+        "evidence_status": "INHERITED_NOT_INDEPENDENT_RECODE",
+        "scope_note": "Предоставленное основание предварительной группы; не новая независимая разметка и не проверка совместимости или эффекта."
+      },
+      "device_scope_note": "Перечень устройств является исходной маршрутизацией, а не полной проверкой совместимости."
+    },
+    "classification_status": "PRELIMINARY_CONTENT_ROUTE_NOT_SALES_RANK",
+    "channel": {
+      "platform": "Ozon",
+      "legal_party": "UNKNOWN",
+      "shop_type": "UNKNOWN",
+      "brand_owner": "UNKNOWN",
+      "distributor_status": "UNKNOWN",
+      "budget": "UNKNOWN"
+    },
+    "source_url": "https://www.ozon.ru/product/sim-karta-megafon-dlya-umnyh-ustroystv-2gb-100-min-100-sms-1763772220/?sh=f35iFSoX6A"
+  },
+  "metadata_files": [
+    "01_Карточки/Ozon/МегаФон/П28 Мой товар/1763772220/CS_fd2d1f024cbf487f8000/02_Метаданные/Фрагменты источника.jsonl",
+    "01_Карточки/Ozon/МегаФон/П28 Мой товар/1763772220/CS_fd2d1f024cbf487f8000/02_Метаданные/Извлечённые сведения.jsonl"
+  ]
+}

@@ -1,0 +1,432 @@
+{
+  "record_type": "CAPTURE",
+  "intake_id": "BASE:CS_ef7d3c8a668f0fcbb319",
+  "card_id": "OZON:3069186978",
+  "capture_id": "CS_ef7d3c8a668f0fcbb319",
+  "intake_status": "ACCEPTED",
+  "registered_at": null,
+  "platform": "Ozon",
+  "external_card_id": {
+    "state": "KNOWN",
+    "value": "3069186978",
+    "basis": "OBSERVED",
+    "scope": "внешний номер",
+    "source_locator": "01_Карточки/Ozon/Билайн/П36 Тарифыч/3069186978/CS_ef7d3c8a668f0fcbb319/01_Материалы/card_data.json:sku"
+  },
+  "observed_at": {
+    "state": "KNOWN",
+    "value": "2026-09-25T09:42:51.654Z",
+    "basis": "OBSERVED",
+    "scope": "время наблюдения",
+    "source_locator": "01_Карточки/Ozon/Билайн/П36 Тарифыч/3069186978/CS_ef7d3c8a668f0fcbb319/01_Материалы/card_data.json:collected_at"
+  },
+  "seller_display_name": {
+    "state": "KNOWN",
+    "value": "Тарифыч",
+    "basis": "OBSERVED",
+    "scope": "точная строка продавца",
+    "source_locator": "01_Карточки/Ozon/Билайн/П36 Тарифыч/3069186978/CS_ef7d3c8a668f0fcbb319/01_Материалы/card_data.json:seller"
+  },
+  "seller_label_code": "П36",
+  "brand": {
+    "state": "KNOWN",
+    "value": "Билайн",
+    "basis": "OBSERVED",
+    "scope": "заявленный бренд",
+    "source_locator": "01_Карточки/Ozon/Билайн/П36 Тарифыч/3069186978/CS_ef7d3c8a668f0fcbb319/01_Материалы/card_data.json"
+  },
+  "title": {
+    "state": "KNOWN",
+    "value": "Сим карта Билайн Безлимитный интернет 1000 минут за 350 р/мес",
+    "basis": "OBSERVED",
+    "scope": "заголовок",
+    "source_locator": "01_Карточки/Ozon/Билайн/П36 Тарифыч/3069186978/CS_ef7d3c8a668f0fcbb319/01_Материалы/card_data.json:title"
+  },
+  "source_origin": "Сохранённая страница маркетплейса; дата наблюдения указана в паспорте.",
+  "actual_relative_path": "01_Карточки/Ozon/Билайн/П36 Тарифыч/3069186978/CS_ef7d3c8a668f0fcbb319",
+  "mission": "Требует уточнения",
+  "offer_model": "Услуга, условия не подтверждены",
+  "collection_region": "Moscow",
+  "materials": [
+    {
+      "placement_id": "CS_ef7d3c8a668f0fcbb319:Gallery/G01.jpg",
+      "surface": "GALLERY",
+      "position": 1,
+      "relative_file": "01_Карточки/Ozon/Билайн/П36 Тарифыч/3069186978/CS_ef7d3c8a668f0fcbb319/01_Материалы/Gallery/G01.jpg",
+      "integrity_state": "VERIFIED",
+      "sha256": "f39612459cdb2f7fb978ce2d4a9b1ac44c0bc59beb2539cf2a0197f767dabf83",
+      "bytes": 202468
+    },
+    {
+      "placement_id": "CS_ef7d3c8a668f0fcbb319:Gallery/G02.jpg",
+      "surface": "GALLERY",
+      "position": 2,
+      "relative_file": "01_Карточки/Ozon/Билайн/П36 Тарифыч/3069186978/CS_ef7d3c8a668f0fcbb319/01_Материалы/Gallery/G02.jpg",
+      "integrity_state": "VERIFIED",
+      "sha256": "4b5019a8142e06adee430ada79f879e0bacd30118934f75a8bb3e7cb43a23262",
+      "bytes": 151608
+    },
+    {
+      "placement_id": "CS_ef7d3c8a668f0fcbb319:Gallery/G03.jpg",
+      "surface": "GALLERY",
+      "position": 3,
+      "relative_file": "01_Карточки/Ozon/Билайн/П36 Тарифыч/3069186978/CS_ef7d3c8a668f0fcbb319/01_Материалы/Gallery/G03.jpg",
+      "integrity_state": "VERIFIED",
+      "sha256": "f3b00bdaaf70e8944cda2aea5dbd68a80702a0f21ce113ec372d9aea0388fa6b",
+      "bytes": 161077
+    },
+    {
+      "placement_id": "CS_ef7d3c8a668f0fcbb319:Gallery/G04.jpg",
+      "surface": "GALLERY",
+      "position": 4,
+      "relative_file": "01_Карточки/Ozon/Билайн/П36 Тарифыч/3069186978/CS_ef7d3c8a668f0fcbb319/01_Материалы/Gallery/G04.jpg",
+      "integrity_state": "VERIFIED",
+      "sha256": "4a37a64b980e7f850a63736e31d4c810441cdccb2d85edee03106b9e8445d68c",
+      "bytes": 197168
+    },
+    {
+      "placement_id": "CS_ef7d3c8a668f0fcbb319:Gallery/G05.jpg",
+      "surface": "GALLERY",
+      "position": 5,
+      "relative_file": "01_Карточки/Ozon/Билайн/П36 Тарифыч/3069186978/CS_ef7d3c8a668f0fcbb319/01_Материалы/Gallery/G05.jpg",
+      "integrity_state": "VERIFIED",
+      "sha256": "c43deb0c5de33f61d8e04f80b7978cadd1ab34b12a4fc7e3e4faac9df40149a3",
+      "bytes": 155951
+    },
+    {
+      "placement_id": "CS_ef7d3c8a668f0fcbb319:Gallery/G06.jpg",
+      "surface": "GALLERY",
+      "position": 6,
+      "relative_file": "01_Карточки/Ozon/Билайн/П36 Тарифыч/3069186978/CS_ef7d3c8a668f0fcbb319/01_Материалы/Gallery/G06.jpg",
+      "integrity_state": "VERIFIED",
+      "sha256": "4167af3b8a46299e48f940122fa9b7d4ea771e13ed809bbc996c67ad8219b1d8",
+      "bytes": 158041
+    },
+    {
+      "placement_id": "CS_ef7d3c8a668f0fcbb319:Gallery/G07.jpg",
+      "surface": "GALLERY",
+      "position": 7,
+      "relative_file": "01_Карточки/Ozon/Билайн/П36 Тарифыч/3069186978/CS_ef7d3c8a668f0fcbb319/01_Материалы/Gallery/G07.jpg",
+      "integrity_state": "VERIFIED",
+      "sha256": "f31046746fe6fd8af08856541c01cf1e83aed6504dc7b6803444231f79935aab",
+      "bytes": 165963
+    },
+    {
+      "placement_id": "CS_ef7d3c8a668f0fcbb319:Gallery/G08.jpg",
+      "surface": "GALLERY",
+      "position": 8,
+      "relative_file": "01_Карточки/Ozon/Билайн/П36 Тарифыч/3069186978/CS_ef7d3c8a668f0fcbb319/01_Материалы/Gallery/G08.jpg",
+      "integrity_state": "VERIFIED",
+      "sha256": "c7d43c2ec61424ca4499b3715457ffc376c5afc5e32e9d592ba4aacdfe82c465",
+      "bytes": 209625
+    },
+    {
+      "placement_id": "CS_ef7d3c8a668f0fcbb319:Gallery/G09.jpg",
+      "surface": "GALLERY",
+      "position": 9,
+      "relative_file": "01_Карточки/Ozon/Билайн/П36 Тарифыч/3069186978/CS_ef7d3c8a668f0fcbb319/01_Материалы/Gallery/G09.jpg",
+      "integrity_state": "VERIFIED",
+      "sha256": "45d7f6e69c6f6b42cdcb04c477f5a9918ee892eefede6303065029077d9a370a",
+      "bytes": 143618
+    },
+    {
+      "placement_id": "CS_ef7d3c8a668f0fcbb319:Gallery/G10.jpg",
+      "surface": "GALLERY",
+      "position": 10,
+      "relative_file": "01_Карточки/Ozon/Билайн/П36 Тарифыч/3069186978/CS_ef7d3c8a668f0fcbb319/01_Материалы/Gallery/G10.jpg",
+      "integrity_state": "VERIFIED",
+      "sha256": "7a7c1e116f8a1edde38a9e7e1916f6f30f5b164b15029760222210af19576c82",
+      "bytes": 151007
+    },
+    {
+      "placement_id": "CS_ef7d3c8a668f0fcbb319:Gallery/G11.jpg",
+      "surface": "GALLERY",
+      "position": 11,
+      "relative_file": "01_Карточки/Ozon/Билайн/П36 Тарифыч/3069186978/CS_ef7d3c8a668f0fcbb319/01_Материалы/Gallery/G11.jpg",
+      "integrity_state": "VERIFIED",
+      "sha256": "a4f71429274c8d7a18d20ab7d7b0a5a7640174b38399ae2bc507feb4de149877",
+      "bytes": 193334
+    },
+    {
+      "placement_id": "CS_ef7d3c8a668f0fcbb319:Gallery/G12.jpg",
+      "surface": "GALLERY",
+      "position": 12,
+      "relative_file": "01_Карточки/Ozon/Билайн/П36 Тарифыч/3069186978/CS_ef7d3c8a668f0fcbb319/01_Материалы/Gallery/G12.jpg",
+      "integrity_state": "VERIFIED",
+      "sha256": "aebef32a515802e7d09b05eceec0ff76b6e55af79abff0dc9d6c050404b33209",
+      "bytes": 174331
+    },
+    {
+      "placement_id": "CS_ef7d3c8a668f0fcbb319:Gallery/G13.jpg",
+      "surface": "GALLERY",
+      "position": 13,
+      "relative_file": "01_Карточки/Ozon/Билайн/П36 Тарифыч/3069186978/CS_ef7d3c8a668f0fcbb319/01_Материалы/Gallery/G13.jpg",
+      "integrity_state": "VERIFIED",
+      "sha256": "b79451a135778760f9336467eee55e9e40d39e76bf11a6aaad68252524eb2d43",
+      "bytes": 174344
+    },
+    {
+      "placement_id": "CS_ef7d3c8a668f0fcbb319:Gallery/G14.jpg",
+      "surface": "GALLERY",
+      "position": 14,
+      "relative_file": "01_Карточки/Ozon/Билайн/П36 Тарифыч/3069186978/CS_ef7d3c8a668f0fcbb319/01_Материалы/Gallery/G14.jpg",
+      "integrity_state": "VERIFIED",
+      "sha256": "1e2a5dc85d9f282c021f6b8f1bf4343da74c4e375bf47bcf582c5fe8e2d20db4",
+      "bytes": 176562
+    },
+    {
+      "placement_id": "CS_ef7d3c8a668f0fcbb319:Gallery/G15.jpg",
+      "surface": "GALLERY",
+      "position": 15,
+      "relative_file": "01_Карточки/Ozon/Билайн/П36 Тарифыч/3069186978/CS_ef7d3c8a668f0fcbb319/01_Материалы/Gallery/G15.jpg",
+      "integrity_state": "VERIFIED",
+      "sha256": "79068f22c0c71d54c3bc1b2546324866beb5ea390268d0a640c260e5a6260f65",
+      "bytes": 164419
+    },
+    {
+      "placement_id": "CS_ef7d3c8a668f0fcbb319:Rich/R01.jpg",
+      "surface": "RICH",
+      "position": 1,
+      "relative_file": "01_Карточки/Ozon/Билайн/П36 Тарифыч/3069186978/CS_ef7d3c8a668f0fcbb319/01_Материалы/Rich/R01.jpg",
+      "integrity_state": "VERIFIED",
+      "sha256": "aeb262bd138705c7a8a49804bdfc6ad38e3f17a848c81ff49b88239e66ee49f7",
+      "bytes": 371588
+    },
+    {
+      "placement_id": "CS_ef7d3c8a668f0fcbb319:Rich/R02.jpg",
+      "surface": "RICH",
+      "position": 2,
+      "relative_file": "01_Карточки/Ozon/Билайн/П36 Тарифыч/3069186978/CS_ef7d3c8a668f0fcbb319/01_Материалы/Rich/R02.jpg",
+      "integrity_state": "VERIFIED",
+      "sha256": "686c63c2a6f6fad0d4841474a1f734426b5912e1c4f60b9b0f691709b2b9da2c",
+      "bytes": 319416
+    },
+    {
+      "placement_id": "CS_ef7d3c8a668f0fcbb319:Rich/R03.jpg",
+      "surface": "RICH",
+      "position": 3,
+      "relative_file": "01_Карточки/Ozon/Билайн/П36 Тарифыч/3069186978/CS_ef7d3c8a668f0fcbb319/01_Материалы/Rich/R03.jpg",
+      "integrity_state": "VERIFIED",
+      "sha256": "a0725c31082fac551904b68cc9a27735814986a7715aeacee198fd3d16863a1d",
+      "bytes": 338377
+    },
+    {
+      "placement_id": "CS_ef7d3c8a668f0fcbb319:Rich/rich_ocr.json",
+      "surface": "RICH",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/Билайн/П36 Тарифыч/3069186978/CS_ef7d3c8a668f0fcbb319/01_Материалы/Rich/rich_ocr.json",
+      "integrity_state": "VERIFIED",
+      "sha256": "5e97a2b4fd629a921aa97bd25d03d02cde8236ce81addb3a7a353530d7208d1e",
+      "bytes": 16672
+    },
+    {
+      "placement_id": "CS_ef7d3c8a668f0fcbb319:Rich/rich_text.txt",
+      "surface": "RICH",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/Билайн/П36 Тарифыч/3069186978/CS_ef7d3c8a668f0fcbb319/01_Материалы/Rich/rich_text.txt",
+      "integrity_state": "VERIFIED",
+      "sha256": "767b983195fd647dffa5080f24a13f681b87db72de34cc897150230496e208eb",
+      "bytes": 4208
+    },
+    {
+      "placement_id": "CS_ef7d3c8a668f0fcbb319:analytics_rank.txt",
+      "surface": "OTHER",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/Билайн/П36 Тарифыч/3069186978/CS_ef7d3c8a668f0fcbb319/01_Материалы/analytics_rank.txt",
+      "integrity_state": "VERIFIED",
+      "sha256": "06e9d52c1720fca412803e3b07c4b228ff113e303f4c7ab94665319d832bbfb7",
+      "bytes": 2
+    },
+    {
+      "placement_id": "CS_ef7d3c8a668f0fcbb319:availability.txt",
+      "surface": "OTHER",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/Билайн/П36 Тарифыч/3069186978/CS_ef7d3c8a668f0fcbb319/01_Материалы/availability.txt",
+      "integrity_state": "VERIFIED",
+      "sha256": "f3db355a863e0dd7fa5ca1c95f35969d61f7cfb1f7a1c64da40b68a8ebed9c4d",
+      "bytes": 26
+    },
+    {
+      "placement_id": "CS_ef7d3c8a668f0fcbb319:card_data.json",
+      "surface": "OTHER",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/Билайн/П36 Тарифыч/3069186978/CS_ef7d3c8a668f0fcbb319/01_Материалы/card_data.json",
+      "integrity_state": "VERIFIED",
+      "sha256": "513baadd9977be6cac8b69f6828a61d139d8f14da9e0f0d9c6ec547171e67af6",
+      "bytes": 4774
+    },
+    {
+      "placement_id": "CS_ef7d3c8a668f0fcbb319:characteristics.txt",
+      "surface": "CHARACTERISTICS",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/Билайн/П36 Тарифыч/3069186978/CS_ef7d3c8a668f0fcbb319/01_Материалы/characteristics.txt",
+      "integrity_state": "VERIFIED",
+      "sha256": "7ff39557c61261ce0d3f1f97e12b2979740974c2ec059870a525a9fed7b6051a",
+      "bytes": 1213
+    },
+    {
+      "placement_id": "CS_ef7d3c8a668f0fcbb319:collection_status.txt",
+      "surface": "OTHER",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/Билайн/П36 Тарифыч/3069186978/CS_ef7d3c8a668f0fcbb319/01_Материалы/collection_status.txt",
+      "integrity_state": "VERIFIED",
+      "sha256": "cf01585829633e2debef0696d8101ca4fb4702310a2f2256b3b17bd0e753ce8c",
+      "bytes": 10
+    },
+    {
+      "placement_id": "CS_ef7d3c8a668f0fcbb319:content_type.txt",
+      "surface": "OTHER",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/Билайн/П36 Тарифыч/3069186978/CS_ef7d3c8a668f0fcbb319/01_Материалы/content_type.txt",
+      "integrity_state": "VERIFIED",
+      "sha256": "96e6625bbd580d529a6384d96146fa3a05f7fb416cb4614fd8cd7135be2d77d1",
+      "bytes": 28
+    },
+    {
+      "placement_id": "CS_ef7d3c8a668f0fcbb319:description.txt",
+      "surface": "DESCRIPTION",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/Билайн/П36 Тарифыч/3069186978/CS_ef7d3c8a668f0fcbb319/01_Материалы/description.txt",
+      "integrity_state": "VERIFIED",
+      "sha256": "cfe12a6d70106473638332fbeb30598b4cf94051f939c88fd0705157433b38f1",
+      "bytes": 36
+    },
+    {
+      "placement_id": "CS_ef7d3c8a668f0fcbb319:manifest.json",
+      "surface": "OTHER",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/Билайн/П36 Тарифыч/3069186978/CS_ef7d3c8a668f0fcbb319/01_Материалы/manifest.json",
+      "integrity_state": "VERIFIED",
+      "sha256": "c551cd0754c1c52ca3ac1daae34d5f62f707ba44087d484bd24b6f29dd2ff658",
+      "bytes": 9735
+    },
+    {
+      "placement_id": "CS_ef7d3c8a668f0fcbb319:price.txt",
+      "surface": "OTHER",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/Билайн/П36 Тарифыч/3069186978/CS_ef7d3c8a668f0fcbb319/01_Материалы/price.txt",
+      "integrity_state": "VERIFIED",
+      "sha256": "53c234e5e8472b6ac51c1ae1cab3fe06fad053beb8ebfd8977b010655bfdd3c3",
+      "bytes": 2
+    },
+    {
+      "placement_id": "CS_ef7d3c8a668f0fcbb319:rating.txt",
+      "surface": "OTHER",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/Билайн/П36 Тарифыч/3069186978/CS_ef7d3c8a668f0fcbb319/01_Материалы/rating.txt",
+      "integrity_state": "VERIFIED",
+      "sha256": "335f6442cc8f7e4980fe4ba346115a00101db5a939992b25b27ebf595238e8d5",
+      "bytes": 4
+    },
+    {
+      "placement_id": "CS_ef7d3c8a668f0fcbb319:reviews_count.txt",
+      "surface": "OTHER",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/Билайн/П36 Тарифыч/3069186978/CS_ef7d3c8a668f0fcbb319/01_Материалы/reviews_count.txt",
+      "integrity_state": "VERIFIED",
+      "sha256": "b49d91ae031e5ed6b63b6295a574ce0be17fd60a44b7e2ca831af822c359de29",
+      "bytes": 6
+    },
+    {
+      "placement_id": "CS_ef7d3c8a668f0fcbb319:seller.txt",
+      "surface": "OTHER",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/Билайн/П36 Тарифыч/3069186978/CS_ef7d3c8a668f0fcbb319/01_Материалы/seller.txt",
+      "integrity_state": "VERIFIED",
+      "sha256": "d09e928372bfbc282c6f42f513b5dc0b4bbc1c149c2b8efc0da58e651ed407fd",
+      "bytes": 15
+    },
+    {
+      "placement_id": "CS_ef7d3c8a668f0fcbb319:tags.txt",
+      "surface": "OTHER",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/Билайн/П36 Тарифыч/3069186978/CS_ef7d3c8a668f0fcbb319/01_Материалы/tags.txt",
+      "integrity_state": "VERIFIED",
+      "sha256": "41f9a2edc5dce6742b23090e2baca6cf0c61e8e7ad43ba4c2db82610df79630c",
+      "bytes": 450
+    },
+    {
+      "placement_id": "CS_ef7d3c8a668f0fcbb319:title.txt",
+      "surface": "TITLE",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/Билайн/П36 Тарифыч/3069186978/CS_ef7d3c8a668f0fcbb319/01_Материалы/title.txt",
+      "integrity_state": "VERIFIED",
+      "sha256": "020a98b08b87e29470af72a280138394856c12063489b7d99837504eae7978d7",
+      "bytes": 106
+    },
+    {
+      "placement_id": "CS_ef7d3c8a668f0fcbb319:url.txt",
+      "surface": "OTHER",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/Билайн/П36 Тарифыч/3069186978/CS_ef7d3c8a668f0fcbb319/01_Материалы/url.txt",
+      "integrity_state": "VERIFIED",
+      "sha256": "bf8e883ab8ead2b54fc84a239b71290ef5a165eb2e00c4210d0d835ade64d419",
+      "bytes": 116
+    }
+  ],
+  "data_format": "CAPTURE",
+  "change_number": 1,
+  "coverage_scope": "Все файлы предоставленного снимка; полнота действующей страницы и исполнение услуги отдельно не подтверждены.",
+  "source_note": "Точные сведения источника не являются независимой проверкой тарифного договора или юридических полномочий.",
+  "attributes": {
+    "preliminary_classification": {
+      "task_focus": "UNDETERMINED",
+      "bundle_focus": "NOT_EMPHASIZED_IN_TITLE",
+      "configuration_focus": "NOT_EMPHASIZED_IN_TITLE",
+      "period_focus": "NOT_EMPHASIZED_IN_TITLE",
+      "group_id": "",
+      "group_name": "",
+      "device_claims": [],
+      "device_claims_status": "UNDETERMINED_IN_ROUTING_SCOPE",
+      "money_roles": [],
+      "money_review_scope": "NOT_ATOMICALLY_REVIEWED",
+      "porting_role": "NOT_ESTABLISHED_IN_ROUTING_SCOPE",
+      "geo_claims": {
+        "legacy_title_claim": "REGION_NOT_IN_TITLE",
+        "verification": "NOT_VERIFIED",
+        "collection_region": "Moscow"
+      },
+      "targeted_evidence": [
+        {
+          "surface": "TITLE",
+          "source_path": "analysis_handoff_2026-10-27 2/01_current_corpus_master129/Other_operators/3069186978/card_data.json",
+          "locator": "$.title",
+          "quote": "Сим карта Билайн Безлимитный интернет 1000 минут за 350 р/мес"
+        }
+      ],
+      "review_note": "Конкретная задача и класс устройства по имеющимся основаниям не установлены. Значение Smart и изображение человека не переводятся в назначение для смартфона.",
+      "flags": [],
+      "legal_party_id": "",
+      "authority_status": "UNKNOWN_IN_INSPECTED_INPUTS",
+      "commercial_readiness": "NOT_ESTABLISHED",
+      "content_effect": "NOT_ASSESSED",
+      "market_row_present": "True",
+      "promotion_row_present": "False",
+      "routing_support": {
+        "surface": "G01",
+        "source_file": "01_Карточки/Ozon/Билайн/П36 Тарифыч/3069186978/CS_ef7d3c8a668f0fcbb319/01_Материалы/Gallery/G01.jpg",
+        "basis_text": "TITLE, характеристики, описание и G01 не дают однозначной основной задачи; прочие кадры требуют отдельного просмотра.",
+        "basis_kind": "VISUAL_EXPLANATION_REQUIRES_REVIEW",
+        "literal_text_match": null,
+        "source_classification_status": "PROVISIONAL_CONTENT_ROUTING",
+        "evidence_status": "INHERITED_NOT_INDEPENDENT_RECODE",
+        "scope_note": "Предоставленное основание предварительной группы; не новая независимая разметка и не проверка совместимости или эффекта."
+      },
+      "device_scope_note": "Перечень устройств является исходной маршрутизацией, а не полной проверкой совместимости."
+    },
+    "classification_status": "PRELIMINARY_CONTENT_ROUTE_NOT_SALES_RANK",
+    "channel": {
+      "platform": "Ozon",
+      "legal_party": "UNKNOWN",
+      "shop_type": "UNKNOWN",
+      "brand_owner": "UNKNOWN",
+      "distributor_status": "UNKNOWN",
+      "budget": "UNKNOWN"
+    },
+    "source_url": "https://www.ozon.ru/product/sim-karta-bilayn-bezlimitnyy-internet-1000-minut-za-350-r-mes-3069186978/?sh=f35iFbOWYQ"
+  },
+  "metadata_files": [
+    "01_Карточки/Ozon/Билайн/П36 Тарифыч/3069186978/CS_ef7d3c8a668f0fcbb319/02_Метаданные/Фрагменты источника.jsonl",
+    "01_Карточки/Ozon/Билайн/П36 Тарифыч/3069186978/CS_ef7d3c8a668f0fcbb319/02_Метаданные/Извлечённые сведения.jsonl"
+  ]
+}

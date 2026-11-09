@@ -1,0 +1,244 @@
+{
+  "schema_version": "1.0",
+  "sku": "3945620401",
+  "cohort": "Megafon_competitors",
+  "collected_at": "2026-09-25T09:41:55.955Z",
+  "region": "Moscow",
+  "query": "сим карта",
+  "collection_status": "success",
+  "source_evidence": "OBSERVED_live_ozon_product_page",
+  "selection_source": "ozon_seller_analytics_sim_karta_moscow_2026-09-25",
+  "analytics_rank": 100,
+  "title": "Сим карта Мегафон, непубличный тариф безлимитный интернет",
+  "seller": "Мегасеть мобайл",
+  "url": "https://www.ozon.ru/product/sim-karta-megafon-nepublichnyy-tarif-bezlimitnyy-internet-3945620401/?sh=f35iFbOWYQ",
+  "product_price_rub": "2",
+  "currency": "RUB",
+  "rating": "4.9",
+  "reviews_count": "100",
+  "availability": "http://schema.org/InStock",
+  "content_type": "pseudo_rich",
+  "description_present": false,
+  "rich_present": false,
+  "pseudo_rich_present": true,
+  "tags_present": true,
+  "gallery": [
+    {
+      "order": 1,
+      "file": "Gallery/G01.jpg",
+      "source_url": "https://ir.ozone.ru/s3/multimedia-1-q/15217904690.jpg",
+      "role": "hero"
+    },
+    {
+      "order": 2,
+      "file": "Gallery/G02.jpg",
+      "source_url": "https://ir.ozone.ru/s3/multimedia-1-t/15148655057.jpg",
+      "role": "gallery"
+    },
+    {
+      "order": 3,
+      "file": "Gallery/G03.jpg",
+      "source_url": "https://ir.ozone.ru/s3/multimedia-1-i/14458612446.jpg",
+      "role": "gallery"
+    },
+    {
+      "order": 4,
+      "file": "Gallery/G04.jpg",
+      "source_url": "https://ir.ozone.ru/s3/multimedia-1-w/14458620740.jpg",
+      "role": "gallery"
+    },
+    {
+      "order": 5,
+      "file": "Gallery/G05.jpg",
+      "source_url": "https://ir.ozone.ru/s3/multimedia-1-7/14458611139.jpg",
+      "role": "gallery"
+    },
+    {
+      "order": 6,
+      "file": "Gallery/G06.jpg",
+      "source_url": "https://ir.ozone.ru/s3/multimedia-1-s/15148651996.jpg",
+      "role": "gallery"
+    },
+    {
+      "order": 7,
+      "file": "Gallery/G07.jpg",
+      "source_url": "https://ir.ozone.ru/s3/multimedia-1-9/14458618989.jpg",
+      "role": "gallery"
+    },
+    {
+      "order": 8,
+      "file": "Gallery/G08.jpg",
+      "source_url": "https://ir.ozone.ru/s3/multimedia-1-e/14458621694.jpg",
+      "role": "gallery"
+    },
+    {
+      "order": 9,
+      "file": "Gallery/G09.jpg",
+      "source_url": "https://ir.ozone.ru/s3/multimedia-1-q/14690736962.jpg",
+      "role": "gallery"
+    }
+  ],
+  "rich": [
+    {
+      "order": 1,
+      "file": "Rich/R01.jpg",
+      "source_url": "https://ir.ozone.ru/s3/multimedia-1-x/14555525973.jpg",
+      "subtype": "pseudo_rich"
+    }
+  ],
+  "error": null,
+  "artifact_policy": "TXT and JSON only; no DOCX",
+  "image_qa": [
+    {
+      "kind": "gallery",
+      "order": 1,
+      "file": "Gallery/G01.jpg",
+      "exists": true,
+      "bytes": 211900,
+      "width": 1086,
+      "height": 1448,
+      "format": "JPEG",
+      "valid_image": true,
+      "analysis_quality": "HIGH_RES",
+      "error": null
+    },
+    {
+      "kind": "gallery",
+      "order": 2,
+      "file": "Gallery/G02.jpg",
+      "exists": true,
+      "bytes": 103809,
+      "width": 900,
+      "height": 1200,
+      "format": "JPEG",
+      "valid_image": true,
+      "analysis_quality": "HIGH_RES",
+      "error": null
+    },
+    {
+      "kind": "gallery",
+      "order": 3,
+      "file": "Gallery/G03.jpg",
+      "exists": true,
+      "bytes": 135334,
+      "width": 1086,
+      "height": 1448,
+      "format": "JPEG",
+      "valid_image": true,
+      "analysis_quality": "HIGH_RES",
+      "error": null
+    },
+    {
+      "kind": "gallery",
+      "order": 4,
+      "file": "Gallery/G04.jpg",
+      "exists": true,
+      "bytes": 163145,
+      "width": 1086,
+      "height": 1448,
+      "format": "JPEG",
+      "valid_image": true,
+      "analysis_quality": "HIGH_RES",
+      "error": null
+    },
+    {
+      "kind": "gallery",
+      "order": 5,
+      "file": "Gallery/G05.jpg",
+      "exists": true,
+      "bytes": 152381,
+      "width": 1086,
+      "height": 1448,
+      "format": "JPEG",
+      "valid_image": true,
+      "analysis_quality": "HIGH_RES",
+      "error": null
+    },
+    {
+      "kind": "gallery",
+      "order": 6,
+      "file": "Gallery/G06.jpg",
+      "exists": true,
+      "bytes": 102934,
+      "width": 900,
+      "height": 1200,
+      "format": "JPEG",
+      "valid_image": true,
+      "analysis_quality": "HIGH_RES",
+      "error": null
+    },
+    {
+      "kind": "gallery",
+      "order": 7,
+      "file": "Gallery/G07.jpg",
+      "exists": true,
+      "bytes": 176329,
+      "width": 1086,
+      "height": 1448,
+      "format": "JPEG",
+      "valid_image": true,
+      "analysis_quality": "HIGH_RES",
+      "error": null
+    },
+    {
+      "kind": "gallery",
+      "order": 8,
+      "file": "Gallery/G08.jpg",
+      "exists": true,
+      "bytes": 162147,
+      "width": 1086,
+      "height": 1448,
+      "format": "JPEG",
+      "valid_image": true,
+      "analysis_quality": "HIGH_RES",
+      "error": null
+    },
+    {
+      "kind": "gallery",
+      "order": 9,
+      "file": "Gallery/G09.jpg",
+      "exists": true,
+      "bytes": 136578,
+      "width": 900,
+      "height": 1200,
+      "format": "JPEG",
+      "valid_image": true,
+      "analysis_quality": "HIGH_RES",
+      "error": null
+    },
+    {
+      "kind": "rich",
+      "order": 1,
+      "file": "Rich/R01.jpg",
+      "exists": true,
+      "bytes": 230293,
+      "width": 1586,
+      "height": 992,
+      "format": "JPEG",
+      "valid_image": true,
+      "analysis_quality": "HIGH_RES",
+      "error": null
+    }
+  ],
+  "image_qa_summary": {
+    "expected": 10,
+    "downloaded": 10,
+    "valid": 10,
+    "high_res": 10,
+    "usable": 0,
+    "low_res": 0,
+    "missing": 0,
+    "corrupt": 0
+  },
+  "images_suitable_for_analysis": true,
+  "rich_ocr": {
+    "status": "complete",
+    "engine": "PaddleOCR 3.7 / PP-OCRv5 mobile detection / Cyrillic PP-OCRv5 mobile recognition",
+    "images_total": 1,
+    "images_recognized": 1,
+    "images_no_text": 0,
+    "images_error": 0,
+    "text_file": "Rich/rich_text.txt",
+    "json_file": "Rich/rich_ocr.json"
+  }
+}

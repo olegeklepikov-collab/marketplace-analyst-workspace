@@ -1,0 +1,373 @@
+{
+  "record_type": "CAPTURE",
+  "intake_id": "BASE:CS_d1d6997af5da886bafe9",
+  "card_id": "OZON:3251066641",
+  "capture_id": "CS_d1d6997af5da886bafe9",
+  "intake_status": "ACCEPTED",
+  "registered_at": null,
+  "platform": "Ozon",
+  "external_card_id": {
+    "state": "KNOWN",
+    "value": "3251066641",
+    "basis": "OBSERVED",
+    "scope": "внешний номер",
+    "source_locator": "01_Карточки/Ozon/МТС/П07 SIMPRO/3251066641/CS_d1d6997af5da886bafe9/01_Материалы/card_data.json:sku"
+  },
+  "observed_at": {
+    "state": "KNOWN",
+    "value": "2026-09-25T09:42:46.473Z",
+    "basis": "OBSERVED",
+    "scope": "время наблюдения",
+    "source_locator": "01_Карточки/Ozon/МТС/П07 SIMPRO/3251066641/CS_d1d6997af5da886bafe9/01_Материалы/card_data.json:collected_at"
+  },
+  "seller_display_name": {
+    "state": "KNOWN",
+    "value": "SIMPRO",
+    "basis": "OBSERVED",
+    "scope": "точная строка продавца",
+    "source_locator": "01_Карточки/Ozon/МТС/П07 SIMPRO/3251066641/CS_d1d6997af5da886bafe9/01_Материалы/card_data.json:seller"
+  },
+  "seller_label_code": "П07",
+  "brand": {
+    "state": "KNOWN",
+    "value": "МТС",
+    "basis": "OBSERVED",
+    "scope": "заявленный бренд",
+    "source_locator": "01_Карточки/Ozon/МТС/П07 SIMPRO/3251066641/CS_d1d6997af5da886bafe9/01_Материалы/card_data.json"
+  },
+  "title": {
+    "state": "KNOWN",
+    "value": "Сим карта МТС с БЕЗЛИМИТНЫМ интернетом для всей России. SIM-карта для смартфона и планшета",
+    "basis": "OBSERVED",
+    "scope": "заголовок",
+    "source_locator": "01_Карточки/Ozon/МТС/П07 SIMPRO/3251066641/CS_d1d6997af5da886bafe9/01_Материалы/card_data.json:title"
+  },
+  "source_origin": "Сохранённая страница маркетплейса; дата наблюдения указана в паспорте.",
+  "actual_relative_path": "01_Карточки/Ozon/МТС/П07 SIMPRO/3251066641/CS_d1d6997af5da886bafe9",
+  "mission": "Подключение: основное предложение",
+  "offer_model": "Услуга, условия не подтверждены",
+  "collection_region": "Moscow",
+  "materials": [
+    {
+      "placement_id": "CS_d1d6997af5da886bafe9:Gallery/G01.jpg",
+      "surface": "GALLERY",
+      "position": 1,
+      "relative_file": "01_Карточки/Ozon/МТС/П07 SIMPRO/3251066641/CS_d1d6997af5da886bafe9/01_Материалы/Gallery/G01.jpg",
+      "integrity_state": "VERIFIED",
+      "sha256": "b89c19fd26890e62acf17b29d482bdc3fce4ba4c27ccd814e91bb88c90f84c07",
+      "bytes": 182947
+    },
+    {
+      "placement_id": "CS_d1d6997af5da886bafe9:Gallery/G02.jpg",
+      "surface": "GALLERY",
+      "position": 2,
+      "relative_file": "01_Карточки/Ozon/МТС/П07 SIMPRO/3251066641/CS_d1d6997af5da886bafe9/01_Материалы/Gallery/G02.jpg",
+      "integrity_state": "VERIFIED",
+      "sha256": "a7fee680c6f78e6dda2f15d833fbdcf6d76f6357ea51e80fe02b66f9423e606f",
+      "bytes": 118767
+    },
+    {
+      "placement_id": "CS_d1d6997af5da886bafe9:Gallery/G03.jpg",
+      "surface": "GALLERY",
+      "position": 3,
+      "relative_file": "01_Карточки/Ozon/МТС/П07 SIMPRO/3251066641/CS_d1d6997af5da886bafe9/01_Материалы/Gallery/G03.jpg",
+      "integrity_state": "VERIFIED",
+      "sha256": "01a81f03128fae2c877edd7d0e0bca6d2c8209b3e9c5f54da58d13b52da01faf",
+      "bytes": 195411
+    },
+    {
+      "placement_id": "CS_d1d6997af5da886bafe9:Gallery/G04.jpg",
+      "surface": "GALLERY",
+      "position": 4,
+      "relative_file": "01_Карточки/Ozon/МТС/П07 SIMPRO/3251066641/CS_d1d6997af5da886bafe9/01_Материалы/Gallery/G04.jpg",
+      "integrity_state": "VERIFIED",
+      "sha256": "41d34211c0c96024849734472aae6268899428886ebae62c6dfe84027d708b3c",
+      "bytes": 172824
+    },
+    {
+      "placement_id": "CS_d1d6997af5da886bafe9:Gallery/G05.jpg",
+      "surface": "GALLERY",
+      "position": 5,
+      "relative_file": "01_Карточки/Ozon/МТС/П07 SIMPRO/3251066641/CS_d1d6997af5da886bafe9/01_Материалы/Gallery/G05.jpg",
+      "integrity_state": "VERIFIED",
+      "sha256": "4e2197d929607515c51862b672ebeaed428938138f15f79ce4415f861afad988",
+      "bytes": 199955
+    },
+    {
+      "placement_id": "CS_d1d6997af5da886bafe9:Gallery/G06.jpg",
+      "surface": "GALLERY",
+      "position": 6,
+      "relative_file": "01_Карточки/Ozon/МТС/П07 SIMPRO/3251066641/CS_d1d6997af5da886bafe9/01_Материалы/Gallery/G06.jpg",
+      "integrity_state": "VERIFIED",
+      "sha256": "f7140fe2d92d6eeafe3b85e779b832b4edc0d97284f8f2f6827b778c43365b80",
+      "bytes": 227545
+    },
+    {
+      "placement_id": "CS_d1d6997af5da886bafe9:Gallery/G07.jpg",
+      "surface": "GALLERY",
+      "position": 7,
+      "relative_file": "01_Карточки/Ozon/МТС/П07 SIMPRO/3251066641/CS_d1d6997af5da886bafe9/01_Материалы/Gallery/G07.jpg",
+      "integrity_state": "VERIFIED",
+      "sha256": "d2c5ce0f1558f3433a462b477a1f13fd6e3270ef8274d1d7a850335acb464c05",
+      "bytes": 213692
+    },
+    {
+      "placement_id": "CS_d1d6997af5da886bafe9:Gallery/G08.jpg",
+      "surface": "GALLERY",
+      "position": 8,
+      "relative_file": "01_Карточки/Ozon/МТС/П07 SIMPRO/3251066641/CS_d1d6997af5da886bafe9/01_Материалы/Gallery/G08.jpg",
+      "integrity_state": "VERIFIED",
+      "sha256": "45ce23ce179fdd527dd4dd7f99b1c02ac8d31e158fc9078919576c574fa7fed2",
+      "bytes": 92794
+    },
+    {
+      "placement_id": "CS_d1d6997af5da886bafe9:Gallery/G09.jpg",
+      "surface": "GALLERY",
+      "position": 9,
+      "relative_file": "01_Карточки/Ozon/МТС/П07 SIMPRO/3251066641/CS_d1d6997af5da886bafe9/01_Материалы/Gallery/G09.jpg",
+      "integrity_state": "VERIFIED",
+      "sha256": "61ad217b99a91f4d0592c9b3e2852dcbe566b906a73a326dea8c0e975aec6652",
+      "bytes": 199324
+    },
+    {
+      "placement_id": "CS_d1d6997af5da886bafe9:Gallery/G10.jpg",
+      "surface": "GALLERY",
+      "position": 10,
+      "relative_file": "01_Карточки/Ozon/МТС/П07 SIMPRO/3251066641/CS_d1d6997af5da886bafe9/01_Материалы/Gallery/G10.jpg",
+      "integrity_state": "VERIFIED",
+      "sha256": "538443a49e5c0866dea8c2e991d36eb1057f6a0c912bd0eec679ff7cbbceeec6",
+      "bytes": 91811
+    },
+    {
+      "placement_id": "CS_d1d6997af5da886bafe9:Gallery/G11.jpg",
+      "surface": "GALLERY",
+      "position": 11,
+      "relative_file": "01_Карточки/Ozon/МТС/П07 SIMPRO/3251066641/CS_d1d6997af5da886bafe9/01_Материалы/Gallery/G11.jpg",
+      "integrity_state": "VERIFIED",
+      "sha256": "ed4c63ca9c571bc0192d31a39908f5b7bf604efba848ba72c08071192743d615",
+      "bytes": 115860
+    },
+    {
+      "placement_id": "CS_d1d6997af5da886bafe9:Gallery/G12.jpg",
+      "surface": "GALLERY",
+      "position": 12,
+      "relative_file": "01_Карточки/Ozon/МТС/П07 SIMPRO/3251066641/CS_d1d6997af5da886bafe9/01_Материалы/Gallery/G12.jpg",
+      "integrity_state": "VERIFIED",
+      "sha256": "28bac52ede2df035ec05598c24babdcc82a9708d5cec976edf45664b9ef0b393",
+      "bytes": 119037
+    },
+    {
+      "placement_id": "CS_d1d6997af5da886bafe9:Rich/rich_ocr.json",
+      "surface": "RICH",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/МТС/П07 SIMPRO/3251066641/CS_d1d6997af5da886bafe9/01_Материалы/Rich/rich_ocr.json",
+      "integrity_state": "VERIFIED",
+      "sha256": "031394748d463f9fdd897dc477018ffc108c765e74e23691e52ef15e59a5f867",
+      "bytes": 428
+    },
+    {
+      "placement_id": "CS_d1d6997af5da886bafe9:Rich/rich_text.txt",
+      "surface": "RICH",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/МТС/П07 SIMPRO/3251066641/CS_d1d6997af5da886bafe9/01_Материалы/Rich/rich_text.txt",
+      "integrity_state": "VERIFIED",
+      "sha256": "475c6d9f67450ad806600893977435aa206f13a1fc313805a11336835014fb2e",
+      "bytes": 17
+    },
+    {
+      "placement_id": "CS_d1d6997af5da886bafe9:analytics_rank.txt",
+      "surface": "OTHER",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/МТС/П07 SIMPRO/3251066641/CS_d1d6997af5da886bafe9/01_Материалы/analytics_rank.txt",
+      "integrity_state": "VERIFIED",
+      "sha256": "53c234e5e8472b6ac51c1ae1cab3fe06fad053beb8ebfd8977b010655bfdd3c3",
+      "bytes": 2
+    },
+    {
+      "placement_id": "CS_d1d6997af5da886bafe9:availability.txt",
+      "surface": "OTHER",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/МТС/П07 SIMPRO/3251066641/CS_d1d6997af5da886bafe9/01_Материалы/availability.txt",
+      "integrity_state": "VERIFIED",
+      "sha256": "f3db355a863e0dd7fa5ca1c95f35969d61f7cfb1f7a1c64da40b68a8ebed9c4d",
+      "bytes": 26
+    },
+    {
+      "placement_id": "CS_d1d6997af5da886bafe9:card_data.json",
+      "surface": "OTHER",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/МТС/П07 SIMPRO/3251066641/CS_d1d6997af5da886bafe9/01_Материалы/card_data.json",
+      "integrity_state": "VERIFIED",
+      "sha256": "0917b2c891457298008013e4e73efdf0b6c33a7f6a4c2fd68bda1e59f793c3e0",
+      "bytes": 6843
+    },
+    {
+      "placement_id": "CS_d1d6997af5da886bafe9:characteristics.txt",
+      "surface": "CHARACTERISTICS",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/МТС/П07 SIMPRO/3251066641/CS_d1d6997af5da886bafe9/01_Материалы/characteristics.txt",
+      "integrity_state": "VERIFIED",
+      "sha256": "3e70903b15e0c92296acb1e4f18322b33ee4aa23d1b632065b298958ece1427f",
+      "bytes": 1201
+    },
+    {
+      "placement_id": "CS_d1d6997af5da886bafe9:collection_status.txt",
+      "surface": "OTHER",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/МТС/П07 SIMPRO/3251066641/CS_d1d6997af5da886bafe9/01_Материалы/collection_status.txt",
+      "integrity_state": "VERIFIED",
+      "sha256": "cf01585829633e2debef0696d8101ca4fb4702310a2f2256b3b17bd0e753ce8c",
+      "bytes": 10
+    },
+    {
+      "placement_id": "CS_d1d6997af5da886bafe9:content_type.txt",
+      "surface": "OTHER",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/МТС/П07 SIMPRO/3251066641/CS_d1d6997af5da886bafe9/01_Материалы/content_type.txt",
+      "integrity_state": "VERIFIED",
+      "sha256": "ef2f19aa952ed53e7278d36afe2186ded6897e77c46984147cc568a21901af62",
+      "bytes": 12
+    },
+    {
+      "placement_id": "CS_d1d6997af5da886bafe9:description.txt",
+      "surface": "DESCRIPTION",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/МТС/П07 SIMPRO/3251066641/CS_d1d6997af5da886bafe9/01_Материалы/description.txt",
+      "integrity_state": "VERIFIED",
+      "sha256": "35181ef03577eace1d76705d3a7d5c0523254a15ed661f87fe06b604a547beac",
+      "bytes": 2505
+    },
+    {
+      "placement_id": "CS_d1d6997af5da886bafe9:manifest.json",
+      "surface": "OTHER",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/МТС/П07 SIMPRO/3251066641/CS_d1d6997af5da886bafe9/01_Материалы/manifest.json",
+      "integrity_state": "VERIFIED",
+      "sha256": "8bae0dc37d3bb331ad37daa5a29ea738724701850005df923e0f956ae2185934",
+      "bytes": 7085
+    },
+    {
+      "placement_id": "CS_d1d6997af5da886bafe9:price.txt",
+      "surface": "OTHER",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/МТС/П07 SIMPRO/3251066641/CS_d1d6997af5da886bafe9/01_Материалы/price.txt",
+      "integrity_state": "VERIFIED",
+      "sha256": "4355a46b19d348dc2f57c046f8ef63d4538ebb936000f3c9ee954a27460dd865",
+      "bytes": 2
+    },
+    {
+      "placement_id": "CS_d1d6997af5da886bafe9:rating.txt",
+      "surface": "OTHER",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/МТС/П07 SIMPRO/3251066641/CS_d1d6997af5da886bafe9/01_Материалы/rating.txt",
+      "integrity_state": "VERIFIED",
+      "sha256": "597fd61a4dc22d0cf28dd3e89619b1e8cab79ebc61a95aa784a93baab3eecc3a",
+      "bytes": 4
+    },
+    {
+      "placement_id": "CS_d1d6997af5da886bafe9:reviews_count.txt",
+      "surface": "OTHER",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/МТС/П07 SIMPRO/3251066641/CS_d1d6997af5da886bafe9/01_Материалы/reviews_count.txt",
+      "integrity_state": "VERIFIED",
+      "sha256": "af12dd77b3860e9aecf00ea92570cccb9fdfce4f92c5e556f9857d2ba69978a1",
+      "bytes": 5
+    },
+    {
+      "placement_id": "CS_d1d6997af5da886bafe9:seller.txt",
+      "surface": "OTHER",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/МТС/П07 SIMPRO/3251066641/CS_d1d6997af5da886bafe9/01_Материалы/seller.txt",
+      "integrity_state": "VERIFIED",
+      "sha256": "5dfa173877a61f3ce2f357d85ecf937cb1f76260ce7e0c6afcf3fa2a78247ef0",
+      "bytes": 7
+    },
+    {
+      "placement_id": "CS_d1d6997af5da886bafe9:tags.txt",
+      "surface": "OTHER",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/МТС/П07 SIMPRO/3251066641/CS_d1d6997af5da886bafe9/01_Материалы/tags.txt",
+      "integrity_state": "VERIFIED",
+      "sha256": "326c351059b318bd26e0f25cd0ae9c18d78bd30ff4d3a1e7746ad55b24c13c89",
+      "bytes": 394
+    },
+    {
+      "placement_id": "CS_d1d6997af5da886bafe9:title.txt",
+      "surface": "TITLE",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/МТС/П07 SIMPRO/3251066641/CS_d1d6997af5da886bafe9/01_Материалы/title.txt",
+      "integrity_state": "VERIFIED",
+      "sha256": "4f4aa6f71e368166d7522ad2cc1f892ef63a9ae104d631154b2ca6766b7a6c23",
+      "bytes": 163
+    },
+    {
+      "placement_id": "CS_d1d6997af5da886bafe9:url.txt",
+      "surface": "OTHER",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/МТС/П07 SIMPRO/3251066641/CS_d1d6997af5da886bafe9/01_Материалы/url.txt",
+      "integrity_state": "VERIFIED",
+      "sha256": "049110906d58a2a6b727acc1388924fb941ef73d970a024ce94ff31612b1761b",
+      "bytes": 147
+    }
+  ],
+  "data_format": "CAPTURE",
+  "change_number": 1,
+  "coverage_scope": "Все файлы предоставленного снимка; полнота действующей страницы и исполнение услуги отдельно не подтверждены.",
+  "source_note": "Точные сведения источника не являются независимой проверкой тарифного договора или юридических полномочий.",
+  "attributes": {
+    "preliminary_classification": {
+      "task_focus": "CONNECT",
+      "bundle_focus": "NOT_EMPHASIZED_IN_TITLE",
+      "configuration_focus": "NOT_EMPHASIZED_IN_TITLE",
+      "period_focus": "NOT_EMPHASIZED_IN_TITLE",
+      "group_id": "CONNECT_BASE",
+      "group_name": "Подключение: основное предложение",
+      "device_claims": [
+        "PHONE_TABLET"
+      ],
+      "device_claims_status": "POSITIVE_SOURCE_CLAIM_NOT_VERIFIED",
+      "money_roles": [],
+      "money_review_scope": "NOT_ATOMICALLY_REVIEWED",
+      "porting_role": "NOT_ESTABLISHED_IN_ROUTING_SCOPE",
+      "geo_claims": {
+        "legacy_title_claim": "REGION_NOT_IN_TITLE",
+        "verification": "NOT_VERIFIED",
+        "collection_region": "Moscow"
+      },
+      "targeted_evidence": [],
+      "review_note": "",
+      "flags": [],
+      "legal_party_id": "",
+      "authority_status": "UNKNOWN_IN_INSPECTED_INPUTS",
+      "commercial_readiness": "NOT_ESTABLISHED",
+      "content_effect": "NOT_ASSESSED",
+      "market_row_present": "True",
+      "promotion_row_present": "False",
+      "routing_support": {
+        "surface": "TITLE",
+        "source_file": "01_Карточки/Ozon/МТС/П07 SIMPRO/3251066641/CS_d1d6997af5da886bafe9/01_Материалы/title.txt",
+        "basis_text": "телефон / смартфон / планшет",
+        "basis_kind": "PROVIDED_ROUTING_EXPLANATION",
+        "literal_text_match": false,
+        "source_classification_status": "PROVISIONAL_CONTENT_ROUTING",
+        "evidence_status": "INHERITED_NOT_INDEPENDENT_RECODE",
+        "scope_note": "Предоставленное основание предварительной группы; не новая независимая разметка и не проверка совместимости или эффекта."
+      },
+      "device_scope_note": "Перечень устройств является исходной маршрутизацией, а не полной проверкой совместимости."
+    },
+    "classification_status": "PRELIMINARY_CONTENT_ROUTE_NOT_SALES_RANK",
+    "channel": {
+      "platform": "Ozon",
+      "legal_party": "UNKNOWN",
+      "shop_type": "UNKNOWN",
+      "brand_owner": "UNKNOWN",
+      "distributor_status": "UNKNOWN",
+      "budget": "UNKNOWN"
+    },
+    "source_url": "https://www.ozon.ru/product/sim-karta-mts-s-bezlimitnym-internetom-dlya-vsey-rossii-sim-karta-dlya-smartfona-i-plansheta-3251066641/?sh=f35iFbOWYQ"
+  },
+  "metadata_files": [
+    "01_Карточки/Ozon/МТС/П07 SIMPRO/3251066641/CS_d1d6997af5da886bafe9/02_Метаданные/Фрагменты источника.jsonl",
+    "01_Карточки/Ozon/МТС/П07 SIMPRO/3251066641/CS_d1d6997af5da886bafe9/02_Метаданные/Извлечённые сведения.jsonl"
+  ]
+}

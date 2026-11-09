@@ -1,0 +1,409 @@
+{
+  "record_type": "CAPTURE",
+  "intake_id": "BASE:CS_25ede531c1e10cc3720d",
+  "card_id": "OZON:1656554183",
+  "capture_id": "CS_25ede531c1e10cc3720d",
+  "intake_status": "ACCEPTED",
+  "registered_at": null,
+  "platform": "Ozon",
+  "external_card_id": {
+    "state": "KNOWN",
+    "value": "1656554183",
+    "basis": "OBSERVED",
+    "scope": "внешний номер",
+    "source_locator": "01_Карточки/Ozon/МегаФон/П23 МегаФон/1656554183/CS_25ede531c1e10cc3720d/01_Материалы/card_data.json:sku"
+  },
+  "observed_at": {
+    "state": "KNOWN",
+    "value": "2026-09-25T09:39:30.844Z",
+    "basis": "OBSERVED",
+    "scope": "время наблюдения",
+    "source_locator": "01_Карточки/Ozon/МегаФон/П23 МегаФон/1656554183/CS_25ede531c1e10cc3720d/01_Материалы/card_data.json:collected_at"
+  },
+  "seller_display_name": {
+    "state": "KNOWN",
+    "value": "МегаФон",
+    "basis": "OBSERVED",
+    "scope": "точная строка продавца",
+    "source_locator": "01_Карточки/Ozon/МегаФон/П23 МегаФон/1656554183/CS_25ede531c1e10cc3720d/01_Материалы/card_data.json:seller"
+  },
+  "seller_label_code": "П23",
+  "brand": {
+    "state": "KNOWN",
+    "value": "МегаФон",
+    "basis": "OBSERVED",
+    "scope": "заявленный бренд",
+    "source_locator": "01_Карточки/Ozon/МегаФон/П23 МегаФон/1656554183/CS_25ede531c1e10cc3720d/01_Материалы/card_data.json"
+  },
+  "title": {
+    "state": "KNOWN",
+    "value": "Комплект Сим-карт на двоих МегаФон. Москва, Мо",
+    "basis": "OBSERVED",
+    "scope": "заголовок",
+    "source_locator": "01_Карточки/Ozon/МегаФон/П23 МегаФон/1656554183/CS_25ede531c1e10cc3720d/01_Материалы/card_data.json:title"
+  },
+  "source_origin": "Сохранённая страница маркетплейса; дата наблюдения указана в паспорте.",
+  "actual_relative_path": "01_Карточки/Ozon/МегаФон/П23 МегаФон/1656554183/CS_25ede531c1e10cc3720d",
+  "mission": "Две независимые SIM-карты",
+  "offer_model": "Несколько ролей или SIM",
+  "collection_region": "Moscow",
+  "materials": [
+    {
+      "placement_id": "CS_25ede531c1e10cc3720d:Gallery/G01.jpg",
+      "surface": "GALLERY",
+      "position": 1,
+      "relative_file": "01_Карточки/Ozon/МегаФон/П23 МегаФон/1656554183/CS_25ede531c1e10cc3720d/01_Материалы/Gallery/G01.jpg",
+      "integrity_state": "VERIFIED",
+      "sha256": "39ec1b8444bbd7af330f0cf81c15420d6e24627975c734765375176bb3363b77",
+      "bytes": 120950
+    },
+    {
+      "placement_id": "CS_25ede531c1e10cc3720d:Gallery/G02.jpg",
+      "surface": "GALLERY",
+      "position": 2,
+      "relative_file": "01_Карточки/Ozon/МегаФон/П23 МегаФон/1656554183/CS_25ede531c1e10cc3720d/01_Материалы/Gallery/G02.jpg",
+      "integrity_state": "VERIFIED",
+      "sha256": "2f20c261718ee66c035af5a22bb92daf2bd0ee98f07463b6e4b6b0e9f9f45117",
+      "bytes": 87816
+    },
+    {
+      "placement_id": "CS_25ede531c1e10cc3720d:Gallery/G03.jpg",
+      "surface": "GALLERY",
+      "position": 3,
+      "relative_file": "01_Карточки/Ozon/МегаФон/П23 МегаФон/1656554183/CS_25ede531c1e10cc3720d/01_Материалы/Gallery/G03.jpg",
+      "integrity_state": "VERIFIED",
+      "sha256": "188ccafeda94a45412598f93cb2f13a65edc661d7552669a7d0a99c4c4169f23",
+      "bytes": 68993
+    },
+    {
+      "placement_id": "CS_25ede531c1e10cc3720d:Gallery/G04.jpg",
+      "surface": "GALLERY",
+      "position": 4,
+      "relative_file": "01_Карточки/Ozon/МегаФон/П23 МегаФон/1656554183/CS_25ede531c1e10cc3720d/01_Материалы/Gallery/G04.jpg",
+      "integrity_state": "VERIFIED",
+      "sha256": "49712d444bfb08c81d6b161c29802a2754cb334927238a3e38329c3f1c9b704b",
+      "bytes": 92095
+    },
+    {
+      "placement_id": "CS_25ede531c1e10cc3720d:Gallery/G05.jpg",
+      "surface": "GALLERY",
+      "position": 5,
+      "relative_file": "01_Карточки/Ozon/МегаФон/П23 МегаФон/1656554183/CS_25ede531c1e10cc3720d/01_Материалы/Gallery/G05.jpg",
+      "integrity_state": "VERIFIED",
+      "sha256": "f78df6adedabb58a1d6b5c932c8f0c373e263ba4e149c459f7c2b4b3f85f310e",
+      "bytes": 76994
+    },
+    {
+      "placement_id": "CS_25ede531c1e10cc3720d:Gallery/G06.jpg",
+      "surface": "GALLERY",
+      "position": 6,
+      "relative_file": "01_Карточки/Ozon/МегаФон/П23 МегаФон/1656554183/CS_25ede531c1e10cc3720d/01_Материалы/Gallery/G06.jpg",
+      "integrity_state": "VERIFIED",
+      "sha256": "44588309296c9c8e2d2079495b16c4850afa75638c9d67ba2026f04105fe8d90",
+      "bytes": 76692
+    },
+    {
+      "placement_id": "CS_25ede531c1e10cc3720d:Gallery/G07.jpg",
+      "surface": "GALLERY",
+      "position": 7,
+      "relative_file": "01_Карточки/Ozon/МегаФон/П23 МегаФон/1656554183/CS_25ede531c1e10cc3720d/01_Материалы/Gallery/G07.jpg",
+      "integrity_state": "VERIFIED",
+      "sha256": "2f2e055c3a8ac5f874b204acda530c204801725a0f2209769586d474b443ca39",
+      "bytes": 110240
+    },
+    {
+      "placement_id": "CS_25ede531c1e10cc3720d:Gallery/G08.jpg",
+      "surface": "GALLERY",
+      "position": 8,
+      "relative_file": "01_Карточки/Ozon/МегаФон/П23 МегаФон/1656554183/CS_25ede531c1e10cc3720d/01_Материалы/Gallery/G08.jpg",
+      "integrity_state": "VERIFIED",
+      "sha256": "b957da149d6a0a8ce4ee25f091287ada3e9b799386a3dbdedd901ce9ee8255a0",
+      "bytes": 90773
+    },
+    {
+      "placement_id": "CS_25ede531c1e10cc3720d:Gallery/G09.jpg",
+      "surface": "GALLERY",
+      "position": 9,
+      "relative_file": "01_Карточки/Ozon/МегаФон/П23 МегаФон/1656554183/CS_25ede531c1e10cc3720d/01_Материалы/Gallery/G09.jpg",
+      "integrity_state": "VERIFIED",
+      "sha256": "169e9b18c9123a7f72e42c5a0667322265810e6108ce428f47471b6b19982585",
+      "bytes": 92127
+    },
+    {
+      "placement_id": "CS_25ede531c1e10cc3720d:Gallery/G10.jpg",
+      "surface": "GALLERY",
+      "position": 10,
+      "relative_file": "01_Карточки/Ozon/МегаФон/П23 МегаФон/1656554183/CS_25ede531c1e10cc3720d/01_Материалы/Gallery/G10.jpg",
+      "integrity_state": "VERIFIED",
+      "sha256": "fd0967e448ddb2a6ea20b58171297e829ab8f145a68ab1b8cc996f5042f5367e",
+      "bytes": 81481
+    },
+    {
+      "placement_id": "CS_25ede531c1e10cc3720d:Rich/R01.jpg",
+      "surface": "RICH",
+      "position": 1,
+      "relative_file": "01_Карточки/Ozon/МегаФон/П23 МегаФон/1656554183/CS_25ede531c1e10cc3720d/01_Материалы/Rich/R01.jpg",
+      "integrity_state": "VERIFIED",
+      "sha256": "1bef7d3d45db147bd65a5181377dfcb204033029fb54b236f6c9ef2da283af3f",
+      "bytes": 272770
+    },
+    {
+      "placement_id": "CS_25ede531c1e10cc3720d:Rich/R02.jpg",
+      "surface": "RICH",
+      "position": 2,
+      "relative_file": "01_Карточки/Ozon/МегаФон/П23 МегаФон/1656554183/CS_25ede531c1e10cc3720d/01_Материалы/Rich/R02.jpg",
+      "integrity_state": "VERIFIED",
+      "sha256": "1fcd06b488f2350505ffae630f08d032735f111471429608a45a6dad312ea6b2",
+      "bytes": 153253
+    },
+    {
+      "placement_id": "CS_25ede531c1e10cc3720d:Rich/R03.jpg",
+      "surface": "RICH",
+      "position": 3,
+      "relative_file": "01_Карточки/Ozon/МегаФон/П23 МегаФон/1656554183/CS_25ede531c1e10cc3720d/01_Материалы/Rich/R03.jpg",
+      "integrity_state": "VERIFIED",
+      "sha256": "abd1dcab949e0fcd838fbe8398cdf68c0d69cf3fa2cd69053054c997aea0ff2b",
+      "bytes": 224366
+    },
+    {
+      "placement_id": "CS_25ede531c1e10cc3720d:Rich/R04.jpg",
+      "surface": "RICH",
+      "position": 4,
+      "relative_file": "01_Карточки/Ozon/МегаФон/П23 МегаФон/1656554183/CS_25ede531c1e10cc3720d/01_Материалы/Rich/R04.jpg",
+      "integrity_state": "VERIFIED",
+      "sha256": "307aae7f365cf434ba4e055e5d3e02444f5cd8f3f4d9bde6e13470d6baa14709",
+      "bytes": 129442
+    },
+    {
+      "placement_id": "CS_25ede531c1e10cc3720d:Rich/R05.jpg",
+      "surface": "RICH",
+      "position": 5,
+      "relative_file": "01_Карточки/Ozon/МегаФон/П23 МегаФон/1656554183/CS_25ede531c1e10cc3720d/01_Материалы/Rich/R05.jpg",
+      "integrity_state": "VERIFIED",
+      "sha256": "8573c76508636a86ae56c78f291f965af55393f6493bbb7e2f427e1316533b88",
+      "bytes": 287499
+    },
+    {
+      "placement_id": "CS_25ede531c1e10cc3720d:Rich/R06.jpg",
+      "surface": "RICH",
+      "position": 6,
+      "relative_file": "01_Карточки/Ozon/МегаФон/П23 МегаФон/1656554183/CS_25ede531c1e10cc3720d/01_Материалы/Rich/R06.jpg",
+      "integrity_state": "VERIFIED",
+      "sha256": "603df7791cb1dd65691c214fe0317ded21e389b6a01921ef507b2adc4362a607",
+      "bytes": 122694
+    },
+    {
+      "placement_id": "CS_25ede531c1e10cc3720d:Rich/rich_ocr.json",
+      "surface": "RICH",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/МегаФон/П23 МегаФон/1656554183/CS_25ede531c1e10cc3720d/01_Материалы/Rich/rich_ocr.json",
+      "integrity_state": "VERIFIED",
+      "sha256": "1a36810f8a446d078870e064cd8d688eccdf45d68a9a2cef66eb5ea976299c22",
+      "bytes": 6354
+    },
+    {
+      "placement_id": "CS_25ede531c1e10cc3720d:Rich/rich_text.txt",
+      "surface": "RICH",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/МегаФон/П23 МегаФон/1656554183/CS_25ede531c1e10cc3720d/01_Материалы/Rich/rich_text.txt",
+      "integrity_state": "VERIFIED",
+      "sha256": "349fa53423c1492df99a8366334b083ddaa18260cd21dd478610dc92aae8c66d",
+      "bytes": 1074
+    },
+    {
+      "placement_id": "CS_25ede531c1e10cc3720d:analytics_rank.txt",
+      "surface": "OTHER",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/МегаФон/П23 МегаФон/1656554183/CS_25ede531c1e10cc3720d/01_Материалы/analytics_rank.txt",
+      "integrity_state": "VERIFIED",
+      "sha256": "c2464c2bbb48985528da8c1add16bda77c1aa84c2c9813db2e4f4158a5f9167b",
+      "bytes": 18
+    },
+    {
+      "placement_id": "CS_25ede531c1e10cc3720d:availability.txt",
+      "surface": "OTHER",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/МегаФон/П23 МегаФон/1656554183/CS_25ede531c1e10cc3720d/01_Материалы/availability.txt",
+      "integrity_state": "VERIFIED",
+      "sha256": "f3db355a863e0dd7fa5ca1c95f35969d61f7cfb1f7a1c64da40b68a8ebed9c4d",
+      "bytes": 26
+    },
+    {
+      "placement_id": "CS_25ede531c1e10cc3720d:card_data.json",
+      "surface": "OTHER",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/МегаФон/П23 МегаФон/1656554183/CS_25ede531c1e10cc3720d/01_Материалы/card_data.json",
+      "integrity_state": "VERIFIED",
+      "sha256": "229cca2b1e707990d3e329da4d02317a81d266adfc2c0060cefd7c26f1d10270",
+      "bytes": 11624
+    },
+    {
+      "placement_id": "CS_25ede531c1e10cc3720d:characteristics.txt",
+      "surface": "CHARACTERISTICS",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/МегаФон/П23 МегаФон/1656554183/CS_25ede531c1e10cc3720d/01_Материалы/characteristics.txt",
+      "integrity_state": "VERIFIED",
+      "sha256": "0ba72a440691c28d52d127fbd84fbb492b7ae7939d312ef3f744835ef6c435ac",
+      "bytes": 1146
+    },
+    {
+      "placement_id": "CS_25ede531c1e10cc3720d:collection_status.txt",
+      "surface": "OTHER",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/МегаФон/П23 МегаФон/1656554183/CS_25ede531c1e10cc3720d/01_Материалы/collection_status.txt",
+      "integrity_state": "VERIFIED",
+      "sha256": "cf01585829633e2debef0696d8101ca4fb4702310a2f2256b3b17bd0e753ce8c",
+      "bytes": 10
+    },
+    {
+      "placement_id": "CS_25ede531c1e10cc3720d:content_type.txt",
+      "surface": "OTHER",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/МегаФон/П23 МегаФон/1656554183/CS_25ede531c1e10cc3720d/01_Материалы/content_type.txt",
+      "integrity_state": "VERIFIED",
+      "sha256": "96e6625bbd580d529a6384d96146fa3a05f7fb416cb4614fd8cd7135be2d77d1",
+      "bytes": 28
+    },
+    {
+      "placement_id": "CS_25ede531c1e10cc3720d:description.txt",
+      "surface": "DESCRIPTION",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/МегаФон/П23 МегаФон/1656554183/CS_25ede531c1e10cc3720d/01_Материалы/description.txt",
+      "integrity_state": "VERIFIED",
+      "sha256": "ec3d38ee9fd7677c04c73e595b3c1e19a459d1caf6a59ad70a1c0f319a0e5a0d",
+      "bytes": 7596
+    },
+    {
+      "placement_id": "CS_25ede531c1e10cc3720d:manifest.json",
+      "surface": "OTHER",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/МегаФон/П23 МегаФон/1656554183/CS_25ede531c1e10cc3720d/01_Материалы/manifest.json",
+      "integrity_state": "VERIFIED",
+      "sha256": "8febc99b4a3df916446d3ac8efa42c8b1eeed84e334ded6ef060327d673a88b4",
+      "bytes": 8736
+    },
+    {
+      "placement_id": "CS_25ede531c1e10cc3720d:price.txt",
+      "surface": "OTHER",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/МегаФон/П23 МегаФон/1656554183/CS_25ede531c1e10cc3720d/01_Материалы/price.txt",
+      "integrity_state": "VERIFIED",
+      "sha256": "7ffa842bcdc9ae5580846bb8073b7177dfe024604a9a57ee675b73d73ce29f28",
+      "bytes": 4
+    },
+    {
+      "placement_id": "CS_25ede531c1e10cc3720d:rating.txt",
+      "surface": "OTHER",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/МегаФон/П23 МегаФон/1656554183/CS_25ede531c1e10cc3720d/01_Материалы/rating.txt",
+      "integrity_state": "VERIFIED",
+      "sha256": "335f6442cc8f7e4980fe4ba346115a00101db5a939992b25b27ebf595238e8d5",
+      "bytes": 4
+    },
+    {
+      "placement_id": "CS_25ede531c1e10cc3720d:reviews_count.txt",
+      "surface": "OTHER",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/МегаФон/П23 МегаФон/1656554183/CS_25ede531c1e10cc3720d/01_Материалы/reviews_count.txt",
+      "integrity_state": "VERIFIED",
+      "sha256": "0f55225511fa29e9d1d46333d3dfa0a831b735d35b82548a3ee6ae5156fa6618",
+      "bytes": 5
+    },
+    {
+      "placement_id": "CS_25ede531c1e10cc3720d:seller.txt",
+      "surface": "OTHER",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/МегаФон/П23 МегаФон/1656554183/CS_25ede531c1e10cc3720d/01_Материалы/seller.txt",
+      "integrity_state": "VERIFIED",
+      "sha256": "c46b39fabfa12f5af4e6a070c036df8db5584816566bb5c955b6d8ad5eb398cf",
+      "bytes": 15
+    },
+    {
+      "placement_id": "CS_25ede531c1e10cc3720d:tags.txt",
+      "surface": "OTHER",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/МегаФон/П23 МегаФон/1656554183/CS_25ede531c1e10cc3720d/01_Материалы/tags.txt",
+      "integrity_state": "VERIFIED",
+      "sha256": "612cdd4530acec504048e744e1ad12e122107a1544008eb8f3fbe786555ac66b",
+      "bytes": 114
+    },
+    {
+      "placement_id": "CS_25ede531c1e10cc3720d:title.txt",
+      "surface": "TITLE",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/МегаФон/П23 МегаФон/1656554183/CS_25ede531c1e10cc3720d/01_Материалы/title.txt",
+      "integrity_state": "VERIFIED",
+      "sha256": "65aa8c447896a40fa2c04e6857fd3a65995753584b57f4f7de6315965eed1f20",
+      "bytes": 84
+    },
+    {
+      "placement_id": "CS_25ede531c1e10cc3720d:url.txt",
+      "surface": "OTHER",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/МегаФон/П23 МегаФон/1656554183/CS_25ede531c1e10cc3720d/01_Материалы/url.txt",
+      "integrity_state": "VERIFIED",
+      "sha256": "6cbf2731b6d3b4ca38add4cec54035a60d7fbe94c623fcdcbbac4c89405965c1",
+      "bytes": 99
+    }
+  ],
+  "data_format": "CAPTURE",
+  "change_number": 1,
+  "coverage_scope": "Все файлы предоставленного снимка; полнота действующей страницы и исполнение услуги отдельно не подтверждены.",
+  "source_note": "Точные сведения источника не являются независимой проверкой тарифного договора или юридических полномочий.",
+  "attributes": {
+    "preliminary_classification": {
+      "task_focus": "MULTI",
+      "bundle_focus": "INDEPENDENT_PAIR_EMPHASIS",
+      "configuration_focus": "NOT_EMPHASIZED_IN_TITLE",
+      "period_focus": "NOT_EMPHASIZED_IN_TITLE",
+      "group_id": "MULTI_INDEPENDENT_PAIR",
+      "group_name": "Две независимые SIM-карты",
+      "device_claims": [],
+      "device_claims_status": "UNDETERMINED_IN_ROUTING_SCOPE",
+      "money_roles": [],
+      "money_review_scope": "NOT_ATOMICALLY_REVIEWED",
+      "porting_role": "NOT_ESTABLISHED_IN_ROUTING_SCOPE",
+      "geo_claims": {
+        "legacy_title_claim": "MOSCOW_MO",
+        "verification": "NOT_VERIFIED",
+        "collection_region": "Moscow"
+      },
+      "targeted_evidence": [],
+      "review_note": "",
+      "flags": [],
+      "legal_party_id": "",
+      "authority_status": "UNKNOWN_IN_INSPECTED_INPUTS",
+      "commercial_readiness": "NOT_ESTABLISHED",
+      "content_effect": "NOT_ASSESSED",
+      "market_row_present": "True",
+      "promotion_row_present": "False",
+      "routing_support": {
+        "surface": "TITLE",
+        "source_file": "01_Карточки/Ozon/МегаФон/П23 МегаФон/1656554183/CS_25ede531c1e10cc3720d/01_Материалы/title.txt",
+        "basis_text": "на двоих",
+        "basis_kind": "EXACT_STORED_TEXT",
+        "literal_text_match": true,
+        "source_classification_status": "PROVISIONAL_CONTENT_ROUTING",
+        "evidence_status": "INHERITED_NOT_INDEPENDENT_RECODE",
+        "scope_note": "Предоставленное основание предварительной группы; не новая независимая разметка и не проверка совместимости или эффекта.",
+        "quote": "на двоих",
+        "bundle_support": "Приобретайте комплект из двух независимых Сим-карт с отличием всего в одну цифру. Парный номер — удобно для членов семьи или для разных устройств. "
+      },
+      "device_scope_note": "Перечень устройств является исходной маршрутизацией, а не полной проверкой совместимости."
+    },
+    "classification_status": "PRELIMINARY_CONTENT_ROUTE_NOT_SALES_RANK",
+    "channel": {
+      "platform": "Ozon",
+      "legal_party": "UNKNOWN",
+      "shop_type": "UNKNOWN",
+      "brand_owner": "UNKNOWN",
+      "distributor_status": "UNKNOWN",
+      "budget": "UNKNOWN"
+    },
+    "source_url": "https://www.ozon.ru/product/komplekt-sim-kart-na-dvoih-megafon-moskva-mo-1656554183/?sh=f35iFSoX6A"
+  },
+  "metadata_files": [
+    "01_Карточки/Ozon/МегаФон/П23 МегаФон/1656554183/CS_25ede531c1e10cc3720d/02_Метаданные/Фрагменты источника.jsonl",
+    "01_Карточки/Ozon/МегаФон/П23 МегаФон/1656554183/CS_25ede531c1e10cc3720d/02_Метаданные/Извлечённые сведения.jsonl"
+  ]
+}

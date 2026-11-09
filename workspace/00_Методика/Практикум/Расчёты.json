@@ -1,0 +1,61 @@
+{
+  "scope": "SKU-window aggregates; not individual conversion or causal effect",
+  "rows": [
+    {
+      "sku": "3145077393",
+      "source": {
+        "sheet": "Sheet1",
+        "row": 457,
+        "file": "00_Данные/Продажи.xlsx"
+      },
+      "shows": 126247,
+      "views": 2655,
+      "units": 497,
+      "views_per_1000_shows": "21.03020269788589035779068017",
+      "units_per_1000_views": "187.1939736346516007532956685",
+      "units_per_1000_shows": "3.936727209359430323096786458"
+    },
+    {
+      "sku": "4451881531",
+      "source": {
+        "sheet": "Sheet1",
+        "row": 180,
+        "file": "00_Данные/Продажи.xlsx"
+      },
+      "shows": 577187,
+      "views": 14946,
+      "units": 1159,
+      "views_per_1000_shows": "25.89455410464892660437605144",
+      "units_per_1000_views": "77.54583166064498862571925599",
+      "units_per_1000_shows": "2.008014733526569378728211134"
+    },
+    {
+      "sku": "1614509709",
+      "source": {
+        "sheet": "Sheet1",
+        "row": 985,
+        "file": "00_Данные/Продажи.xlsx"
+      },
+      "shows": 18918,
+      "views": 701,
+      "units": 5,
+      "views_per_1000_shows": "37.05465694047996616978538958",
+      "units_per_1000_views": "7.132667617689015691868758916",
+      "units_per_1000_shows": "0.2642985516439369912252880854"
+    },
+    {
+      "sku": "1656554183",
+      "source": {
+        "sheet": "Sheet1",
+        "row": 885,
+        "file": "00_Данные/Продажи.xlsx"
+      },
+      "shows": 27031,
+      "views": 1045,
+      "units": 29,
+      "views_per_1000_shows": "38.65931708038918279012985091",
+      "units_per_1000_views": "27.75119617224880382775119617",
+      "units_per_1000_shows": "1.072842292183049091783507824"
+    }
+  ]
+}

@@ -1,0 +1,3597 @@
+{
+  "purpose": "Сохранить определения прежних оснований и рабочие связи с текущими методами без 280 обязательных полей.",
+  "policy": {
+    "required_agent_skills": [],
+    "required_external_services": [],
+    "respondent_methods": [],
+    "full_pgmm_required": false,
+    "activate_only_by_question": true,
+    "legacy_codes_are_navigation_not_scores": true
+  },
+  "facets": [
+    {
+      "id": "F01",
+      "name": "Происхождение, идентичность и зависимость материалов",
+      "decision_use": "Различать уникальные источники, копии и независимые подтверждения.",
+      "methods": [
+        "EA-00"
+      ],
+      "activation": "ONLY_WHEN_IT_CHANGES_THE_QUESTION_OR_DECISION",
+      "scope_note": "Не обязательные поля всех карточек; использовать соответствующие вопросу признаки.",
+      "fields": [
+        {
+          "id": "F01.asset_id",
+          "name": "Идентичность материала",
+          "value_type": "identifier",
+          "definition": "Один неизменяемый цифровой объект; байтовая идентичность отделена от его использования.",
+          "source_id": "F01.asset_id"
+        },
+        {
+          "id": "F01.origin_chain",
+          "name": "Цепочка происхождения",
+          "value_type": "relation_set",
+          "definition": "Оригинал, выгрузка, снимок, копия, извлечение, OCR, аналитическая производная.",
+          "source_id": "F01.origin_chain"
+        },
+        {
+          "id": "F01.reuse_relation",
+          "name": "Повторное использование",
+          "value_type": "relation_set",
+          "definition": "Тот же файл, повторное размещение, фрагмент, переработка, независимо созданный аналог.",
+          "source_id": "F01.reuse_relation"
+        },
+        {
+          "id": "F01.creator_and_rightsholder",
+          "name": "Создатель и владелец",
+          "value_type": "profile",
+          "definition": "Установленные стороны; похожий стиль не доказывает общего автора.",
+          "source_id": "F01.creator_and_rightsholder"
+        },
+        {
+          "id": "F01.collection_method",
+          "name": "Способ получения",
+          "value_type": "nominal",
+          "definition": "Ручной сбор, интерфейс, экспорт кабинета, предоставление владельцем, производный расчёт.",
+          "source_id": "F01.collection_method"
+        },
+        {
+          "id": "F01.selection_basis",
+          "name": "Основание включения",
+          "value_type": "profile",
+          "definition": "Поиск, утверждённый портфель, высокий/низкий результат, редкий случай, доступность; с датой.",
+          "source_id": "F01.selection_basis"
+        },
+        {
+          "id": "F01.dependency_family",
+          "name": "Семейство зависимости",
+          "value_type": "identifier_set",
+          "definition": "Общий файл, шаблон, продавец, компания/группа, агентство, каталожная карточка, бюджет или повторный запуск; зависимость подтверждается в своей области.",
+          "source_id": "F01.dependency_family"
+        },
+        {
+          "id": "F01.material_role",
+          "name": "Роль материала в исследовании",
+          "value_type": "nominal",
+          "definition": "Содержание карточки, продуктовый документ, контекстная выгрузка, измерение, калибровочный вход, разметка, вывод, рекомендация или макет; производная не подменяет первичный материал.",
+          "source_id": "F01.material_role"
+        }
+      ]
+    },
+    {
+      "id": "F02",
+      "name": "Версии, время и границы наблюдения",
+      "decision_use": "Сопоставлять одинаковое состояние объекта и времени.",
+      "methods": [
+        "EA-00",
+        "EA-13"
+      ],
+      "activation": "ONLY_WHEN_IT_CHANGES_THE_QUESTION_OR_DECISION",
+      "scope_note": "Не обязательные поля всех карточек; использовать соответствующие вопросу признаки.",
+      "fields": [
+        {
+          "id": "F02.snapshot_identity",
+          "name": "Снимок карточки",
+          "value_type": "tuple",
+          "definition": "Площадка/рынок и тип интерфейса, магазин/кабинет, предложение продавца, каталожная карточка/вариант, регион, момент и выбранные поверхности. Неизвестные ID не подменяются отображаемым именем.",
+          "source_id": "F02.snapshot_identity"
+        },
+        {
+          "id": "F02.content_revision",
+          "name": "Редакция содержания",
+          "value_type": "identifier",
+          "definition": "Версия текста и изображений, а не только время получения файла.",
+          "source_id": "F02.content_revision"
+        },
+        {
+          "id": "F02.offer_revision",
+          "name": "Версия предложения",
+          "value_type": "identifier",
+          "definition": "Версия тарифа/комплекта и условий; может меняться независимо от дизайна.",
+          "source_id": "F02.offer_revision"
+        },
+        {
+          "id": "F02.capture_time",
+          "name": "Момент фиксации",
+          "value_type": "time",
+          "definition": "Дата и часовая зона получения материала; неизвестная зона сохраняется.",
+          "source_id": "F02.capture_time"
+        },
+        {
+          "id": "F02.validity_interval",
+          "name": "Период действия",
+          "value_type": "interval",
+          "definition": "Когда предложение/правило действительно применимо, если это установлено.",
+          "source_id": "F02.validity_interval"
+        },
+        {
+          "id": "F02.measurement_window",
+          "name": "Окно измерения",
+          "value_type": "interval",
+          "definition": "Период счётчика; отдельно окно последующих событий.",
+          "source_id": "F02.measurement_window"
+        },
+        {
+          "id": "F02.exposure_version_link",
+          "name": "Связь версии с показом",
+          "value_type": "relation",
+          "definition": "Какая версия содержания и какое предложение конкретного продавца реально показаны; один снимок не описывает период и смену выбранного продавца.",
+          "source_id": "F02.exposure_version_link"
+        }
+      ]
+    },
+    {
+      "id": "F03",
+      "name": "Полнота, доступность и пригодность данных",
+      "decision_use": "Определить, какой вид исследования доступен.",
+      "methods": [
+        "EA-00"
+      ],
+      "activation": "ONLY_WHEN_IT_CHANGES_THE_QUESTION_OR_DECISION",
+      "scope_note": "Не обязательные поля всех карточек; использовать соответствующие вопросу признаки.",
+      "fields": [
+        {
+          "id": "F03.coverage_scope",
+          "name": "Область обследования",
+          "value_type": "profile",
+          "definition": "Какие поверхности, элементы, даты и каналы фактически изучены.",
+          "source_id": "F03.coverage_scope"
+        },
+        {
+          "id": "F03.presence_state",
+          "name": "Состояние получения",
+          "value_type": "nominal",
+          "definition": "Получено; проверенно отсутствует в области; не собрано; недоступно; повреждено; нечитаемо.",
+          "source_id": "F03.presence_state"
+        },
+        {
+          "id": "F03.technical_fidelity",
+          "name": "Техническая сохранность",
+          "value_type": "profile",
+          "definition": "Разрешение, обрезка, сжатие, масштаб, цвет, полнота текста и таблицы.",
+          "source_id": "F03.technical_fidelity"
+        },
+        {
+          "id": "F03.extraction_method",
+          "name": "Метод извлечения",
+          "value_type": "nominal",
+          "definition": "Чтение пикселей, OCR, экспорт, ручная запись, расчёт; с ограничением.",
+          "source_id": "F03.extraction_method"
+        },
+        {
+          "id": "F03.join_coverage",
+          "name": "Покрытие связи",
+          "value_type": "ratio",
+          "definition": "Числитель, знаменатель и причины несопоставленных объектов, без нулевой подстановки.",
+          "source_id": "F03.join_coverage"
+        },
+        {
+          "id": "F03.source_grain",
+          "name": "Уровень строки источника",
+          "value_type": "tuple",
+          "definition": "Что представляет запись: день, кампания, SKU, фраза, сессия, заказ, итог или корректировка.",
+          "source_id": "F03.source_grain"
+        },
+        {
+          "id": "F03.readiness_by_use",
+          "name": "Пригодность по задаче",
+          "value_type": "profile",
+          "definition": "Можно описывать текст; нельзя измерять чтение; можно считать показы; нельзя связывать их с версией.",
+          "source_id": "F03.readiness_by_use"
+        },
+        {
+          "id": "F03.transformation_audit",
+          "name": "Преобразования и потери",
+          "value_type": "profile",
+          "definition": "Фильтры, нормализация, объединение, исключения, подстановки и потерянные детали; исходное значение сохраняется.",
+          "source_id": "F03.transformation_audit"
+        }
+      ]
+    },
+    {
+      "id": "F04",
+      "name": "Предмет предложения и продуктовая модель",
+      "decision_use": "Сравнивать предложения одного предметного типа.",
+      "methods": [
+        "EA-02",
+        "EA-03"
+      ],
+      "activation": "ONLY_WHEN_IT_CHANGES_THE_QUESTION_OR_DECISION",
+      "scope_note": "Не обязательные поля всех карточек; использовать соответствующие вопросу признаки.",
+      "fields": [
+        {
+          "id": "F04.physical_component",
+          "name": "Физический/цифровой предмет",
+          "value_type": "nominal_set",
+          "definition": "SIM, eSIM, номер, комплект, аксессуар, устройство; без сведения всего к названию категории.",
+          "source_id": "F04.physical_component"
+        },
+        {
+          "id": "F04.service_component",
+          "name": "Услуга и право",
+          "value_type": "profile",
+          "definition": "Доступ к тарифу, выбор конфигурации, перенос, активация, сопровождение.",
+          "source_id": "F04.service_component"
+        },
+        {
+          "id": "F04.bundle_structure",
+          "name": "Структура комплекта",
+          "value_type": "relation_set",
+          "definition": "Что входит в одну покупку и какие элементы только изображены или предлагаются дополнительно.",
+          "source_id": "F04.bundle_structure"
+        },
+        {
+          "id": "F04.configuration_model",
+          "name": "Модель выбора",
+          "value_type": "nominal",
+          "definition": "Фиксированная, конструктор, набор вариантов, выбор при активации, условная/временная конфигурация.",
+          "source_id": "F04.configuration_model"
+        },
+        {
+          "id": "F04.supply_unit",
+          "name": "Единица поставки",
+          "value_type": "tuple",
+          "definition": "Число SIM/номеров/участников, единица покупки и использования.",
+          "source_id": "F04.supply_unit"
+        },
+        {
+          "id": "F04.lifecycle_model",
+          "name": "Модель потребления",
+          "value_type": "nominal",
+          "definition": "Разовая покупка, регулярная услуга, предоплаченный период, пробный период, переход между режимами.",
+          "source_id": "F04.lifecycle_model"
+        },
+        {
+          "id": "F04.product_identity_status",
+          "name": "Определённость предмета",
+          "value_type": "nominal",
+          "definition": "Заявлен, документально установлен, частично установлен, конфликтует или неизвестен.",
+          "source_id": "F04.product_identity_status"
+        },
+        {
+          "id": "F04.variant_architecture",
+          "name": "Варианты и объединённая карточка",
+          "value_type": "relation_set",
+          "definition": "Связь SKU, вариантов и объединённых поверхностей; общий отзыв или изображение не приписывается каждому без проверки.",
+          "source_id": "F04.variant_architecture"
+        }
+      ]
+    },
+    {
+      "id": "F05",
+      "name": "Потребность, задача и повод выбора",
+      "decision_use": "Формировать группы по решаемой задаче.",
+      "methods": [
+        "EA-01"
+      ],
+      "activation": "ONLY_WHEN_IT_CHANGES_THE_QUESTION_OR_DECISION",
+      "scope_note": "Не обязательные поля всех карточек; использовать соответствующие вопросу признаки.",
+      "fields": [
+        {
+          "id": "F05.customer_problem",
+          "name": "Проблема/потребность",
+          "value_type": "nominal_set",
+          "definition": "Связь, интернет, снижение затрат, сохранение номера, подключение устройства, совместное использование, выбор номера.",
+          "source_id": "F05.customer_problem"
+        },
+        {
+          "id": "F05.desired_outcome",
+          "name": "Желаемый результат",
+          "value_type": "profile",
+          "definition": "Конкретное состояние, которое хочет получить пользователь; не торговый результат продавца.",
+          "source_id": "F05.desired_outcome"
+        },
+        {
+          "id": "F05.usage_scenario",
+          "name": "Сценарий использования",
+          "value_type": "nominal_set",
+          "definition": "Личный смартфон, домашний интернет, камера, часы, семья, резервный канал, поездка.",
+          "source_id": "F05.usage_scenario"
+        },
+        {
+          "id": "F05.decision_task",
+          "name": "Задача выбора",
+          "value_type": "nominal_set",
+          "definition": "Новый номер, сохранение номера, сравнение пакетов, настройка конфигурации, распределение ролей.",
+          "source_id": "F05.decision_task"
+        },
+        {
+          "id": "F05.primary_secondary_status",
+          "name": "Приоритет задачи",
+          "value_type": "nominal",
+          "definition": "Основная в данном исследовании, дополнительная, возможная или неустановленная; приоритет не свойство навсегда.",
+          "source_id": "F05.primary_secondary_status"
+        },
+        {
+          "id": "F05.need_evidence_basis",
+          "name": "Основание назначения",
+          "value_type": "nominal",
+          "definition": "Явное сообщение, повторяемая структура предложения, интерпретация аналитика, исследование пользователя.",
+          "source_id": "F05.need_evidence_basis"
+        },
+        {
+          "id": "F05.scenario_scope",
+          "name": "Границы сценария",
+          "value_type": "profile",
+          "definition": "Для кого, где, когда и при каких условиях задача применима.",
+          "source_id": "F05.scenario_scope"
+        },
+        {
+          "id": "F05.mission_status",
+          "name": "Статус знания задачи",
+          "value_type": "nominal",
+          "definition": "Заявлена в карточке, задана владельцем, выведена аналитиком или установлена исследованием пользователей.",
+          "source_id": "F05.mission_status"
+        }
+      ]
+    },
+    {
+      "id": "F06",
+      "name": "Роли участников и контекст аудитории",
+      "decision_use": "Различать, кто выбирает, платит, использует и активирует.",
+      "methods": [
+        "EA-01",
+        "EA-02"
+      ],
+      "activation": "ONLY_WHEN_IT_CHANGES_THE_QUESTION_OR_DECISION",
+      "scope_note": "Не обязательные поля всех карточек; использовать соответствующие вопросу признаки.",
+      "fields": [
+        {
+          "id": "F06.actor_role",
+          "name": "Роль участника",
+          "value_type": "nominal_set",
+          "definition": "Покупатель, плательщик, организатор, участник, пользователь устройства, активирующий, владелец номера.",
+          "source_id": "F06.actor_role"
+        },
+        {
+          "id": "F06.role_relations",
+          "name": "Отношения ролей",
+          "value_type": "relation_set",
+          "definition": "Один платит за нескольких, общий или личный пакет, необходимость второго участника.",
+          "source_id": "F06.role_relations"
+        },
+        {
+          "id": "F06.stated_audience",
+          "name": "Заявленная аудитория",
+          "value_type": "nominal_set",
+          "definition": "Только названные в материале группы; рекламное обращение отделяется от фактической аудитории.",
+          "source_id": "F06.stated_audience"
+        },
+        {
+          "id": "F06.measured_audience",
+          "name": "Измеренная аудитория",
+          "value_type": "profile",
+          "definition": "Состав реально наблюдавшейся выборки и способ определения.",
+          "source_id": "F06.measured_audience"
+        },
+        {
+          "id": "F06.eligibility_requirements",
+          "name": "Требования к участию",
+          "value_type": "profile",
+          "definition": "Документы, возрастные/договорные условия и действия в заявленном или подтверждённом статусе, с датой.",
+          "source_id": "F06.eligibility_requirements"
+        },
+        {
+          "id": "F06.prior_knowledge",
+          "name": "Исходные знания",
+          "value_type": "profile",
+          "definition": "Знакомство с категорией, тарифом, регистрацией; только установленное или явная гипотеза.",
+          "source_id": "F06.prior_knowledge"
+        },
+        {
+          "id": "F06.choice_stage",
+          "name": "Этап выбора",
+          "value_type": "nominal",
+          "definition": "Первое распознавание, сравнение, проверка условий, покупка, активация, помощь.",
+          "source_id": "F06.choice_stage"
+        }
+      ]
+    },
+    {
+      "id": "F07",
+      "name": "Устройства, режим использования и совместимость",
+      "decision_use": "Развести устройство, режим и фактический допуск.",
+      "methods": [
+        "EA-02"
+      ],
+      "activation": "ONLY_WHEN_IT_CHANGES_THE_QUESTION_OR_DECISION",
+      "scope_note": "Развести совместимость, достаточность ресурса, целевое устройство, раздачу и инструмент активации.",
+      "fields": [
+        {
+          "id": "F07.device_classes",
+          "name": "Классы устройств",
+          "value_type": "set",
+          "definition": "Смартфон, планшет, роутер, модем, камера, часы, автомобильное устройство, иной явно заданный класс.",
+          "source_id": "F07.device_classes"
+        },
+        {
+          "id": "F07.usage_mode",
+          "name": "Режим работы",
+          "value_type": "nominal_set",
+          "definition": "SIM непосредственно в устройстве, раздача со смартфона, внешняя точка доступа, резервное использование.",
+          "source_id": "F07.usage_mode"
+        },
+        {
+          "id": "F07.technical_conditions",
+          "name": "Технические условия",
+          "value_type": "profile",
+          "definition": "Сеть, формат SIM, настройки, APN, программные изменения, ограничения режима.",
+          "source_id": "F07.technical_conditions"
+        },
+        {
+          "id": "F07.inclusions_exclusions",
+          "name": "Включения и исключения",
+          "value_type": "relation_set",
+          "definition": "Устройство/режим → допускается, исключён или условен; отрицание не теряется.",
+          "source_id": "F07.inclusions_exclusions"
+        },
+        {
+          "id": "F07.compatibility_claim",
+          "name": "Заявление о совместимости",
+          "value_type": "profile",
+          "definition": "Что именно обещает текст или изображение и где.",
+          "source_id": "F07.compatibility_claim"
+        },
+        {
+          "id": "F07.verified_compatibility",
+          "name": "Подтверждённая совместимость",
+          "value_type": "profile",
+          "definition": "Документ/полевой тест и область действия; не выводится из пиктограммы.",
+          "source_id": "F07.verified_compatibility"
+        },
+        {
+          "id": "F07.conditional_scope",
+          "name": "Область условия",
+          "value_type": "tuple",
+          "definition": "Для какого устройства, версии, режима, региона и этапа действует допуск.",
+          "source_id": "F07.conditional_scope"
+        }
+      ]
+    },
+    {
+      "id": "F08",
+      "name": "Состав услуги и распределение ресурсов",
+      "decision_use": "Нормализовать пакеты и сравнивать содержимое услуги.",
+      "methods": [
+        "EA-02"
+      ],
+      "activation": "ONLY_WHEN_IT_CHANGES_THE_QUESTION_OR_DECISION",
+      "scope_note": "Объём, скорость, режим после порога, плата за раздачу, P2P и направления связи являются разными предикатами.",
+      "fields": [
+        {
+          "id": "F08.traffic_entitlement",
+          "name": "Интернет-пакет",
+          "value_type": "tuple",
+          "definition": "Объём/безлимит, период, вид трафика, скорость и условия после исчерпания.",
+          "source_id": "F08.traffic_entitlement"
+        },
+        {
+          "id": "F08.voice_entitlement",
+          "name": "Голосовой пакет",
+          "value_type": "tuple",
+          "definition": "Минуты, направления, сети, территория, период и исключения.",
+          "source_id": "F08.voice_entitlement"
+        },
+        {
+          "id": "F08.message_entitlement",
+          "name": "Сообщения",
+          "value_type": "tuple",
+          "definition": "Число/безлимит, получатели, период, отдельная плата и условия.",
+          "source_id": "F08.message_entitlement"
+        },
+        {
+          "id": "F08.additional_options",
+          "name": "Дополнительные опции",
+          "value_type": "set",
+          "definition": "Включённая, платная, выбираемая или временная опция; статусы различаются.",
+          "source_id": "F08.additional_options"
+        },
+        {
+          "id": "F08.resource_allocation",
+          "name": "Распределение ресурсов",
+          "value_type": "relation_set",
+          "definition": "Личный, общий, организатору, участнику, устройству; не только общая сумма.",
+          "source_id": "F08.resource_allocation"
+        },
+        {
+          "id": "F08.limits_and_postlimit",
+          "name": "Лимиты и дальнейший режим",
+          "value_type": "profile",
+          "definition": "Порог, ограничение, продолжение, тарификация или прекращение.",
+          "source_id": "F08.limits_and_postlimit"
+        },
+        {
+          "id": "F08.package_period",
+          "name": "Период пакета",
+          "value_type": "interval",
+          "definition": "Расчётный период, первый месяц, сутки, срок акции или действия права.",
+          "source_id": "F08.package_period"
+        },
+        {
+          "id": "F08.option_dependencies",
+          "name": "Зависимости и исключение опций",
+          "value_type": "relation_set",
+          "definition": "Какие опции совместимы, выбираются альтернативно или зависят от конфигурации; набор вариантов не является одним пакетом.",
+          "source_id": "F08.option_dependencies"
+        }
+      ]
+    },
+    {
+      "id": "F09",
+      "name": "Платежи, цена, баланс и договорная экономика",
+      "decision_use": "Сопоставлять деньги без двойного счёта и смешения ролей.",
+      "methods": [
+        "EA-02",
+        "EA-14"
+      ],
+      "activation": "ONLY_WHEN_IT_CHANGES_THE_QUESTION_OR_DECISION",
+      "scope_note": "Различать внешний платёж и внутренние списания; пересчёт времени требует основания.",
+      "fields": [
+        {
+          "id": "F09.payment_role",
+          "name": "Роль суммы",
+          "value_type": "nominal",
+          "definition": "Цена предмета, пополнение, подключение, регулярная плата, опция, участник, возврат, скидка или средняя цена.",
+          "source_id": "F09.payment_role"
+        },
+        {
+          "id": "F09.payment_tuple",
+          "name": "Платёжный кортеж",
+          "value_type": "tuple",
+          "definition": "Сумма/валюта, плательщик, получатель, основание, период, момент и условие.",
+          "source_id": "F09.payment_tuple"
+        },
+        {
+          "id": "F09.cashflow_schedule",
+          "name": "График внешних платежей",
+          "value_type": "sequence",
+          "definition": "Когда клиент реально вносит деньги; внутреннее списание с баланса не добавляется повторно.",
+          "source_id": "F09.cashflow_schedule"
+        },
+        {
+          "id": "F09.balance_allocation",
+          "name": "Движение баланса",
+          "value_type": "relation_set",
+          "definition": "Какие средства зачисляются, расходуются, сохраняются и возвращаются.",
+          "source_id": "F09.balance_allocation"
+        },
+        {
+          "id": "F09.first_vs_recurring",
+          "name": "Начальный и последующий режим",
+          "value_type": "profile",
+          "definition": "Первое подключение, первый период, дальнейшая плата и изменение режима.",
+          "source_id": "F09.first_vs_recurring"
+        },
+        {
+          "id": "F09.pricing_conditions",
+          "name": "Условия заявленной цены",
+          "value_type": "profile",
+          "definition": "От, при выборе конфигурации, за участника, по акции, при своевременной оплате.",
+          "source_id": "F09.pricing_conditions"
+        },
+        {
+          "id": "F09.termination_refund",
+          "name": "Прекращение и возврат",
+          "value_type": "profile",
+          "definition": "Установленные условия прекращения/возврата/обновления и их дата.",
+          "source_id": "F09.termination_refund"
+        }
+      ]
+    },
+    {
+      "id": "F10",
+      "name": "Подключение, перенос номера и операционный путь",
+      "decision_use": "Сравнивать стоимость и понятность действий после покупки.",
+      "methods": [
+        "EA-03",
+        "EA-09"
+      ],
+      "activation": "ONLY_WHEN_IT_CHANGES_THE_QUESTION_OR_DECISION",
+      "scope_note": "Не обязательные поля всех карточек; использовать соответствующие вопросу признаки.",
+      "fields": [
+        {
+          "id": "F10.onboarding_scenario",
+          "name": "Сценарий ввода",
+          "value_type": "nominal_set",
+          "definition": "Новый номер, перенос, добавление участника, замена SIM, подключение устройства.",
+          "source_id": "F10.onboarding_scenario"
+        },
+        {
+          "id": "F10.step_sequence",
+          "name": "Последовательность действий",
+          "value_type": "sequence",
+          "definition": "Шаг, условие начала, результат и переход к следующему шагу.",
+          "source_id": "F10.step_sequence"
+        },
+        {
+          "id": "F10.dependencies",
+          "name": "Зависимости",
+          "value_type": "relation_set",
+          "definition": "Документ, приложение, связь, существующий номер, второе лицо, поддержка или действие продавца.",
+          "source_id": "F10.dependencies"
+        },
+        {
+          "id": "F10.temporary_state",
+          "name": "Временное состояние",
+          "value_type": "profile",
+          "definition": "Технический/иной тариф при активации и подтверждённый переход к обещанному.",
+          "source_id": "F10.temporary_state"
+        },
+        {
+          "id": "F10.deadline_latency",
+          "name": "Срок и длительность",
+          "value_type": "tuple",
+          "definition": "Срок выполнения, время ожидания, условия и статус подтверждения.",
+          "source_id": "F10.deadline_latency"
+        },
+        {
+          "id": "F10.failure_recovery",
+          "name": "Путь при сбое",
+          "value_type": "sequence",
+          "definition": "Диагностика, поддержка, повтор, ручное исправление; обещание помощи отдельно от измеренной доступности.",
+          "source_id": "F10.failure_recovery"
+        },
+        {
+          "id": "F10.completion_evidence",
+          "name": "Подтверждение завершения",
+          "value_type": "profile",
+          "definition": "Как установить, что услуга/обе SIM активированы именно в нужном режиме.",
+          "source_id": "F10.completion_evidence"
+        }
+      ]
+    },
+    {
+      "id": "F11",
+      "name": "География и пространственная применимость",
+      "decision_use": "Избежать ложного объединения разных региональных режимов.",
+      "methods": [
+        "EA-02",
+        "EA-12"
+      ],
+      "activation": "ONLY_WHEN_IT_CHANGES_THE_QUESTION_OR_DECISION",
+      "scope_note": "Не обязательные поля всех карточек; использовать соответствующие вопросу признаки.",
+      "fields": [
+        {
+          "id": "F11.collection_region",
+          "name": "Регион наблюдения",
+          "value_type": "nominal",
+          "definition": "Где собрана карточка или измерение; не переносится из соседнего источника.",
+          "source_id": "F11.collection_region"
+        },
+        {
+          "id": "F11.activation_region",
+          "name": "Регион подключения",
+          "value_type": "nominal_set",
+          "definition": "Где можно оформить/активировать и как выбирается регион.",
+          "source_id": "F11.activation_region"
+        },
+        {
+          "id": "F11.usage_region",
+          "name": "Регион использования",
+          "value_type": "nominal_set",
+          "definition": "Где действуют пакет и тариф; включает исключения и специальные режимы.",
+          "source_id": "F11.usage_region"
+        },
+        {
+          "id": "F11.delivery_region",
+          "name": "Регион доставки",
+          "value_type": "nominal_set",
+          "definition": "Доступность исполнения заказа в месте и времени.",
+          "source_id": "F11.delivery_region"
+        },
+        {
+          "id": "F11.home_region",
+          "name": "Домашний регион",
+          "value_type": "nominal",
+          "definition": "Регион номера или договора, если определён.",
+          "source_id": "F11.home_region"
+        },
+        {
+          "id": "F11.geo_exceptions",
+          "name": "Географические исключения",
+          "value_type": "relation_set",
+          "definition": "Территория → исключение или иной режим, с условиями и периодом.",
+          "source_id": "F11.geo_exceptions"
+        },
+        {
+          "id": "F11.geo_claim_vs_verified",
+          "name": "Статус географии",
+          "value_type": "profile",
+          "definition": "Фраза «вся Россия», видимое поле, документ и измерение являются разными основаниями.",
+          "source_id": "F11.geo_claim_vs_verified"
+        }
+      ]
+    },
+    {
+      "id": "F12",
+      "name": "Бренд, сеть, продавец и полномочия",
+      "decision_use": "Различать представление бренда, исполнение и ответственность.",
+      "methods": [
+        "EA-12"
+      ],
+      "activation": "ONLY_WHEN_IT_CHANGES_THE_QUESTION_OR_DECISION",
+      "scope_note": "Не обязательные поля всех карточек; использовать соответствующие вопросу признаки.",
+      "fields": [
+        {
+          "id": "F12.advertised_brand",
+          "name": "Заявленный бренд",
+          "value_type": "nominal_set",
+          "definition": "Название и знаки в материале; не тождественны юридическому статусу.",
+          "source_id": "F12.advertised_brand"
+        },
+        {
+          "id": "F12.network_provider",
+          "name": "Поставщик сети/услуги",
+          "value_type": "profile",
+          "definition": "Установленный оператор или провайдер с основанием.",
+          "source_id": "F12.network_provider"
+        },
+        {
+          "id": "F12.seller_identity",
+          "name": "Идентичность продавца",
+          "value_type": "identifier",
+          "definition": "Кто продаёт на площадке и к какой наблюдаемой версии относится запись.",
+          "projection_of": [
+            "F31.presence_identity",
+            "F31.account_identity",
+            "F32.party_identity"
+          ],
+          "projection_note": "Краткое представление связанных оснований, а не новое независимое наблюдение и не автоматическая миграция старого значения.",
+          "source_id": "F12.seller_identity"
+        },
+        {
+          "id": "F12.contracting_parties",
+          "name": "Договорные роли",
+          "value_type": "relation_set",
+          "definition": "Кто заключает договор, подключает, поддерживает и несёт обязательства.",
+          "projection_of": [
+            "F32.role_in_chain",
+            "F32.rights_and_responsibilities",
+            "F33.transaction_model"
+          ],
+          "projection_note": "Краткое представление связанных оснований, а не новое независимое наблюдение и не автоматическая миграция старого значения.",
+          "source_id": "F12.contracting_parties"
+        },
+        {
+          "id": "F12.authority_claim",
+          "name": "Заявление об официальности",
+          "value_type": "profile",
+          "definition": "Логотип, надпись, знак площадки, ссылка или иной наблюдаемый сигнал.",
+          "source_id": "F12.authority_claim"
+        },
+        {
+          "id": "F12.verified_authority",
+          "name": "Подтверждённые полномочия",
+          "value_type": "profile",
+          "definition": "Конкретный документ/интерфейс и область полномочия, отдельно от заявления.",
+          "projection_of": [
+            "F32.authorization_relationship",
+            "F32.authorization_scope",
+            "F32.authorization_state",
+            "F32.authorization_evidence"
+          ],
+          "projection_note": "Краткое представление связанных оснований, а не новое независимое наблюдение и не автоматическая миграция старого значения.",
+          "source_id": "F12.verified_authority"
+        },
+        {
+          "id": "F12.portfolio_relationship",
+          "name": "Связь с портфелем",
+          "value_type": "relation_set",
+          "definition": "Проектная собственная группа, внешний продавец, партнёр, вариант линейки; с типом основания.",
+          "projection_of": [
+            "F32.ownership_and_affiliation",
+            "F32.operation_relationship"
+          ],
+          "projection_note": "Краткое представление связанных оснований, а не новое независимое наблюдение и не автоматическая миграция старого значения.",
+          "source_id": "F12.portfolio_relationship"
+        }
+      ]
+    },
+    {
+      "id": "F13",
+      "name": "Поверхность, формат и модальность материала",
+      "decision_use": "Сравнивать материалы в одной функции и режиме.",
+      "methods": [
+        "EA-00",
+        "EA-06",
+        "EA-07"
+      ],
+      "activation": "ONLY_WHEN_IT_CHANGES_THE_QUESTION_OR_DECISION",
+      "scope_note": "Не обязательные поля всех карточек; использовать соответствующие вопросу признаки.",
+      "fields": [
+        {
+          "id": "F13.surface_type",
+          "name": "Тип поверхности",
+          "value_type": "nominal",
+          "definition": "Плитка выдачи, заголовок, галерея, подробный блок, описание, характеристики, вопросы/ответы, отзыв.",
+          "source_id": "F13.surface_type"
+        },
+        {
+          "id": "F13.format_type",
+          "name": "Формат",
+          "value_type": "nominal",
+          "definition": "Простой текст, изображение, текст в изображении, нативный подробный блок, изображение в описании, видео, интерактивный элемент.",
+          "source_id": "F13.format_type"
+        },
+        {
+          "id": "F13.modality",
+          "name": "Модальность",
+          "value_type": "nominal_set",
+          "definition": "Вербальная, визуальная, звуковая, мультимодальная; код и фактическая реализация раздельны.",
+          "source_id": "F13.modality"
+        },
+        {
+          "id": "F13.placement_and_order",
+          "name": "Место и порядок",
+          "value_type": "tuple",
+          "definition": "Поверхность, индекс кадра, позиция, доступность по действию пользователя.",
+          "source_id": "F13.placement_and_order"
+        },
+        {
+          "id": "F13.representation_mode",
+          "name": "Режим представления",
+          "value_type": "profile",
+          "definition": "Оригинал, экранный снимок, контактный лист, миниатюра, OCR; связь с оригиналом.",
+          "source_id": "F13.representation_mode"
+        },
+        {
+          "id": "F13.information_function",
+          "name": "Информационная функция",
+          "value_type": "nominal_set",
+          "definition": "Распознавание, объяснение, условие, доказательство, сравнение, инструкция, поддержка.",
+          "source_id": "F13.information_function"
+        },
+        {
+          "id": "F13.cross_surface_links",
+          "name": "Связь поверхностей",
+          "value_type": "relation_set",
+          "definition": "Повтор, уточнение, продолжение, конфликт, замена или зависимость.",
+          "source_id": "F13.cross_surface_links"
+        },
+        {
+          "id": "F13.communicative_source_role",
+          "name": "Коммуникативный источник",
+          "value_type": "nominal",
+          "definition": "Продавец, площадка, покупатель, владелец продукта, аналитик или система измерения; пользовательский рассказ и рекламное обещание дают разные основания.",
+          "source_id": "F13.communicative_source_role"
+        }
+      ]
+    },
+    {
+      "id": "F14",
+      "name": "Язык и редакционное устройство",
+      "decision_use": "Выделять языковые признаки без подмены смысловой и коммерческой оценки.",
+      "methods": [
+        "EA-06"
+      ],
+      "activation": "ONLY_WHEN_IT_CHANGES_THE_QUESTION_OR_DECISION",
+      "scope_note": "Не обязательные поля всех карточек; использовать соответствующие вопросу признаки.",
+      "fields": [
+        {
+          "id": "F14.language_register",
+          "name": "Язык и регистр",
+          "value_type": "profile",
+          "definition": "Язык, терминология, профессиональный/бытовой регистр, обращение и тон.",
+          "source_id": "F14.language_register"
+        },
+        {
+          "id": "F14.lexical_precision",
+          "name": "Лексическая определённость",
+          "value_type": "profile",
+          "definition": "Названность предметов, конкретность слов, местоименные отсылки, сокращения.",
+          "source_id": "F14.lexical_precision"
+        },
+        {
+          "id": "F14.syntax",
+          "name": "Синтаксис",
+          "value_type": "profile",
+          "definition": "Структура фраз, связи, императивы, перечисления и согласование.",
+          "source_id": "F14.syntax"
+        },
+        {
+          "id": "F14.editorial_errors",
+          "name": "Редакционные дефекты",
+          "value_type": "set",
+          "definition": "Локализованные орфографические, пунктуационные, грамматические и терминологические ошибки.",
+          "source_id": "F14.editorial_errors"
+        },
+        {
+          "id": "F14.length_measures",
+          "name": "Длина",
+          "value_type": "numeric_profile",
+          "definition": "Символы/слова/предложения с определённой процедурой подсчёта и областью.",
+          "source_id": "F14.length_measures"
+        },
+        {
+          "id": "F14.verbal_rhetoric",
+          "name": "Вербальные приёмы",
+          "value_type": "nominal_set",
+          "definition": "Сравнение, гипербола, повтор, вопрос, обращение, игра слов; без автоматической оценки пользы.",
+          "source_id": "F14.verbal_rhetoric"
+        },
+        {
+          "id": "F14.redundancy",
+          "name": "Вербальный повтор",
+          "value_type": "relation_set",
+          "definition": "Функционально полезное повторение, переформулировка или лишнее дублирование в заданной области.",
+          "source_id": "F14.redundancy"
+        }
+      ]
+    },
+    {
+      "id": "F15",
+      "name": "Текстовый смысл и логические отношения",
+      "decision_use": "Группировать одинаковые смыслы при разных словах и не объединять разные смыслы.",
+      "methods": [
+        "EA-06"
+      ],
+      "activation": "ONLY_WHEN_IT_CHANGES_THE_QUESTION_OR_DECISION",
+      "scope_note": "Не обязательные поля всех карточек; использовать соответствующие вопросу признаки.",
+      "fields": [
+        {
+          "id": "F15.semantic_predicate",
+          "name": "Предикат и аргументы",
+          "value_type": "relation",
+          "definition": "Кто/что, какое свойство/действие, к кому и чему относится.",
+          "source_id": "F15.semantic_predicate"
+        },
+        {
+          "id": "F15.scope_and_modality",
+          "name": "Область и модальность",
+          "value_type": "tuple",
+          "definition": "Период, устройство, роль, регион, возможность, обязанность, обещание или предположение.",
+          "source_id": "F15.scope_and_modality"
+        },
+        {
+          "id": "F15.conditions_negations",
+          "name": "Условия и отрицания",
+          "value_type": "relation_set",
+          "definition": "Если/кроме/после/при/не; цельный логический охват конструкции.",
+          "source_id": "F15.conditions_negations"
+        },
+        {
+          "id": "F15.quantification",
+          "name": "Кванторы и границы",
+          "value_type": "profile",
+          "definition": "Все, каждый, до, от, только, некоторые, без ограничений; с предметом.",
+          "source_id": "F15.quantification"
+        },
+        {
+          "id": "F15.reference_links",
+          "name": "Отсылки",
+          "value_type": "relation_set",
+          "definition": "К какому значению, участнику, пакету или этапу относится слово/подпись.",
+          "source_id": "F15.reference_links"
+        },
+        {
+          "id": "F15.semantic_relation",
+          "name": "Отношение утверждений",
+          "value_type": "nominal",
+          "definition": "Эквивалентность, уточнение, следствие, совместимость, непересечение областей, кандидат конфликта.",
+          "source_id": "F15.semantic_relation"
+        },
+        {
+          "id": "F15.alternative_readings",
+          "name": "Допустимые прочтения",
+          "value_type": "set",
+          "definition": "Набор содержательно различающихся трактовок и опор; не искусственный выбор одной.",
+          "source_id": "F15.alternative_readings"
+        },
+        {
+          "id": "F15.speech_act",
+          "name": "Тип речевого действия",
+          "value_type": "nominal_set",
+          "definition": "Сообщение, обещание, вопрос, инструкция, ответ, отзыв, объяснение, предположение или требование; вопрос о роутере не является утверждением совместимости.",
+          "source_id": "F15.speech_act"
+        }
+      ]
+    },
+    {
+      "id": "F16",
+      "name": "Рекламные обещания и доказательства",
+      "decision_use": "Развести тип обещания, условие и достаточность обоснования.",
+      "methods": [
+        "EA-05"
+      ],
+      "activation": "ONLY_WHEN_IT_CHANGES_THE_QUESTION_OR_DECISION",
+      "scope_note": "Не обязательные поля всех карточек; использовать соответствующие вопросу признаки.",
+      "fields": [
+        {
+          "id": "F16.claim_type",
+          "name": "Тип обещания",
+          "value_type": "nominal_set",
+          "definition": "Функциональное, количественное, ценовое, сравнительное, статусное, эмоциональное, процедурное.",
+          "source_id": "F16.claim_type"
+        },
+        {
+          "id": "F16.benefit_target",
+          "name": "Объект выгоды",
+          "value_type": "profile",
+          "definition": "Для какой задачи и участника обещан результат.",
+          "source_id": "F16.benefit_target"
+        },
+        {
+          "id": "F16.claim_strength",
+          "name": "Сила формулировки",
+          "value_type": "nominal",
+          "definition": "Абсолютная, ограниченная, условная, вероятностная; не балл истинности.",
+          "source_id": "F16.claim_strength"
+        },
+        {
+          "id": "F16.condition_linkage",
+          "name": "Связь с условием",
+          "value_type": "relation",
+          "definition": "Рядом, на другой поверхности, по ссылке, отсутствует в обследованной области, неоднозначна.",
+          "source_id": "F16.condition_linkage"
+        },
+        {
+          "id": "F16.proof_kind",
+          "name": "Вид основания",
+          "value_type": "nominal_set",
+          "definition": "Документ, измерение, демонстрация, отзыв, знак, объяснение механизма, заявление без внешней проверки.",
+          "source_id": "F16.proof_kind"
+        },
+        {
+          "id": "F16.proof_adequacy",
+          "name": "Пригодность основания",
+          "value_type": "profile",
+          "definition": "Поддерживает ли основание именно данный предикат в нужной области.",
+          "source_id": "F16.proof_adequacy"
+        },
+        {
+          "id": "F16.promise_risk",
+          "name": "Риск неверного ожидания",
+          "value_type": "profile",
+          "definition": "Какое конкретное расширение обещания возможно; наблюдение, гипотеза или измеренный результат.",
+          "source_id": "F16.promise_risk"
+        }
+      ]
+    },
+    {
+      "id": "F17",
+      "name": "Буквальный состав изображения",
+      "decision_use": "Группировать видимые элементы до смысловой интерпретации.",
+      "methods": [
+        "EA-07"
+      ],
+      "activation": "ONLY_WHEN_IT_CHANGES_THE_QUESTION_OR_DECISION",
+      "scope_note": "Не обязательные поля всех карточек; использовать соответствующие вопросу признаки.",
+      "fields": [
+        {
+          "id": "F17.depicted_objects",
+          "name": "Изображённые объекты",
+          "value_type": "set",
+          "definition": "SIM, устройство, человек, персонаж, предмет, интерфейс, знак, текстовый блок.",
+          "source_id": "F17.depicted_objects"
+        },
+        {
+          "id": "F17.image_genre",
+          "name": "Тип изображения",
+          "value_type": "nominal_set",
+          "definition": "Предметная фотография, иллюстрация, схема, пиктограмма, интерфейсный снимок, коллаж, инфографика.",
+          "source_id": "F17.image_genre"
+        },
+        {
+          "id": "F17.text_image_balance",
+          "name": "Соотношение компонентов",
+          "value_type": "profile",
+          "definition": "Наличие и роль текста, объекта и оформления; измерение отделяется от впечатления.",
+          "source_id": "F17.text_image_balance"
+        },
+        {
+          "id": "F17.represented_roles",
+          "name": "Видимые роли",
+          "value_type": "profile",
+          "definition": "Что буквально подписано или показано; интерпретация социальной роли маркируется.",
+          "source_id": "F17.represented_roles"
+        },
+        {
+          "id": "F17.image_text_content",
+          "name": "Текст в изображении",
+          "value_type": "profile",
+          "definition": "Точное содержание, локатор и статус чтения, включая неопределённые символы.",
+          "source_id": "F17.image_text_content"
+        },
+        {
+          "id": "F17.depiction_vs_inclusion",
+          "name": "Изображение и комплект",
+          "value_type": "relation",
+          "definition": "Показанное устройство/человек не объявляется предметом поставки.",
+          "source_id": "F17.depiction_vs_inclusion"
+        },
+        {
+          "id": "F17.visual_evidence_quality",
+          "name": "Доступность наблюдения",
+          "value_type": "profile",
+          "definition": "Обрезка, перекрытие, мелкий текст, качество и состояние просмотра.",
+          "source_id": "F17.visual_evidence_quality"
+        },
+        {
+          "id": "F17.depiction_status",
+          "name": "Статус изображения предмета",
+          "value_type": "nominal",
+          "definition": "Снимок реального предмета, условная визуализация, макет, неизвестно; происхождение не угадывается по внешней реалистичности.",
+          "source_id": "F17.depiction_status"
+        }
+      ]
+    },
+    {
+      "id": "F18",
+      "name": "Визуальная семантика, символы и метафоры",
+      "decision_use": "Выделить связи образа со смыслом и границы переноса.",
+      "methods": [
+        "EA-07"
+      ],
+      "activation": "ONLY_WHEN_IT_CHANGES_THE_QUESTION_OR_DECISION",
+      "scope_note": "Не обязательные поля всех карточек; использовать соответствующие вопросу признаки.",
+      "fields": [
+        {
+          "id": "F18.meaning_mechanism",
+          "name": "Механизм значения",
+          "value_type": "nominal_set",
+          "definition": "Буквальное изображение, условный знак, метафора, метонимия, аналогия, сюжет, неопределённая связь.",
+          "source_id": "F18.meaning_mechanism"
+        },
+        {
+          "id": "F18.source_target_domains",
+          "name": "Области переноса",
+          "value_type": "tuple",
+          "definition": "Из какой области и на какой предмет переносится структура, если перенос вообще имеется.",
+          "source_id": "F18.source_target_domains"
+        },
+        {
+          "id": "F18.mapping_relations",
+          "name": "Соответствия",
+          "value_type": "relation_set",
+          "definition": "Элемент/роль/отношение исходной области → элемент/роль/отношение предложения.",
+          "source_id": "F18.mapping_relations"
+        },
+        {
+          "id": "F18.preserved_distorted",
+          "name": "Сохранение и искажение",
+          "value_type": "profile",
+          "definition": "Какие отношения сохранены, утрачены, усилены или добавлены образом.",
+          "source_id": "F18.preserved_distorted"
+        },
+        {
+          "id": "F18.interpretation_function",
+          "name": "Предполагаемая функция",
+          "value_type": "nominal_set",
+          "definition": "Объяснение, распознавание, эмоциональное обрамление, привлечение, декор, поддержка роли.",
+          "source_id": "F18.interpretation_function"
+        },
+        {
+          "id": "F18.interpretive_alternatives",
+          "name": "Альтернативы смысла",
+          "value_type": "set",
+          "definition": "Проверяемые прочтения; несколько могут быть допустимы одновременно.",
+          "source_id": "F18.interpretive_alternatives"
+        },
+        {
+          "id": "F18.text_image_relation",
+          "name": "Связь с текстом",
+          "value_type": "nominal",
+          "definition": "Подтверждает, уточняет, дополняет, контрастирует, отвлекает или неоднозначно относится.",
+          "source_id": "F18.text_image_relation"
+        },
+        {
+          "id": "F18.affective_framing",
+          "name": "Эмоциональное обрамление",
+          "value_type": "profile",
+          "definition": "Заявленный или интерпретируемый тон и ассоциации отделены от измеренной эмоции, доверия или предпочтения человека.",
+          "source_id": "F18.affective_framing"
+        }
+      ]
+    },
+    {
+      "id": "F19",
+      "name": "Композиция отдельного кадра",
+      "decision_use": "Сравнивать организацию внимания и информации на одной поверхности.",
+      "methods": [
+        "EA-08"
+      ],
+      "activation": "ONLY_WHEN_IT_CHANGES_THE_QUESTION_OR_DECISION",
+      "scope_note": "Не обязательные поля всех карточек; использовать соответствующие вопросу признаки.",
+      "fields": [
+        {
+          "id": "F19.spatial_structure",
+          "name": "Пространственный каркас",
+          "value_type": "nominal_set",
+          "definition": "Сетка, колонки, полосы, центральный объект, слои, панели, свободная композиция.",
+          "source_id": "F19.spatial_structure"
+        },
+        {
+          "id": "F19.element_relations",
+          "name": "Отношения элементов",
+          "value_type": "relation_set",
+          "definition": "Близость, выравнивание, вложенность, перекрытие, связь подписи и значения.",
+          "source_id": "F19.element_relations"
+        },
+        {
+          "id": "F19.visual_hierarchy",
+          "name": "Наблюдаемая иерархия",
+          "value_type": "profile",
+          "definition": "Относительные размеры, контраст, позиции, выделения и конкурирующие доминанты.",
+          "source_id": "F19.visual_hierarchy"
+        },
+        {
+          "id": "F19.geometry_measures",
+          "name": "Геометрия",
+          "value_type": "numeric_profile",
+          "definition": "Размер, доля площади, положение, число элементов и масштаб с методом измерения.",
+          "source_id": "F19.geometry_measures"
+        },
+        {
+          "id": "F19.typographic_hierarchy",
+          "name": "Типографическая иерархия",
+          "value_type": "profile",
+          "definition": "Роли шрифта, кегль в режиме, начертание, межстрочность и переносы.",
+          "source_id": "F19.typographic_hierarchy"
+        },
+        {
+          "id": "F19.density_whitespace",
+          "name": "Плотность и пустое пространство",
+          "value_type": "profile",
+          "definition": "Фактическая геометрия и выбранная единица; не готовый индекс нагрузки.",
+          "source_id": "F19.density_whitespace"
+        },
+        {
+          "id": "F19.cropping_resilience",
+          "name": "Сохранение при показе",
+          "value_type": "profile",
+          "definition": "Что сохраняется или теряется в миниатюре, обрезке и мобильном режиме.",
+          "source_id": "F19.cropping_resilience"
+        }
+      ]
+    },
+    {
+      "id": "F20",
+      "name": "Дизайн-система и визуальная идентичность",
+      "decision_use": "Сравнивать правила повторения между материалами.",
+      "methods": [
+        "EA-10"
+      ],
+      "activation": "ONLY_WHEN_IT_CHANGES_THE_QUESTION_OR_DECISION",
+      "scope_note": "Не обязательные поля всех карточек; использовать соответствующие вопросу признаки.",
+      "fields": [
+        {
+          "id": "F20.design_tokens",
+          "name": "Повторяемые средства",
+          "value_type": "profile",
+          "definition": "Палитра, типографика, формы, сетки, иконки и изображения с ролью.",
+          "source_id": "F20.design_tokens"
+        },
+        {
+          "id": "F20.role_consistency",
+          "name": "Согласованность одинаковых ролей",
+          "value_type": "relation_set",
+          "definition": "Один смысл/роль → устойчивое оформление; допускаются функциональные исключения.",
+          "source_id": "F20.role_consistency"
+        },
+        {
+          "id": "F20.variation_rules",
+          "name": "Правила вариаций",
+          "value_type": "profile",
+          "definition": "Что меняется по тарифу, устройству, периоду, роли участника и кампании.",
+          "source_id": "F20.variation_rules"
+        },
+        {
+          "id": "F20.brand_assets",
+          "name": "Активы бренда",
+          "value_type": "set",
+          "definition": "Наблюдаемые знаки и характерные средства; правовой статус и узнавание отдельно.",
+          "source_id": "F20.brand_assets"
+        },
+        {
+          "id": "F20.template_family",
+          "name": "Семейство шаблона",
+          "value_type": "identifier",
+          "definition": "Установленное или предположенное общее правило построения, не просто один цвет.",
+          "source_id": "F20.template_family"
+        },
+        {
+          "id": "F20.cross_surface_system",
+          "name": "Связь систем поверхностей",
+          "value_type": "profile",
+          "definition": "Галерея и подробный блок: общая система, намеренная вариация, смешение редакций, неизвестно.",
+          "source_id": "F20.cross_surface_system"
+        },
+        {
+          "id": "F20.distinctiveness_evidence",
+          "name": "Основание отличимости",
+          "value_type": "profile",
+          "definition": "Сопоставимое окружение/тест или лишь экспертная гипотеза.",
+          "source_id": "F20.distinctiveness_evidence"
+        }
+      ]
+    },
+    {
+      "id": "F21",
+      "name": "Последовательность и аргументационная структура",
+      "decision_use": "Группировать способы развёртывания объяснения.",
+      "methods": [
+        "EA-09"
+      ],
+      "activation": "ONLY_WHEN_IT_CHANGES_THE_QUESTION_OR_DECISION",
+      "scope_note": "Не обязательные поля всех карточек; использовать соответствующие вопросу признаки.",
+      "fields": [
+        {
+          "id": "F21.surface_roles",
+          "name": "Роли кадров/сегментов",
+          "value_type": "sequence",
+          "definition": "Категория, предложение, выгода, условие, доказательство, инструкция, поддержка, действие.",
+          "source_id": "F21.surface_roles"
+        },
+        {
+          "id": "F21.argument_dependencies",
+          "name": "Зависимости сообщений",
+          "value_type": "relation_set",
+          "definition": "Какое обещание требует какого условия/основания и где оно доступно.",
+          "source_id": "F21.argument_dependencies"
+        },
+        {
+          "id": "F21.disclosure_order",
+          "name": "Порядок раскрытия",
+          "value_type": "profile",
+          "definition": "Когда раскрывается критическое для выбора, платежа, совместимости и подключения.",
+          "source_id": "F21.disclosure_order"
+        },
+        {
+          "id": "F21.sequence_pattern",
+          "name": "Схема развёртывания",
+          "value_type": "nominal_set",
+          "definition": "От задачи, от предложения, от инструкции, сравнение вариантов, вопросы/ответы, сюжет.",
+          "source_id": "F21.sequence_pattern"
+        },
+        {
+          "id": "F21.functional_repetition",
+          "name": "Функциональный повтор",
+          "value_type": "relation_set",
+          "definition": "Напоминание, уточнение, наращивание, дублирование или противоречащая версия.",
+          "source_id": "F21.functional_repetition"
+        },
+        {
+          "id": "F21.branching_and_navigation",
+          "name": "Разветвление и навигация",
+          "value_type": "profile",
+          "definition": "Альтернативы по устройству, региону, роли или пути активации.",
+          "source_id": "F21.branching_and_navigation"
+        },
+        {
+          "id": "F21.coverage_by_scope",
+          "name": "Покрытие в области просмотра",
+          "value_type": "profile",
+          "definition": "G01, первые кадры, полная галерея, подробный блок; разные знаменатели.",
+          "source_id": "F21.coverage_by_scope"
+        }
+      ]
+    },
+    {
+      "id": "F22",
+      "name": "Функции продажи и поддержки решения",
+      "decision_use": "Описывать методическую пригодность независимо от результата.",
+      "methods": [
+        "EA-03",
+        "EA-04",
+        "EA-05"
+      ],
+      "activation": "ONLY_WHEN_IT_CHANGES_THE_QUESTION_OR_DECISION",
+      "scope_note": "Не обязательные поля всех карточек; использовать соответствующие вопросу признаки.",
+      "fields": [
+        {
+          "id": "F22.need_offer_link",
+          "name": "Связь задачи и предложения",
+          "value_type": "relation",
+          "definition": "Какое свойство помогает решить какую задачу и на каком основании.",
+          "source_id": "F22.need_offer_link"
+        },
+        {
+          "id": "F22.value_proposition",
+          "name": "Ценностное предложение",
+          "value_type": "profile",
+          "definition": "Польза, цена/усилие, условия и отличие в конкретной задаче.",
+          "source_id": "F22.value_proposition"
+        },
+        {
+          "id": "F22.comparison_basis",
+          "name": "Основание отличия",
+          "value_type": "profile",
+          "definition": "От какой сопоставимой альтернативы и по какому параметру отличается предложение.",
+          "source_id": "F22.comparison_basis"
+        },
+        {
+          "id": "F22.objections",
+          "name": "Сомнения и ответы",
+          "value_type": "relation_set",
+          "definition": "Конкретный вопрос/риск выбора → содержательный ответ или пробел.",
+          "source_id": "F22.objections"
+        },
+        {
+          "id": "F22.choice_architecture",
+          "name": "Устройство выбора",
+          "value_type": "profile",
+          "definition": "Пакеты, варианты, роли, действие по умолчанию, уточнения и возможность исправить выбор.",
+          "source_id": "F22.choice_architecture"
+        },
+        {
+          "id": "F22.action_support",
+          "name": "Следующий шаг и поддержка",
+          "value_type": "profile",
+          "definition": "Что сделать, как проверить завершение и куда обратиться при сбое.",
+          "source_id": "F22.action_support"
+        },
+        {
+          "id": "F22.sales_function_state",
+          "name": "Состояние функции",
+          "value_type": "nominal",
+          "definition": "Явно, косвенно, не наблюдается в области, противоречит, неизвестно или неприменимо.",
+          "source_id": "F22.sales_function_state"
+        }
+      ]
+    },
+    {
+      "id": "F23",
+      "name": "Восприятие, удобство и доступность",
+      "decision_use": "Группировать реальные условия и измеренные реакции.",
+      "methods": [
+        "EA-08",
+        "EA-09"
+      ],
+      "activation": "ONLY_WHEN_IT_CHANGES_THE_QUESTION_OR_DECISION",
+      "scope_note": "Только экспертная реконструкция и уже доступные наблюдения; интервью, опросы и обязательные респондентские процедуры не выполняются.",
+      "fields": [
+        {
+          "id": "F23.viewing_conditions",
+          "name": "Условия просмотра",
+          "value_type": "tuple",
+          "definition": "Устройство, экран, масштаб, поверхность, обрезка, время, прокрутка и увеличение.",
+          "source_id": "F23.viewing_conditions"
+        },
+        {
+          "id": "F23.perception_task",
+          "name": "Задача человеку",
+          "value_type": "nominal",
+          "definition": "Распознать предмет, пересказать условие, рассчитать оплату, выбрать вариант, выполнить шаг.",
+          "source_id": "F23.perception_task"
+        },
+        {
+          "id": "F23.response_measure",
+          "name": "Ответ и ошибка",
+          "value_type": "profile",
+          "definition": "Реальный ответ, выбор, ошибка, воспроизведение, самоотчёт или эмоциональная реакция; правильность задаётся только там, где есть критерий.",
+          "source_id": "F23.response_measure"
+        },
+        {
+          "id": "F23.latency_effort",
+          "name": "Время и усилие",
+          "value_type": "numeric_profile",
+          "definition": "Измеренные длительность/действия; оценка модели отдельно.",
+          "source_id": "F23.latency_effort"
+        },
+        {
+          "id": "F23.accessibility_conditions",
+          "name": "Условия доступности",
+          "value_type": "profile",
+          "definition": "Язык, зрительные/технические ограничения и используемая проверка, без вывода из внешности.",
+          "source_id": "F23.accessibility_conditions"
+        },
+        {
+          "id": "F23.sample_and_protocol",
+          "name": "Выборка и процедура",
+          "value_type": "profile",
+          "definition": "Кто участвовал, как отобран и что видел; определяет область вывода.",
+          "source_id": "F23.sample_and_protocol"
+        },
+        {
+          "id": "F23.prediction_vs_measurement",
+          "name": "Статус реакции",
+          "value_type": "nominal",
+          "definition": "Измерена, сообщена пользователем, экспертно предположена или неизвестна.",
+          "source_id": "F23.prediction_vs_measurement"
+        }
+      ]
+    },
+    {
+      "id": "F24",
+      "name": "Условия экспозиции и коммерческий контекст",
+      "decision_use": "Разделить различие содержания и условия получения результата.",
+      "methods": [
+        "EA-12",
+        "EA-13"
+      ],
+      "activation": "ONLY_WHEN_IT_CHANGES_THE_QUESTION_OR_DECISION",
+      "scope_note": "Не обязательные поля всех карточек; использовать соответствующие вопросу признаки.",
+      "fields": [
+        {
+          "id": "F24.channel_placement",
+          "name": "Канал и размещение",
+          "value_type": "tuple",
+          "definition": "Поиск, рекомендации, платная/органическая экспозиция, позиция, устройство и площадка.",
+          "projection_of": [
+            "F30.platform_identity",
+            "F30.market_site",
+            "F34.acquisition_route",
+            "F34.placement_and_billing"
+          ],
+          "projection_note": "Краткое представление связанных оснований, а не новое независимое наблюдение и не автоматическая миграция старого значения.",
+          "source_id": "F24.channel_placement"
+        },
+        {
+          "id": "F24.campaign_context",
+          "name": "Кампания и стратегия",
+          "value_type": "profile",
+          "definition": "Кабинет/пространство имён, кампания, инструмент, ставка, бюджет и режим.",
+          "projection_of": [
+            "F34.promotion_program_identity",
+            "F34.control_strategy",
+            "F34.planned_budget",
+            "F34.actual_spend"
+          ],
+          "projection_note": "Краткое представление связанных оснований, а не новое независимое наблюдение и не автоматическая миграция старого значения.",
+          "source_id": "F24.campaign_context"
+        },
+        {
+          "id": "F24.query_context",
+          "name": "Запрос и намерение",
+          "value_type": "profile",
+          "definition": "Исходный запрос и правила его классификации; брендовые/общие запросы не смешиваются без учёта.",
+          "source_id": "F24.query_context"
+        },
+        {
+          "id": "F24.transaction_context",
+          "name": "Цена и исполнение в моменте",
+          "value_type": "relation_set",
+          "definition": "Ссылки на цену, наличие, доставку и схему исполнения в нужном регионе/времени; не дублирующие копии фактов.",
+          "source_id": "F24.transaction_context"
+        },
+        {
+          "id": "F24.social_history",
+          "name": "Социальная и временная история",
+          "value_type": "profile",
+          "definition": "Рейтинг, отзывы, возраст и их момент; отделить накопленное от изменения в периоде.",
+          "source_id": "F24.social_history"
+        },
+        {
+          "id": "F24.promotion_seasonality",
+          "name": "Акции и календарный режим",
+          "value_type": "profile",
+          "definition": "Промо, события, день недели и периоды; только релевантные вопросу факторы.",
+          "source_id": "F24.promotion_seasonality"
+        },
+        {
+          "id": "F24.context_comparability",
+          "name": "Проверенность контекста",
+          "value_type": "profile",
+          "definition": "Установлено одинаковым, измерено и учтено, различается, неизвестно или несущественно для данного вопроса.",
+          "source_id": "F24.context_comparability"
+        },
+        {
+          "id": "F24.competitive_environment",
+          "name": "Конкурентное окружение",
+          "value_type": "profile",
+          "definition": "Соседние предложения, цена альтернативы, насыщенность похожими сообщениями и поверхность поиска в заданном регионе и моменте.",
+          "source_id": "F24.competitive_environment"
+        }
+      ]
+    },
+    {
+      "id": "F25",
+      "name": "Наблюдаемые результаты и эффекты",
+      "decision_use": "Развести коммерческий успех, методическое качество и причинный эффект.",
+      "methods": [
+        "EA-13",
+        "EA-14"
+      ],
+      "activation": "ONLY_WHEN_IT_CHANGES_THE_QUESTION_OR_DECISION",
+      "scope_note": "Не обязательные поля всех карточек; использовать соответствующие вопросу признаки.",
+      "fields": [
+        {
+          "id": "F25.outcome_stage",
+          "name": "Стадия результата",
+          "value_type": "nominal",
+          "definition": "Показ, клик, сессия, корзина, заказ, оплата, активация, возврат, поддержка, удержание, экономика.",
+          "source_id": "F25.outcome_stage"
+        },
+        {
+          "id": "F25.outcome_definition",
+          "name": "Определение результата",
+          "value_type": "tuple",
+          "definition": "Единица, событие, числитель, знаменатель, включения и исключения.",
+          "projection_of": [
+            "F35.event_dictionary_mapping",
+            "F35.transition_population"
+          ],
+          "projection_note": "Краткое представление связанных оснований, а не новое независимое наблюдение и не автоматическая миграция старого значения.",
+          "source_id": "F25.outcome_definition"
+        },
+        {
+          "id": "F25.attribution_maturity",
+          "name": "Атрибуция и зрелость",
+          "value_type": "profile",
+          "definition": "Окно связи событий, завершённость наблюдения, отложенные события и ограничения.",
+          "source_id": "F25.attribution_maturity"
+        },
+        {
+          "id": "F25.volume_rate_value",
+          "name": "Объём, доля и ценность",
+          "value_type": "profile",
+          "definition": "Количество, нормированная частота и экономическая величина хранятся раздельно.",
+          "source_id": "F25.volume_rate_value"
+        },
+        {
+          "id": "F25.success_rule",
+          "name": "Правило успешности",
+          "value_type": "profile",
+          "definition": "По какой метрике, в какой группе, периоде, с какой практической границей и основанием.",
+          "source_id": "F25.success_rule"
+        },
+        {
+          "id": "F25.guardrails",
+          "name": "Защитные результаты",
+          "value_type": "set",
+          "definition": "Отмены, возвраты, жалобы, активация, маржа и иные заранее выбранные ограничения.",
+          "source_id": "F25.guardrails"
+        },
+        {
+          "id": "F25.effect_status",
+          "name": "Статус эффекта",
+          "value_type": "nominal",
+          "definition": "Описательный результат, ассоциация, квазиэкспериментальная оценка, рандомизированный эффект, повторённый эффект.",
+          "source_id": "F25.effect_status"
+        },
+        {
+          "id": "F25.measurement_uncertainty",
+          "name": "Неопределённость измерения",
+          "value_type": "profile",
+          "definition": "Выборочная неопределённость, ошибки учёта и неизвестная атрибуция различаются; интервал не придумывается.",
+          "source_id": "F25.measurement_uncertainty"
+        },
+        {
+          "id": "F25.aggregation_basis",
+          "name": "Основание агрегирования",
+          "value_type": "profile",
+          "definition": "Уникальные SKU, пользователи или показы, веса, объединение числителей и знаменателей; средняя по карточкам не равна доле по показам.",
+          "source_id": "F25.aggregation_basis"
+        },
+        {
+          "id": "F25.model_attribution",
+          "name": "Атрибуция объединённой модели",
+          "value_type": "relation",
+          "definition": "Результат конкретного SKU против результата связанных товаров или модели; без автоматического переноса на одну карточку.",
+          "source_id": "F25.model_attribution"
+        }
+      ]
+    },
+    {
+      "id": "F26",
+      "name": "Оценивание, основания и воспроизводимость",
+      "decision_use": "Устанавливать пригодность конкретного вывода для конкретного решения.",
+      "methods": [
+        "EA-00"
+      ],
+      "activation": "ONLY_WHEN_IT_CHANGES_THE_QUESTION_OR_DECISION",
+      "scope_note": "Не обязательные поля всех карточек; использовать соответствующие вопросу признаки.",
+      "fields": [
+        {
+          "id": "F26.target_construct",
+          "name": "Оцениваемое свойство",
+          "value_type": "profile",
+          "definition": "Что измеряет критерий и что не измеряет; конкретная единица и P.",
+          "source_id": "F26.target_construct"
+        },
+        {
+          "id": "F26.applicability",
+          "name": "Применимость",
+          "value_type": "nominal",
+          "definition": "Применимо, неприменимо, не установлено; отдельно от значения качества.",
+          "source_id": "F26.applicability"
+        },
+        {
+          "id": "F26.evidence_state",
+          "name": "Состояние основания",
+          "value_type": "nominal",
+          "definition": "Полное, частичное, неизвестное, конфликтное; с причиной и областью.",
+          "source_id": "F26.evidence_state"
+        },
+        {
+          "id": "F26.evidence_class_H",
+          "name": "Класс и сила основания",
+          "value_type": "profile",
+          "definition": "OBSERVED/DERIVED/ASSUMPTION/UNKNOWN и H сохраняются как разные поля конкретной записи.",
+          "source_id": "F26.evidence_class_H"
+        },
+        {
+          "id": "F26.rubric_and_scale",
+          "name": "Рубрика и шкала",
+          "value_type": "profile",
+          "definition": "Номинальная, набор, отношение, измерение или порядковая со своими якорями и расстоянием.",
+          "source_id": "F26.rubric_and_scale"
+        },
+        {
+          "id": "F26.rater_protocol",
+          "name": "Оценщик и протокол",
+          "value_type": "profile",
+          "definition": "Человек/модель, версия, входы, просмотр, ослепление, доступ к результатам и повтор.",
+          "source_id": "F26.rater_protocol"
+        },
+        {
+          "id": "F26.agreement_and_validity",
+          "name": "Согласие и валидность",
+          "value_type": "profile",
+          "definition": "Совпадение по нужному свойству, ошибки, альтернативные чтения и независимая проверка.",
+          "source_id": "F26.agreement_and_validity"
+        }
+      ]
+    },
+    {
+      "id": "F27",
+      "name": "Неоднозначности, конфликты и типы дефектов",
+      "decision_use": "Собирать сопоставимые проблемы и выбирать нужное исправление.",
+      "methods": [
+        "EA-00",
+        "EA-02"
+      ],
+      "activation": "ONLY_WHEN_IT_CHANGES_THE_QUESTION_OR_DECISION",
+      "scope_note": "Не обязательные поля всех карточек; использовать соответствующие вопросу признаки.",
+      "fields": [
+        {
+          "id": "F27.conflict_object",
+          "name": "Предмет расхождения",
+          "value_type": "nominal",
+          "definition": "Значение, роль, период, область, версия, применимость, источник, смысл или решение.",
+          "source_id": "F27.conflict_object"
+        },
+        {
+          "id": "F27.conflict_location",
+          "name": "Место расхождения",
+          "value_type": "relation_set",
+          "definition": "Внутри фразы, внутри кадра, между кадрами, между поверхностями, с внешним документом или между оценщиками.",
+          "source_id": "F27.conflict_location"
+        },
+        {
+          "id": "F27.ambiguity_type",
+          "name": "Тип неоднозначности",
+          "value_type": "nominal_set",
+          "definition": "Неполный кортеж, несколько чтений, смешение сценариев, разная ширина P, ошибка извлечения.",
+          "source_id": "F27.ambiguity_type"
+        },
+        {
+          "id": "F27.contradiction_status",
+          "name": "Статус противоречия",
+          "value_type": "nominal",
+          "definition": "Кандидат, установлено в совпадающей области, объяснено условиями, разрешено источником, неразрешимо по данным.",
+          "source_id": "F27.contradiction_status"
+        },
+        {
+          "id": "F27.consequence",
+          "name": "Последствие для решения",
+          "value_type": "profile",
+          "definition": "Меняет выбор, оплату, совместимость, активацию, интерпретацию показателя или только формулировку.",
+          "source_id": "F27.consequence"
+        },
+        {
+          "id": "F27.resolution_evidence",
+          "name": "Основание разрешения",
+          "value_type": "relation",
+          "definition": "Новый источник, уточнение области, версия, повторный просмотр или исправление расчёта.",
+          "source_id": "F27.resolution_evidence"
+        },
+        {
+          "id": "F27.repair_target",
+          "name": "Объект исправления",
+          "value_type": "nominal",
+          "definition": "Продуктовый факт, текст, схема ролей, композиция, последовательность, метрика, критерий или вход оценщику.",
+          "source_id": "F27.repair_target"
+        },
+        {
+          "id": "F27.risk_and_priority",
+          "name": "Риск и приоритет",
+          "value_type": "profile",
+          "definition": "Конкретное последствие, обоснование вероятности, цена ошибки и нужное действие; серьёзность не выводится из количества меток.",
+          "source_id": "F27.risk_and_priority"
+        }
+      ]
+    },
+    {
+      "id": "F28",
+      "name": "Изменения, эксперименты и задания",
+      "decision_use": "Группировать действия по проверяемому механизму и объекту изменения.",
+      "methods": [
+        "EA-14"
+      ],
+      "activation": "ONLY_WHEN_IT_CHANGES_THE_QUESTION_OR_DECISION",
+      "scope_note": "Не обязательные поля всех карточек; использовать соответствующие вопросу признаки.",
+      "fields": [
+        {
+          "id": "F28.change_target",
+          "name": "Объект изменения",
+          "value_type": "nominal_set",
+          "definition": "Факт, заголовок, обещание, условие, образ, иерархия, порядок кадров, подробный блок, инструкция.",
+          "source_id": "F28.change_target"
+        },
+        {
+          "id": "F28.mechanism_hypothesis",
+          "name": "Механизм",
+          "value_type": "profile",
+          "definition": "Какое понимание/действие предполагается изменить и чем различить альтернативы.",
+          "source_id": "F28.mechanism_hypothesis"
+        },
+        {
+          "id": "F28.invariants_treatment",
+          "name": "Контроль и переменная",
+          "value_type": "profile",
+          "definition": "Что меняется, что удерживается и какие изменения фактически случились.",
+          "projection_of": [
+            "F31.control_matrix",
+            "F34.capacity_constraints",
+            "F35.control_and_accountability"
+          ],
+          "projection_note": "Краткое представление связанных оснований, а не новое независимое наблюдение и не автоматическая миграция старого значения.",
+          "source_id": "F28.invariants_treatment"
+        },
+        {
+          "id": "F28.assignment_unit",
+          "name": "Единица назначения",
+          "value_type": "nominal",
+          "definition": "Пользователь, сессия, SKU, регион, временной блок; не обязательно единица подсчёта событий.",
+          "source_id": "F28.assignment_unit"
+        },
+        {
+          "id": "F28.test_design",
+          "name": "Дизайн проверки",
+          "value_type": "nominal",
+          "definition": "Проверка фактов, понимания, A/A, A/B, A/B/C, поэтапный или временной дизайн с допущениями.",
+          "source_id": "F28.test_design"
+        },
+        {
+          "id": "F28.readiness_constraints",
+          "name": "Готовность и зависимости",
+          "value_type": "profile",
+          "definition": "Подтверждённые значения, измерения, назначение, объём, срок и защитные пределы.",
+          "source_id": "F28.readiness_constraints"
+        },
+        {
+          "id": "F28.brief_acceptance",
+          "name": "Задание и приёмка",
+          "value_type": "profile",
+          "definition": "Материалы, ограничения, результат агентства, процедура проверки и отдельное решение о публикации.",
+          "source_id": "F28.brief_acceptance"
+        }
+      ]
+    },
+    {
+      "id": "F29",
+      "name": "Правила, требования и область обязательности",
+      "decision_use": "Различать обязательное требование, исследовательскую рубрику и рекомендацию.",
+      "methods": [
+        "EA-00",
+        "EA-12"
+      ],
+      "activation": "ONLY_WHEN_IT_CHANGES_THE_QUESTION_OR_DECISION",
+      "scope_note": "Не устанавливает актуальное право; требуется датированный источник в базе и точная область.",
+      "fields": [
+        {
+          "id": "F29.rule_origin",
+          "name": "Происхождение требования",
+          "value_type": "nominal",
+          "definition": "Правило площадки, договор, действующая норма, внутренняя политика, утверждённая рубрика, рабочая рекомендация или эстетическое предпочтение.",
+          "source_id": "F29.rule_origin"
+        },
+        {
+          "id": "F29.authority_reference",
+          "name": "Источник и дата",
+          "value_type": "profile",
+          "definition": "Конкретный документ, редакция, срок, юрисдикция или площадка и ответственная сторона.",
+          "source_id": "F29.authority_reference"
+        },
+        {
+          "id": "F29.applicability_scope",
+          "name": "Область применимости нормы",
+          "value_type": "tuple",
+          "definition": "Товар, участник, регион, поверхность, действие и период, к которым относится требование.",
+          "source_id": "F29.applicability_scope"
+        },
+        {
+          "id": "F29.obligation_status",
+          "name": "Обязательность",
+          "value_type": "nominal",
+          "definition": "Обязательно в установленной области, условно, внутреннее правило, предложено, рекомендовано, неприменимо или не установлено.",
+          "source_id": "F29.obligation_status"
+        },
+        {
+          "id": "F29.norm_evidence",
+          "name": "Основание обязательности",
+          "value_type": "profile",
+          "definition": "Проверенный текст нормы и его применимость отдельно от заявления автора методики.",
+          "source_id": "F29.norm_evidence"
+        },
+        {
+          "id": "F29.decision_authority",
+          "name": "Компетенция решения",
+          "value_type": "profile",
+          "definition": "Кто вправе подтвердить факт, принять рубрику, согласовать макет и разрешить публикацию; роли не смешиваются.",
+          "source_id": "F29.decision_authority"
+        },
+        {
+          "id": "F29.rule_conflict",
+          "name": "Конфликт требований",
+          "value_type": "profile",
+          "definition": "Несовпадение источников, версий или областей; не решается стилевым предпочтением оценщика.",
+          "source_id": "F29.rule_conflict"
+        }
+      ]
+    },
+    {
+      "id": "F30",
+      "name": "Торговая площадка и устройство канала",
+      "decision_use": "Определять идентичность, ограничения представления и границы межплощадочного сравнения.",
+      "methods": [
+        "EA-12"
+      ],
+      "activation": "ONLY_WHEN_IT_CHANGES_THE_QUESTION_OR_DECISION",
+      "scope_note": "Не обязательные поля всех карточек; использовать соответствующие вопросу признаки.",
+      "fields": [
+        {
+          "id": "F30.trade_channel_type",
+          "name": "Тип торгового канала",
+          "value_type": "nominal",
+          "definition": "Где и посредством какого торгового посредника заключается сделка: маркетплейс, собственный магазин, партнёрская сеть или иной установленный канал продажи. Источник перехода описывается отдельно в F34, маршрут в F35.",
+          "source_id": "F30.trade_channel_type"
+        },
+        {
+          "id": "F30.platform_identity",
+          "name": "Идентичность площадки",
+          "value_type": "identifier",
+          "definition": "Площадка и источник установления; имя магазина или домен бренда не подменяют площадку.",
+          "source_id": "F30.platform_identity"
+        },
+        {
+          "id": "F30.market_site",
+          "name": "Рынок и версия среды",
+          "value_type": "tuple",
+          "definition": "Страна/витрина, язык, валюта, сайт/приложение и период; домен сам по себе не доказывает все эти значения.",
+          "source_id": "F30.market_site"
+        },
+        {
+          "id": "F30.native_id_namespace",
+          "name": "Пространство идентификаторов",
+          "value_type": "tuple",
+          "definition": "Площадка, система/метод, тип сущности, область кабинета при необходимости, исходное значение и версия семантики.",
+          "source_id": "F30.native_id_namespace"
+        },
+        {
+          "id": "F30.catalog_offer_topology",
+          "name": "Устройство каталога и предложений",
+          "value_type": "profile",
+          "definition": "Общая/индивидуальная каталожная карточка, объединения, продавец-зависимое предложение и выбранное предложение в показе; выясняется для площадки и категории.",
+          "source_id": "F30.catalog_offer_topology"
+        },
+        {
+          "id": "F30.selection_and_routing",
+          "name": "Выбор предложения и маршрут",
+          "value_type": "profile",
+          "definition": "Как выбирается продавец/вариант, какая цена и доставка показаны, куда ведут основное действие и переходы.",
+          "source_id": "F30.selection_and_routing"
+        },
+        {
+          "id": "F30.rendering_context",
+          "name": "Среда отображения",
+          "value_type": "profile",
+          "definition": "Интерфейс, блоки, обрезка, порядок, возможность подробного блока и персонализации; загруженное и показанное содержание различаются.",
+          "source_id": "F30.rendering_context"
+        },
+        {
+          "id": "F30.platform_capabilities",
+          "name": "Возможности и ограничения площадки",
+          "value_type": "profile",
+          "definition": "Доступные форматы, управление содержанием/вариантами, аналитика и экспериментальные инструменты; с версией и источником.",
+          "source_id": "F30.platform_capabilities"
+        },
+        {
+          "id": "F30.rules_revision",
+          "name": "Редакция правил площадки",
+          "value_type": "relation",
+          "definition": "Связь с F29: источник, юрисдикция, категория, дата действия и проверенность для изучаемого периода.",
+          "source_id": "F30.rules_revision"
+        },
+        {
+          "id": "F30.shared_data_scope",
+          "name": "Область общих данных",
+          "value_type": "profile",
+          "definition": "Какие изображения, отзывы, рейтинги и результаты относятся к карточке, варианту, продавцу или каталожной модели.",
+          "source_id": "F30.shared_data_scope"
+        }
+      ]
+    },
+    {
+      "id": "F31",
+      "name": "Магазин, кабинет и формат торгового присутствия",
+      "decision_use": "Разделять видимую витрину, технический кабинет, формат магазина и его возможности.",
+      "methods": [
+        "EA-12"
+      ],
+      "activation": "ONLY_WHEN_IT_CHANGES_THE_QUESTION_OR_DECISION",
+      "scope_note": "Тип магазина является профилем нескольких осей.",
+      "fields": [
+        {
+          "id": "F31.presence_identity",
+          "name": "Идентичность витрины",
+          "value_type": "tuple",
+          "definition": "Площадка, публичный идентификатор/URL витрины, отображаемое имя, период и источник; имя не является юридическим лицом.",
+          "source_id": "F31.presence_identity"
+        },
+        {
+          "id": "F31.account_identity",
+          "name": "Идентичность кабинета",
+          "value_type": "tuple",
+          "definition": "Тип кабинета: торговый, рекламный или аналитический; исходный идентификатор и его системная область. Проектное пространство имён не выдаётся за реальный ID.",
+          "source_id": "F31.account_identity"
+        },
+        {
+          "id": "F31.native_store_type",
+          "name": "Родной тип магазина",
+          "value_type": "nominal",
+          "definition": "Метка площадки и её определение в данной версии, отдельно от исследовательской типологии.",
+          "source_id": "F31.native_store_type"
+        },
+        {
+          "id": "F31.assortment_scope",
+          "name": "Ассортиментный формат",
+          "value_type": "nominal_set",
+          "definition": "Моно-/многобрендовый, категорийный/широкий, специализированный; на основании обследованного ассортимента.",
+          "source_id": "F31.assortment_scope"
+        },
+        {
+          "id": "F31.commercial_positioning",
+          "name": "Позиционирование магазина",
+          "value_type": "profile",
+          "definition": "Фирменная, флагманская, специализированная, массовая, ценовая витрина; заявленный образ отделяется от проверенной бизнес-роли.",
+          "source_id": "F31.commercial_positioning"
+        },
+        {
+          "id": "F31.buyer_segment",
+          "name": "Режим покупателей",
+          "value_type": "nominal_set",
+          "definition": "Продажи частным покупателям, организациям или смешанный режим; это не вывод о фактической аудитории по одной цене.",
+          "source_id": "F31.buyer_segment"
+        },
+        {
+          "id": "F31.life_stage",
+          "name": "Стадия присутствия",
+          "value_type": "profile",
+          "definition": "Создание, запуск, развитие, зрелая работа, приостановка, восстановление; с датами и основаниями.",
+          "source_id": "F31.life_stage"
+        },
+        {
+          "id": "F31.control_matrix",
+          "name": "Матрица управляемости",
+          "value_type": "relation_set",
+          "definition": "Кто может загружать и фактически менять содержание, цену, варианты, продвижение, остатки и поддержку; права и фактическое применение разделены.",
+          "source_id": "F31.control_matrix"
+        },
+        {
+          "id": "F31.reputation_scope",
+          "name": "Область репутации",
+          "value_type": "profile",
+          "definition": "Рейтинг магазина, отзывы о продавце, отзывы о товаре и объединённой модели; не смешиваются в одно доверие.",
+          "source_id": "F31.reputation_scope"
+        }
+      ]
+    },
+    {
+      "id": "F32",
+      "name": "Компании, бренды и отношения дистрибуции",
+      "decision_use": "Устанавливать роли, принадлежность и полномочия как отношения с областью и сроком.",
+      "methods": [
+        "EA-12"
+      ],
+      "activation": "ONLY_WHEN_IT_CHANGES_THE_QUESTION_OR_DECISION",
+      "scope_note": "Неподтверждённое полномочие не означает отсутствие права.",
+      "fields": [
+        {
+          "id": "F32.party_identity",
+          "name": "Идентичность участника",
+          "value_type": "profile",
+          "definition": "Юридическое/коммерческое лицо и установленные реквизиты; отображаемое имя не подменяет подтверждённую идентичность.",
+          "source_id": "F32.party_identity"
+        },
+        {
+          "id": "F32.brand_identity",
+          "name": "Идентичность бренда",
+          "value_type": "profile",
+          "definition": "Бренд как обозначение/объект прав, его правообладатель и связь с продуктом; бренд не является синонимом компании.",
+          "source_id": "F32.brand_identity"
+        },
+        {
+          "id": "F32.role_in_chain",
+          "name": "Роль в цепочке",
+          "value_type": "nominal_set",
+          "definition": "Производитель, правообладатель, оператор услуги, дистрибьютор, оптовик, дилер, розничный перепродавец, агент, франчайзи, управляющее агентство или площадка-продавец.",
+          "source_id": "F32.role_in_chain"
+        },
+        {
+          "id": "F32.ownership_and_affiliation",
+          "name": "Принадлежность и аффилированность",
+          "value_type": "relation_set",
+          "definition": "Владеет, входит в группу, контролирует или связан; вид связи, источник и период. Совпадение имени/стиля не доказывает аффилированность.",
+          "source_id": "F32.ownership_and_affiliation"
+        },
+        {
+          "id": "F32.operation_relationship",
+          "name": "Управление присутствием",
+          "value_type": "relation_set",
+          "definition": "Участник управляет витриной/кабинетом либо отдельной функцией; управление не равно владению.",
+          "source_id": "F32.operation_relationship"
+        },
+        {
+          "id": "F32.authorization_relationship",
+          "name": "Отношение полномочия",
+          "value_type": "relation",
+          "definition": "Кто кому предоставил какое право относительно какого бренда, товара, площадки, территории и действия.",
+          "source_id": "F32.authorization_relationship"
+        },
+        {
+          "id": "F32.authorization_state",
+          "name": "Состояние полномочия",
+          "value_type": "nominal",
+          "definition": "Заявлено; подтверждено в области; не установлено; срок истёк; прекращено; противоречит источнику; подтверждено отсутствие конкретного отношения. Непроверенность не приравнивается отсутствию.",
+          "source_id": "F32.authorization_state"
+        },
+        {
+          "id": "F32.authorization_scope",
+          "name": "Область полномочия",
+          "value_type": "tuple",
+          "definition": "Бренд/категория/товары, канал/площадка, территория, период, право продажи/знака/подключения/поддержки/передачи прав. Эксклюзивность и ограничения ассортимента/канала фиксируются, только если установлены.",
+          "source_id": "F32.authorization_scope"
+        },
+        {
+          "id": "F32.authorization_evidence",
+          "name": "Основание полномочия",
+          "value_type": "profile",
+          "definition": "Документ/реестр/ответ правообладателя/проверка площадки и точный подтверждаемый предмет; знак в интерфейсе или картинке хранится отдельно.",
+          "source_id": "F32.authorization_evidence"
+        },
+        {
+          "id": "F32.supply_chain",
+          "name": "Цепочка поставки",
+          "value_type": "relation_set",
+          "definition": "Производитель/оператор → дистрибьютор → продавец; известные и неизвестные звенья, прямое и косвенное снабжение.",
+          "source_id": "F32.supply_chain"
+        },
+        {
+          "id": "F32.rights_and_responsibilities",
+          "name": "Распределение обязательств",
+          "value_type": "relation_set",
+          "definition": "Кто отвечает за продажу, документы, активацию, услугу, поддержку и возврат; роль относительно конкретного предложения.",
+          "source_id": "F32.rights_and_responsibilities"
+        }
+      ]
+    },
+    {
+      "id": "F33",
+      "name": "Сделка, исполнение и экономика участников",
+      "decision_use": "Различать, кто продаёт, исполняет, обслуживает и получает экономический результат.",
+      "methods": [
+        "EA-03",
+        "EA-12",
+        "EA-14"
+      ],
+      "activation": "ONLY_WHEN_IT_CHANGES_THE_QUESTION_OR_DECISION",
+      "scope_note": "Физическая доставка и исполнение услуги различны.",
+      "fields": [
+        {
+          "id": "F33.transaction_model",
+          "name": "Модель сделки",
+          "value_type": "profile",
+          "definition": "Кто является стороной продажи; площадка-продавец или сторонний продавец; агентская/комиссионная/закупочная схема только при подтверждении.",
+          "source_id": "F33.transaction_model"
+        },
+        {
+          "id": "F33.ownership_of_inventory",
+          "name": "Владение запасом",
+          "value_type": "relation",
+          "definition": "Кому принадлежит товар и кто несёт связанный риск; неизвестность не заполняется по модели доставки.",
+          "source_id": "F33.ownership_of_inventory"
+        },
+        {
+          "id": "F33.fulfillment_scheme_native",
+          "name": "Родная модель исполнения",
+          "value_type": "tuple",
+          "definition": "Площадочный код/название, версия, область предложения и источник; FBO, FBY и FBW не сливаются по похожему написанию.",
+          "source_id": "F33.fulfillment_scheme_native"
+        },
+        {
+          "id": "F33.functional_fulfillment",
+          "name": "Функции исполнения",
+          "value_type": "relation_set",
+          "definition": "Кто хранит, комплектует, перевозит, выдаёт и принимает возврат; позволяет сравнивать модели по функциям.",
+          "source_id": "F33.functional_fulfillment"
+        },
+        {
+          "id": "F33.service_provision_chain",
+          "name": "Исполнение услуги",
+          "value_type": "relation_set",
+          "definition": "Кто активирует, оказывает связь, меняет тариф и поддерживает клиента после физической доставки.",
+          "source_id": "F33.service_provision_chain"
+        },
+        {
+          "id": "F33.payment_and_refunds_chain",
+          "name": "Расчёты и возвраты",
+          "value_type": "relation_set",
+          "definition": "Кто принимает/удерживает/возвращает деньги и где возникают обязательства; ссылки на клиентские платежи F09.",
+          "source_id": "F33.payment_and_refunds_chain"
+        },
+        {
+          "id": "F33.revenue_beneficiary",
+          "name": "Получатель результата",
+          "value_type": "profile",
+          "definition": "Для кого оценивается успех: продавец, дистрибьютор, оператор, бренд или группа; выручка SIM и ценность абонента различаются.",
+          "source_id": "F33.revenue_beneficiary"
+        },
+        {
+          "id": "F33.economics_components",
+          "name": "Компоненты экономики",
+          "value_type": "numeric_profile",
+          "definition": "Комиссии, логистика, продвижение, поддержка, возвраты, вознаграждение за активацию и последующая ценность; только измеренные/обоснованные величины, без придуманных ставок.",
+          "source_id": "F33.economics_components"
+        },
+        {
+          "id": "F33.stock_and_capacity",
+          "name": "Запас и пропускная способность",
+          "value_type": "profile",
+          "definition": "Наличие, складская/сервисная ёмкость, ограничения пополнения и активаций во времени.",
+          "source_id": "F33.stock_and_capacity"
+        },
+        {
+          "id": "F33.geography_and_lead_time",
+          "name": "География и срок исполнения",
+          "value_type": "profile",
+          "definition": "Реальная доступность и обещание доставки/активации в регионе и периоде; связь с F11.",
+          "source_id": "F33.geography_and_lead_time"
+        }
+      ]
+    },
+    {
+      "id": "F34",
+      "name": "Привлечение, продвижение и финансовый ресурс",
+      "decision_use": "Разделять путь получения трафика, модель оплаты, ресурс и фактическую экспозицию.",
+      "methods": [
+        "EA-12",
+        "EA-14"
+      ],
+      "activation": "ONLY_WHEN_IT_CHANGES_THE_QUESTION_OR_DECISION",
+      "scope_note": "План, лимит, баланс средств, расход и распределённая доля различны; общий ресурс может связывать результаты.",
+      "fields": [
+        {
+          "id": "F34.acquisition_route",
+          "name": "Путь привлечения",
+          "value_type": "sequence",
+          "definition": "Внутренний поиск, рекомендации, витрина, внешняя реклама, социальный/партнёрский переход, прямой/повторный визит; отсутствие атрибуции не означает органику.",
+          "source_id": "F34.acquisition_route"
+        },
+        {
+          "id": "F34.promotion_program_identity",
+          "name": "Идентичность продвижения",
+          "value_type": "tuple",
+          "definition": "Площадка, рекламная система, кабинет, тип программы/кампании, исходный ID и период; не смешивать с техническим ID магазина.",
+          "source_id": "F34.promotion_program_identity"
+        },
+        {
+          "id": "F34.placement_and_billing",
+          "name": "Размещение и оплата",
+          "value_type": "tuple",
+          "definition": "Где показан материал и за что списываются деньги: показ, клик, атрибутированный заказ, оборот или фиксированная услуга; родное название сохранено.",
+          "source_id": "F34.placement_and_billing"
+        },
+        {
+          "id": "F34.control_strategy",
+          "name": "Стратегия управления",
+          "value_type": "profile",
+          "definition": "Ручная/автоматическая ставка, целевой показатель, ограничения алгоритма, область применения и изменения во времени.",
+          "source_id": "F34.control_strategy"
+        },
+        {
+          "id": "F34.planned_budget",
+          "name": "Плановый ресурс и лимит",
+          "value_type": "tuple",
+          "definition": "План и лимит записываются разными значениями с явным видом величины, а не одним числом. Для каждого: сумма/валюта, период, уровень магазина/программы/кампании/SKU, дата действия, область товаров и условия. Неустановленный смысл сохраняется как неизвестный.",
+          "source_id": "F34.planned_budget"
+        },
+        {
+          "id": "F34.available_funds",
+          "name": "Доступные средства",
+          "value_type": "tuple",
+          "definition": "Баланс, доступный остаток, бонусы/кредиты и ограничения; не тождественны плану или расходу.",
+          "source_id": "F34.available_funds"
+        },
+        {
+          "id": "F34.actual_spend",
+          "name": "Фактический расход",
+          "value_type": "tuple",
+          "definition": "Период, валюта, налоговая база, корректировки, возвраты, бонусное/денежное списание; без двойного учёта.",
+          "source_id": "F34.actual_spend"
+        },
+        {
+          "id": "F34.funding_and_cofunding",
+          "name": "Финансирование",
+          "value_type": "relation_set",
+          "definition": "Кто платит: магазин, бренд, оператор, дистрибьютор, агентство, площадка; совместный ресурс и ограничения его использования.",
+          "source_id": "F34.funding_and_cofunding"
+        },
+        {
+          "id": "F34.allocation_level",
+          "name": "Уровень распределения",
+          "value_type": "profile",
+          "definition": "Прямо измерено по SKU, известно только по кампании/магазину/бренду, смоделировано или неизвестно; равное деление не подставляется как факт.",
+          "source_id": "F34.allocation_level"
+        },
+        {
+          "id": "F34.budget_history_and_pacing",
+          "name": "История и темп расхода",
+          "value_type": "sequence",
+          "definition": "Изменения лимита/стратегии, активные дни, остановки, исчерпание и временное распределение; снимок не является историей.",
+          "source_id": "F34.budget_history_and_pacing"
+        },
+        {
+          "id": "F34.paid_organic_overlap",
+          "name": "Пересечение источников",
+          "value_type": "relation_set",
+          "definition": "Один путь/заказ и несколько источников атрибуции; платная и естественная экспозиция различаются по доступному учёту.",
+          "source_id": "F34.paid_organic_overlap"
+        },
+        {
+          "id": "F34.capacity_constraints",
+          "name": "Общие ограничения",
+          "value_type": "profile",
+          "definition": "Общий бюджет, аукцион, склад, дневной лимит и сервисная ёмкость, создающие зависимость между товарами/вариантами.",
+          "source_id": "F34.capacity_constraints"
+        }
+      ]
+    },
+    {
+      "id": "F35",
+      "name": "Канальная воронка, события и границы атрибуции",
+      "decision_use": "Связывать путь клиента и результат в пределах реально доступного измерения.",
+      "methods": [
+        "EA-13"
+      ],
+      "activation": "ONLY_WHEN_IT_CHANGES_THE_QUESTION_OR_DECISION",
+      "scope_note": "Не обязательные поля всех карточек; использовать соответствующие вопросу признаки.",
+      "fields": [
+        {
+          "id": "F35.funnel_archetype",
+          "name": "Тип маршрута",
+          "value_type": "sequence",
+          "definition": "Площадка → карточка → предложение → заказ; витрина → товар; внешний переход → площадка; доставка → внешняя активация; поддержка → повтор. Только подтверждённые звенья объявляются наблюдаемыми.",
+          "source_id": "F35.funnel_archetype"
+        },
+        {
+          "id": "F35.event_dictionary_mapping",
+          "name": "Соответствие событий",
+          "value_type": "relation_set",
+          "definition": "Родное событие/поле площадки → аналитический смысл; прямой эквивалент, ограниченный заместитель или несопоставимый показатель.",
+          "source_id": "F35.event_dictionary_mapping"
+        },
+        {
+          "id": "F35.transition_population",
+          "name": "Популяция перехода",
+          "value_type": "tuple",
+          "definition": "Числитель, знаменатель, единица, условия допуска, дедупликация и зрелое окно; ссылки на F25.",
+          "source_id": "F35.transition_population"
+        },
+        {
+          "id": "F35.content_offer_exposure_binding",
+          "name": "Связь содержания и предложения с показом",
+          "value_type": "relation",
+          "definition": "Что увидел человек, какой продавец/вариант был выбран и к чему относится действие/заказ; не только глобальная карточка.",
+          "source_id": "F35.content_offer_exposure_binding"
+        },
+        {
+          "id": "F35.handoff_and_offplatform",
+          "name": "Переход между участниками/системами",
+          "value_type": "relation_set",
+          "definition": "Площадка, продавец, оператор, приложение, поддержка; где теряется наблюдение и какие идентификаторы связывают этапы.",
+          "source_id": "F35.handoff_and_offplatform"
+        },
+        {
+          "id": "F35.attribution_contract",
+          "name": "Контракт атрибуции",
+          "value_type": "profile",
+          "definition": "Окно, модель, источник, уровень SKU/модели/магазина и совпадение определения; отчётная атрибуция не означает причинный вклад.",
+          "source_id": "F35.attribution_contract"
+        },
+        {
+          "id": "F35.observation_horizon",
+          "name": "Горизонт наблюдения",
+          "value_type": "interval",
+          "definition": "Показ, покупка, активация, возвраты, обслуживание и удержание имеют отдельные окна зрелости.",
+          "source_id": "F35.observation_horizon"
+        },
+        {
+          "id": "F35.control_and_accountability",
+          "name": "Управление переходами",
+          "value_type": "relation_set",
+          "definition": "Какой участник может изменить каждый шаг и за какой результат отвечает; полномочие не выводится из бренда на карточке.",
+          "source_id": "F35.control_and_accountability"
+        },
+        {
+          "id": "F35.measurement_access",
+          "name": "Доступность измерений",
+          "value_type": "profile",
+          "definition": "Какие данные доступны платформе, продавцу, оператору и исследованию; неизвестный этап не превращается в нулевую конверсию.",
+          "source_id": "F35.measurement_access"
+        },
+        {
+          "id": "F35.crosschannel_identity",
+          "name": "Связь между каналами",
+          "value_type": "profile",
+          "definition": "Наблюдаемая связь пользователя/заказа/активации с разрешёнными идентификаторами; отсутствие связи и двойная атрибуция явно сохраняются.",
+          "source_id": "F35.crosschannel_identity"
+        },
+        {
+          "id": "F35.actor_objective",
+          "name": "Цель участника",
+          "value_type": "profile",
+          "definition": "Результат и ограничения с точки зрения покупателя, продавца, бренда, дистрибьютора, оператора или портфеля; одна сторона не подменяет другую.",
+          "source_id": "F35.actor_objective"
+        }
+      ]
+    }
+  ],
+  "task_profiles": [
+    {
+      "id": "PR01",
+      "name": "Точные копии и зависимые материалы",
+      "methods": [
+        "EA-00"
+      ],
+      "comparison_rule": "Совпадение байтов и установленная цепочка происхождения; отдельно размещение.",
+      "allowed_variation": "Имена, пути, размещения и исследовательские роли могут различаться.",
+      "boundary": "Не считать повтор файла новым независимым подтверждением.",
+      "expected_output": "Группы идентичности и происхождения, список независимых единиц.",
+      "respondents_required": false,
+      "independent_validation_established": false
+    },
+    {
+      "id": "PR02",
+      "name": "Семейства шаблона и визуальные вариации",
+      "methods": [
+        "EA-10"
+      ],
+      "comparison_rule": "Общее правило каркаса, функций и вариации; режим наблюдения указан.",
+      "allowed_variation": "Бренд, значения, цвет и отдельный образ могут варьироваться, если правило семейства их допускает.",
+      "boundary": "Сходный цвет без общей структуры; недоказанное авторство.",
+      "expected_output": "Шаблон, изменяемые параметры, исключения и статус происхождения.",
+      "respondents_required": false,
+      "independent_validation_established": false
+    },
+    {
+      "id": "PR03",
+      "name": "Сопоставимость продуктовых предложений",
+      "methods": [
+        "EA-02"
+      ],
+      "comparison_rule": "Совпадают существенные для вопроса предмет, роли, период, область и условия.",
+      "allowed_variation": "Исследуемая цена, пакет или модель допускают различие именно в сравнении этого параметра.",
+      "boundary": "Неизвестное существенное условие; смешение комплекта, среднего и индивидуального платежа.",
+      "expected_output": "Сопоставимые пары/группы с перечнем неизменных и различающихся условий.",
+      "respondents_required": false,
+      "independent_validation_established": false
+    },
+    {
+      "id": "PR04",
+      "name": "Редакционный и языковой анализ",
+      "methods": [
+        "EA-06"
+      ],
+      "comparison_rule": "Один вид поверхности, задача текста и область счёта.",
+      "allowed_variation": "Регистр, синтаксис, длина и риторический приём являются исследуемыми.",
+      "boundary": "Выдавать длину за нагрузку, стиль за ошибку, языковую оценку за продажи.",
+      "expected_output": "Типы формулировок, локальные дефекты, контрпримеры и варианты редакции.",
+      "respondents_required": false,
+      "independent_validation_established": false
+    },
+    {
+      "id": "PR05",
+      "name": "Обещание, условие и доказательство",
+      "methods": [
+        "EA-05"
+      ],
+      "comparison_rule": "Сопоставимо целевое обещание и область его действия; процедура соответствует вопросу.",
+      "allowed_variation": "Формулировка, канал выражения, положение условия и вид основания могут различаться.",
+      "boundary": "Доказательство другого P; требовать внешнюю истину для простого чтения текста.",
+      "expected_output": "Группы связи обещаний с условиями и основаниями, без подмены истинности видимостью.",
+      "respondents_required": false,
+      "independent_validation_established": false
+    },
+    {
+      "id": "PR06",
+      "name": "Визуальное значение и метафорическое соответствие",
+      "methods": [
+        "EA-07"
+      ],
+      "comparison_rule": "Указаны задача, поверхность, доступные пиксели и предмет интерпретации.",
+      "allowed_variation": "Образы, механизмы значения и допустимые прочтения являются предметом сравнения.",
+      "boundary": "Каждую иллюстрацию считать метафорой; прогноз эмоции выдавать за измеренную реакцию.",
+      "expected_output": "Буквальные элементы, связи, опоры, альтернативы и пределы переноса.",
+      "respondents_required": false,
+      "independent_validation_established": false
+    },
+    {
+      "id": "PR07",
+      "name": "Композиция одного кадра",
+      "methods": [
+        "EA-08"
+      ],
+      "comparison_rule": "Одна единица и режим; сопоставимая информационная функция.",
+      "allowed_variation": "Иерархия, размещение, контраст, типографика и плотность могут варьироваться.",
+      "boundary": "Сравнивать полосу и кадр; смешивать оригинал и мобильную плитку.",
+      "expected_output": "Композиционные типы и оценки определённой функции по своей рубрике.",
+      "respondents_required": false,
+      "independent_validation_established": false
+    },
+    {
+      "id": "PR08",
+      "name": "Дизайн-система",
+      "methods": [
+        "EA-10"
+      ],
+      "comparison_rule": "Есть несколько материалов и установлены сопоставимые роли элементов.",
+      "allowed_variation": "Функциональные варианты и исключения допустимы; нет требования одинаковых кадров.",
+      "boundary": "Общий балл бренда по одному кадру; узнавание без теста.",
+      "expected_output": "Системы, правила вариации, смешение редакций и неподтверждённые гипотезы происхождения.",
+      "respondents_required": false,
+      "independent_validation_established": false
+    },
+    {
+      "id": "PR09",
+      "name": "Галерея и логика объяснения",
+      "methods": [
+        "EA-09"
+      ],
+      "comparison_rule": "Сопоставимы задача и область просмотренной последовательности.",
+      "allowed_variation": "Порядок, ветвление, повторы и формат сообщения являются исследуемыми.",
+      "boundary": "Отсутствие в первых кадрах считать отсутствием во всей карточке.",
+      "expected_output": "Функциональные схемы, зависимости обещаний и условия раннего выбора.",
+      "respondents_required": false,
+      "independent_validation_established": false
+    },
+    {
+      "id": "PR10",
+      "name": "Методическая пригодность продажи",
+      "methods": [
+        "EA-03",
+        "EA-04"
+      ],
+      "comparison_rule": "Одна задача выбора и конкретные функции; оценщик не использует результат как основание профиля.",
+      "allowed_variation": "Содержание, аргументы и структура могут различаться.",
+      "boundary": "Подмена функции красивым оформлением или общим баллом; критерий вне области.",
+      "expected_output": "Многомерные профили сильных и слабых функций с основаниями.",
+      "respondents_required": false,
+      "independent_validation_established": false,
+      "current_outcome_access_policy": "Открытый экспертный режим допустим и раскрывается. Независимая оценка без исходов проводится только под отдельный вопрос; знакомость сохраняется."
+    },
+    {
+      "id": "PR11",
+      "name": "Наблюдаемая коммерческая успешность",
+      "methods": [
+        "EA-13"
+      ],
+      "comparison_rule": "Одна определённая метрика, окно, единица и сопоставимые существенные условия. Явно различены площадка, магазин, предложение, схема исполнения, продвижение и контракт метрики; совпадение всех этих признаков требуется только если они не являются изучаемым различием.",
+      "allowed_variation": "Результат различается; состав контекста фиксируется и при необходимости разделяется.",
+      "boundary": "Заказы приравнивать оплатам; пропуск нулю; весь результат приписывать одному снимку.",
+      "expected_output": "Кандидаты высокого/низкого результата с покрытием, популяцией и ограничением описательного вывода.",
+      "respondents_required": false,
+      "independent_validation_established": false
+    },
+    {
+      "id": "PR12",
+      "name": "Сопоставление результата и методического профиля",
+      "methods": [
+        "EA-11",
+        "EA-13"
+      ],
+      "comparison_rule": "Сначала заданы сравнимые задачи и условия. Экспертные критерии качества определены отдельно от метки коммерческого результата; фактический доступ к исходам раскрыт.",
+      "allowed_variation": "Результат и функции являются двумя отдельными осями.",
+      "boundary": "Среднее двух несоизмеримых оценок; подтверждение гипотезы на том же отборе без повторной проверки.",
+      "expected_output": "Четыре сочетания осей, исключения, альтернативы и направления тестов.",
+      "respondents_required": false,
+      "independent_validation_established": false,
+      "current_outcome_access_policy": "Открытый экспертный режим допустим и раскрывается. Независимая оценка без исходов проводится только под отдельный вопрос; знакомость сохраняется."
+    },
+    {
+      "id": "PR13",
+      "name": "Калибровка оценщиков",
+      "methods": [
+        "EA-00"
+      ],
+      "comparison_rule": "Один узкий вопрос, единица, версия входа и известный режим доступа к прежним результатам.",
+      "allowed_variation": "Исполнитель, модель, повтор, рубрика или граница строгости варьируются по плану.",
+      "boundary": "Общую неприменимость считать качественным разрывом; разные P сравнивать одним H.",
+      "expected_output": "Раздельное согласие единиц, значений, функций, решений и оснований; причины расхождений.",
+      "respondents_required": false,
+      "independent_validation_established": false
+    },
+    {
+      "id": "PR14",
+      "name": "Экспертный разбор предполагаемого пути восприятия и действия",
+      "methods": [
+        "EA-08",
+        "EA-09"
+      ],
+      "comparison_rule": "Одна задача, поверхность, модель показа и критерий. Аналитик реконструирует возможный путь, не измеряя ответы покупателей.",
+      "allowed_variation": "Материал либо режим просмотра варьируется в соответствии с вопросом.",
+      "boundary": "Прогноз модели выдавать за ответы людей; эстетическое предпочтение за понимание платежа.",
+      "expected_output": "Обоснованные сценарии, альтернативы и проект изменения; реакция покупателя не установлена.",
+      "respondents_required": false,
+      "independent_validation_established": false,
+      "adaptation": "Прежний респондентский способ исключён прямым поручением; экспертная функция сохранена."
+    },
+    {
+      "id": "PR15",
+      "name": "Проверка эффекта изменения",
+      "methods": [
+        "EA-13"
+      ],
+      "comparison_rule": "Определены изменение, единица назначения, показанная версия, результат и защитные условия.",
+      "allowed_variation": "Главное вмешательство варьируется; существенные условия удерживаются или учитываются обоснованным дизайном.",
+      "boundary": "Последовательную смену назвать рандомизацией; сравнивать отобранных после вмешательства без описания изменившейся популяции. Удерживать фактический расход после вмешательства как будто это всегда внешний фактор; игнорировать общий бюджет вариантов и межканальные зависимости.",
+      "expected_output": "Оценка эффекта в пределах реального дизайна либо честный описательный результат.",
+      "respondents_required": false,
+      "independent_validation_established": false
+    },
+    {
+      "id": "PR16",
+      "name": "Задания на переработку и эксперименты",
+      "methods": [
+        "EA-14"
+      ],
+      "comparison_rule": "Установлены цель, объект изменения, подтверждённые факты и зависимости. Установлено, кто вправе и фактически может изменить нужный элемент на данной площадке.",
+      "allowed_variation": "Творческое решение варьируется в пределах одной проверяемой функции.",
+      "boundary": "Агентству передавать право выбирать правильный тариф; приёмку макета считать выигрышем теста.",
+      "expected_output": "Группы работ и полное задание с источниками, ограничениями и процедурой приёмки.",
+      "respondents_required": false,
+      "independent_validation_established": false
+    },
+    {
+      "id": "PR17",
+      "name": "Типы проблем и очереди проверки",
+      "methods": [
+        "EA-00"
+      ],
+      "comparison_rule": "Один вид вопроса о проблеме и достаточно точные локаторы.",
+      "allowed_variation": "Предметы, поверхности, продавцы и масштабы могут различаться при общем механизме.",
+      "boundary": "Все разные числа считать конфликтом; все низкие H одной плохой группой.",
+      "expected_output": "Разные очереди: источник, продуктовый факт, смысл, композиция, метрика или критерий.",
+      "respondents_required": false,
+      "independent_validation_established": false
+    },
+    {
+      "id": "PR18",
+      "name": "Межплощадочное сравнение",
+      "methods": [
+        "EA-11",
+        "EA-12"
+      ],
+      "comparison_rule": "Одинаковый вопрос и функция; для коммерческого сравнения согласованы смысл событий, популяции и окна, а роли предложения, продвижения и исполнения определены вопросом. Изучаемый фактор не объявляется одновременно неизменным.",
+      "allowed_variation": "Площадка или интерфейс могут быть изучаемым фактором; не требуется скрыто одинаковая среда.",
+      "boundary": "Склеивать SKU или CTR разных площадок по названию; переносить коэффициент результата без измерительной совместимости.",
+      "expected_output": "Отдельные уровни допустимости: содержательное сравнение, нормализованное описание результата, исследование эффекта канала.",
+      "respondents_required": false,
+      "independent_validation_established": false
+    },
+    {
+      "id": "PR19",
+      "name": "Магазины и отношения дистрибуции",
+      "methods": [
+        "EA-12"
+      ],
+      "comparison_rule": "Установлены уровень витрины/кабинета/компании и статус отношений к бренду в нужной области.",
+      "allowed_variation": "Владение, ассортимент, полномочия и исполнение могут различаться как отдельные факторы.",
+      "boundary": "Считать отображаемое имя юридическим лицом; непроверенность — отсутствием прав; фирменное оформление — владением.",
+      "expected_output": "Профили торгового присутствия и отношений с доказательствами и неизвестными звеньями.",
+      "respondents_required": false,
+      "independent_validation_established": false
+    },
+    {
+      "id": "PR20",
+      "name": "Продвижение и бюджетный режим",
+      "methods": [
+        "EA-12"
+      ],
+      "comparison_rule": "Установлены значения типа программы, модели оплаты, уровня бюджета, периода, валютной/налоговой базы и показанного материала. Условия удерживаются сопоставимыми, кроме изучаемого фактора и явно исследуемых связей.",
+      "allowed_variation": "Стратегия, ресурс или состав размещений варьируются по вопросу; объём расходов не приравнивается качеству.",
+      "boundary": "Равномерно делить общий бюджет без основания; смешивать лимит и расход; одинаковые деньги считать одинаковой экспозицией.",
+      "expected_output": "Режимы привлечения и ограничения ресурса, пригодные пары и границы атрибуции.",
+      "respondents_required": false,
+      "independent_validation_established": false
+    },
+    {
+      "id": "PR21",
+      "name": "Маршруты воронки и связь измерений",
+      "methods": [
+        "EA-13"
+      ],
+      "comparison_rule": "Известны схема пути, определения событий, единицы, окна и доступные связи между участниками.",
+      "allowed_variation": "Переходы, ответственные участники и места потери наблюдения могут отличаться.",
+      "boundary": "Соединять несвязанные агрегаты в индивидуальную воронку; отсутствующую активацию трактовать как нулевую.",
+      "expected_output": "Сопоставимые переходы, альтернативные маршруты, зоны данных и конкретные решения владельцев шагов.",
+      "respondents_required": false,
+      "independent_validation_established": false
+    },
+    {
+      "id": "PR22",
+      "name": "Портфель каналов и общий ресурс",
+      "methods": [
+        "EA-11",
+        "EA-14"
+      ],
+      "comparison_rule": "Установлены принадлежность/общий ресурс, сторона успеха, горизонт и границы повторного учёта.",
+      "allowed_variation": "Площадки, магазины и стратегии различаются; связь покупателей и заказов сохраняет реальную неопределённость.",
+      "boundary": "Суммировать двойную атрибуцию; каннибализацию или общий владелец выводить из похожего названия.",
+      "expected_output": "Карта зависимостей и компромиссов портфеля; описательный итог либо проверка при наличии подходящих данных.",
+      "respondents_required": false,
+      "independent_validation_established": false
+    }
+  ],
+  "attribution_families": {
+    "money.recurring_charge": {
+      "label": "Периодическая плата",
+      "raw_predicates": [
+        "monthly_fee",
+        "monthly_fee_claim",
+        "monthly_fee_from",
+        "headline_monthly_price",
+        "base_monthly_fee",
+        "group_monthly_fee",
+        "organizer_monthly_group_fee",
+        "participant_connection_monthly_component",
+        "participant_separate_fee",
+        "participant_separate_monthly_fee",
+        "native_monthly_fee_field",
+        "initial_daily_fee",
+        "description_example_daily_fee",
+        "simple_plan_description_fee",
+        "subsequent_monthly_fee",
+        "variant_monthly_fee_claim",
+        "sms_unlimited_addon_fee"
+      ]
+    },
+    "money.topup": {
+      "label": "Первоначальное пополнение",
+      "raw_predicates": [
+        "activation_topup",
+        "activation_topup_wording",
+        "initial_topup",
+        "initial_topup_first_15_days",
+        "second_half_month_topup"
+      ]
+    },
+    "money.balance": {
+      "label": "Баланс или остаток",
+      "raw_predicates": [
+        "initial_balance",
+        "remaining_balance_after_activation",
+        "native_start_balance_field",
+        "starting_balance_claim"
+      ]
+    },
+    "money.allocation": {
+      "label": "Распределение внесённой суммы",
+      "raw_predicates": [
+        "initial_service_allocation",
+        "service_allocation"
+      ]
+    },
+    "money.one_time_charge": {
+      "label": "Разовая плата за операцию",
+      "raw_predicates": [
+        "activation_fee",
+        "connection_fee",
+        "connection_fee_label",
+        "description_example_activation_requirement"
+      ]
+    },
+    "money.average_price": {
+      "label": "Средняя цена на участника",
+      "raw_predicates": [
+        "per_subscriber_average_price"
+      ]
+    },
+    "money.reference_price": {
+      "label": "Сравнительная цена",
+      "raw_predicates": [
+        "comparative_reference_price",
+        "strikethrough_reference_price"
+      ]
+    },
+    "money.expected_savings": {
+      "label": "Заявленная экономия",
+      "raw_predicates": [
+        "annual_savings_claim"
+      ]
+    },
+    "money.function_extra_charge": {
+      "label": "Доплата за отдельную функцию",
+      "raw_predicates": [
+        "tethering_extra_charge",
+        "onnetwork_calls_extra_charge"
+      ]
+    },
+    "money.insurance_limit": {
+      "label": "Заявленный страховой предел",
+      "raw_predicates": [
+        "insurance_limit_claim"
+      ]
+    },
+    "money.unresolved_amount": {
+      "label": "Сумма с неустановленной ролью",
+      "raw_predicates": [
+        "untyped_title_amount"
+      ]
+    },
+    "money.debit_schedule": {
+      "label": "Порядок списания",
+      "raw_predicates": [
+        "first_daily_debit_period",
+        "first_month_prorated",
+        "recurring_debit_calendar_day"
+      ]
+    },
+    "resource.allowance": {
+      "label": "Количество ресурса",
+      "raw_predicates": [
+        "data_allowance",
+        "voice_allowance",
+        "sms_allowance",
+        "offnetwork_minutes",
+        "offnetwork_voice_allowance",
+        "organizer_data",
+        "participant_data",
+        "voice_pool",
+        "sms_pool",
+        "shared_voice_pool",
+        "shared_sms_pool",
+        "rich_phone_voice",
+        "rich_phone_sms",
+        "native_data_field",
+        "family_data_claim"
+      ]
+    },
+    "resource.limit_mode": {
+      "label": "Режим ограничения ресурса",
+      "raw_predicates": [
+        "data_unlimited_claim",
+        "incoming_calls_unlimited",
+        "onnetwork_calls_unlimited",
+        "onnetwork_unlimited_condition"
+      ]
+    },
+    "resource.bonus": {
+      "label": "Условный бонусный ресурс",
+      "raw_predicates": [
+        "monthly_family_bonus_upper"
+      ]
+    },
+    "resource.speed_threshold": {
+      "label": "Порог полной скорости",
+      "raw_predicates": [
+        "router_full_speed_threshold"
+      ]
+    },
+    "resource.speed_after_threshold": {
+      "label": "Скорость после порога",
+      "raw_predicates": [
+        "router_speed_after_threshold_upper"
+      ]
+    },
+    "resource.capacity": {
+      "label": "Количество подключений или выборов",
+      "raw_predicates": [
+        "additional_connections_upper",
+        "paid_family_slots",
+        "free_megasila_choices"
+      ]
+    },
+    "device.compatibility": {
+      "label": "Заявленная совместимость",
+      "raw_predicates": [
+        "all_devices_claim",
+        "declared_device_examples",
+        "declared_supported_devices",
+        "declared_unsupported_devices",
+        "device_coverage_claim",
+        "supported_device",
+        "modem_smartwatch_smart_home_supported"
+      ]
+    },
+    "device.plan_dependency": {
+      "label": "Зависимость устройства от тарифа",
+      "raw_predicates": [
+        "device_choice_requires_plan_choice",
+        "device_compatibility_requires_tariff_choice"
+      ]
+    },
+    "device.activation_tool": {
+      "label": "Устройство для активации",
+      "raw_predicates": [
+        "smartphone_internet_needed_for_activation"
+      ]
+    },
+    "device.esim_condition": {
+      "label": "Условная возможность eSIM",
+      "raw_predicates": [
+        "esim_available_if_device_supports"
+      ]
+    },
+    "network.generation_claim": {
+      "label": "Заявленное поколение сети",
+      "raw_predicates": [
+        "network_generations",
+        "5g_support_claim"
+      ]
+    },
+    "process.duration": {
+      "label": "Длительность процесса",
+      "raw_predicates": [
+        "activation_duration_upper_claim",
+        "activation_time_claim",
+        "registration_duration_upper",
+        "transfer_duration_upper"
+      ]
+    },
+    "process.activation_window": {
+      "label": "Рекомендуемый срок активации",
+      "raw_predicates": [
+        "recommended_activation_period",
+        "recommended_activation_window"
+      ]
+    },
+    "process.cooldown": {
+      "label": "Интервал между операциями",
+      "raw_predicates": [
+        "time_since_last_porting_required"
+      ]
+    },
+    "process.identity_routes": {
+      "label": "Способы идентификации",
+      "raw_predicates": [
+        "identity_routes"
+      ]
+    },
+    "process.age_condition": {
+      "label": "Возрастное условие",
+      "raw_predicates": [
+        "minimum_registration_age",
+        "age_wording"
+      ]
+    },
+    "process.identity_requirement": {
+      "label": "Условие идентификации",
+      "raw_predicates": [
+        "citizenship_requirement",
+        "passport_required"
+      ]
+    },
+    "process.porting_availability": {
+      "label": "Доступность переноса",
+      "raw_predicates": [
+        "MNP_available",
+        "same_operator_porting",
+        "same_operator_transfer",
+        "porting_from_current_yota_supported"
+      ]
+    },
+    "process.migration_availability": {
+      "label": "Переход с существующего тарифа",
+      "raw_predicates": [
+        "existing_tariff_migration_available"
+      ]
+    },
+    "process.temporary_number": {
+      "label": "Смена временного номера",
+      "raw_predicates": [
+        "temporary_number_precedes_ported_number"
+      ]
+    },
+    "process.activation_select_tariff": {
+      "label": "Выбор тарифа при активации",
+      "raw_predicates": [
+        "activation_step_select_tariff"
+      ]
+    },
+    "process.plan_change_consequence": {
+      "label": "Последствие изменения тарифа",
+      "raw_predicates": [
+        "plan_change_cancels_subscription_discount",
+        "unused_subscription_days_refunded_on_change",
+        "subscription_reconnection_available"
+      ]
+    },
+    "process.nonpayment_consequence": {
+      "label": "Последствие неоплаты",
+      "raw_predicates": [
+        "nonpayment_termination_threshold"
+      ]
+    },
+    "offer.guarantee_window": {
+      "label": "Окно гарантии условий",
+      "raw_predicates": [
+        "offer_guarantee_activation_window"
+      ]
+    },
+    "offer.included_period": {
+      "label": "Включённый период основной связи",
+      "raw_predicates": [
+        "included_service_period",
+        "topup_not_required_during_initial_period"
+      ]
+    },
+    "offer.addon_trial": {
+      "label": "Пробный период дополнительной услуги",
+      "raw_predicates": [
+        "security_addon_free_trial"
+      ]
+    },
+    "offer.plan_identity": {
+      "label": "Название тарифа в состоянии",
+      "raw_predicates": [
+        "plan_name_after_activation",
+        "plan_name_before_or_at_purchase"
+      ]
+    },
+    "offer.physical_count": {
+      "label": "Физическое число SIM",
+      "raw_predicates": [
+        "physical_sim_count"
+      ]
+    },
+    "offer.independent_lines": {
+      "label": "Независимость линий",
+      "raw_predicates": [
+        "initial_lines_independent"
+      ]
+    },
+    "offer.configuration": {
+      "label": "Выбор конфигурации",
+      "raw_predicates": [
+        "configuration_selectable",
+        "plans_may_differ_between_lines",
+        "choice_dimensions",
+        "tariff_selected_on_activation"
+      ]
+    },
+    "offer.number_choice": {
+      "label": "Выбор номера и момент выбора",
+      "raw_predicates": [
+        "new_number_alternative",
+        "number_choice_options",
+        "number_selected_before_purchase",
+        "numbers_differ_by_digits"
+      ]
+    },
+    "offer.family_join": {
+      "label": "Дополнительное объединение в семью",
+      "raw_predicates": [
+        "family_group_requires_joining_action"
+      ]
+    },
+    "offer.registration_roles": {
+      "label": "Кто регистрирует линии",
+      "raw_predicates": [
+        "same_or_different_registered_persons"
+      ]
+    },
+    "geo.activation": {
+      "label": "Территория активации",
+      "raw_predicates": [
+        "activation_territory_claim"
+      ]
+    },
+    "geo.home_region": {
+      "label": "Домашний регион и его изменение",
+      "raw_predicates": [
+        "native_home_region_field",
+        "home_region_change_on_porting"
+      ]
+    },
+    "geo.exception": {
+      "label": "Исключение или изменение условий",
+      "raw_predicates": [
+        "geo_package_difference",
+        "geographic_exceptions"
+      ]
+    },
+    "claim.payment_policy": {
+      "label": "Заявление о списаниях",
+      "raw_predicates": [
+        "imposed_services_absent",
+        "unexplained_debits_absent",
+        "negative_balance_avoided",
+        "balance_available_for_communications"
+      ]
+    },
+    "claim.authority": {
+      "label": "Заявление о полномочии",
+      "raw_predicates": [
+        "official_partner_claim"
+      ]
+    },
+    "claim.application_restriction": {
+      "label": "Доступность типа трафика",
+      "raw_predicates": [
+        "p2p_torrent_available"
+      ]
+    },
+    "claim.support_availability": {
+      "label": "Заявленная доступность поддержки",
+      "raw_predicates": [
+        "support_availability_claim"
+      ]
+    },
+    "state.version_warning": {
+      "label": "Предупреждение о версии",
+      "raw_predicates": [
+        "on_material_sticker_may_be_outdated",
+        "shown_initial_tariff_may_be_wrong"
+      ]
+    },
+    "depiction.numeric_example": {
+      "label": "Число в иллюстрации",
+      "raw_predicates": [
+        "depicted_calendar_numeral",
+        "illustrated_account_balance",
+        "illustrated_postactivation_resource_pair",
+        "price_period_interface_illustration"
+      ]
+    }
+  },
+  "family_identity_policy": "Семейство группирует связанные свойства и не доказывает тождество предикатов. Для сравнения сохраняются точный предикат, тип значения и все существенные роли/области/фазы.",
+  "assertion_dimensions": [
+    "subject",
+    "predicate",
+    "value",
+    "value_kind",
+    "unit",
+    "quantity_role",
+    "actor_role",
+    "beneficiary_scope",
+    "period",
+    "phase",
+    "variant_ref",
+    "quantifier",
+    "condition",
+    "exception",
+    "source",
+    "locator",
+    "evidence_status"
+  ],
+  "commercial_algorithms": [
+    {
+      "id": "L01",
+      "name": "Выделить причину предпочтения",
+      "when": "Предложение не выражает значимую для задачи выгоду либо нужно проверить другое позиционирование.",
+      "algorithm": [
+        "Определить задачу и альтернативу покупки.",
+        "Выбрать одну главную выгоду для данного контакта.",
+        "Подкрепить её применимым основанием и связать с действием."
+      ],
+      "sales_purpose": "Больше покупок подходящего предложения из исходного покупательского потока.",
+      "status": "WORKING_EXPERT_METHOD_NOT_UNIVERSAL_PROVEN_LAW",
+      "methods": [
+        "EA-01",
+        "EA-04"
+      ]
+    },
+    {
+      "id": "L02",
+      "name": "Показать ценность и денежную конструкцию",
+      "when": "Решение зависит от общей стоимости, состава комплекта, роли платежа, срока или условия скидки.",
+      "algorithm": [
+        "Разделить покупку, начальный и последующие платежи.",
+        "Связать сумму с плательщиком, получателем, периодом и вариантом.",
+        "Показать выгоду и существенные условия вместе."
+      ],
+      "sales_purpose": "Покупка предложения с понимаемым составом, дальнейшая реализация и сохранённый доход.",
+      "status": "WORKING_EXPERT_METHOD_NOT_UNIVERSAL_PROVEN_LAW",
+      "methods": [
+        "EA-02",
+        "EA-08",
+        "EA-14"
+      ]
+    },
+    {
+      "id": "L03",
+      "name": "Организовать выбор",
+      "when": "В одном предложении несколько тарифов, комплектов или способов приобретения.",
+      "algorithm": [
+        "Назвать задачи, по которым различается выбор.",
+        "Показать подходящие реальные варианты и сравнимые условия.",
+        "Дать понятный следующий шаг без соединения выгод разных вариантов."
+      ],
+      "sales_purpose": "Больше покупок и подключений реально подходящих вариантов.",
+      "status": "WORKING_EXPERT_METHOD_NOT_UNIVERSAL_PROVEN_LAW",
+      "methods": [
+        "EA-02",
+        "EA-09"
+      ]
+    },
+    {
+      "id": "L04",
+      "name": "Подкрепить обещание основанием доверия",
+      "when": "Покупатель должен иметь возможность проверить существенное обещание или свой выбор.",
+      "algorithm": [
+        "Назвать обещание, важное для приобретения.",
+        "Выбрать основание, относящееся именно к нему.",
+        "Показать проверяемую механику или подтверждение рядом с выгодой."
+      ],
+      "sales_purpose": "Покупки по обоснованной причине предпочтения; доверие остаётся экспертной гипотезой, если не измерялось.",
+      "status": "WORKING_EXPERT_METHOD_NOT_UNIVERSAL_PROVEN_LAW",
+      "methods": [
+        "EA-05"
+      ]
+    },
+    {
+      "id": "L05",
+      "name": "Снять конкретное препятствие решению",
+      "when": "Есть предметное экспертное основание предполагать затруднение, возражение или неясность следующего действия.",
+      "algorithm": [
+        "Назвать предполагаемое препятствие без выдуманной частоты.",
+        "Дать ответ, условие или последовательность, нужные именно в этой ситуации.",
+        "Связать объяснение с покупкой или продолжением выбранного пути."
+      ],
+      "sales_purpose": "Больше завершённых покупок или продуктовых результатов в выбранном пути.",
+      "status": "WORKING_EXPERT_METHOD_NOT_UNIVERSAL_PROVEN_LAW",
+      "methods": [
+        "EA-06",
+        "EA-09"
+      ]
+    },
+    {
+      "id": "L06",
+      "name": "Довести продажу до обещанного использования",
+      "when": "Ценность возникает после доставки, регистрации, настройки, переноса или подключения участников.",
+      "algorithm": [
+        "Определить, когда обещание действительно выполнено.",
+        "Разобрать этапы и требования, от которых зависит этот итог.",
+        "Предложить изменения в подаче, инструкции или сопровождении и выбрать итог для проверки."
+      ],
+      "sales_purpose": "Больше покупок, дошедших до использования, меньше потерь дохода от незавершения и возвратов.",
+      "status": "WORKING_EXPERT_METHOD_NOT_UNIVERSAL_PROVEN_LAW",
+      "methods": [
+        "EA-03",
+        "EA-13"
+      ]
+    },
+    {
+      "id": "L07",
+      "name": "Развить состав и ценность предложения",
+      "when": "Есть применимая возможность комплекта, дополнительного участника, услуги или другого варианта покупки.",
+      "algorithm": [
+        "Описать дополнительную ценность и условия продукта.",
+        "Определить, кому и когда предложение уместно.",
+        "Сопоставить весь пакет по покупкам и экономике с исходным предложением."
+      ],
+      "sales_purpose": "Дополнительные оплаченные результаты и маржинальный доход в соответствующем контуре.",
+      "status": "WORKING_EXPERT_METHOD_NOT_UNIVERSAL_PROVEN_LAW",
+      "methods": [
+        "EA-02",
+        "EA-03",
+        "EA-14"
+      ]
+    },
+    {
+      "id": "L08",
+      "name": "Поддержать продление и дальнейшее использование",
+      "when": "После первого периода покупатель должен решить, продолжать ли использование и оплату.",
+      "algorithm": [
+        "Назвать продолжающуюся ценность и новый денежный режим.",
+        "Предложить подходящее действие до момента решения.",
+        "Наблюдать продление и использование в нужном горизонте, отдельно от первой покупки."
+      ],
+      "sales_purpose": "Сохранённое или расширенное оплачиваемое использование и соответствующий доход.",
+      "status": "WORKING_EXPERT_METHOD_NOT_UNIVERSAL_PROVEN_LAW",
+      "methods": [
+        "EA-03",
+        "EA-13",
+        "EA-14"
+      ]
+    },
+    {
+      "id": "L09",
+      "name": "Сделать результат доступным для управления",
+      "when": "Команда не может связать версию, продажу и выполненное обещание или отделить результат от соседнего этапа.",
+      "algorithm": [
+        "Определить событие и исходную группу.",
+        "Согласовать назначение, фактический показ, версию и результат.",
+        "Использовать надёжный учёт для выбора следующего действия и его сравнения."
+      ],
+      "sales_purpose": "Возможность обоснованно управлять продажами; сам новый отчёт не считается прямым приростом.",
+      "status": "WORKING_EXPERT_METHOD_NOT_UNIVERSAL_PROVEN_LAW",
+      "methods": [
+        "EA-00",
+        "EA-13"
+      ]
+    },
+    {
+      "id": "L10",
+      "name": "Изменить получение покупательского потока",
+      "when": "Рост ограничен доступностью предложения, охватом, составом трафика, каналом или стоимостью привлечения.",
+      "algorithm": [
+        "Выбрать задачу, предложение, источник и поверхность контакта.",
+        "Определить управляемые настройки и бюджетную политику.",
+        "Сравнить покупки и экономику всего выбранного способа привлечения."
+      ],
+      "sales_purpose": "Больше продаж и дохода при выбранной стоимости привлечения, с учётом результата портфеля.",
+      "status": "WORKING_EXPERT_METHOD_NOT_UNIVERSAL_PROVEN_LAW",
+      "methods": [
+        "EA-11",
+        "EA-12",
+        "EA-14"
+      ]
+    }
+  ],
+  "comparison_types": [
+    {
+      "id": "SAME_OFFER_RESULT",
+      "meaning": "Сопоставление коммерческих результатов одинакового/подходяще сопоставимого предложения",
+      "needs": "Продукт/роль/фаза/география/окно/канал/наличие/продвижение проверены по вопросу; остаточные различия указаны."
+    },
+    {
+      "id": "FUNCTIONAL_PRESENTATION",
+      "meaning": "Сравнение выражения одной функции",
+      "needs": "Одинаковая функция; разные цены/бренды допустимы, эффект и ценовая эквивалентность не выводятся."
+    },
+    {
+      "id": "MODEL_CONTRAST",
+      "meaning": "Контраст разных моделей продажи",
+      "needs": "У каждой своё целевое событие и экономика; единый рейтинг качества/продаж не строится."
+    },
+    {
+      "id": "CREATIVE_REFERENCE",
+      "meaning": "Творческий или смысловой приём",
+      "needs": "Опора и граница переноса; чужая популярность не является доказательством эффекта приёма."
+    }
+  ],
+  "direction_criteria": [
+    {
+      "profile": "EA-00",
+      "name": "Основания и область",
+      "decision_criterion": "Указаны версия, поверхности, режим и предел прочтения; наблюдение отделено от интерпретации и эффекта.",
+      "boundary": "Мелкий текст, живой интерфейс и внешний продуктовый факт не подтверждаются по умолчанию."
+    },
+    {
+      "profile": "EA-01",
+      "name": "Задача и предполагаемый сегмент",
+      "decision_criterion": "Выведена задача из продукта/сценария, а не недоказанная демография аудитории.",
+      "boundary": "Совместимость, достаточность ресурса и покупательский мотив — разные утверждения."
+    },
+    {
+      "profile": "EA-02",
+      "name": "Предложение и денежные роли",
+      "decision_criterion": "Сохранены вариант, плательщик/получатель, период, фаза, назначение платежа и условия.",
+      "boundary": "Конфликт устанавливается только для сопоставимого предиката и области; действующее значение не выбирается большинством."
+    },
+    {
+      "profile": "EA-03",
+      "name": "Модель продажи",
+      "decision_criterion": "Связаны вход, ценность, доверие, покупка, выполненный результат и продолжение.",
+      "boundary": "Физический комплект, линии, группа и тарифная ветвь не взаимозаменяемы."
+    },
+    {
+      "profile": "EA-04",
+      "name": "Позиционирование и УТП",
+      "decision_criterion": "Есть существенная причина выбора для задачи и понятная конкурентная рамка.",
+      "boundary": "Наличие выгоды, её значимость и доказанная уникальность различаются; эмоциональная рамка допустима."
+    },
+    {
+      "profile": "EA-05",
+      "name": "Клеймы и RTB",
+      "decision_criterion": "Раздельно оценены сила обещания, его область, объясняющий механизм, доверие и внешнее подтверждение.",
+      "boundary": "Механистическое объяснение полезно без превращения его в независимое подтверждение; статус магазина и 5G требуют своих оснований."
+    },
+    {
+      "profile": "EA-06",
+      "name": "Текст и смысл",
+      "decision_criterion": "Проверены точность роли, периода, отрицания/AND/OR и функция формулировки отдельно от регистра.",
+      "boundary": "Обнаруженный конфликт периода значим, смена обращения сама по себе не является коммерческим дефектом."
+    },
+    {
+      "profile": "EA-07",
+      "name": "Визуальное значение",
+      "decision_criterion": "Сначала буквальные элементы, затем функция/метафора, её опоры и существенные альтернативы.",
+      "boundary": "Не требуется единственное толкование каждого декоративного элемента; эффект на аудиторию не измерен."
+    },
+    {
+      "profile": "EA-08",
+      "name": "Композиция",
+      "decision_criterion": "Оценена иерархия нужного сообщения в указанном показе, а не абстрактная красота.",
+      "boundary": "Наличие, заметность, смысловая привязка и устойчивость к режиму — разные стороны; реальный интерфейс не наблюдался."
+    },
+    {
+      "profile": "EA-09",
+      "name": "Последовательность и выбор",
+      "decision_criterion": "Проверены зависимости и пути конкретной модели, поздние условия и функции повторов.",
+      "boundary": "Повтор удаляется лишь при установленном отсутствии функции; условие оценивается относительно точки решения."
+    },
+    {
+      "profile": "EA-10",
+      "name": "Дизайн-система",
+      "decision_criterion": "Сопоставлены одинаковые функциональные роли и обоснованные исключения на нескольких поверхностях.",
+      "boundary": "Согласованность не равна узнаваемости, законности владения и коммерческому эффекту."
+    },
+    {
+      "profile": "EA-11",
+      "name": "Аналоги и конкуренция",
+      "decision_criterion": "Названы общая функция и существенные отличия; тип сравнения определяет допустимый вывод.",
+      "boundary": "Наблюдаемый объём, функциональный приём, ценовая эквивалентность и перенос творческого принципа различаются."
+    },
+    {
+      "profile": "EA-12",
+      "name": "Канал и управление",
+      "decision_criterion": "Разделены площадка, продавец, бренд, полномочия, управляемый рычаг и доступное исполнение.",
+      "boundary": "Текущий корпус Ozon и архивный снимок; бюджетная политика, расход и права не заданы по одному имени."
+    },
+    {
+      "profile": "EA-13",
+      "name": "Воронка и коммерческий контекст",
+      "decision_criterion": "Определены модельное целевое событие, единица/популяция/окно и доступность фактического учёта.",
+      "boundary": "98 связанных строк и 31 неизвестная; несвязанные агрегаты не становятся индивидуальной воронкой."
+    },
+    {
+      "profile": "EA-14",
+      "name": "Экономика и выбор действия",
+      "decision_criterion": "Указаны сторона дохода, контур затрат, горизонт, известное/предполагаемое, управляемость и причина приоритета.",
+      "boundary": "Нет выдуманного прироста; неизвестность денежного эффекта не запрещает конкретный экспертный проект изменения."
+    }
+  ],
+  "hypothesis_candidates": [
+    {
+      "id": "H01",
+      "mechanism": "Явная связь общей платы и плательщика уменьшает ошибку чтения средней цены как реального списания.",
+      "alternative": "Покупатели уже правильно восстанавливают общий счёт; ошибка вызвана смешением версий, а не иерархией.",
+      "methods": [
+        "EA-02",
+        "EA-08"
+      ],
+      "effect_status": "UNTESTED",
+      "current_use": "Экспертно сопоставить выражение смысла и альтернативы на материалах; предложить вариант при полезности. При последующем операционном сравнении оценивать реальные события, не выдавая продажи за прямое измерение понимания.",
+      "respondent_test_required": false,
+      "special_limit": "Механизм понимания/восприятия без прямого наблюдения остаётся гипотезой."
+    },
+    {
+      "id": "H02",
+      "mechanism": "Матрица тарифных ветвей уменьшает смешение ресурсов и цен разных вариантов.",
+      "alternative": "Основное ограничение — неизвестные или недоступные тарифные условия.",
+      "methods": [
+        "EA-02",
+        "EA-09"
+      ],
+      "effect_status": "UNTESTED",
+      "current_use": "Экспертно сопоставить выражение смысла и альтернативы на материалах; предложить вариант при полезности. При последующем операционном сравнении оценивать реальные события, не выдавая продажи за прямое измерение понимания.",
+      "respondent_test_required": false,
+      "special_limit": "Механизм понимания/восприятия без прямого наблюдения остаётся гипотезой."
+    },
+    {
+      "id": "H03",
+      "mechanism": "Прямая схема личных/общих ресурсов уменьшает ожидание безлимита у каждого участника.",
+      "alternative": "Вопрос не вызывает ошибки и при текущем рисунке; решает текст подписи.",
+      "methods": [
+        "EA-02",
+        "EA-07"
+      ],
+      "effect_status": "UNTESTED",
+      "current_use": "Экспертно сопоставить выражение смысла и альтернативы на материалах; предложить вариант при полезности. При последующем операционном сравнении оценивать реальные события, не выдавая продажи за прямое измерение понимания.",
+      "respondent_test_required": false,
+      "special_limit": "Механизм понимания/восприятия без прямого наблюдения остаётся гипотезой."
+    },
+    {
+      "id": "H04",
+      "mechanism": "Раздельные состояния активации и переноса улучшают выбор действия и понимание срока.",
+      "alternative": "Проблемы вызывает реальная процедура, а не объяснение.",
+      "methods": [
+        "EA-03",
+        "EA-09"
+      ],
+      "effect_status": "UNTESTED",
+      "current_use": "Экспертно сопоставить выражение смысла и альтернативы на материалах; предложить вариант при полезности. При последующем операционном сравнении оценивать реальные события, не выдавая продажи за прямое измерение понимания.",
+      "respondent_test_required": false,
+      "special_limit": "Механизм понимания/восприятия без прямого наблюдения остаётся гипотезой."
+    },
+    {
+      "id": "H05",
+      "mechanism": "Различия наблюдаемой заказанности в существенной мере объясняются экспозицией, возрастом, наличием и продвижением.",
+      "alternative": "Конкретное свойство содержания даёт дополнительный эффект.",
+      "methods": [
+        "EA-12",
+        "EA-13"
+      ],
+      "effect_status": "UNTESTED",
+      "current_use": "Экспертно сопоставить выражение смысла и альтернативы на материалах; предложить вариант при полезности. При последующем операционном сравнении оценивать реальные события, не выдавая продажи за прямое измерение понимания.",
+      "respondent_test_required": false,
+      "special_limit": "Механизм понимания/восприятия без прямого наблюдения остаётся гипотезой."
+    },
+    {
+      "id": "H06",
+      "mechanism": "Раннее раскрытие критического условия улучшает его обнаружение в ограниченном режиме.",
+      "alternative": "Проблема отсутствует при реальном пути пользователя или зависит от самого условия.",
+      "methods": [
+        "EA-08",
+        "EA-09"
+      ],
+      "effect_status": "UNTESTED",
+      "current_use": "Экспертно сопоставить выражение смысла и альтернативы на материалах; предложить вариант при полезности. При последующем операционном сравнении оценивать реальные события, не выдавая продажи за прямое измерение понимания.",
+      "respondent_test_required": false,
+      "special_limit": "Механизм понимания/восприятия без прямого наблюдения остаётся гипотезой."
+    },
+    {
+      "id": "H07",
+      "mechanism": "Явное различение роли картинки и устройства предотвращает ошибку совместимости.",
+      "alternative": "Покупатели читают знак раздачи корректно без изменения.",
+      "methods": [
+        "EA-02",
+        "EA-07"
+      ],
+      "effect_status": "UNTESTED",
+      "current_use": "Экспертно сопоставить выражение смысла и альтернативы на материалах; предложить вариант при полезности. При последующем операционном сравнении оценивать реальные события, не выдавая продажи за прямое измерение понимания.",
+      "respondent_test_required": false,
+      "special_limit": "Механизм понимания/восприятия без прямого наблюдения остаётся гипотезой."
+    },
+    {
+      "id": "H08",
+      "mechanism": "Разрыв стиля Gallery/Rich усиливает смешение разных продуктовых профилей.",
+      "alternative": "Стиль безвреден; проблема только в несовпадающих условиях.",
+      "methods": [
+        "EA-02",
+        "EA-10"
+      ],
+      "effect_status": "UNTESTED",
+      "current_use": "Экспертно сопоставить выражение смысла и альтернативы на материалах; предложить вариант при полезности. При последующем операционном сравнении оценивать реальные события, не выдавая продажи за прямое измерение понимания.",
+      "respondent_test_required": false,
+      "special_limit": "Механизм понимания/восприятия без прямого наблюдения остаётся гипотезой."
+    },
+    {
+      "id": "H09",
+      "mechanism": "Антропоморфный образ сам меняет понимание ролей независимо от текста.",
+      "alternative": "Образ декоративен, а понимание задают подписи и схема.",
+      "methods": [
+        "EA-07"
+      ],
+      "effect_status": "UNTESTED",
+      "current_use": "Экспертно сопоставить выражение смысла и альтернативы на материалах; предложить вариант при полезности. При последующем операционном сравнении оценивать реальные события, не выдавая продажи за прямое измерение понимания.",
+      "respondent_test_required": false,
+      "special_limit": "Механизм понимания/восприятия без прямого наблюдения остаётся гипотезой."
+    },
+    {
+      "id": "H10",
+      "mechanism": "Часть низкого согласия порождена разным предметом ответа и якорями, а не пределом способности модели.",
+      "alternative": "После согласования единицы остаются ошибки распознавания или содержательного суждения.",
+      "methods": [
+        "EA-00"
+      ],
+      "effect_status": "UNTESTED",
+      "current_use": "Экспертно сопоставить выражение смысла и альтернативы на материалах; предложить вариант при полезности. При последующем операционном сравнении оценивать реальные события, не выдавая продажи за прямое измерение понимания.",
+      "respondent_test_required": false,
+      "special_limit": "Для H10 проверяются операции оценщиков на новых единицах; это не эксперимент продаж."
+    }
+  ]
+}

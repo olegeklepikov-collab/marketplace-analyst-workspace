@@ -1,0 +1,364 @@
+{
+  "record_type": "CAPTURE",
+  "intake_id": "BASE:CS_30808c73503402899faf",
+  "card_id": "OZON:5292222437",
+  "capture_id": "CS_30808c73503402899faf",
+  "intake_status": "ACCEPTED",
+  "registered_at": null,
+  "platform": "Ozon",
+  "external_card_id": {
+    "state": "KNOWN",
+    "value": "5292222437",
+    "basis": "OBSERVED",
+    "scope": "внешний номер",
+    "source_locator": "01_Карточки/Ozon/Yota/П26 Много Сим/5292222437/CS_30808c73503402899faf/01_Материалы/card_data.json:sku"
+  },
+  "observed_at": {
+    "state": "KNOWN",
+    "value": "2026-09-25T09:42:31.553Z",
+    "basis": "OBSERVED",
+    "scope": "время наблюдения",
+    "source_locator": "01_Карточки/Ozon/Yota/П26 Много Сим/5292222437/CS_30808c73503402899faf/01_Материалы/card_data.json:collected_at"
+  },
+  "seller_display_name": {
+    "state": "KNOWN",
+    "value": "Много Сим",
+    "basis": "OBSERVED",
+    "scope": "точная строка продавца",
+    "source_locator": "01_Карточки/Ozon/Yota/П26 Много Сим/5292222437/CS_30808c73503402899faf/01_Материалы/card_data.json:seller"
+  },
+  "seller_label_code": "П26",
+  "brand": {
+    "state": "KNOWN",
+    "value": "Yota",
+    "basis": "OBSERVED",
+    "scope": "заявленный бренд",
+    "source_locator": "01_Карточки/Ozon/Yota/П26 Много Сим/5292222437/CS_30808c73503402899faf/01_Материалы/card_data.json"
+  },
+  "title": {
+    "state": "KNOWN",
+    "value": "Сим карта Йота для смартфона (все регионы)",
+    "basis": "OBSERVED",
+    "scope": "заголовок",
+    "source_locator": "01_Карточки/Ozon/Yota/П26 Много Сим/5292222437/CS_30808c73503402899faf/01_Материалы/card_data.json:title"
+  },
+  "source_origin": "Сохранённая страница маркетплейса; дата наблюдения указана в паспорте.",
+  "actual_relative_path": "01_Карточки/Ozon/Yota/П26 Много Сим/5292222437/CS_30808c73503402899faf",
+  "mission": "Подключение: основное предложение",
+  "offer_model": "Услуга, условия не подтверждены",
+  "collection_region": "Moscow",
+  "materials": [
+    {
+      "placement_id": "CS_30808c73503402899faf:Gallery/G01.jpg",
+      "surface": "GALLERY",
+      "position": 1,
+      "relative_file": "01_Карточки/Ozon/Yota/П26 Много Сим/5292222437/CS_30808c73503402899faf/01_Материалы/Gallery/G01.jpg",
+      "integrity_state": "VERIFIED",
+      "sha256": "46715b3c537dd2110285b1de392fb42cf1353de96a13aa83ba3efcbfc0d38905",
+      "bytes": 87503
+    },
+    {
+      "placement_id": "CS_30808c73503402899faf:Gallery/G02.jpg",
+      "surface": "GALLERY",
+      "position": 2,
+      "relative_file": "01_Карточки/Ozon/Yota/П26 Много Сим/5292222437/CS_30808c73503402899faf/01_Материалы/Gallery/G02.jpg",
+      "integrity_state": "VERIFIED",
+      "sha256": "6d47cb557e49b9bc32ec7237387c09026bd8ac7c518d91c8e3de0b4774e6f7cc",
+      "bytes": 67773
+    },
+    {
+      "placement_id": "CS_30808c73503402899faf:Gallery/G03.jpg",
+      "surface": "GALLERY",
+      "position": 3,
+      "relative_file": "01_Карточки/Ozon/Yota/П26 Много Сим/5292222437/CS_30808c73503402899faf/01_Материалы/Gallery/G03.jpg",
+      "integrity_state": "VERIFIED",
+      "sha256": "d8202b78a514433fd8766da00aad71490510cee48ef7d51753ed16dd5217eaab",
+      "bytes": 53297
+    },
+    {
+      "placement_id": "CS_30808c73503402899faf:Gallery/G04.jpg",
+      "surface": "GALLERY",
+      "position": 4,
+      "relative_file": "01_Карточки/Ozon/Yota/П26 Много Сим/5292222437/CS_30808c73503402899faf/01_Материалы/Gallery/G04.jpg",
+      "integrity_state": "VERIFIED",
+      "sha256": "33de858e22af30b4f5948ecae98e9f3c8f66b5f19ce2f9d2fa20d3fa0ebac1d6",
+      "bytes": 76701
+    },
+    {
+      "placement_id": "CS_30808c73503402899faf:Gallery/G05.jpg",
+      "surface": "GALLERY",
+      "position": 5,
+      "relative_file": "01_Карточки/Ozon/Yota/П26 Много Сим/5292222437/CS_30808c73503402899faf/01_Материалы/Gallery/G05.jpg",
+      "integrity_state": "VERIFIED",
+      "sha256": "ad513c84ece8f64bf1beb037da241c474362e4c4b826597abc6b274bf700f829",
+      "bytes": 46887
+    },
+    {
+      "placement_id": "CS_30808c73503402899faf:Gallery/G06.jpg",
+      "surface": "GALLERY",
+      "position": 6,
+      "relative_file": "01_Карточки/Ozon/Yota/П26 Много Сим/5292222437/CS_30808c73503402899faf/01_Материалы/Gallery/G06.jpg",
+      "integrity_state": "VERIFIED",
+      "sha256": "df7f7b5866b76495f2cb2806c6a419bbcd37ac5b4db79cc07ef739af2c30051f",
+      "bytes": 59466
+    },
+    {
+      "placement_id": "CS_30808c73503402899faf:Gallery/G07.jpg",
+      "surface": "GALLERY",
+      "position": 7,
+      "relative_file": "01_Карточки/Ozon/Yota/П26 Много Сим/5292222437/CS_30808c73503402899faf/01_Материалы/Gallery/G07.jpg",
+      "integrity_state": "VERIFIED",
+      "sha256": "038018594e904e884bb234aea5533e06dd19374e84ae32daac34990297894f2f",
+      "bytes": 81212
+    },
+    {
+      "placement_id": "CS_30808c73503402899faf:Gallery/G08.jpg",
+      "surface": "GALLERY",
+      "position": 8,
+      "relative_file": "01_Карточки/Ozon/Yota/П26 Много Сим/5292222437/CS_30808c73503402899faf/01_Материалы/Gallery/G08.jpg",
+      "integrity_state": "VERIFIED",
+      "sha256": "269752d86d083573dccb674a0fac19130209e04bf71d3c2eefced25650cdfce2",
+      "bytes": 61452
+    },
+    {
+      "placement_id": "CS_30808c73503402899faf:Gallery/G09.jpg",
+      "surface": "GALLERY",
+      "position": 9,
+      "relative_file": "01_Карточки/Ozon/Yota/П26 Много Сим/5292222437/CS_30808c73503402899faf/01_Материалы/Gallery/G09.jpg",
+      "integrity_state": "VERIFIED",
+      "sha256": "4e877e8a0417b1257245e3a29d540d25c196702b5e6730d7e2a6352656912978",
+      "bytes": 68103
+    },
+    {
+      "placement_id": "CS_30808c73503402899faf:Gallery/G10.jpg",
+      "surface": "GALLERY",
+      "position": 10,
+      "relative_file": "01_Карточки/Ozon/Yota/П26 Много Сим/5292222437/CS_30808c73503402899faf/01_Материалы/Gallery/G10.jpg",
+      "integrity_state": "VERIFIED",
+      "sha256": "92ed9fa4fad05c1789fa3502b3841a514c8cdadf99a6f74dad1884f09f9845fc",
+      "bytes": 74032
+    },
+    {
+      "placement_id": "CS_30808c73503402899faf:Rich/R01.jpg",
+      "surface": "RICH",
+      "position": 1,
+      "relative_file": "01_Карточки/Ozon/Yota/П26 Много Сим/5292222437/CS_30808c73503402899faf/01_Материалы/Rich/R01.jpg",
+      "integrity_state": "VERIFIED",
+      "sha256": "17d9fa93d7b5d2b1778e601903a224862c458adeff79aedd444d92bfebc44386",
+      "bytes": 102881
+    },
+    {
+      "placement_id": "CS_30808c73503402899faf:Rich/rich_ocr.json",
+      "surface": "RICH",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/Yota/П26 Много Сим/5292222437/CS_30808c73503402899faf/01_Материалы/Rich/rich_ocr.json",
+      "integrity_state": "VERIFIED",
+      "sha256": "dc045cfeb05bc2181b0ce5c14448159052d4751eb4c4c195a3a7cb5f58472b80",
+      "bytes": 1451
+    },
+    {
+      "placement_id": "CS_30808c73503402899faf:Rich/rich_text.txt",
+      "surface": "RICH",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/Yota/П26 Много Сим/5292222437/CS_30808c73503402899faf/01_Материалы/Rich/rich_text.txt",
+      "integrity_state": "VERIFIED",
+      "sha256": "9b1bb5d1cc3330ba02ec3f9feaf781e52e76b2faaeaa9b7d139373e5df4e3c11",
+      "bytes": 172
+    },
+    {
+      "placement_id": "CS_30808c73503402899faf:analytics_rank.txt",
+      "surface": "OTHER",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/Yota/П26 Много Сим/5292222437/CS_30808c73503402899faf/01_Материалы/analytics_rank.txt",
+      "integrity_state": "VERIFIED",
+      "sha256": "c2464c2bbb48985528da8c1add16bda77c1aa84c2c9813db2e4f4158a5f9167b",
+      "bytes": 18
+    },
+    {
+      "placement_id": "CS_30808c73503402899faf:availability.txt",
+      "surface": "OTHER",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/Yota/П26 Много Сим/5292222437/CS_30808c73503402899faf/01_Материалы/availability.txt",
+      "integrity_state": "VERIFIED",
+      "sha256": "f3db355a863e0dd7fa5ca1c95f35969d61f7cfb1f7a1c64da40b68a8ebed9c4d",
+      "bytes": 26
+    },
+    {
+      "placement_id": "CS_30808c73503402899faf:card_data.json",
+      "surface": "OTHER",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/Yota/П26 Много Сим/5292222437/CS_30808c73503402899faf/01_Материалы/card_data.json",
+      "integrity_state": "VERIFIED",
+      "sha256": "75d5ec0f2d7c78acc8d49bacf8f539f7614d998fd4d30733e3175edb0697cf26",
+      "bytes": 7086
+    },
+    {
+      "placement_id": "CS_30808c73503402899faf:characteristics.txt",
+      "surface": "CHARACTERISTICS",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/Yota/П26 Много Сим/5292222437/CS_30808c73503402899faf/01_Материалы/characteristics.txt",
+      "integrity_state": "VERIFIED",
+      "sha256": "1c9227893ac7879ece6c3f80e53cd79395910cbf3f6a2375b89e6667ce51570d",
+      "bytes": 1030
+    },
+    {
+      "placement_id": "CS_30808c73503402899faf:collection_status.txt",
+      "surface": "OTHER",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/Yota/П26 Много Сим/5292222437/CS_30808c73503402899faf/01_Материалы/collection_status.txt",
+      "integrity_state": "VERIFIED",
+      "sha256": "cf01585829633e2debef0696d8101ca4fb4702310a2f2256b3b17bd0e753ce8c",
+      "bytes": 10
+    },
+    {
+      "placement_id": "CS_30808c73503402899faf:content_type.txt",
+      "surface": "OTHER",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/Yota/П26 Много Сим/5292222437/CS_30808c73503402899faf/01_Материалы/content_type.txt",
+      "integrity_state": "VERIFIED",
+      "sha256": "96e6625bbd580d529a6384d96146fa3a05f7fb416cb4614fd8cd7135be2d77d1",
+      "bytes": 28
+    },
+    {
+      "placement_id": "CS_30808c73503402899faf:description.txt",
+      "surface": "DESCRIPTION",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/Yota/П26 Много Сим/5292222437/CS_30808c73503402899faf/01_Материалы/description.txt",
+      "integrity_state": "VERIFIED",
+      "sha256": "c602476f54f69a32b0288d4cd36e2b4caac2b4bc717843807bd43bf370bb5e28",
+      "bytes": 2892
+    },
+    {
+      "placement_id": "CS_30808c73503402899faf:manifest.json",
+      "surface": "OTHER",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/Yota/П26 Много Сим/5292222437/CS_30808c73503402899faf/01_Материалы/manifest.json",
+      "integrity_state": "VERIFIED",
+      "sha256": "4a0b14215ab74d4f88277c35599c632ffdd753c68d567381aff61ee3a9bbac86",
+      "bytes": 6516
+    },
+    {
+      "placement_id": "CS_30808c73503402899faf:price.txt",
+      "surface": "OTHER",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/Yota/П26 Много Сим/5292222437/CS_30808c73503402899faf/01_Материалы/price.txt",
+      "integrity_state": "VERIFIED",
+      "sha256": "4355a46b19d348dc2f57c046f8ef63d4538ebb936000f3c9ee954a27460dd865",
+      "bytes": 2
+    },
+    {
+      "placement_id": "CS_30808c73503402899faf:rating.txt",
+      "surface": "OTHER",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/Yota/П26 Много Сим/5292222437/CS_30808c73503402899faf/01_Материалы/rating.txt",
+      "integrity_state": "VERIFIED",
+      "sha256": "597fd61a4dc22d0cf28dd3e89619b1e8cab79ebc61a95aa784a93baab3eecc3a",
+      "bytes": 4
+    },
+    {
+      "placement_id": "CS_30808c73503402899faf:reviews_count.txt",
+      "surface": "OTHER",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/Yota/П26 Много Сим/5292222437/CS_30808c73503402899faf/01_Материалы/reviews_count.txt",
+      "integrity_state": "VERIFIED",
+      "sha256": "64459cd36006fa4bb2f5314f2a1ad69c8cbbb95f319c5459b32a9cdc870b54aa",
+      "bytes": 3
+    },
+    {
+      "placement_id": "CS_30808c73503402899faf:seller.txt",
+      "surface": "OTHER",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/Yota/П26 Много Сим/5292222437/CS_30808c73503402899faf/01_Материалы/seller.txt",
+      "integrity_state": "VERIFIED",
+      "sha256": "95d41b2b88901777a62ee5ea2d78cc2266c92fd8bd42b55ce00d2dcd41a16f14",
+      "bytes": 18
+    },
+    {
+      "placement_id": "CS_30808c73503402899faf:tags.txt",
+      "surface": "OTHER",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/Yota/П26 Много Сим/5292222437/CS_30808c73503402899faf/01_Материалы/tags.txt",
+      "integrity_state": "VERIFIED",
+      "sha256": "5762d0ba317582d44414f99a2d522dc78df75bd7a11bff8be527aefae62d93e8",
+      "bytes": 862
+    },
+    {
+      "placement_id": "CS_30808c73503402899faf:title.txt",
+      "surface": "TITLE",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/Yota/П26 Много Сим/5292222437/CS_30808c73503402899faf/01_Материалы/title.txt",
+      "integrity_state": "VERIFIED",
+      "sha256": "f6f58558879f69f4ef1a8545156557a29c60c20f01636d3087c0456774ceb1c6",
+      "bytes": 77
+    },
+    {
+      "placement_id": "CS_30808c73503402899faf:url.txt",
+      "surface": "OTHER",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/Yota/П26 Много Сим/5292222437/CS_30808c73503402899faf/01_Материалы/url.txt",
+      "integrity_state": "VERIFIED",
+      "sha256": "b40d1cfdb3d90d76e4c53f426711533c0d6980ca4b512541d7098ed1d5ca180e",
+      "bytes": 96
+    }
+  ],
+  "data_format": "CAPTURE",
+  "change_number": 1,
+  "coverage_scope": "Все файлы предоставленного снимка; полнота действующей страницы и исполнение услуги отдельно не подтверждены.",
+  "source_note": "Точные сведения источника не являются независимой проверкой тарифного договора или юридических полномочий.",
+  "attributes": {
+    "preliminary_classification": {
+      "task_focus": "CONNECT",
+      "bundle_focus": "NOT_EMPHASIZED_IN_TITLE",
+      "configuration_focus": "NOT_EMPHASIZED_IN_TITLE",
+      "period_focus": "NOT_EMPHASIZED_IN_TITLE",
+      "group_id": "CONNECT_BASE",
+      "group_name": "Подключение: основное предложение",
+      "device_claims": [
+        "PHONE_TABLET"
+      ],
+      "device_claims_status": "POSITIVE_SOURCE_CLAIM_NOT_VERIFIED",
+      "money_roles": [],
+      "money_review_scope": "NOT_ATOMICALLY_REVIEWED",
+      "porting_role": "NOT_ESTABLISHED_IN_ROUTING_SCOPE",
+      "geo_claims": {
+        "legacy_title_claim": "ALL_RUSSIA_CLAIM",
+        "verification": "NOT_VERIFIED",
+        "collection_region": "Moscow"
+      },
+      "targeted_evidence": [],
+      "review_note": "",
+      "flags": [],
+      "legal_party_id": "",
+      "authority_status": "UNKNOWN_IN_INSPECTED_INPUTS",
+      "commercial_readiness": "NOT_ESTABLISHED",
+      "content_effect": "NOT_ASSESSED",
+      "market_row_present": "True",
+      "promotion_row_present": "False",
+      "routing_support": {
+        "surface": "TITLE",
+        "source_file": "01_Карточки/Ozon/Yota/П26 Много Сим/5292222437/CS_30808c73503402899faf/01_Материалы/title.txt",
+        "basis_text": "телефон / смартфон / планшет",
+        "basis_kind": "PROVIDED_ROUTING_EXPLANATION",
+        "literal_text_match": false,
+        "source_classification_status": "PROVISIONAL_CONTENT_ROUTING",
+        "evidence_status": "INHERITED_NOT_INDEPENDENT_RECODE",
+        "scope_note": "Предоставленное основание предварительной группы; не новая независимая разметка и не проверка совместимости или эффекта."
+      },
+      "device_scope_note": "Перечень устройств является исходной маршрутизацией, а не полной проверкой совместимости."
+    },
+    "classification_status": "PRELIMINARY_CONTENT_ROUTE_NOT_SALES_RANK",
+    "channel": {
+      "platform": "Ozon",
+      "legal_party": "UNKNOWN",
+      "shop_type": "UNKNOWN",
+      "brand_owner": "UNKNOWN",
+      "distributor_status": "UNKNOWN",
+      "budget": "UNKNOWN"
+    },
+    "source_url": "https://www.ozon.ru/product/sim-karta-yota-dlya-smartfona-vse-regiony-5292222437/?sh=f35iFbOWYQ"
+  },
+  "metadata_files": [
+    "01_Карточки/Ozon/Yota/П26 Много Сим/5292222437/CS_30808c73503402899faf/02_Метаданные/Фрагменты источника.jsonl",
+    "01_Карточки/Ozon/Yota/П26 Много Сим/5292222437/CS_30808c73503402899faf/02_Метаданные/Извлечённые сведения.jsonl"
+  ]
+}

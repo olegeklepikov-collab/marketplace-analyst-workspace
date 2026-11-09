@@ -1,0 +1,355 @@
+{
+  "record_type": "CAPTURE",
+  "intake_id": "BASE:CS_8a46d587da456218e281",
+  "card_id": "OZON:4533144713",
+  "capture_id": "CS_8a46d587da456218e281",
+  "intake_status": "ACCEPTED",
+  "registered_at": null,
+  "platform": "Ozon",
+  "external_card_id": {
+    "state": "KNOWN",
+    "value": "4533144713",
+    "basis": "OBSERVED",
+    "scope": "внешний номер",
+    "source_locator": "01_Карточки/Ozon/МегаФон/П19 WiFiГрад/4533144713/CS_8a46d587da456218e281/01_Материалы/card_data.json:sku"
+  },
+  "observed_at": {
+    "state": "KNOWN",
+    "value": "2026-09-25T09:41:54.276Z",
+    "basis": "OBSERVED",
+    "scope": "время наблюдения",
+    "source_locator": "01_Карточки/Ozon/МегаФон/П19 WiFiГрад/4533144713/CS_8a46d587da456218e281/01_Материалы/card_data.json:collected_at"
+  },
+  "seller_display_name": {
+    "state": "KNOWN",
+    "value": "WiFiГрад",
+    "basis": "OBSERVED",
+    "scope": "точная строка продавца",
+    "source_locator": "01_Карточки/Ozon/МегаФон/П19 WiFiГрад/4533144713/CS_8a46d587da456218e281/01_Материалы/card_data.json:seller"
+  },
+  "seller_label_code": "П19",
+  "brand": {
+    "state": "KNOWN",
+    "value": "МегаФон",
+    "basis": "OBSERVED",
+    "scope": "заявленный бренд",
+    "source_locator": "01_Карточки/Ozon/МегаФон/П19 WiFiГрад/4533144713/CS_8a46d587da456218e281/01_Материалы/card_data.json"
+  },
+  "title": {
+    "state": "KNOWN",
+    "value": "Сим карта безлимитный интернет Мегафон для роутера и телефона",
+    "basis": "OBSERVED",
+    "scope": "заголовок",
+    "source_locator": "01_Карточки/Ozon/МегаФон/П19 WiFiГрад/4533144713/CS_8a46d587da456218e281/01_Материалы/card_data.json:title"
+  },
+  "source_origin": "Сохранённая страница маркетплейса; дата наблюдения указана в паспорте.",
+  "actual_relative_path": "01_Карточки/Ozon/МегаФон/П19 WiFiГрад/4533144713/CS_8a46d587da456218e281",
+  "mission": "Подключение: основное предложение",
+  "offer_model": "Услуга, условия не подтверждены",
+  "collection_region": "Moscow",
+  "materials": [
+    {
+      "placement_id": "CS_8a46d587da456218e281:Gallery/G01.jpg",
+      "surface": "GALLERY",
+      "position": 1,
+      "relative_file": "01_Карточки/Ozon/МегаФон/П19 WiFiГрад/4533144713/CS_8a46d587da456218e281/01_Материалы/Gallery/G01.jpg",
+      "integrity_state": "VERIFIED",
+      "sha256": "f3a36c005014f17411fc4893d3e965e5a178504d4f0f40479b375a2a18788ae7",
+      "bytes": 115317
+    },
+    {
+      "placement_id": "CS_8a46d587da456218e281:Gallery/G02.jpg",
+      "surface": "GALLERY",
+      "position": 2,
+      "relative_file": "01_Карточки/Ozon/МегаФон/П19 WiFiГрад/4533144713/CS_8a46d587da456218e281/01_Материалы/Gallery/G02.jpg",
+      "integrity_state": "VERIFIED",
+      "sha256": "f67eb5eedbbcdb81a6e9a5ba481dbe54ea93786b28a9ad80a41fe1ae2fba71a3",
+      "bytes": 83143
+    },
+    {
+      "placement_id": "CS_8a46d587da456218e281:Gallery/G03.jpg",
+      "surface": "GALLERY",
+      "position": 3,
+      "relative_file": "01_Карточки/Ozon/МегаФон/П19 WiFiГрад/4533144713/CS_8a46d587da456218e281/01_Материалы/Gallery/G03.jpg",
+      "integrity_state": "VERIFIED",
+      "sha256": "2b47583bdee09d2be366bb145b86af8135e790b5d64d348e5e6ef1b059372031",
+      "bytes": 143788
+    },
+    {
+      "placement_id": "CS_8a46d587da456218e281:Gallery/G04.jpg",
+      "surface": "GALLERY",
+      "position": 4,
+      "relative_file": "01_Карточки/Ozon/МегаФон/П19 WiFiГрад/4533144713/CS_8a46d587da456218e281/01_Материалы/Gallery/G04.jpg",
+      "integrity_state": "VERIFIED",
+      "sha256": "c9d4472cc1bd76c1cef175a1222a05a006cd463934985cff83c4b0fd8d629e43",
+      "bytes": 307702
+    },
+    {
+      "placement_id": "CS_8a46d587da456218e281:Gallery/G05.jpg",
+      "surface": "GALLERY",
+      "position": 5,
+      "relative_file": "01_Карточки/Ozon/МегаФон/П19 WiFiГрад/4533144713/CS_8a46d587da456218e281/01_Материалы/Gallery/G05.jpg",
+      "integrity_state": "VERIFIED",
+      "sha256": "63ac3af3a43843f1025f3706d2baea0201e1d8bb9d043fc8a74d405bc303fed7",
+      "bytes": 381141
+    },
+    {
+      "placement_id": "CS_8a46d587da456218e281:Gallery/G06.jpg",
+      "surface": "GALLERY",
+      "position": 6,
+      "relative_file": "01_Карточки/Ozon/МегаФон/П19 WiFiГрад/4533144713/CS_8a46d587da456218e281/01_Материалы/Gallery/G06.jpg",
+      "integrity_state": "VERIFIED",
+      "sha256": "cbbbafa3e272d0239dab8773003eb4395f64ac149238828a06c3c3e8783efcf8",
+      "bytes": 99942
+    },
+    {
+      "placement_id": "CS_8a46d587da456218e281:Gallery/G07.jpg",
+      "surface": "GALLERY",
+      "position": 7,
+      "relative_file": "01_Карточки/Ozon/МегаФон/П19 WiFiГрад/4533144713/CS_8a46d587da456218e281/01_Материалы/Gallery/G07.jpg",
+      "integrity_state": "VERIFIED",
+      "sha256": "536b5ced7e0d21a5935fa0a1a1eff38d08e2e82fae67a6ef6482a3279950cbf9",
+      "bytes": 254140
+    },
+    {
+      "placement_id": "CS_8a46d587da456218e281:Gallery/G08.jpg",
+      "surface": "GALLERY",
+      "position": 8,
+      "relative_file": "01_Карточки/Ozon/МегаФон/П19 WiFiГрад/4533144713/CS_8a46d587da456218e281/01_Материалы/Gallery/G08.jpg",
+      "integrity_state": "VERIFIED",
+      "sha256": "697afed104ce2010199506d1a0e67dd98c62acb9bba00ff881dc8d9941ecc36c",
+      "bytes": 103533
+    },
+    {
+      "placement_id": "CS_8a46d587da456218e281:Gallery/G09.jpg",
+      "surface": "GALLERY",
+      "position": 9,
+      "relative_file": "01_Карточки/Ozon/МегаФон/П19 WiFiГрад/4533144713/CS_8a46d587da456218e281/01_Материалы/Gallery/G09.jpg",
+      "integrity_state": "VERIFIED",
+      "sha256": "09bfd44410ba17b73236dee3b4ba37e83e339a8bdbd9f5b86f0d03b000d9cdf1",
+      "bytes": 119124
+    },
+    {
+      "placement_id": "CS_8a46d587da456218e281:Rich/R01.jpg",
+      "surface": "RICH",
+      "position": 1,
+      "relative_file": "01_Карточки/Ozon/МегаФон/П19 WiFiГрад/4533144713/CS_8a46d587da456218e281/01_Материалы/Rich/R01.jpg",
+      "integrity_state": "VERIFIED",
+      "sha256": "355bc0a983f58ad75c674cab9c3f72fe24412d55b3d95e5cc4718177e36bf501",
+      "bytes": 139907
+    },
+    {
+      "placement_id": "CS_8a46d587da456218e281:Rich/rich_ocr.json",
+      "surface": "RICH",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/МегаФон/П19 WiFiГрад/4533144713/CS_8a46d587da456218e281/01_Материалы/Rich/rich_ocr.json",
+      "integrity_state": "VERIFIED",
+      "sha256": "8024ac92eb25f77a69409bdd124aefbe546af583890ab78ee715dab71a2a0faf",
+      "bytes": 3286
+    },
+    {
+      "placement_id": "CS_8a46d587da456218e281:Rich/rich_text.txt",
+      "surface": "RICH",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/МегаФон/П19 WiFiГрад/4533144713/CS_8a46d587da456218e281/01_Материалы/Rich/rich_text.txt",
+      "integrity_state": "VERIFIED",
+      "sha256": "324f4efa46f28e2833d20803eb7a0c8c0c0c6788e5e9c992de42258e8138aa9a",
+      "bytes": 851
+    },
+    {
+      "placement_id": "CS_8a46d587da456218e281:analytics_rank.txt",
+      "surface": "OTHER",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/МегаФон/П19 WiFiГрад/4533144713/CS_8a46d587da456218e281/01_Материалы/analytics_rank.txt",
+      "integrity_state": "VERIFIED",
+      "sha256": "94357f63ecbc9f2a794d70f4d95b4a0db358191b6ae02fe472d240e367467503",
+      "bytes": 3
+    },
+    {
+      "placement_id": "CS_8a46d587da456218e281:availability.txt",
+      "surface": "OTHER",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/МегаФон/П19 WiFiГрад/4533144713/CS_8a46d587da456218e281/01_Материалы/availability.txt",
+      "integrity_state": "VERIFIED",
+      "sha256": "f3db355a863e0dd7fa5ca1c95f35969d61f7cfb1f7a1c64da40b68a8ebed9c4d",
+      "bytes": 26
+    },
+    {
+      "placement_id": "CS_8a46d587da456218e281:card_data.json",
+      "surface": "OTHER",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/МегаФон/П19 WiFiГрад/4533144713/CS_8a46d587da456218e281/01_Материалы/card_data.json",
+      "integrity_state": "VERIFIED",
+      "sha256": "4c18214215b66f2399ea903b7893be20bd0926f9cbb017d2f10882189aff9235",
+      "bytes": 3880
+    },
+    {
+      "placement_id": "CS_8a46d587da456218e281:characteristics.txt",
+      "surface": "CHARACTERISTICS",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/МегаФон/П19 WiFiГрад/4533144713/CS_8a46d587da456218e281/01_Материалы/characteristics.txt",
+      "integrity_state": "VERIFIED",
+      "sha256": "50d285799a840a69d0bb445d41a14ad24c634ed585ad54ab5f6fe9385a21321e",
+      "bytes": 1111
+    },
+    {
+      "placement_id": "CS_8a46d587da456218e281:collection_status.txt",
+      "surface": "OTHER",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/МегаФон/П19 WiFiГрад/4533144713/CS_8a46d587da456218e281/01_Материалы/collection_status.txt",
+      "integrity_state": "VERIFIED",
+      "sha256": "cf01585829633e2debef0696d8101ca4fb4702310a2f2256b3b17bd0e753ce8c",
+      "bytes": 10
+    },
+    {
+      "placement_id": "CS_8a46d587da456218e281:content_type.txt",
+      "surface": "OTHER",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/МегаФон/П19 WiFiГрад/4533144713/CS_8a46d587da456218e281/01_Материалы/content_type.txt",
+      "integrity_state": "VERIFIED",
+      "sha256": "7da90b8663e4ecfdeb6ad4be13c701f01b27b5d2299c7035c86a4f86d4c46c0f",
+      "bytes": 12
+    },
+    {
+      "placement_id": "CS_8a46d587da456218e281:description.txt",
+      "surface": "DESCRIPTION",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/МегаФон/П19 WiFiГрад/4533144713/CS_8a46d587da456218e281/01_Материалы/description.txt",
+      "integrity_state": "VERIFIED",
+      "sha256": "3e436e7b9e69b71d2b1e9677f882ce3a3ddc1b3286742d2465c6d52bed0f9769",
+      "bytes": 36
+    },
+    {
+      "placement_id": "CS_8a46d587da456218e281:manifest.json",
+      "surface": "OTHER",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/МегаФон/П19 WiFiГрад/4533144713/CS_8a46d587da456218e281/01_Материалы/manifest.json",
+      "integrity_state": "VERIFIED",
+      "sha256": "3dac83ab38f3abbdf3afc4afdaadf5c0f8ad5c6052358e8cad5f3765116ae1a4",
+      "bytes": 6103
+    },
+    {
+      "placement_id": "CS_8a46d587da456218e281:price.txt",
+      "surface": "OTHER",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/МегаФон/П19 WiFiГрад/4533144713/CS_8a46d587da456218e281/01_Материалы/price.txt",
+      "integrity_state": "VERIFIED",
+      "sha256": "53c234e5e8472b6ac51c1ae1cab3fe06fad053beb8ebfd8977b010655bfdd3c3",
+      "bytes": 2
+    },
+    {
+      "placement_id": "CS_8a46d587da456218e281:rating.txt",
+      "surface": "OTHER",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/МегаФон/П19 WiFiГрад/4533144713/CS_8a46d587da456218e281/01_Материалы/rating.txt",
+      "integrity_state": "VERIFIED",
+      "sha256": "335f6442cc8f7e4980fe4ba346115a00101db5a939992b25b27ebf595238e8d5",
+      "bytes": 4
+    },
+    {
+      "placement_id": "CS_8a46d587da456218e281:reviews_count.txt",
+      "surface": "OTHER",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/МегаФон/П19 WiFiГрад/4533144713/CS_8a46d587da456218e281/01_Материалы/reviews_count.txt",
+      "integrity_state": "VERIFIED",
+      "sha256": "85b258bb3f866e27a690907f31d66fe5b32eb9d76b8e70eb9565be9b08cd1a59",
+      "bytes": 5
+    },
+    {
+      "placement_id": "CS_8a46d587da456218e281:seller.txt",
+      "surface": "OTHER",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/МегаФон/П19 WiFiГрад/4533144713/CS_8a46d587da456218e281/01_Материалы/seller.txt",
+      "integrity_state": "VERIFIED",
+      "sha256": "64749920dd83c0af0da8fc427b83257587e7f8d3743045a53f9df1f4d9d68d05",
+      "bytes": 13
+    },
+    {
+      "placement_id": "CS_8a46d587da456218e281:tags.txt",
+      "surface": "OTHER",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/МегаФон/П19 WiFiГрад/4533144713/CS_8a46d587da456218e281/01_Материалы/tags.txt",
+      "integrity_state": "VERIFIED",
+      "sha256": "fed0582d81739d2be1fe0abc210a4f6aa8a49ab43830aa039e57c286bc11b263",
+      "bytes": 342
+    },
+    {
+      "placement_id": "CS_8a46d587da456218e281:title.txt",
+      "surface": "TITLE",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/МегаФон/П19 WiFiГрад/4533144713/CS_8a46d587da456218e281/01_Материалы/title.txt",
+      "integrity_state": "VERIFIED",
+      "sha256": "9f3e4f79d1b9792c3b5bd684d0715a14e071aedd8e2b71d522d35f49beeeedd5",
+      "bytes": 115
+    },
+    {
+      "placement_id": "CS_8a46d587da456218e281:url.txt",
+      "surface": "OTHER",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/МегаФон/П19 WiFiГрад/4533144713/CS_8a46d587da456218e281/01_Материалы/url.txt",
+      "integrity_state": "VERIFIED",
+      "sha256": "92a58366aaad6af26d9374553d0a8eea11da4332c89d3dda9acb20e7d269969f",
+      "bytes": 117
+    }
+  ],
+  "data_format": "CAPTURE",
+  "change_number": 1,
+  "coverage_scope": "Все файлы предоставленного снимка; полнота действующей страницы и исполнение услуги отдельно не подтверждены.",
+  "source_note": "Точные сведения источника не являются независимой проверкой тарифного договора или юридических полномочий.",
+  "attributes": {
+    "preliminary_classification": {
+      "task_focus": "CONNECT",
+      "bundle_focus": "NOT_EMPHASIZED_IN_TITLE",
+      "configuration_focus": "NOT_EMPHASIZED_IN_TITLE",
+      "period_focus": "NOT_EMPHASIZED_IN_TITLE",
+      "group_id": "CONNECT_BASE",
+      "group_name": "Подключение: основное предложение",
+      "device_claims": [
+        "MULTIPLE_CLASSES_NOT_ENUMERATED"
+      ],
+      "device_claims_status": "PARTIAL_MULTIPLE_CLASS_CLAIM",
+      "money_roles": [],
+      "money_review_scope": "NOT_ATOMICALLY_REVIEWED",
+      "porting_role": "NOT_ESTABLISHED_IN_ROUTING_SCOPE",
+      "geo_claims": {
+        "legacy_title_claim": "REGION_NOT_IN_TITLE",
+        "verification": "NOT_VERIFIED",
+        "collection_region": "Moscow"
+      },
+      "targeted_evidence": [],
+      "review_note": "",
+      "flags": [],
+      "legal_party_id": "",
+      "authority_status": "UNKNOWN_IN_INSPECTED_INPUTS",
+      "commercial_readiness": "NOT_ESTABLISHED",
+      "content_effect": "NOT_ASSESSED",
+      "market_row_present": "True",
+      "promotion_row_present": "False",
+      "routing_support": {
+        "surface": "TITLE",
+        "source_file": "01_Карточки/Ozon/МегаФон/П19 WiFiГрад/4533144713/CS_8a46d587da456218e281/01_Материалы/title.txt",
+        "basis_text": "несколько классов устройств в TITLE",
+        "basis_kind": "PROVIDED_ROUTING_EXPLANATION",
+        "literal_text_match": false,
+        "source_classification_status": "PROVISIONAL_CONTENT_ROUTING",
+        "evidence_status": "INHERITED_NOT_INDEPENDENT_RECODE",
+        "scope_note": "Предоставленное основание предварительной группы; не новая независимая разметка и не проверка совместимости или эффекта."
+      },
+      "device_scope_note": "Перечень устройств является исходной маршрутизацией, а не полной проверкой совместимости."
+    },
+    "classification_status": "PRELIMINARY_CONTENT_ROUTE_NOT_SALES_RANK",
+    "channel": {
+      "platform": "Ozon",
+      "legal_party": "UNKNOWN",
+      "shop_type": "UNKNOWN",
+      "brand_owner": "UNKNOWN",
+      "distributor_status": "UNKNOWN",
+      "budget": "UNKNOWN"
+    },
+    "source_url": "https://www.ozon.ru/product/sim-karta-bezlimitnyy-internet-megafon-dlya-routera-i-telefona-4533144713/?sh=f35iFfy3FQ"
+  },
+  "metadata_files": [
+    "01_Карточки/Ozon/МегаФон/П19 WiFiГрад/4533144713/CS_8a46d587da456218e281/02_Метаданные/Фрагменты источника.jsonl",
+    "01_Карточки/Ozon/МегаФон/П19 WiFiГрад/4533144713/CS_8a46d587da456218e281/02_Метаданные/Извлечённые сведения.jsonl"
+  ]
+}

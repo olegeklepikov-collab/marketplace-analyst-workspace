@@ -1,0 +1,12 @@
+{
+  "sku": "4278360254",
+  "status": "not_applicable",
+  "engine": "PaddleOCR 3.7 / PP-OCRv5 mobile detection / Cyrillic PP-OCRv5 mobile recognition",
+  "languages": [
+    "Cyrillic",
+    "Latin",
+    "digits"
+  ],
+  "note": "Автоматическая расшифровка; для юридически значимых формулировок требуется сверка с изображением.",
+  "images": []
+}

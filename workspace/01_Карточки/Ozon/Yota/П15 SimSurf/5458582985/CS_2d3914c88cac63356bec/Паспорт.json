@@ -1,0 +1,447 @@
+{
+  "record_type": "CAPTURE",
+  "intake_id": "BASE:CS_2d3914c88cac63356bec",
+  "card_id": "OZON:5458582985",
+  "capture_id": "CS_2d3914c88cac63356bec",
+  "intake_status": "ACCEPTED",
+  "registered_at": null,
+  "platform": "Ozon",
+  "external_card_id": {
+    "state": "KNOWN",
+    "value": "5458582985",
+    "basis": "OBSERVED",
+    "scope": "внешний номер",
+    "source_locator": "01_Карточки/Ozon/Yota/П15 SimSurf/5458582985/CS_2d3914c88cac63356bec/01_Материалы/card_data.json:sku"
+  },
+  "observed_at": {
+    "state": "KNOWN",
+    "value": "2026-09-25T09:38:52.223Z",
+    "basis": "OBSERVED",
+    "scope": "время наблюдения",
+    "source_locator": "01_Карточки/Ozon/Yota/П15 SimSurf/5458582985/CS_2d3914c88cac63356bec/01_Материалы/card_data.json:collected_at"
+  },
+  "seller_display_name": {
+    "state": "KNOWN",
+    "value": "SimSurf",
+    "basis": "OBSERVED",
+    "scope": "точная строка продавца",
+    "source_locator": "01_Карточки/Ozon/Yota/П15 SimSurf/5458582985/CS_2d3914c88cac63356bec/01_Материалы/card_data.json:seller"
+  },
+  "seller_label_code": "П15",
+  "brand": {
+    "state": "KNOWN",
+    "value": "Yota",
+    "basis": "OBSERVED",
+    "scope": "заявленный бренд",
+    "source_locator": "01_Карточки/Ozon/Yota/П15 SimSurf/5458582985/CS_2d3914c88cac63356bec/01_Материалы/card_data.json"
+  },
+  "title": {
+    "state": "KNOWN",
+    "value": "Сим-карта для перехода в YOTA, безлимитный интернет, 1000 мин, +300 руб на балансе",
+    "basis": "OBSERVED",
+    "scope": "заголовок",
+    "source_locator": "01_Карточки/Ozon/Yota/П15 SimSurf/5458582985/CS_2d3914c88cac63356bec/01_Материалы/card_data.json:title"
+  },
+  "source_origin": "Сохранённая страница маркетплейса; дата наблюдения указана в паспорте.",
+  "actual_relative_path": "01_Карточки/Ozon/Yota/П15 SimSurf/5458582985/CS_2d3914c88cac63356bec",
+  "mission": "Сохранение номера: основной сценарий",
+  "offer_model": "Услуга, условия не подтверждены",
+  "collection_region": "Moscow",
+  "materials": [
+    {
+      "placement_id": "CS_2d3914c88cac63356bec:Gallery/G01.jpg",
+      "surface": "GALLERY",
+      "position": 1,
+      "relative_file": "01_Карточки/Ozon/Yota/П15 SimSurf/5458582985/CS_2d3914c88cac63356bec/01_Материалы/Gallery/G01.jpg",
+      "integrity_state": "VERIFIED",
+      "sha256": "d74b791cf671dffd2a17ca61c9725a581e560f4ba16c440c606c0829de3173dd",
+      "bytes": 63829
+    },
+    {
+      "placement_id": "CS_2d3914c88cac63356bec:Gallery/G02.jpg",
+      "surface": "GALLERY",
+      "position": 2,
+      "relative_file": "01_Карточки/Ozon/Yota/П15 SimSurf/5458582985/CS_2d3914c88cac63356bec/01_Материалы/Gallery/G02.jpg",
+      "integrity_state": "VERIFIED",
+      "sha256": "eb45a9e819c9fd6925d2e5f1f4688915c9873d4229a1c03918d7d6df223edc3a",
+      "bytes": 114911
+    },
+    {
+      "placement_id": "CS_2d3914c88cac63356bec:Gallery/G03.jpg",
+      "surface": "GALLERY",
+      "position": 3,
+      "relative_file": "01_Карточки/Ozon/Yota/П15 SimSurf/5458582985/CS_2d3914c88cac63356bec/01_Материалы/Gallery/G03.jpg",
+      "integrity_state": "VERIFIED",
+      "sha256": "139b39b629a81eab896cde68614df270ce70a2235f41e21b0cc29a5eee6fa692",
+      "bytes": 119957
+    },
+    {
+      "placement_id": "CS_2d3914c88cac63356bec:Gallery/G04.jpg",
+      "surface": "GALLERY",
+      "position": 4,
+      "relative_file": "01_Карточки/Ozon/Yota/П15 SimSurf/5458582985/CS_2d3914c88cac63356bec/01_Материалы/Gallery/G04.jpg",
+      "integrity_state": "VERIFIED",
+      "sha256": "d134f8a10c86333c71599235d6daaedcf94eff03c3233ad0a4c9ab459f747743",
+      "bytes": 70157
+    },
+    {
+      "placement_id": "CS_2d3914c88cac63356bec:Gallery/G05.jpg",
+      "surface": "GALLERY",
+      "position": 5,
+      "relative_file": "01_Карточки/Ozon/Yota/П15 SimSurf/5458582985/CS_2d3914c88cac63356bec/01_Материалы/Gallery/G05.jpg",
+      "integrity_state": "VERIFIED",
+      "sha256": "e1f43344bb8c83327104b6bfe19f551d98b2861bf15928fd6b765b751d3a2359",
+      "bytes": 80708
+    },
+    {
+      "placement_id": "CS_2d3914c88cac63356bec:Gallery/G06.jpg",
+      "surface": "GALLERY",
+      "position": 6,
+      "relative_file": "01_Карточки/Ozon/Yota/П15 SimSurf/5458582985/CS_2d3914c88cac63356bec/01_Материалы/Gallery/G06.jpg",
+      "integrity_state": "VERIFIED",
+      "sha256": "b639900b8b06a1239eaa9ae2b3b665486d8571429d9fa95e1999e9890ac8aac5",
+      "bytes": 104211
+    },
+    {
+      "placement_id": "CS_2d3914c88cac63356bec:Gallery/G07.jpg",
+      "surface": "GALLERY",
+      "position": 7,
+      "relative_file": "01_Карточки/Ozon/Yota/П15 SimSurf/5458582985/CS_2d3914c88cac63356bec/01_Материалы/Gallery/G07.jpg",
+      "integrity_state": "VERIFIED",
+      "sha256": "e6d158f9c38fe16165e10dbaeb7fc983435e49c3314bd273c0ae1a13ca84eb40",
+      "bytes": 113702
+    },
+    {
+      "placement_id": "CS_2d3914c88cac63356bec:Gallery/G08.jpg",
+      "surface": "GALLERY",
+      "position": 8,
+      "relative_file": "01_Карточки/Ozon/Yota/П15 SimSurf/5458582985/CS_2d3914c88cac63356bec/01_Материалы/Gallery/G08.jpg",
+      "integrity_state": "VERIFIED",
+      "sha256": "f8cfa17443f91f3bf422e7c2a3325141759500493bd67b1255f151d52c7c15a9",
+      "bytes": 119551
+    },
+    {
+      "placement_id": "CS_2d3914c88cac63356bec:Gallery/G09.jpg",
+      "surface": "GALLERY",
+      "position": 9,
+      "relative_file": "01_Карточки/Ozon/Yota/П15 SimSurf/5458582985/CS_2d3914c88cac63356bec/01_Материалы/Gallery/G09.jpg",
+      "integrity_state": "VERIFIED",
+      "sha256": "e3c209bbd153542269956753e8d04b25576df6c54156b761adc35b2d275588f1",
+      "bytes": 374170
+    },
+    {
+      "placement_id": "CS_2d3914c88cac63356bec:Gallery/G10.jpg",
+      "surface": "GALLERY",
+      "position": 10,
+      "relative_file": "01_Карточки/Ozon/Yota/П15 SimSurf/5458582985/CS_2d3914c88cac63356bec/01_Материалы/Gallery/G10.jpg",
+      "integrity_state": "VERIFIED",
+      "sha256": "a96d8a7e898e26c2f35dd22e385daf57d8a3c42d003e9a500862c0abb018fdd2",
+      "bytes": 126725
+    },
+    {
+      "placement_id": "CS_2d3914c88cac63356bec:Gallery/G11.jpg",
+      "surface": "GALLERY",
+      "position": 11,
+      "relative_file": "01_Карточки/Ozon/Yota/П15 SimSurf/5458582985/CS_2d3914c88cac63356bec/01_Материалы/Gallery/G11.jpg",
+      "integrity_state": "VERIFIED",
+      "sha256": "11295435d5d192fa6cb951c9133737f0d8e50cdf59254c925c6deddca778cc9b",
+      "bytes": 96100
+    },
+    {
+      "placement_id": "CS_2d3914c88cac63356bec:Gallery/G12.jpg",
+      "surface": "GALLERY",
+      "position": 12,
+      "relative_file": "01_Карточки/Ozon/Yota/П15 SimSurf/5458582985/CS_2d3914c88cac63356bec/01_Материалы/Gallery/G12.jpg",
+      "integrity_state": "VERIFIED",
+      "sha256": "99844cd85f00e2a9a24edf2b5f02ed9a3fc6f5b865162349b5dec6b34962aa94",
+      "bytes": 60094
+    },
+    {
+      "placement_id": "CS_2d3914c88cac63356bec:Rich/R01.jpg",
+      "surface": "RICH",
+      "position": 1,
+      "relative_file": "01_Карточки/Ozon/Yota/П15 SimSurf/5458582985/CS_2d3914c88cac63356bec/01_Материалы/Rich/R01.jpg",
+      "integrity_state": "VERIFIED",
+      "sha256": "b4452b723a99ae1dcd5a4fda20c52ccdf1f0c914f51c9713302d39f366fe4b61",
+      "bytes": 278731
+    },
+    {
+      "placement_id": "CS_2d3914c88cac63356bec:Rich/R02.jpg",
+      "surface": "RICH",
+      "position": 2,
+      "relative_file": "01_Карточки/Ozon/Yota/П15 SimSurf/5458582985/CS_2d3914c88cac63356bec/01_Материалы/Rich/R02.jpg",
+      "integrity_state": "VERIFIED",
+      "sha256": "e28d2bcf0ef47947ce71d2312ff25ed6bd8b712fa68c095a1d49d0c28d6ee818",
+      "bytes": 294107
+    },
+    {
+      "placement_id": "CS_2d3914c88cac63356bec:Rich/R03.jpg",
+      "surface": "RICH",
+      "position": 3,
+      "relative_file": "01_Карточки/Ozon/Yota/П15 SimSurf/5458582985/CS_2d3914c88cac63356bec/01_Материалы/Rich/R03.jpg",
+      "integrity_state": "VERIFIED",
+      "sha256": "971ecaccd7b8f11fb2ace0dcef7915076c4184cfe31423447e949a6cbae0d6db",
+      "bytes": 353155
+    },
+    {
+      "placement_id": "CS_2d3914c88cac63356bec:Rich/R04.jpg",
+      "surface": "RICH",
+      "position": 4,
+      "relative_file": "01_Карточки/Ozon/Yota/П15 SimSurf/5458582985/CS_2d3914c88cac63356bec/01_Материалы/Rich/R04.jpg",
+      "integrity_state": "VERIFIED",
+      "sha256": "419ebba021283bff341558942f584f5bce71016a7d3df4af6b73b2b9dd2d108e",
+      "bytes": 291155
+    },
+    {
+      "placement_id": "CS_2d3914c88cac63356bec:Rich/R05.jpg",
+      "surface": "RICH",
+      "position": 5,
+      "relative_file": "01_Карточки/Ozon/Yota/П15 SimSurf/5458582985/CS_2d3914c88cac63356bec/01_Материалы/Rich/R05.jpg",
+      "integrity_state": "VERIFIED",
+      "sha256": "f6668bd8bc9a0f7006725188e268520a787e95341bca4695239b67b051a4345c",
+      "bytes": 251344
+    },
+    {
+      "placement_id": "CS_2d3914c88cac63356bec:Rich/rich_ocr.json",
+      "surface": "RICH",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/Yota/П15 SimSurf/5458582985/CS_2d3914c88cac63356bec/01_Материалы/Rich/rich_ocr.json",
+      "integrity_state": "VERIFIED",
+      "sha256": "f228a8a3d6cf91d9fa26dff9a2c892873586605cd51350c33466b8c0c52f0d9b",
+      "bytes": 13833
+    },
+    {
+      "placement_id": "CS_2d3914c88cac63356bec:Rich/rich_text.txt",
+      "surface": "RICH",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/Yota/П15 SimSurf/5458582985/CS_2d3914c88cac63356bec/01_Материалы/Rich/rich_text.txt",
+      "integrity_state": "VERIFIED",
+      "sha256": "9ce95d362b28563e5ee25904762afc45f9356d7057ba272ea9206fa86efa6154",
+      "bytes": 3313
+    },
+    {
+      "placement_id": "CS_2d3914c88cac63356bec:analytics_rank.txt",
+      "surface": "OTHER",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/Yota/П15 SimSurf/5458582985/CS_2d3914c88cac63356bec/01_Материалы/analytics_rank.txt",
+      "integrity_state": "VERIFIED",
+      "sha256": "917df3320d778ddbaa5c5c7742bc4046bf803c36ed2b050f30844ed206783469",
+      "bytes": 3
+    },
+    {
+      "placement_id": "CS_2d3914c88cac63356bec:availability.txt",
+      "surface": "OTHER",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/Yota/П15 SimSurf/5458582985/CS_2d3914c88cac63356bec/01_Материалы/availability.txt",
+      "integrity_state": "VERIFIED",
+      "sha256": "f3db355a863e0dd7fa5ca1c95f35969d61f7cfb1f7a1c64da40b68a8ebed9c4d",
+      "bytes": 26
+    },
+    {
+      "placement_id": "CS_2d3914c88cac63356bec:card_data.json",
+      "surface": "OTHER",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/Yota/П15 SimSurf/5458582985/CS_2d3914c88cac63356bec/01_Материалы/card_data.json",
+      "integrity_state": "VERIFIED",
+      "sha256": "4c0f3648b3bf1c14fb3d654c05ca4f8b756e201fcdfd59bdcb998295b4b25e69",
+      "bytes": 7108
+    },
+    {
+      "placement_id": "CS_2d3914c88cac63356bec:characteristics.txt",
+      "surface": "CHARACTERISTICS",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/Yota/П15 SimSurf/5458582985/CS_2d3914c88cac63356bec/01_Материалы/characteristics.txt",
+      "integrity_state": "VERIFIED",
+      "sha256": "831c2399c34cb19b497e14b4747ab2e7af5b55fab8f20d5cdbf1909979be6d83",
+      "bytes": 1128
+    },
+    {
+      "placement_id": "CS_2d3914c88cac63356bec:collection_status.txt",
+      "surface": "OTHER",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/Yota/П15 SimSurf/5458582985/CS_2d3914c88cac63356bec/01_Материалы/collection_status.txt",
+      "integrity_state": "VERIFIED",
+      "sha256": "cf01585829633e2debef0696d8101ca4fb4702310a2f2256b3b17bd0e753ce8c",
+      "bytes": 10
+    },
+    {
+      "placement_id": "CS_2d3914c88cac63356bec:content_type.txt",
+      "surface": "OTHER",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/Yota/П15 SimSurf/5458582985/CS_2d3914c88cac63356bec/01_Материалы/content_type.txt",
+      "integrity_state": "VERIFIED",
+      "sha256": "96e6625bbd580d529a6384d96146fa3a05f7fb416cb4614fd8cd7135be2d77d1",
+      "bytes": 28
+    },
+    {
+      "placement_id": "CS_2d3914c88cac63356bec:description.txt",
+      "surface": "DESCRIPTION",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/Yota/П15 SimSurf/5458582985/CS_2d3914c88cac63356bec/01_Материалы/description.txt",
+      "integrity_state": "VERIFIED",
+      "sha256": "28c8223bfb65945c8f52ea4419c0f2c8355721eb60da757b6bc2ba8f58b91249",
+      "bytes": 1574
+    },
+    {
+      "placement_id": "CS_2d3914c88cac63356bec:manifest.json",
+      "surface": "OTHER",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/Yota/П15 SimSurf/5458582985/CS_2d3914c88cac63356bec/01_Материалы/manifest.json",
+      "integrity_state": "VERIFIED",
+      "sha256": "5e69fc8af5af04593d9e668cfcedc72d5cb0f8f9580d7e19977e5603d5d613d3",
+      "bytes": 9277
+    },
+    {
+      "placement_id": "CS_2d3914c88cac63356bec:price.txt",
+      "surface": "OTHER",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/Yota/П15 SimSurf/5458582985/CS_2d3914c88cac63356bec/01_Материалы/price.txt",
+      "integrity_state": "VERIFIED",
+      "sha256": "53c234e5e8472b6ac51c1ae1cab3fe06fad053beb8ebfd8977b010655bfdd3c3",
+      "bytes": 2
+    },
+    {
+      "placement_id": "CS_2d3914c88cac63356bec:rating.txt",
+      "surface": "OTHER",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/Yota/П15 SimSurf/5458582985/CS_2d3914c88cac63356bec/01_Материалы/rating.txt",
+      "integrity_state": "VERIFIED",
+      "sha256": "597fd61a4dc22d0cf28dd3e89619b1e8cab79ebc61a95aa784a93baab3eecc3a",
+      "bytes": 4
+    },
+    {
+      "placement_id": "CS_2d3914c88cac63356bec:reviews_count.txt",
+      "surface": "OTHER",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/Yota/П15 SimSurf/5458582985/CS_2d3914c88cac63356bec/01_Материалы/reviews_count.txt",
+      "integrity_state": "VERIFIED",
+      "sha256": "5646e31b9a4bd8dd2b21885e3f92ecc221fac575ebc64d43c9fac82c87c7cc45",
+      "bytes": 5
+    },
+    {
+      "placement_id": "CS_2d3914c88cac63356bec:seller.txt",
+      "surface": "OTHER",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/Yota/П15 SimSurf/5458582985/CS_2d3914c88cac63356bec/01_Материалы/seller.txt",
+      "integrity_state": "VERIFIED",
+      "sha256": "53b379dfd3a838cfad226d2e8d2219b07e30985b221f4cfefdb98b426aa785d0",
+      "bytes": 8
+    },
+    {
+      "placement_id": "CS_2d3914c88cac63356bec:tags.txt",
+      "surface": "OTHER",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/Yota/П15 SimSurf/5458582985/CS_2d3914c88cac63356bec/01_Материалы/tags.txt",
+      "integrity_state": "VERIFIED",
+      "sha256": "33bcd22a33bb6735b9895d3b848b6ecd0e2637bd9e6ebbf5f73b8a191da2771a",
+      "bytes": 979
+    },
+    {
+      "placement_id": "CS_2d3914c88cac63356bec:title.txt",
+      "surface": "TITLE",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/Yota/П15 SimSurf/5458582985/CS_2d3914c88cac63356bec/01_Материалы/title.txt",
+      "integrity_state": "VERIFIED",
+      "sha256": "dc7ffbba59aa7038e2d4174d727f3f792837232e3db71a2d5f0eb761d60ce7e3",
+      "bytes": 137
+    },
+    {
+      "placement_id": "CS_2d3914c88cac63356bec:url.txt",
+      "surface": "OTHER",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/Yota/П15 SimSurf/5458582985/CS_2d3914c88cac63356bec/01_Материалы/url.txt",
+      "integrity_state": "VERIFIED",
+      "sha256": "f85f766c52a6933d3376a7bb5bb64cb58032b2453076fec2390c7d6bbdbf1e27",
+      "bytes": 134
+    }
+  ],
+  "data_format": "CAPTURE",
+  "change_number": 1,
+  "coverage_scope": "Все файлы предоставленного снимка; полнота действующей страницы и исполнение услуги отдельно не подтверждены.",
+  "source_note": "Точные сведения источника не являются независимой проверкой тарифного договора или юридических полномочий.",
+  "attributes": {
+    "preliminary_classification": {
+      "task_focus": "PORT",
+      "bundle_focus": "NOT_EMPHASIZED_IN_TITLE",
+      "configuration_focus": "NOT_EMPHASIZED_IN_TITLE",
+      "period_focus": "NOT_EMPHASIZED_IN_TITLE",
+      "group_id": "PORT_BASE",
+      "group_name": "Сохранение номера: основной сценарий",
+      "device_claims": [],
+      "device_claims_status": "UNDETERMINED_IN_ROUTING_SCOPE",
+      "money_roles": [
+        {
+          "amount": 300,
+          "currency": "RUB",
+          "role": "BALANCE_CLAIM",
+          "period": null,
+          "scope": "SIM_SERVICE",
+          "basis": "TITLE"
+        },
+        {
+          "amount": 350,
+          "currency": "RUB",
+          "role": "RECURRING_FEE",
+          "period": "MONTH",
+          "scope": "SIM_SERVICE",
+          "basis": "DESCRIPTION"
+        }
+      ],
+      "money_review_scope": "TARGETED_EXTRACTION",
+      "porting_role": "PRIMARY",
+      "geo_claims": {
+        "legacy_title_claim": "REGION_NOT_IN_TITLE",
+        "verification": "NOT_VERIFIED",
+        "collection_region": "Moscow"
+      },
+      "targeted_evidence": [
+        {
+          "surface": "TITLE",
+          "source_path": "analysis_handoff_2026-10-27 2/01_current_corpus_master129/Yota_unofficial/5458582985/card_data.json",
+          "locator": "$.title",
+          "quote": "Сим-карта для перехода в YOTA, безлимитный интернет, 1000 мин, +300 руб на балансе"
+        },
+        {
+          "surface": "DESCRIPTION",
+          "source_path": "analysis_handoff_2026-10-27 2/01_current_corpus_master129/Yota_unofficial/5458582985/card_data.json",
+          "locator": "$.description chars 189:226",
+          "quote": "Абонентская плата 350 рублей в месяц."
+        }
+      ],
+      "review_note": "Перенос вынесен в заголовок, описание выбранного фрагмента раскрывает обычную активацию. Баланс 300 ₽ и абонентская плата 350 ₽ относятся к разным ролям.",
+      "flags": [],
+      "legal_party_id": "",
+      "authority_status": "UNKNOWN_IN_INSPECTED_INPUTS",
+      "commercial_readiness": "NOT_ESTABLISHED",
+      "content_effect": "NOT_ASSESSED",
+      "market_row_present": "True",
+      "promotion_row_present": "True",
+      "routing_support": {
+        "surface": "TITLE",
+        "source_file": "01_Карточки/Ozon/Yota/П15 SimSurf/5458582985/CS_2d3914c88cac63356bec/01_Материалы/title.txt",
+        "basis_text": "для перехода",
+        "basis_kind": "EXACT_STORED_TEXT",
+        "literal_text_match": true,
+        "source_classification_status": "PROVISIONAL_CONTENT_ROUTING",
+        "evidence_status": "INHERITED_NOT_INDEPENDENT_RECODE",
+        "scope_note": "Предоставленное основание предварительной группы; не новая независимая разметка и не проверка совместимости или эффекта.",
+        "quote": "для перехода"
+      },
+      "device_scope_note": "Перечень устройств является исходной маршрутизацией, а не полной проверкой совместимости."
+    },
+    "classification_status": "PRELIMINARY_CONTENT_ROUTE_NOT_SALES_RANK",
+    "channel": {
+      "platform": "Ozon",
+      "legal_party": "UNKNOWN",
+      "shop_type": "UNKNOWN",
+      "brand_owner": "UNKNOWN",
+      "distributor_status": "UNKNOWN",
+      "budget": "UNKNOWN"
+    },
+    "source_url": "https://www.ozon.ru/product/sim-karta-dlya-perehoda-v-yota-bezlimitnyy-internet-1000-min-300-rub-na-balanse-5458582985/?sh=f35iFSoX6A"
+  },
+  "metadata_files": [
+    "01_Карточки/Ozon/Yota/П15 SimSurf/5458582985/CS_2d3914c88cac63356bec/02_Метаданные/Фрагменты источника.jsonl",
+    "01_Карточки/Ozon/Yota/П15 SimSurf/5458582985/CS_2d3914c88cac63356bec/02_Метаданные/Извлечённые сведения.jsonl"
+  ]
+}

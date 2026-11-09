@@ -1,0 +1,310 @@
+{
+  "record_type": "CAPTURE",
+  "intake_id": "BASE:CS_b992d6815fd9ca33cbbf",
+  "card_id": "OZON:1634410058",
+  "capture_id": "CS_b992d6815fd9ca33cbbf",
+  "intake_status": "ACCEPTED",
+  "registered_at": null,
+  "platform": "Ozon",
+  "external_card_id": {
+    "state": "KNOWN",
+    "value": "1634410058",
+    "basis": "OBSERVED",
+    "scope": "внешний номер",
+    "source_locator": "01_Карточки/Ozon/Yota/П17 Simprice/1634410058/CS_b992d6815fd9ca33cbbf/01_Материалы/card_data.json:sku"
+  },
+  "observed_at": {
+    "state": "KNOWN",
+    "value": "2026-09-25T09:42:44.772Z",
+    "basis": "OBSERVED",
+    "scope": "время наблюдения",
+    "source_locator": "01_Карточки/Ozon/Yota/П17 Simprice/1634410058/CS_b992d6815fd9ca33cbbf/01_Материалы/card_data.json:collected_at"
+  },
+  "seller_display_name": {
+    "state": "KNOWN",
+    "value": "Simprice",
+    "basis": "OBSERVED",
+    "scope": "точная строка продавца",
+    "source_locator": "01_Карточки/Ozon/Yota/П17 Simprice/1634410058/CS_b992d6815fd9ca33cbbf/01_Материалы/card_data.json:seller"
+  },
+  "seller_label_code": "П17",
+  "brand": {
+    "state": "KNOWN",
+    "value": "Yota",
+    "basis": "OBSERVED",
+    "scope": "заявленный бренд",
+    "source_locator": "01_Карточки/Ozon/Yota/П17 Simprice/1634410058/CS_b992d6815fd9ca33cbbf/01_Материалы/card_data.json"
+  },
+  "title": {
+    "state": "KNOWN",
+    "value": "Yota SIM-карта (Вся Россия)",
+    "basis": "OBSERVED",
+    "scope": "заголовок",
+    "source_locator": "01_Карточки/Ozon/Yota/П17 Simprice/1634410058/CS_b992d6815fd9ca33cbbf/01_Материалы/card_data.json:title"
+  },
+  "source_origin": "Сохранённая страница маркетплейса; дата наблюдения указана в паспорте.",
+  "actual_relative_path": "01_Карточки/Ozon/Yota/П17 Simprice/1634410058/CS_b992d6815fd9ca33cbbf",
+  "mission": "Подключение: основное предложение",
+  "offer_model": "Услуга, условия не подтверждены",
+  "collection_region": "Moscow",
+  "materials": [
+    {
+      "placement_id": "CS_b992d6815fd9ca33cbbf:Gallery/G01.jpg",
+      "surface": "GALLERY",
+      "position": 1,
+      "relative_file": "01_Карточки/Ozon/Yota/П17 Simprice/1634410058/CS_b992d6815fd9ca33cbbf/01_Материалы/Gallery/G01.jpg",
+      "integrity_state": "VERIFIED",
+      "sha256": "52f8bb89c850b679e465021bb0c6b3ca0587695f7014365f127fa8f6ed622022",
+      "bytes": 171491
+    },
+    {
+      "placement_id": "CS_b992d6815fd9ca33cbbf:Gallery/G02.jpg",
+      "surface": "GALLERY",
+      "position": 2,
+      "relative_file": "01_Карточки/Ozon/Yota/П17 Simprice/1634410058/CS_b992d6815fd9ca33cbbf/01_Материалы/Gallery/G02.jpg",
+      "integrity_state": "VERIFIED",
+      "sha256": "04e617d28ff5b5d6ceb969d20c9c279dd2aa05cf878e25d317e06d9526d60e9e",
+      "bytes": 104705
+    },
+    {
+      "placement_id": "CS_b992d6815fd9ca33cbbf:Gallery/G03.jpg",
+      "surface": "GALLERY",
+      "position": 3,
+      "relative_file": "01_Карточки/Ozon/Yota/П17 Simprice/1634410058/CS_b992d6815fd9ca33cbbf/01_Материалы/Gallery/G03.jpg",
+      "integrity_state": "VERIFIED",
+      "sha256": "614749795eadd8a51dd9295e98a4762188bf26427510c8b6edabe27b447e24f4",
+      "bytes": 212682
+    },
+    {
+      "placement_id": "CS_b992d6815fd9ca33cbbf:Gallery/G04.jpg",
+      "surface": "GALLERY",
+      "position": 4,
+      "relative_file": "01_Карточки/Ozon/Yota/П17 Simprice/1634410058/CS_b992d6815fd9ca33cbbf/01_Материалы/Gallery/G04.jpg",
+      "integrity_state": "VERIFIED",
+      "sha256": "7ad82e97108554e0fb6b08798d3166863baa7302c1932cf6cb7077e6fc2910f5",
+      "bytes": 276600
+    },
+    {
+      "placement_id": "CS_b992d6815fd9ca33cbbf:Gallery/G05.jpg",
+      "surface": "GALLERY",
+      "position": 5,
+      "relative_file": "01_Карточки/Ozon/Yota/П17 Simprice/1634410058/CS_b992d6815fd9ca33cbbf/01_Материалы/Gallery/G05.jpg",
+      "integrity_state": "VERIFIED",
+      "sha256": "5ce0881f1845bc7acab9363afd1ab63c4eb4e63a999e4b14a0960d0ac31f7019",
+      "bytes": 145277
+    },
+    {
+      "placement_id": "CS_b992d6815fd9ca33cbbf:Rich/rich_ocr.json",
+      "surface": "RICH",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/Yota/П17 Simprice/1634410058/CS_b992d6815fd9ca33cbbf/01_Материалы/Rich/rich_ocr.json",
+      "integrity_state": "VERIFIED",
+      "sha256": "c3679be1c8b018fa15336c3f7755b83dd2fe2b7f9d5e05750ca64d724f168855",
+      "bytes": 428
+    },
+    {
+      "placement_id": "CS_b992d6815fd9ca33cbbf:Rich/rich_text.txt",
+      "surface": "RICH",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/Yota/П17 Simprice/1634410058/CS_b992d6815fd9ca33cbbf/01_Материалы/Rich/rich_text.txt",
+      "integrity_state": "VERIFIED",
+      "sha256": "475c6d9f67450ad806600893977435aa206f13a1fc313805a11336835014fb2e",
+      "bytes": 17
+    },
+    {
+      "placement_id": "CS_b992d6815fd9ca33cbbf:analytics_rank.txt",
+      "surface": "OTHER",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/Yota/П17 Simprice/1634410058/CS_b992d6815fd9ca33cbbf/01_Материалы/analytics_rank.txt",
+      "integrity_state": "VERIFIED",
+      "sha256": "c2464c2bbb48985528da8c1add16bda77c1aa84c2c9813db2e4f4158a5f9167b",
+      "bytes": 18
+    },
+    {
+      "placement_id": "CS_b992d6815fd9ca33cbbf:availability.txt",
+      "surface": "OTHER",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/Yota/П17 Simprice/1634410058/CS_b992d6815fd9ca33cbbf/01_Материалы/availability.txt",
+      "integrity_state": "VERIFIED",
+      "sha256": "f3db355a863e0dd7fa5ca1c95f35969d61f7cfb1f7a1c64da40b68a8ebed9c4d",
+      "bytes": 26
+    },
+    {
+      "placement_id": "CS_b992d6815fd9ca33cbbf:card_data.json",
+      "surface": "OTHER",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/Yota/П17 Simprice/1634410058/CS_b992d6815fd9ca33cbbf/01_Материалы/card_data.json",
+      "integrity_state": "VERIFIED",
+      "sha256": "5d5ff862d0bacc3b9000dd4e553515000b6482ea2590fe8d41cf3aba641cc7a1",
+      "bytes": 4407
+    },
+    {
+      "placement_id": "CS_b992d6815fd9ca33cbbf:characteristics.txt",
+      "surface": "CHARACTERISTICS",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/Yota/П17 Simprice/1634410058/CS_b992d6815fd9ca33cbbf/01_Материалы/characteristics.txt",
+      "integrity_state": "VERIFIED",
+      "sha256": "98f984b63feaff92bf7aa1c77dd3a664085a9be3e9a798c09d4381541a897401",
+      "bytes": 992
+    },
+    {
+      "placement_id": "CS_b992d6815fd9ca33cbbf:collection_status.txt",
+      "surface": "OTHER",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/Yota/П17 Simprice/1634410058/CS_b992d6815fd9ca33cbbf/01_Материалы/collection_status.txt",
+      "integrity_state": "VERIFIED",
+      "sha256": "cf01585829633e2debef0696d8101ca4fb4702310a2f2256b3b17bd0e753ce8c",
+      "bytes": 10
+    },
+    {
+      "placement_id": "CS_b992d6815fd9ca33cbbf:content_type.txt",
+      "surface": "OTHER",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/Yota/П17 Simprice/1634410058/CS_b992d6815fd9ca33cbbf/01_Материалы/content_type.txt",
+      "integrity_state": "VERIFIED",
+      "sha256": "ef2f19aa952ed53e7278d36afe2186ded6897e77c46984147cc568a21901af62",
+      "bytes": 12
+    },
+    {
+      "placement_id": "CS_b992d6815fd9ca33cbbf:description.txt",
+      "surface": "DESCRIPTION",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/Yota/П17 Simprice/1634410058/CS_b992d6815fd9ca33cbbf/01_Материалы/description.txt",
+      "integrity_state": "VERIFIED",
+      "sha256": "5e9ce16114abd1aafeab6f81279d9a50cb363a264db5cc3f0df4d7b470aa44a3",
+      "bytes": 714
+    },
+    {
+      "placement_id": "CS_b992d6815fd9ca33cbbf:manifest.json",
+      "surface": "OTHER",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/Yota/П17 Simprice/1634410058/CS_b992d6815fd9ca33cbbf/01_Материалы/manifest.json",
+      "integrity_state": "VERIFIED",
+      "sha256": "fb56f42d589397249283cca67a411bd1c5e800d33e3502d792ff3ad91ffe51c6",
+      "bytes": 3773
+    },
+    {
+      "placement_id": "CS_b992d6815fd9ca33cbbf:price.txt",
+      "surface": "OTHER",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/Yota/П17 Simprice/1634410058/CS_b992d6815fd9ca33cbbf/01_Материалы/price.txt",
+      "integrity_state": "VERIFIED",
+      "sha256": "2e6d31a5983a91251bfae5aefa1c0a19d8ba3cf601d0e8a706b4cfa9661a6b8a",
+      "bytes": 2
+    },
+    {
+      "placement_id": "CS_b992d6815fd9ca33cbbf:rating.txt",
+      "surface": "OTHER",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/Yota/П17 Simprice/1634410058/CS_b992d6815fd9ca33cbbf/01_Материалы/rating.txt",
+      "integrity_state": "VERIFIED",
+      "sha256": "8048d1e7e392843de42064d4c1ae59880ce5b149895a2cb79b0680fbf35e488c",
+      "bytes": 4
+    },
+    {
+      "placement_id": "CS_b992d6815fd9ca33cbbf:reviews_count.txt",
+      "surface": "OTHER",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/Yota/П17 Simprice/1634410058/CS_b992d6815fd9ca33cbbf/01_Материалы/reviews_count.txt",
+      "integrity_state": "VERIFIED",
+      "sha256": "9aa042a9dcc1b35c12d7d5e9c7a9dfc9a6d4ef5110ce357db712d1b997e92e27",
+      "bytes": 4
+    },
+    {
+      "placement_id": "CS_b992d6815fd9ca33cbbf:seller.txt",
+      "surface": "OTHER",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/Yota/П17 Simprice/1634410058/CS_b992d6815fd9ca33cbbf/01_Материалы/seller.txt",
+      "integrity_state": "VERIFIED",
+      "sha256": "54169691d884c02d6bbb8c780f35f72e80de4cd0bbb2d5b40aa17c5197bce5f3",
+      "bytes": 9
+    },
+    {
+      "placement_id": "CS_b992d6815fd9ca33cbbf:tags.txt",
+      "surface": "OTHER",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/Yota/П17 Simprice/1634410058/CS_b992d6815fd9ca33cbbf/01_Материалы/tags.txt",
+      "integrity_state": "VERIFIED",
+      "sha256": "598356c8d71fc952156a9f35f897db054539782cb7e9dc8b6120d13aa7b05063",
+      "bytes": 970
+    },
+    {
+      "placement_id": "CS_b992d6815fd9ca33cbbf:title.txt",
+      "surface": "TITLE",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/Yota/П17 Simprice/1634410058/CS_b992d6815fd9ca33cbbf/01_Материалы/title.txt",
+      "integrity_state": "VERIFIED",
+      "sha256": "e29c3dfd7179a557793c113d31e6fa67df0341f0d39acbc26b6deaebe514d4c2",
+      "bytes": 42
+    },
+    {
+      "placement_id": "CS_b992d6815fd9ca33cbbf:url.txt",
+      "surface": "OTHER",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/Yota/П17 Simprice/1634410058/CS_b992d6815fd9ca33cbbf/01_Материалы/url.txt",
+      "integrity_state": "VERIFIED",
+      "sha256": "28bea93a912b3612f3a91846d12d3dae8b3e5a1d2a8dd81664fbd38fdeab53a7",
+      "bytes": 82
+    }
+  ],
+  "data_format": "CAPTURE",
+  "change_number": 1,
+  "coverage_scope": "Все файлы предоставленного снимка; полнота действующей страницы и исполнение услуги отдельно не подтверждены.",
+  "source_note": "Точные сведения источника не являются независимой проверкой тарифного договора или юридических полномочий.",
+  "attributes": {
+    "preliminary_classification": {
+      "task_focus": "CONNECT",
+      "bundle_focus": "NOT_EMPHASIZED_IN_TITLE",
+      "configuration_focus": "NOT_EMPHASIZED_IN_TITLE",
+      "period_focus": "NOT_EMPHASIZED_IN_TITLE",
+      "group_id": "CONNECT_BASE",
+      "group_name": "Подключение: основное предложение",
+      "device_claims": [
+        "PHONE_TABLET"
+      ],
+      "device_claims_status": "POSITIVE_SOURCE_CLAIM_NOT_VERIFIED",
+      "money_roles": [],
+      "money_review_scope": "NOT_ATOMICALLY_REVIEWED",
+      "porting_role": "NOT_ESTABLISHED_IN_ROUTING_SCOPE",
+      "geo_claims": {
+        "legacy_title_claim": "ALL_RUSSIA_CLAIM",
+        "verification": "NOT_VERIFIED",
+        "collection_region": "Moscow"
+      },
+      "targeted_evidence": [],
+      "review_note": "",
+      "flags": [],
+      "legal_party_id": "",
+      "authority_status": "UNKNOWN_IN_INSPECTED_INPUTS",
+      "commercial_readiness": "NOT_ESTABLISHED",
+      "content_effect": "NOT_ASSESSED",
+      "market_row_present": "True",
+      "promotion_row_present": "False",
+      "routing_support": {
+        "surface": "CHARACTERISTICS",
+        "source_file": "01_Карточки/Ozon/Yota/П17 Simprice/1634410058/CS_b992d6815fd9ca33cbbf/01_Материалы/characteristics.txt",
+        "basis_text": "Вид тарифного плана: Для телефона",
+        "basis_kind": "PROVIDED_ROUTING_EXPLANATION",
+        "literal_text_match": false,
+        "source_classification_status": "PROVISIONAL_CONTENT_ROUTING",
+        "evidence_status": "INHERITED_NOT_INDEPENDENT_RECODE",
+        "scope_note": "Предоставленное основание предварительной группы; не новая независимая разметка и не проверка совместимости или эффекта."
+      },
+      "device_scope_note": "Перечень устройств является исходной маршрутизацией, а не полной проверкой совместимости."
+    },
+    "classification_status": "PRELIMINARY_CONTENT_ROUTE_NOT_SALES_RANK",
+    "channel": {
+      "platform": "Ozon",
+      "legal_party": "UNKNOWN",
+      "shop_type": "UNKNOWN",
+      "brand_owner": "UNKNOWN",
+      "distributor_status": "UNKNOWN",
+      "budget": "UNKNOWN"
+    },
+    "source_url": "https://www.ozon.ru/product/yota-sim-karta-vsya-rossiya-1634410058/?sh=f35iFbOWYQ"
+  },
+  "metadata_files": [
+    "01_Карточки/Ozon/Yota/П17 Simprice/1634410058/CS_b992d6815fd9ca33cbbf/02_Метаданные/Фрагменты источника.jsonl",
+    "01_Карточки/Ozon/Yota/П17 Simprice/1634410058/CS_b992d6815fd9ca33cbbf/02_Метаданные/Извлечённые сведения.jsonl"
+  ]
+}

@@ -1,0 +1,282 @@
+{
+  "schema_version": "1.0",
+  "sku": "1928647892",
+  "cohort": "Other_operators",
+  "collected_at": "2026-09-25T09:42:49.937Z",
+  "region": "Moscow",
+  "query": "сим карта",
+  "collection_status": "success",
+  "source_evidence": "OBSERVED_live_ozon_product_page",
+  "selection_source": "ozon_seller_analytics_sim_karta_moscow_2026-09-25",
+  "analytics_rank": 4,
+  "title": "Сим карта Билайн, тариф Эксклюзивный ХИТ, 350 руб./ мес.",
+  "seller": "билайн - официальный магазин",
+  "url": "https://www.ozon.ru/product/sim-karta-bilayn-tarif-eksklyuzivnyy-hit-350-rub-mes-1928647892/?sh=f35iFbOWYQ",
+  "product_price_rub": "2",
+  "currency": "RUB",
+  "rating": "4.7",
+  "reviews_count": "14103",
+  "availability": "http://schema.org/InStock",
+  "content_type": "pseudo_rich_and_description",
+  "description_present": true,
+  "rich_present": false,
+  "pseudo_rich_present": true,
+  "tags_present": true,
+  "gallery": [
+    {
+      "order": 1,
+      "file": "Gallery/G01.jpg",
+      "source_url": "https://ir.ozone.ru/s3/multimedia-1-c/14428242624.jpg",
+      "role": "hero"
+    },
+    {
+      "order": 2,
+      "file": "Gallery/G02.jpg",
+      "source_url": "https://ir.ozone.ru/s3/multimedia-1-p/15143047081.jpg",
+      "role": "gallery"
+    },
+    {
+      "order": 3,
+      "file": "Gallery/G03.jpg",
+      "source_url": "https://ir.ozone.ru/s3/multimedia-1-6/12279546798.jpg",
+      "role": "gallery"
+    },
+    {
+      "order": 4,
+      "file": "Gallery/G04.jpg",
+      "source_url": "https://ir.ozone.ru/s3/multimedia-1-w/12279550640.jpg",
+      "role": "gallery"
+    },
+    {
+      "order": 5,
+      "file": "Gallery/G05.jpg",
+      "source_url": "https://ir.ozone.ru/s3/multimedia-1-l/12279548145.jpg",
+      "role": "gallery"
+    },
+    {
+      "order": 6,
+      "file": "Gallery/G06.jpg",
+      "source_url": "https://ir.ozone.ru/s3/multimedia-1-b/12279550907.jpg",
+      "role": "gallery"
+    },
+    {
+      "order": 7,
+      "file": "Gallery/G07.jpg",
+      "source_url": "https://ir.ozone.ru/s3/multimedia-1-0/12279545856.jpg",
+      "role": "gallery"
+    },
+    {
+      "order": 8,
+      "file": "Gallery/G08.jpg",
+      "source_url": "https://ir.ozone.ru/s3/multimedia-1-m/12279547822.jpg",
+      "role": "gallery"
+    },
+    {
+      "order": 9,
+      "file": "Gallery/G09.jpg",
+      "source_url": "https://ir.ozone.ru/s3/multimedia-1-0/12279548808.jpg",
+      "role": "gallery"
+    },
+    {
+      "order": 10,
+      "file": "Gallery/G10.jpg",
+      "source_url": "https://ir.ozone.ru/s3/multimedia-1-o/12279546600.jpg",
+      "role": "gallery"
+    },
+    {
+      "order": 11,
+      "file": "Gallery/G11.jpg",
+      "source_url": "https://ir.ozone.ru/s3/multimedia-1-h/12279549293.jpg",
+      "role": "gallery"
+    }
+  ],
+  "rich": [
+    {
+      "order": 1,
+      "file": "Rich/R01.jpg",
+      "source_url": "https://ir.ozone.ru/s3/multimedia-1-r/10825154595.jpg",
+      "subtype": "pseudo_rich"
+    }
+  ],
+  "error": null,
+  "artifact_policy": "TXT and JSON only; no DOCX",
+  "image_qa": [
+    {
+      "kind": "gallery",
+      "order": 1,
+      "file": "Gallery/G01.jpg",
+      "exists": true,
+      "bytes": 61298,
+      "width": 620,
+      "height": 825,
+      "format": "JPEG",
+      "valid_image": true,
+      "analysis_quality": "USABLE",
+      "error": null
+    },
+    {
+      "kind": "gallery",
+      "order": 2,
+      "file": "Gallery/G02.jpg",
+      "exists": true,
+      "bytes": 85327,
+      "width": 1240,
+      "height": 1650,
+      "format": "JPEG",
+      "valid_image": true,
+      "analysis_quality": "HIGH_RES",
+      "error": null
+    },
+    {
+      "kind": "gallery",
+      "order": 3,
+      "file": "Gallery/G03.jpg",
+      "exists": true,
+      "bytes": 38749,
+      "width": 620,
+      "height": 825,
+      "format": "JPEG",
+      "valid_image": true,
+      "analysis_quality": "USABLE",
+      "error": null
+    },
+    {
+      "kind": "gallery",
+      "order": 4,
+      "file": "Gallery/G04.jpg",
+      "exists": true,
+      "bytes": 71093,
+      "width": 1240,
+      "height": 1650,
+      "format": "JPEG",
+      "valid_image": true,
+      "analysis_quality": "HIGH_RES",
+      "error": null
+    },
+    {
+      "kind": "gallery",
+      "order": 5,
+      "file": "Gallery/G05.jpg",
+      "exists": true,
+      "bytes": 94754,
+      "width": 1240,
+      "height": 1650,
+      "format": "JPEG",
+      "valid_image": true,
+      "analysis_quality": "HIGH_RES",
+      "error": null
+    },
+    {
+      "kind": "gallery",
+      "order": 6,
+      "file": "Gallery/G06.jpg",
+      "exists": true,
+      "bytes": 32550,
+      "width": 620,
+      "height": 825,
+      "format": "JPEG",
+      "valid_image": true,
+      "analysis_quality": "USABLE",
+      "error": null
+    },
+    {
+      "kind": "gallery",
+      "order": 7,
+      "file": "Gallery/G07.jpg",
+      "exists": true,
+      "bytes": 106640,
+      "width": 1240,
+      "height": 1650,
+      "format": "JPEG",
+      "valid_image": true,
+      "analysis_quality": "HIGH_RES",
+      "error": null
+    },
+    {
+      "kind": "gallery",
+      "order": 8,
+      "file": "Gallery/G08.jpg",
+      "exists": true,
+      "bytes": 110053,
+      "width": 1240,
+      "height": 1650,
+      "format": "JPEG",
+      "valid_image": true,
+      "analysis_quality": "HIGH_RES",
+      "error": null
+    },
+    {
+      "kind": "gallery",
+      "order": 9,
+      "file": "Gallery/G09.jpg",
+      "exists": true,
+      "bytes": 69260,
+      "width": 1240,
+      "height": 1650,
+      "format": "JPEG",
+      "valid_image": true,
+      "analysis_quality": "HIGH_RES",
+      "error": null
+    },
+    {
+      "kind": "gallery",
+      "order": 10,
+      "file": "Gallery/G10.jpg",
+      "exists": true,
+      "bytes": 78330,
+      "width": 1240,
+      "height": 1650,
+      "format": "JPEG",
+      "valid_image": true,
+      "analysis_quality": "HIGH_RES",
+      "error": null
+    },
+    {
+      "kind": "gallery",
+      "order": 11,
+      "file": "Gallery/G11.jpg",
+      "exists": true,
+      "bytes": 82692,
+      "width": 1240,
+      "height": 1650,
+      "format": "JPEG",
+      "valid_image": true,
+      "analysis_quality": "HIGH_RES",
+      "error": null
+    },
+    {
+      "kind": "rich",
+      "order": 1,
+      "file": "Rich/R01.jpg",
+      "exists": true,
+      "bytes": 60797,
+      "width": 1280,
+      "height": 1115,
+      "format": "JPEG",
+      "valid_image": true,
+      "analysis_quality": "HIGH_RES",
+      "error": null
+    }
+  ],
+  "image_qa_summary": {
+    "expected": 12,
+    "downloaded": 12,
+    "valid": 12,
+    "high_res": 9,
+    "usable": 3,
+    "low_res": 0,
+    "missing": 0,
+    "corrupt": 0
+  },
+  "images_suitable_for_analysis": true,
+  "rich_ocr": {
+    "status": "complete",
+    "engine": "PaddleOCR 3.7 / PP-OCRv5 mobile detection / Cyrillic PP-OCRv5 mobile recognition",
+    "images_total": 1,
+    "images_recognized": 1,
+    "images_no_text": 0,
+    "images_error": 0,
+    "text_file": "Rich/rich_text.txt",
+    "json_file": "Rich/rich_ocr.json"
+  }
+}

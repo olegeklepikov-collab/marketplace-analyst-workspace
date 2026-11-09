@@ -1,0 +1,400 @@
+{
+  "record_type": "CAPTURE",
+  "intake_id": "BASE:CS_f036837ed356d9cc0478",
+  "card_id": "OZON:3145077393",
+  "capture_id": "CS_f036837ed356d9cc0478",
+  "intake_status": "ACCEPTED",
+  "registered_at": null,
+  "platform": "Ozon",
+  "external_card_id": {
+    "state": "KNOWN",
+    "value": "3145077393",
+    "basis": "OBSERVED",
+    "scope": "внешний номер",
+    "source_locator": "01_Карточки/Ozon/Билайн/П26 Много Сим/3145077393/CS_f036837ed356d9cc0478/01_Материалы/card_data.json:sku"
+  },
+  "observed_at": {
+    "state": "KNOWN",
+    "value": "2026-09-25T09:43:10.673Z",
+    "basis": "OBSERVED",
+    "scope": "время наблюдения",
+    "source_locator": "01_Карточки/Ozon/Билайн/П26 Много Сим/3145077393/CS_f036837ed356d9cc0478/01_Материалы/card_data.json:collected_at"
+  },
+  "seller_display_name": {
+    "state": "KNOWN",
+    "value": "Много Сим",
+    "basis": "OBSERVED",
+    "scope": "точная строка продавца",
+    "source_locator": "01_Карточки/Ozon/Билайн/П26 Много Сим/3145077393/CS_f036837ed356d9cc0478/01_Материалы/card_data.json:seller"
+  },
+  "seller_label_code": "П26",
+  "brand": {
+    "state": "KNOWN",
+    "value": "Билайн",
+    "basis": "OBSERVED",
+    "scope": "заявленный бренд",
+    "source_locator": "01_Карточки/Ozon/Билайн/П26 Много Сим/3145077393/CS_f036837ed356d9cc0478/01_Материалы/card_data.json"
+  },
+  "title": {
+    "state": "KNOWN",
+    "value": "Сим карта Билайн для умных устройств 5Гб",
+    "basis": "OBSERVED",
+    "scope": "заголовок",
+    "source_locator": "01_Карточки/Ozon/Билайн/П26 Много Сим/3145077393/CS_f036837ed356d9cc0478/01_Материалы/card_data.json:title"
+  },
+  "source_origin": "Сохранённая страница маркетплейса; дата наблюдения указана в паспорте.",
+  "actual_relative_path": "01_Карточки/Ozon/Билайн/П26 Много Сим/3145077393/CS_f036837ed356d9cc0478",
+  "mission": "Подключение: основное предложение",
+  "offer_model": "Услуга, условия не подтверждены",
+  "collection_region": "Moscow",
+  "materials": [
+    {
+      "placement_id": "CS_f036837ed356d9cc0478:Gallery/G01.jpg",
+      "surface": "GALLERY",
+      "position": 1,
+      "relative_file": "01_Карточки/Ozon/Билайн/П26 Много Сим/3145077393/CS_f036837ed356d9cc0478/01_Материалы/Gallery/G01.jpg",
+      "integrity_state": "VERIFIED",
+      "sha256": "6c16d7713737c5beb02bdd4b9c4e7f9dc091315c14fc5b2685700f9e33ae3b05",
+      "bytes": 97802
+    },
+    {
+      "placement_id": "CS_f036837ed356d9cc0478:Gallery/G02.jpg",
+      "surface": "GALLERY",
+      "position": 2,
+      "relative_file": "01_Карточки/Ozon/Билайн/П26 Много Сим/3145077393/CS_f036837ed356d9cc0478/01_Материалы/Gallery/G02.jpg",
+      "integrity_state": "VERIFIED",
+      "sha256": "97369cfa3726d49c20b2f060ffc8f5e343aa5ea29712581928db6a5ca046764a",
+      "bytes": 158656
+    },
+    {
+      "placement_id": "CS_f036837ed356d9cc0478:Gallery/G03.jpg",
+      "surface": "GALLERY",
+      "position": 3,
+      "relative_file": "01_Карточки/Ozon/Билайн/П26 Много Сим/3145077393/CS_f036837ed356d9cc0478/01_Материалы/Gallery/G03.jpg",
+      "integrity_state": "VERIFIED",
+      "sha256": "ef4b27af223b4dad609e5faf63f5491ca83eece29a8f8b1fa7f539299f8ab39f",
+      "bytes": 76296
+    },
+    {
+      "placement_id": "CS_f036837ed356d9cc0478:Gallery/G04.jpg",
+      "surface": "GALLERY",
+      "position": 4,
+      "relative_file": "01_Карточки/Ozon/Билайн/П26 Много Сим/3145077393/CS_f036837ed356d9cc0478/01_Материалы/Gallery/G04.jpg",
+      "integrity_state": "VERIFIED",
+      "sha256": "fb8300acee019e4c955d1d8936e40b28d0085b939406bf900985b65cda5aee4d",
+      "bytes": 156306
+    },
+    {
+      "placement_id": "CS_f036837ed356d9cc0478:Gallery/G05.jpg",
+      "surface": "GALLERY",
+      "position": 5,
+      "relative_file": "01_Карточки/Ozon/Билайн/П26 Много Сим/3145077393/CS_f036837ed356d9cc0478/01_Материалы/Gallery/G05.jpg",
+      "integrity_state": "VERIFIED",
+      "sha256": "87652ee59ca08ef017c29c1cadb825d6f0c8ec4ec7a6931ca8aafc749754b004",
+      "bytes": 81544
+    },
+    {
+      "placement_id": "CS_f036837ed356d9cc0478:Gallery/G06.jpg",
+      "surface": "GALLERY",
+      "position": 6,
+      "relative_file": "01_Карточки/Ozon/Билайн/П26 Много Сим/3145077393/CS_f036837ed356d9cc0478/01_Материалы/Gallery/G06.jpg",
+      "integrity_state": "VERIFIED",
+      "sha256": "b687e4568385ec27697dd7f0ec3bc7748283cb24d5e144fea28c6176517fc2fe",
+      "bytes": 216532
+    },
+    {
+      "placement_id": "CS_f036837ed356d9cc0478:Gallery/G07.jpg",
+      "surface": "GALLERY",
+      "position": 7,
+      "relative_file": "01_Карточки/Ozon/Билайн/П26 Много Сим/3145077393/CS_f036837ed356d9cc0478/01_Материалы/Gallery/G07.jpg",
+      "integrity_state": "VERIFIED",
+      "sha256": "633cd10d9a66fbe278143bc5f437ac2cb4c1dc00c9872d51298f7b8ef95fbb6b",
+      "bytes": 87351
+    },
+    {
+      "placement_id": "CS_f036837ed356d9cc0478:Gallery/G08.jpg",
+      "surface": "GALLERY",
+      "position": 8,
+      "relative_file": "01_Карточки/Ozon/Билайн/П26 Много Сим/3145077393/CS_f036837ed356d9cc0478/01_Материалы/Gallery/G08.jpg",
+      "integrity_state": "VERIFIED",
+      "sha256": "0626aa54e206b1fafe544df62d7dfc2aa18399a83a4f74e3ad0ba0a64311729d",
+      "bytes": 154719
+    },
+    {
+      "placement_id": "CS_f036837ed356d9cc0478:Gallery/G09.jpg",
+      "surface": "GALLERY",
+      "position": 9,
+      "relative_file": "01_Карточки/Ozon/Билайн/П26 Много Сим/3145077393/CS_f036837ed356d9cc0478/01_Материалы/Gallery/G09.jpg",
+      "integrity_state": "VERIFIED",
+      "sha256": "c52a169a67604b412782c5175fc929fb3ec7821a84cc6125400598864af12d8a",
+      "bytes": 85086
+    },
+    {
+      "placement_id": "CS_f036837ed356d9cc0478:Gallery/G10.jpg",
+      "surface": "GALLERY",
+      "position": 10,
+      "relative_file": "01_Карточки/Ozon/Билайн/П26 Много Сим/3145077393/CS_f036837ed356d9cc0478/01_Материалы/Gallery/G10.jpg",
+      "integrity_state": "VERIFIED",
+      "sha256": "2d98d3611ac0b6e24dbdae02ea79f1b3859e6b54d9f479c96074e208f6461195",
+      "bytes": 104148
+    },
+    {
+      "placement_id": "CS_f036837ed356d9cc0478:Gallery/G11.jpg",
+      "surface": "GALLERY",
+      "position": 11,
+      "relative_file": "01_Карточки/Ozon/Билайн/П26 Много Сим/3145077393/CS_f036837ed356d9cc0478/01_Материалы/Gallery/G11.jpg",
+      "integrity_state": "VERIFIED",
+      "sha256": "4216c8e5531f57575284488d084d4eed98ac35a10471db07b6e9c83587596104",
+      "bytes": 152092
+    },
+    {
+      "placement_id": "CS_f036837ed356d9cc0478:Gallery/G12.jpg",
+      "surface": "GALLERY",
+      "position": 12,
+      "relative_file": "01_Карточки/Ozon/Билайн/П26 Много Сим/3145077393/CS_f036837ed356d9cc0478/01_Материалы/Gallery/G12.jpg",
+      "integrity_state": "VERIFIED",
+      "sha256": "fedb49deba227ff1c2283d861473301b1b373a0ac0e10611dcd7f60d47635553",
+      "bytes": 134037
+    },
+    {
+      "placement_id": "CS_f036837ed356d9cc0478:Gallery/G13.jpg",
+      "surface": "GALLERY",
+      "position": 13,
+      "relative_file": "01_Карточки/Ozon/Билайн/П26 Много Сим/3145077393/CS_f036837ed356d9cc0478/01_Материалы/Gallery/G13.jpg",
+      "integrity_state": "VERIFIED",
+      "sha256": "a76a5b4f7e19c8302069d04b5ec4c4bdddace71141b5ac8c0a146cd0854ddd67",
+      "bytes": 119775
+    },
+    {
+      "placement_id": "CS_f036837ed356d9cc0478:Gallery/G14.jpg",
+      "surface": "GALLERY",
+      "position": 14,
+      "relative_file": "01_Карточки/Ozon/Билайн/П26 Много Сим/3145077393/CS_f036837ed356d9cc0478/01_Материалы/Gallery/G14.jpg",
+      "integrity_state": "VERIFIED",
+      "sha256": "d1e630c03354406f5f57667712a406c04883fcf1e7cbc776d3a666e950dad96b",
+      "bytes": 100569
+    },
+    {
+      "placement_id": "CS_f036837ed356d9cc0478:Rich/R01.jpg",
+      "surface": "RICH",
+      "position": 1,
+      "relative_file": "01_Карточки/Ozon/Билайн/П26 Много Сим/3145077393/CS_f036837ed356d9cc0478/01_Материалы/Rich/R01.jpg",
+      "integrity_state": "VERIFIED",
+      "sha256": "64afe856e6dc3cb95f03f1033fc2d4f580da7371a2ddf5722ad89c3fd6793e82",
+      "bytes": 132158
+    },
+    {
+      "placement_id": "CS_f036837ed356d9cc0478:Rich/rich_ocr.json",
+      "surface": "RICH",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/Билайн/П26 Много Сим/3145077393/CS_f036837ed356d9cc0478/01_Материалы/Rich/rich_ocr.json",
+      "integrity_state": "VERIFIED",
+      "sha256": "d8a0f61039087fae6b8cb1b4e860df050e52ec1332ce52fd66ce5fd2cbb05334",
+      "bytes": 1506
+    },
+    {
+      "placement_id": "CS_f036837ed356d9cc0478:Rich/rich_text.txt",
+      "surface": "RICH",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/Билайн/П26 Много Сим/3145077393/CS_f036837ed356d9cc0478/01_Материалы/Rich/rich_text.txt",
+      "integrity_state": "VERIFIED",
+      "sha256": "d749475b66600f1a2b9100e4286728a6d41d4df0600b0aa45d7bbded4492b6b6",
+      "bytes": 180
+    },
+    {
+      "placement_id": "CS_f036837ed356d9cc0478:analytics_rank.txt",
+      "surface": "OTHER",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/Билайн/П26 Много Сим/3145077393/CS_f036837ed356d9cc0478/01_Материалы/analytics_rank.txt",
+      "integrity_state": "VERIFIED",
+      "sha256": "084c799cd551dd1d8d5c5f9a5d593b2e931f5e36122ee5c793c1d08a19839cc0",
+      "bytes": 3
+    },
+    {
+      "placement_id": "CS_f036837ed356d9cc0478:availability.txt",
+      "surface": "OTHER",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/Билайн/П26 Много Сим/3145077393/CS_f036837ed356d9cc0478/01_Материалы/availability.txt",
+      "integrity_state": "VERIFIED",
+      "sha256": "f3db355a863e0dd7fa5ca1c95f35969d61f7cfb1f7a1c64da40b68a8ebed9c4d",
+      "bytes": 26
+    },
+    {
+      "placement_id": "CS_f036837ed356d9cc0478:card_data.json",
+      "surface": "OTHER",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/Билайн/П26 Много Сим/3145077393/CS_f036837ed356d9cc0478/01_Материалы/card_data.json",
+      "integrity_state": "VERIFIED",
+      "sha256": "015e15f768a4ff0fca38f8c24a9d91439bb428fd89dbac13757e9928c3ed3445",
+      "bytes": 6672
+    },
+    {
+      "placement_id": "CS_f036837ed356d9cc0478:characteristics.txt",
+      "surface": "CHARACTERISTICS",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/Билайн/П26 Много Сим/3145077393/CS_f036837ed356d9cc0478/01_Материалы/characteristics.txt",
+      "integrity_state": "VERIFIED",
+      "sha256": "b68e4b00980f1feb9af95ceae12bb7c0153da29a1ab613b8712a2da2facec148",
+      "bytes": 1037
+    },
+    {
+      "placement_id": "CS_f036837ed356d9cc0478:collection_status.txt",
+      "surface": "OTHER",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/Билайн/П26 Много Сим/3145077393/CS_f036837ed356d9cc0478/01_Материалы/collection_status.txt",
+      "integrity_state": "VERIFIED",
+      "sha256": "cf01585829633e2debef0696d8101ca4fb4702310a2f2256b3b17bd0e753ce8c",
+      "bytes": 10
+    },
+    {
+      "placement_id": "CS_f036837ed356d9cc0478:content_type.txt",
+      "surface": "OTHER",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/Билайн/П26 Много Сим/3145077393/CS_f036837ed356d9cc0478/01_Материалы/content_type.txt",
+      "integrity_state": "VERIFIED",
+      "sha256": "96e6625bbd580d529a6384d96146fa3a05f7fb416cb4614fd8cd7135be2d77d1",
+      "bytes": 28
+    },
+    {
+      "placement_id": "CS_f036837ed356d9cc0478:description.txt",
+      "surface": "DESCRIPTION",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/Билайн/П26 Много Сим/3145077393/CS_f036837ed356d9cc0478/01_Материалы/description.txt",
+      "integrity_state": "VERIFIED",
+      "sha256": "0d7662282b0115505df2e1160b937e934ca5719345c7e2d06f35050fdba0e9d0",
+      "bytes": 2054
+    },
+    {
+      "placement_id": "CS_f036837ed356d9cc0478:manifest.json",
+      "surface": "OTHER",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/Билайн/П26 Много Сим/3145077393/CS_f036837ed356d9cc0478/01_Материалы/manifest.json",
+      "integrity_state": "VERIFIED",
+      "sha256": "0275c5961e2d1b4acba015494564c06b1347c3343e21e976c4e6ff153561ff0e",
+      "bytes": 8302
+    },
+    {
+      "placement_id": "CS_f036837ed356d9cc0478:price.txt",
+      "surface": "OTHER",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/Билайн/П26 Много Сим/3145077393/CS_f036837ed356d9cc0478/01_Материалы/price.txt",
+      "integrity_state": "VERIFIED",
+      "sha256": "53c234e5e8472b6ac51c1ae1cab3fe06fad053beb8ebfd8977b010655bfdd3c3",
+      "bytes": 2
+    },
+    {
+      "placement_id": "CS_f036837ed356d9cc0478:rating.txt",
+      "surface": "OTHER",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/Билайн/П26 Много Сим/3145077393/CS_f036837ed356d9cc0478/01_Материалы/rating.txt",
+      "integrity_state": "VERIFIED",
+      "sha256": "335f6442cc8f7e4980fe4ba346115a00101db5a939992b25b27ebf595238e8d5",
+      "bytes": 4
+    },
+    {
+      "placement_id": "CS_f036837ed356d9cc0478:reviews_count.txt",
+      "surface": "OTHER",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/Билайн/П26 Много Сим/3145077393/CS_f036837ed356d9cc0478/01_Материалы/reviews_count.txt",
+      "integrity_state": "VERIFIED",
+      "sha256": "2900398fd4009e66d9147d45ed387135ca68b6b96868db2e2c1258cdeea89ec2",
+      "bytes": 4
+    },
+    {
+      "placement_id": "CS_f036837ed356d9cc0478:seller.txt",
+      "surface": "OTHER",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/Билайн/П26 Много Сим/3145077393/CS_f036837ed356d9cc0478/01_Материалы/seller.txt",
+      "integrity_state": "VERIFIED",
+      "sha256": "95d41b2b88901777a62ee5ea2d78cc2266c92fd8bd42b55ce00d2dcd41a16f14",
+      "bytes": 18
+    },
+    {
+      "placement_id": "CS_f036837ed356d9cc0478:tags.txt",
+      "surface": "OTHER",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/Билайн/П26 Много Сим/3145077393/CS_f036837ed356d9cc0478/01_Материалы/tags.txt",
+      "integrity_state": "VERIFIED",
+      "sha256": "d9a71d9a7e8870cb6e41570b308a31dbf606e3a1d05f13ee80e338b01af638cf",
+      "bytes": 783
+    },
+    {
+      "placement_id": "CS_f036837ed356d9cc0478:title.txt",
+      "surface": "TITLE",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/Билайн/П26 Много Сим/3145077393/CS_f036837ed356d9cc0478/01_Материалы/title.txt",
+      "integrity_state": "VERIFIED",
+      "sha256": "dba9224eb781f516be238406405d9ea91c301fe6e9633bd921d258c6e8010278",
+      "bytes": 74
+    },
+    {
+      "placement_id": "CS_f036837ed356d9cc0478:url.txt",
+      "surface": "OTHER",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/Билайн/П26 Много Сим/3145077393/CS_f036837ed356d9cc0478/01_Материалы/url.txt",
+      "integrity_state": "VERIFIED",
+      "sha256": "aa8798b7ac12435b310c44687029995ca7d8f835878b87e4cf1686a5773d6adb",
+      "bytes": 96
+    }
+  ],
+  "data_format": "CAPTURE",
+  "change_number": 1,
+  "coverage_scope": "Все файлы предоставленного снимка; полнота действующей страницы и исполнение услуги отдельно не подтверждены.",
+  "source_note": "Точные сведения источника не являются независимой проверкой тарифного договора или юридических полномочий.",
+  "attributes": {
+    "preliminary_classification": {
+      "task_focus": "CONNECT",
+      "bundle_focus": "NOT_EMPHASIZED_IN_TITLE",
+      "configuration_focus": "NOT_EMPHASIZED_IN_TITLE",
+      "period_focus": "NOT_EMPHASIZED_IN_TITLE",
+      "group_id": "CONNECT_BASE",
+      "group_name": "Подключение: основное предложение",
+      "device_claims": [
+        "IOT"
+      ],
+      "device_claims_status": "POSITIVE_SOURCE_CLAIM_NOT_VERIFIED",
+      "money_roles": [],
+      "money_review_scope": "NOT_ATOMICALLY_REVIEWED",
+      "porting_role": "NOT_ESTABLISHED_IN_ROUTING_SCOPE",
+      "geo_claims": {
+        "legacy_title_claim": "REGION_NOT_IN_TITLE",
+        "verification": "NOT_VERIFIED",
+        "collection_region": "Moscow"
+      },
+      "targeted_evidence": [],
+      "review_note": "",
+      "flags": [],
+      "legal_party_id": "",
+      "authority_status": "UNKNOWN_IN_INSPECTED_INPUTS",
+      "commercial_readiness": "NOT_ESTABLISHED",
+      "content_effect": "NOT_ASSESSED",
+      "market_row_present": "True",
+      "promotion_row_present": "False",
+      "routing_support": {
+        "surface": "TITLE",
+        "source_file": "01_Карточки/Ozon/Билайн/П26 Много Сим/3145077393/CS_f036837ed356d9cc0478/01_Материалы/title.txt",
+        "basis_text": "камера / умное устройство / часы",
+        "basis_kind": "PROVIDED_ROUTING_EXPLANATION",
+        "literal_text_match": false,
+        "source_classification_status": "PROVISIONAL_CONTENT_ROUTING",
+        "evidence_status": "INHERITED_NOT_INDEPENDENT_RECODE",
+        "scope_note": "Предоставленное основание предварительной группы; не новая независимая разметка и не проверка совместимости или эффекта."
+      },
+      "device_scope_note": "Перечень устройств является исходной маршрутизацией, а не полной проверкой совместимости."
+    },
+    "classification_status": "PRELIMINARY_CONTENT_ROUTE_NOT_SALES_RANK",
+    "channel": {
+      "platform": "Ozon",
+      "legal_party": "UNKNOWN",
+      "shop_type": "UNKNOWN",
+      "brand_owner": "UNKNOWN",
+      "distributor_status": "UNKNOWN",
+      "budget": "UNKNOWN"
+    },
+    "source_url": "https://www.ozon.ru/product/sim-karta-bilayn-dlya-umnyh-ustroystv-5gb-3145077393/?sh=f35iFbOWYQ"
+  },
+  "metadata_files": [
+    "01_Карточки/Ozon/Билайн/П26 Много Сим/3145077393/CS_f036837ed356d9cc0478/02_Метаданные/Фрагменты источника.jsonl",
+    "01_Карточки/Ozon/Билайн/П26 Много Сим/3145077393/CS_f036837ed356d9cc0478/02_Метаданные/Извлечённые сведения.jsonl"
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "sku": "1928647892",
+  "status": "complete",
+  "engine": "PaddleOCR 3.7 / PP-OCRv5 mobile detection / Cyrillic PP-OCRv5 mobile recognition",
+  "languages": [
+    "Cyrillic",
+    "Latin",
+    "digits"
+  ],
+  "note": "Автоматическая расшифровка; для юридически значимых формулировок требуется сверка с изображением.",
+  "images": [
+    {
+      "file": "R01.jpg",
+      "text": "",
+      "lines": [
+        "",
+        "",
+        ""
+      ],
+      "scores": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "mean_score": 0.0,
+      "status": "recognized",
+      "error": null
+    }
+  ]
+}

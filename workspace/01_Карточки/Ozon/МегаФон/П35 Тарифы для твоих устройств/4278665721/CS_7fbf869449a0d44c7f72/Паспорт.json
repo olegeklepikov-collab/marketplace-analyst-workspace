@@ -1,0 +1,382 @@
+{
+  "record_type": "CAPTURE",
+  "intake_id": "BASE:CS_7fbf869449a0d44c7f72",
+  "card_id": "OZON:4278665721",
+  "capture_id": "CS_7fbf869449a0d44c7f72",
+  "intake_status": "ACCEPTED",
+  "registered_at": null,
+  "platform": "Ozon",
+  "external_card_id": {
+    "state": "KNOWN",
+    "value": "4278665721",
+    "basis": "OBSERVED",
+    "scope": "внешний номер",
+    "source_locator": "01_Карточки/Ozon/МегаФон/П35 Тарифы для твоих устройств/4278665721/CS_7fbf869449a0d44c7f72/01_Материалы/card_data.json:sku"
+  },
+  "observed_at": {
+    "state": "KNOWN",
+    "value": "2026-09-25T09:40:58.012Z",
+    "basis": "OBSERVED",
+    "scope": "время наблюдения",
+    "source_locator": "01_Карточки/Ozon/МегаФон/П35 Тарифы для твоих устройств/4278665721/CS_7fbf869449a0d44c7f72/01_Материалы/card_data.json:collected_at"
+  },
+  "seller_display_name": {
+    "state": "KNOWN",
+    "value": "Тарифы для твоих устройств",
+    "basis": "OBSERVED",
+    "scope": "точная строка продавца",
+    "source_locator": "01_Карточки/Ozon/МегаФон/П35 Тарифы для твоих устройств/4278665721/CS_7fbf869449a0d44c7f72/01_Материалы/card_data.json:seller"
+  },
+  "seller_label_code": "П35",
+  "brand": {
+    "state": "KNOWN",
+    "value": "МегаФон",
+    "basis": "OBSERVED",
+    "scope": "заявленный бренд",
+    "source_locator": "01_Карточки/Ozon/МегаФон/П35 Тарифы для твоих устройств/4278665721/CS_7fbf869449a0d44c7f72/01_Материалы/card_data.json"
+  },
+  "title": {
+    "state": "KNOWN",
+    "value": "МегаФон SIM-карта  МегаФон с безлимитом для умных устройств, 1000 мин (выбор номера и региона) (Вся Россия)",
+    "basis": "OBSERVED",
+    "scope": "заголовок",
+    "source_locator": "01_Карточки/Ozon/МегаФон/П35 Тарифы для твоих устройств/4278665721/CS_7fbf869449a0d44c7f72/01_Материалы/card_data.json:title"
+  },
+  "source_origin": "Сохранённая страница маркетплейса; дата наблюдения указана в паспорте.",
+  "actual_relative_path": "01_Карточки/Ozon/МегаФон/П35 Тарифы для твоих устройств/4278665721/CS_7fbf869449a0d44c7f72",
+  "mission": "Подключение: основное предложение",
+  "offer_model": "Услуга, условия не подтверждены",
+  "collection_region": "Moscow",
+  "materials": [
+    {
+      "placement_id": "CS_7fbf869449a0d44c7f72:Gallery/G01.jpg",
+      "surface": "GALLERY",
+      "position": 1,
+      "relative_file": "01_Карточки/Ozon/МегаФон/П35 Тарифы для твоих устройств/4278665721/CS_7fbf869449a0d44c7f72/01_Материалы/Gallery/G01.jpg",
+      "integrity_state": "VERIFIED",
+      "sha256": "644ce76b69670545c728ac40042fe2e0405239f35f5f2f2cbc930329f9c7312e",
+      "bytes": 108257
+    },
+    {
+      "placement_id": "CS_7fbf869449a0d44c7f72:Gallery/G02.jpg",
+      "surface": "GALLERY",
+      "position": 2,
+      "relative_file": "01_Карточки/Ozon/МегаФон/П35 Тарифы для твоих устройств/4278665721/CS_7fbf869449a0d44c7f72/01_Материалы/Gallery/G02.jpg",
+      "integrity_state": "VERIFIED",
+      "sha256": "1698f027340749d2de5524876fa42c0e7317212d4348ca83cd5d15f3b163a8d5",
+      "bytes": 105924
+    },
+    {
+      "placement_id": "CS_7fbf869449a0d44c7f72:Gallery/G03.jpg",
+      "surface": "GALLERY",
+      "position": 3,
+      "relative_file": "01_Карточки/Ozon/МегаФон/П35 Тарифы для твоих устройств/4278665721/CS_7fbf869449a0d44c7f72/01_Материалы/Gallery/G03.jpg",
+      "integrity_state": "VERIFIED",
+      "sha256": "2a98b34d8d36672dcea75ed6f8e6ace7ab910a08e2ca97070f8a874c7625b849",
+      "bytes": 82441
+    },
+    {
+      "placement_id": "CS_7fbf869449a0d44c7f72:Gallery/G04.jpg",
+      "surface": "GALLERY",
+      "position": 4,
+      "relative_file": "01_Карточки/Ozon/МегаФон/П35 Тарифы для твоих устройств/4278665721/CS_7fbf869449a0d44c7f72/01_Материалы/Gallery/G04.jpg",
+      "integrity_state": "VERIFIED",
+      "sha256": "d13b693fd4017937ebca15aed13b98322235c3dc0eda37a28d5ff8cd3840b952",
+      "bytes": 91574
+    },
+    {
+      "placement_id": "CS_7fbf869449a0d44c7f72:Gallery/G05.jpg",
+      "surface": "GALLERY",
+      "position": 5,
+      "relative_file": "01_Карточки/Ozon/МегаФон/П35 Тарифы для твоих устройств/4278665721/CS_7fbf869449a0d44c7f72/01_Материалы/Gallery/G05.jpg",
+      "integrity_state": "VERIFIED",
+      "sha256": "28319b37ab9e8a0a059bd7bfe448581bb38d33f6e7c8e0f2c91d3f87fe0e2281",
+      "bytes": 75841
+    },
+    {
+      "placement_id": "CS_7fbf869449a0d44c7f72:Gallery/G06.jpg",
+      "surface": "GALLERY",
+      "position": 6,
+      "relative_file": "01_Карточки/Ozon/МегаФон/П35 Тарифы для твоих устройств/4278665721/CS_7fbf869449a0d44c7f72/01_Материалы/Gallery/G06.jpg",
+      "integrity_state": "VERIFIED",
+      "sha256": "14a6fa00133d355a0e9eecf5d799f2657469af0ebe0f49ed32045f82df9fdd7c",
+      "bytes": 89416
+    },
+    {
+      "placement_id": "CS_7fbf869449a0d44c7f72:Gallery/G07.jpg",
+      "surface": "GALLERY",
+      "position": 7,
+      "relative_file": "01_Карточки/Ozon/МегаФон/П35 Тарифы для твоих устройств/4278665721/CS_7fbf869449a0d44c7f72/01_Материалы/Gallery/G07.jpg",
+      "integrity_state": "VERIFIED",
+      "sha256": "510ea1fb66c65cdf2b5ae2be708d9a366c58b2d20e41785b0c139adc3676fe52",
+      "bytes": 87765
+    },
+    {
+      "placement_id": "CS_7fbf869449a0d44c7f72:Gallery/G08.jpg",
+      "surface": "GALLERY",
+      "position": 8,
+      "relative_file": "01_Карточки/Ozon/МегаФон/П35 Тарифы для твоих устройств/4278665721/CS_7fbf869449a0d44c7f72/01_Материалы/Gallery/G08.jpg",
+      "integrity_state": "VERIFIED",
+      "sha256": "41245de9065de6f03bf276dac5b041aeb556d623376fceeee1dc9fda315fe79e",
+      "bytes": 71065
+    },
+    {
+      "placement_id": "CS_7fbf869449a0d44c7f72:Gallery/G09.jpg",
+      "surface": "GALLERY",
+      "position": 9,
+      "relative_file": "01_Карточки/Ozon/МегаФон/П35 Тарифы для твоих устройств/4278665721/CS_7fbf869449a0d44c7f72/01_Материалы/Gallery/G09.jpg",
+      "integrity_state": "VERIFIED",
+      "sha256": "bbecf544e7515686fd882d0f7f0a6c0a9ca577509a9b987a79f57e2e1295d5d9",
+      "bytes": 85322
+    },
+    {
+      "placement_id": "CS_7fbf869449a0d44c7f72:Gallery/G10.jpg",
+      "surface": "GALLERY",
+      "position": 10,
+      "relative_file": "01_Карточки/Ozon/МегаФон/П35 Тарифы для твоих устройств/4278665721/CS_7fbf869449a0d44c7f72/01_Материалы/Gallery/G10.jpg",
+      "integrity_state": "VERIFIED",
+      "sha256": "11f95d1ce32f7726e9425d51af17f8c2cc2b35374511ef5af424f0ce4b48bf52",
+      "bytes": 85082
+    },
+    {
+      "placement_id": "CS_7fbf869449a0d44c7f72:Gallery/G11.jpg",
+      "surface": "GALLERY",
+      "position": 11,
+      "relative_file": "01_Карточки/Ozon/МегаФон/П35 Тарифы для твоих устройств/4278665721/CS_7fbf869449a0d44c7f72/01_Материалы/Gallery/G11.jpg",
+      "integrity_state": "VERIFIED",
+      "sha256": "f7c26d428922c5eb7fc091f852b0282e9f5db6650d9cb7bb519328c92f020dcd",
+      "bytes": 88128
+    },
+    {
+      "placement_id": "CS_7fbf869449a0d44c7f72:Gallery/G12.jpg",
+      "surface": "GALLERY",
+      "position": 12,
+      "relative_file": "01_Карточки/Ozon/МегаФон/П35 Тарифы для твоих устройств/4278665721/CS_7fbf869449a0d44c7f72/01_Материалы/Gallery/G12.jpg",
+      "integrity_state": "VERIFIED",
+      "sha256": "148d15f8246d0070f3d41530ac6b068431ebce0edabdc40367120c84eec36b04",
+      "bytes": 79884
+    },
+    {
+      "placement_id": "CS_7fbf869449a0d44c7f72:Gallery/G13.jpg",
+      "surface": "GALLERY",
+      "position": 13,
+      "relative_file": "01_Карточки/Ozon/МегаФон/П35 Тарифы для твоих устройств/4278665721/CS_7fbf869449a0d44c7f72/01_Материалы/Gallery/G13.jpg",
+      "integrity_state": "VERIFIED",
+      "sha256": "562082dcdec36bd20d4ddc48c45949577660681adcd24d7452a7bd607809b272",
+      "bytes": 82076
+    },
+    {
+      "placement_id": "CS_7fbf869449a0d44c7f72:Rich/rich_ocr.json",
+      "surface": "RICH",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/МегаФон/П35 Тарифы для твоих устройств/4278665721/CS_7fbf869449a0d44c7f72/01_Материалы/Rich/rich_ocr.json",
+      "integrity_state": "VERIFIED",
+      "sha256": "229c1afaa5825571600d958c9d8f1544d8766ca1912d0eecaf4676ab4978a5e9",
+      "bytes": 428
+    },
+    {
+      "placement_id": "CS_7fbf869449a0d44c7f72:Rich/rich_text.txt",
+      "surface": "RICH",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/МегаФон/П35 Тарифы для твоих устройств/4278665721/CS_7fbf869449a0d44c7f72/01_Материалы/Rich/rich_text.txt",
+      "integrity_state": "VERIFIED",
+      "sha256": "475c6d9f67450ad806600893977435aa206f13a1fc313805a11336835014fb2e",
+      "bytes": 17
+    },
+    {
+      "placement_id": "CS_7fbf869449a0d44c7f72:analytics_rank.txt",
+      "surface": "OTHER",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/МегаФон/П35 Тарифы для твоих устройств/4278665721/CS_7fbf869449a0d44c7f72/01_Материалы/analytics_rank.txt",
+      "integrity_state": "VERIFIED",
+      "sha256": "c2464c2bbb48985528da8c1add16bda77c1aa84c2c9813db2e4f4158a5f9167b",
+      "bytes": 18
+    },
+    {
+      "placement_id": "CS_7fbf869449a0d44c7f72:availability.txt",
+      "surface": "OTHER",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/МегаФон/П35 Тарифы для твоих устройств/4278665721/CS_7fbf869449a0d44c7f72/01_Материалы/availability.txt",
+      "integrity_state": "VERIFIED",
+      "sha256": "f3db355a863e0dd7fa5ca1c95f35969d61f7cfb1f7a1c64da40b68a8ebed9c4d",
+      "bytes": 26
+    },
+    {
+      "placement_id": "CS_7fbf869449a0d44c7f72:card_data.json",
+      "surface": "OTHER",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/МегаФон/П35 Тарифы для твоих устройств/4278665721/CS_7fbf869449a0d44c7f72/01_Материалы/card_data.json",
+      "integrity_state": "VERIFIED",
+      "sha256": "ce2602d66c2e089ddd6e5c7fce4043d8a4eb16634af0b00f63c396ffb8bcecff",
+      "bytes": 6365
+    },
+    {
+      "placement_id": "CS_7fbf869449a0d44c7f72:characteristics.txt",
+      "surface": "CHARACTERISTICS",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/МегаФон/П35 Тарифы для твоих устройств/4278665721/CS_7fbf869449a0d44c7f72/01_Материалы/characteristics.txt",
+      "integrity_state": "VERIFIED",
+      "sha256": "d896a60c5e4744eb51a1e0ff7608e5448ddfef984138d53a4eba3880d92f70da",
+      "bytes": 1202
+    },
+    {
+      "placement_id": "CS_7fbf869449a0d44c7f72:collection_status.txt",
+      "surface": "OTHER",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/МегаФон/П35 Тарифы для твоих устройств/4278665721/CS_7fbf869449a0d44c7f72/01_Материалы/collection_status.txt",
+      "integrity_state": "VERIFIED",
+      "sha256": "cf01585829633e2debef0696d8101ca4fb4702310a2f2256b3b17bd0e753ce8c",
+      "bytes": 10
+    },
+    {
+      "placement_id": "CS_7fbf869449a0d44c7f72:content_type.txt",
+      "surface": "OTHER",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/МегаФон/П35 Тарифы для твоих устройств/4278665721/CS_7fbf869449a0d44c7f72/01_Материалы/content_type.txt",
+      "integrity_state": "VERIFIED",
+      "sha256": "ef2f19aa952ed53e7278d36afe2186ded6897e77c46984147cc568a21901af62",
+      "bytes": 12
+    },
+    {
+      "placement_id": "CS_7fbf869449a0d44c7f72:description.txt",
+      "surface": "DESCRIPTION",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/МегаФон/П35 Тарифы для твоих устройств/4278665721/CS_7fbf869449a0d44c7f72/01_Материалы/description.txt",
+      "integrity_state": "VERIFIED",
+      "sha256": "f2403edb39ed7a2bc4778d8f7387e6825b84330cfc0ef842511e8cdae022d112",
+      "bytes": 1570
+    },
+    {
+      "placement_id": "CS_7fbf869449a0d44c7f72:manifest.json",
+      "surface": "OTHER",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/МегаФон/П35 Тарифы для твоих устройств/4278665721/CS_7fbf869449a0d44c7f72/01_Материалы/manifest.json",
+      "integrity_state": "VERIFIED",
+      "sha256": "9ee27945ad3f4c5f56e8d407d17e8b672126db1b92bfdcd024860c85adac63d9",
+      "bytes": 7577
+    },
+    {
+      "placement_id": "CS_7fbf869449a0d44c7f72:price.txt",
+      "surface": "OTHER",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/МегаФон/П35 Тарифы для твоих устройств/4278665721/CS_7fbf869449a0d44c7f72/01_Материалы/price.txt",
+      "integrity_state": "VERIFIED",
+      "sha256": "53c234e5e8472b6ac51c1ae1cab3fe06fad053beb8ebfd8977b010655bfdd3c3",
+      "bytes": 2
+    },
+    {
+      "placement_id": "CS_7fbf869449a0d44c7f72:rating.txt",
+      "surface": "OTHER",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/МегаФон/П35 Тарифы для твоих устройств/4278665721/CS_7fbf869449a0d44c7f72/01_Материалы/rating.txt",
+      "integrity_state": "VERIFIED",
+      "sha256": "8048d1e7e392843de42064d4c1ae59880ce5b149895a2cb79b0680fbf35e488c",
+      "bytes": 4
+    },
+    {
+      "placement_id": "CS_7fbf869449a0d44c7f72:reviews_count.txt",
+      "surface": "OTHER",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/МегаФон/П35 Тарифы для твоих устройств/4278665721/CS_7fbf869449a0d44c7f72/01_Материалы/reviews_count.txt",
+      "integrity_state": "VERIFIED",
+      "sha256": "3c7fe4f45c4eaccde18cfc6e0c78059a09d5c196c0ca32f664cd81f3efbe7b50",
+      "bytes": 5
+    },
+    {
+      "placement_id": "CS_7fbf869449a0d44c7f72:seller.txt",
+      "surface": "OTHER",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/МегаФон/П35 Тарифы для твоих устройств/4278665721/CS_7fbf869449a0d44c7f72/01_Материалы/seller.txt",
+      "integrity_state": "VERIFIED",
+      "sha256": "808762a2376052d39d2925fbd48c74a9d3316dded11e9e1e23ac3174c25ec603",
+      "bytes": 50
+    },
+    {
+      "placement_id": "CS_7fbf869449a0d44c7f72:tags.txt",
+      "surface": "OTHER",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/МегаФон/П35 Тарифы для твоих устройств/4278665721/CS_7fbf869449a0d44c7f72/01_Материалы/tags.txt",
+      "integrity_state": "VERIFIED",
+      "sha256": "a9fee6c7e78c439031e3ba9fa2609bd17b42455f3bf846c08bd5e70635eccf71",
+      "bytes": 951
+    },
+    {
+      "placement_id": "CS_7fbf869449a0d44c7f72:title.txt",
+      "surface": "TITLE",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/МегаФон/П35 Тарифы для твоих устройств/4278665721/CS_7fbf869449a0d44c7f72/01_Материалы/title.txt",
+      "integrity_state": "VERIFIED",
+      "sha256": "7ba6720bb03678e44f320b975762c965ef5e4e2d6e3e08124ccf9c4929a4e100",
+      "bytes": 186
+    },
+    {
+      "placement_id": "CS_7fbf869449a0d44c7f72:url.txt",
+      "surface": "OTHER",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/МегаФон/П35 Тарифы для твоих устройств/4278665721/CS_7fbf869449a0d44c7f72/01_Материалы/url.txt",
+      "integrity_state": "VERIFIED",
+      "sha256": "02185121db3c5f45a8c7bfa0e7b954fe5ff936d0ddefa5c138b6bedbbf553eef",
+      "bytes": 146
+    }
+  ],
+  "data_format": "CAPTURE",
+  "change_number": 1,
+  "coverage_scope": "Все файлы предоставленного снимка; полнота действующей страницы и исполнение услуги отдельно не подтверждены.",
+  "source_note": "Точные сведения источника не являются независимой проверкой тарифного договора или юридических полномочий.",
+  "attributes": {
+    "preliminary_classification": {
+      "task_focus": "CONNECT",
+      "bundle_focus": "NOT_EMPHASIZED_IN_TITLE",
+      "configuration_focus": "NOT_EMPHASIZED_IN_TITLE",
+      "period_focus": "NOT_EMPHASIZED_IN_TITLE",
+      "group_id": "CONNECT_BASE",
+      "group_name": "Подключение: основное предложение",
+      "device_claims": [
+        "IOT"
+      ],
+      "device_claims_status": "POSITIVE_SOURCE_CLAIM_NOT_VERIFIED",
+      "money_roles": [],
+      "money_review_scope": "NOT_ATOMICALLY_REVIEWED",
+      "porting_role": "NOT_ESTABLISHED_IN_ROUTING_SCOPE",
+      "geo_claims": {
+        "legacy_title_claim": "ALL_RUSSIA_CLAIM",
+        "verification": "NOT_VERIFIED",
+        "collection_region": "Moscow"
+      },
+      "targeted_evidence": [],
+      "review_note": "",
+      "flags": [],
+      "legal_party_id": "",
+      "authority_status": "UNKNOWN_IN_INSPECTED_INPUTS",
+      "commercial_readiness": "NOT_ESTABLISHED",
+      "content_effect": "NOT_ASSESSED",
+      "market_row_present": "True",
+      "promotion_row_present": "True",
+      "routing_support": {
+        "surface": "TITLE",
+        "source_file": "01_Карточки/Ozon/МегаФон/П35 Тарифы для твоих устройств/4278665721/CS_7fbf869449a0d44c7f72/01_Материалы/title.txt",
+        "basis_text": "камера / умное устройство / часы",
+        "basis_kind": "PROVIDED_ROUTING_EXPLANATION",
+        "literal_text_match": false,
+        "source_classification_status": "PROVISIONAL_CONTENT_ROUTING",
+        "evidence_status": "INHERITED_NOT_INDEPENDENT_RECODE",
+        "scope_note": "Предоставленное основание предварительной группы; не новая независимая разметка и не проверка совместимости или эффекта."
+      },
+      "device_scope_note": "Перечень устройств является исходной маршрутизацией, а не полной проверкой совместимости."
+    },
+    "classification_status": "PRELIMINARY_CONTENT_ROUTE_NOT_SALES_RANK",
+    "channel": {
+      "platform": "Ozon",
+      "legal_party": "UNKNOWN",
+      "shop_type": "UNKNOWN",
+      "brand_owner": "UNKNOWN",
+      "distributor_status": "UNKNOWN",
+      "budget": "UNKNOWN"
+    },
+    "source_url": "https://www.ozon.ru/product/megafon-sim-karta-megafon-s-bezlimitom-dlya-umnyh-ustroystv-1000-min-vybor-nomera-i-regiona-4278665721/?sh=f35iFSoX6A"
+  },
+  "metadata_files": [
+    "01_Карточки/Ozon/МегаФон/П35 Тарифы для твоих устройств/4278665721/CS_7fbf869449a0d44c7f72/02_Метаданные/Фрагменты источника.jsonl",
+    "01_Карточки/Ozon/МегаФон/П35 Тарифы для твоих устройств/4278665721/CS_7fbf869449a0d44c7f72/02_Метаданные/Извлечённые сведения.jsonl"
+  ]
+}

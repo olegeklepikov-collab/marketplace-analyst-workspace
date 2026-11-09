@@ -1,0 +1,414 @@
+{
+  "record_type": "CAPTURE",
+  "intake_id": "BASE:CS_adc1a2e138ef5ee41612",
+  "card_id": "OZON:3192004155",
+  "capture_id": "CS_adc1a2e138ef5ee41612",
+  "intake_status": "ACCEPTED",
+  "registered_at": null,
+  "platform": "Ozon",
+  "external_card_id": {
+    "state": "KNOWN",
+    "value": "3192004155",
+    "basis": "OBSERVED",
+    "scope": "внешний номер",
+    "source_locator": "01_Карточки/Ozon/Yota/П36 Тарифыч/3192004155/CS_adc1a2e138ef5ee41612/01_Материалы/card_data.json:sku"
+  },
+  "observed_at": {
+    "state": "KNOWN",
+    "value": "2026-09-25T09:42:12.074Z",
+    "basis": "OBSERVED",
+    "scope": "время наблюдения",
+    "source_locator": "01_Карточки/Ozon/Yota/П36 Тарифыч/3192004155/CS_adc1a2e138ef5ee41612/01_Материалы/card_data.json:collected_at"
+  },
+  "seller_display_name": {
+    "state": "KNOWN",
+    "value": "Тарифыч",
+    "basis": "OBSERVED",
+    "scope": "точная строка продавца",
+    "source_locator": "01_Карточки/Ozon/Yota/П36 Тарифыч/3192004155/CS_adc1a2e138ef5ee41612/01_Материалы/card_data.json:seller"
+  },
+  "seller_label_code": "П36",
+  "brand": {
+    "state": "KNOWN",
+    "value": "Yota",
+    "basis": "OBSERVED",
+    "scope": "заявленный бренд",
+    "source_locator": "01_Карточки/Ozon/Yota/П36 Тарифыч/3192004155/CS_adc1a2e138ef5ee41612/01_Материалы/card_data.json"
+  },
+  "title": {
+    "state": "KNOWN",
+    "value": "Сим карта Йота с безлимитным интернетом за 350 р/мес",
+    "basis": "OBSERVED",
+    "scope": "заголовок",
+    "source_locator": "01_Карточки/Ozon/Yota/П36 Тарифыч/3192004155/CS_adc1a2e138ef5ee41612/01_Материалы/card_data.json:title"
+  },
+  "source_origin": "Сохранённая страница маркетплейса; дата наблюдения указана в паспорте.",
+  "actual_relative_path": "01_Карточки/Ozon/Yota/П36 Тарифыч/3192004155/CS_adc1a2e138ef5ee41612",
+  "mission": "Требует уточнения",
+  "offer_model": "Услуга, условия не подтверждены",
+  "collection_region": "Moscow",
+  "materials": [
+    {
+      "placement_id": "CS_adc1a2e138ef5ee41612:Gallery/G01.jpg",
+      "surface": "GALLERY",
+      "position": 1,
+      "relative_file": "01_Карточки/Ozon/Yota/П36 Тарифыч/3192004155/CS_adc1a2e138ef5ee41612/01_Материалы/Gallery/G01.jpg",
+      "integrity_state": "VERIFIED",
+      "sha256": "e94b0233caef2fde68c141a799413c3b1a4629411451d33944723f54b4d00e4f",
+      "bytes": 279769
+    },
+    {
+      "placement_id": "CS_adc1a2e138ef5ee41612:Gallery/G02.jpg",
+      "surface": "GALLERY",
+      "position": 2,
+      "relative_file": "01_Карточки/Ozon/Yota/П36 Тарифыч/3192004155/CS_adc1a2e138ef5ee41612/01_Материалы/Gallery/G02.jpg",
+      "integrity_state": "VERIFIED",
+      "sha256": "1c659abe9de6af2a04ee20cb4f30d457cd3d6f0422397bf5c4156b3db1dfe101",
+      "bytes": 172933
+    },
+    {
+      "placement_id": "CS_adc1a2e138ef5ee41612:Gallery/G03.jpg",
+      "surface": "GALLERY",
+      "position": 3,
+      "relative_file": "01_Карточки/Ozon/Yota/П36 Тарифыч/3192004155/CS_adc1a2e138ef5ee41612/01_Материалы/Gallery/G03.jpg",
+      "integrity_state": "VERIFIED",
+      "sha256": "8e01bca0ac1d2a21fb73e3be931705e6c54634d4abd7eaa0f3a308258f811d8c",
+      "bytes": 146139
+    },
+    {
+      "placement_id": "CS_adc1a2e138ef5ee41612:Gallery/G04.jpg",
+      "surface": "GALLERY",
+      "position": 4,
+      "relative_file": "01_Карточки/Ozon/Yota/П36 Тарифыч/3192004155/CS_adc1a2e138ef5ee41612/01_Материалы/Gallery/G04.jpg",
+      "integrity_state": "VERIFIED",
+      "sha256": "e7eeb00025a5d213322291c1bb5cf88d971ce2d7de792f1033425de2b48f2d3c",
+      "bytes": 138760
+    },
+    {
+      "placement_id": "CS_adc1a2e138ef5ee41612:Gallery/G05.jpg",
+      "surface": "GALLERY",
+      "position": 5,
+      "relative_file": "01_Карточки/Ozon/Yota/П36 Тарифыч/3192004155/CS_adc1a2e138ef5ee41612/01_Материалы/Gallery/G05.jpg",
+      "integrity_state": "VERIFIED",
+      "sha256": "e89885c89dfd0e6cbee5ed274136fe9f67bfb339e87e1bb961f61ceee06e7814",
+      "bytes": 132156
+    },
+    {
+      "placement_id": "CS_adc1a2e138ef5ee41612:Gallery/G06.jpg",
+      "surface": "GALLERY",
+      "position": 6,
+      "relative_file": "01_Карточки/Ozon/Yota/П36 Тарифыч/3192004155/CS_adc1a2e138ef5ee41612/01_Материалы/Gallery/G06.jpg",
+      "integrity_state": "VERIFIED",
+      "sha256": "33ac9321ff872f489f4c754256034cff12b461a166ad2dac621d50f62c6b2ae2",
+      "bytes": 151860
+    },
+    {
+      "placement_id": "CS_adc1a2e138ef5ee41612:Gallery/G07.jpg",
+      "surface": "GALLERY",
+      "position": 7,
+      "relative_file": "01_Карточки/Ozon/Yota/П36 Тарифыч/3192004155/CS_adc1a2e138ef5ee41612/01_Материалы/Gallery/G07.jpg",
+      "integrity_state": "VERIFIED",
+      "sha256": "d49571537f6b3ae5a0e39da6d1fd02d76dfe1ac724699d8399edc31a9750b34e",
+      "bytes": 141795
+    },
+    {
+      "placement_id": "CS_adc1a2e138ef5ee41612:Gallery/G08.jpg",
+      "surface": "GALLERY",
+      "position": 8,
+      "relative_file": "01_Карточки/Ozon/Yota/П36 Тарифыч/3192004155/CS_adc1a2e138ef5ee41612/01_Материалы/Gallery/G08.jpg",
+      "integrity_state": "VERIFIED",
+      "sha256": "667e473f9f2de471422ef3ce99ea0d6a25f948fe4483db89364e0e08dd49bd2b",
+      "bytes": 164948
+    },
+    {
+      "placement_id": "CS_adc1a2e138ef5ee41612:Gallery/G09.jpg",
+      "surface": "GALLERY",
+      "position": 9,
+      "relative_file": "01_Карточки/Ozon/Yota/П36 Тарифыч/3192004155/CS_adc1a2e138ef5ee41612/01_Материалы/Gallery/G09.jpg",
+      "integrity_state": "VERIFIED",
+      "sha256": "2fee8be5628972b601123f738095af0f0f780caf40aa9d816bee0327f609f28e",
+      "bytes": 174432
+    },
+    {
+      "placement_id": "CS_adc1a2e138ef5ee41612:Gallery/G10.jpg",
+      "surface": "GALLERY",
+      "position": 10,
+      "relative_file": "01_Карточки/Ozon/Yota/П36 Тарифыч/3192004155/CS_adc1a2e138ef5ee41612/01_Материалы/Gallery/G10.jpg",
+      "integrity_state": "VERIFIED",
+      "sha256": "c49d5287629aa4ef395f1eac4b13a0f835c1039806b8f01d44c41fcea619d3f5",
+      "bytes": 197487
+    },
+    {
+      "placement_id": "CS_adc1a2e138ef5ee41612:Gallery/G11.jpg",
+      "surface": "GALLERY",
+      "position": 11,
+      "relative_file": "01_Карточки/Ozon/Yota/П36 Тарифыч/3192004155/CS_adc1a2e138ef5ee41612/01_Материалы/Gallery/G11.jpg",
+      "integrity_state": "VERIFIED",
+      "sha256": "2689e54d874a1688697460b026fed94afb0ae911af73ed32044d19c53ac421cf",
+      "bytes": 189658
+    },
+    {
+      "placement_id": "CS_adc1a2e138ef5ee41612:Gallery/G12.jpg",
+      "surface": "GALLERY",
+      "position": 12,
+      "relative_file": "01_Карточки/Ozon/Yota/П36 Тарифыч/3192004155/CS_adc1a2e138ef5ee41612/01_Материалы/Gallery/G12.jpg",
+      "integrity_state": "VERIFIED",
+      "sha256": "9f790792607d604495d65aa1841a98911a481e13f2a5da775c1292b9c301396b",
+      "bytes": 157317
+    },
+    {
+      "placement_id": "CS_adc1a2e138ef5ee41612:Gallery/G13.jpg",
+      "surface": "GALLERY",
+      "position": 13,
+      "relative_file": "01_Карточки/Ozon/Yota/П36 Тарифыч/3192004155/CS_adc1a2e138ef5ee41612/01_Материалы/Gallery/G13.jpg",
+      "integrity_state": "VERIFIED",
+      "sha256": "371f70849a67a3dd6f3cb64944f7701e5bcdc56fe5c9a6285dc38a7cbad102a9",
+      "bytes": 181249
+    },
+    {
+      "placement_id": "CS_adc1a2e138ef5ee41612:Rich/R01.jpg",
+      "surface": "RICH",
+      "position": 1,
+      "relative_file": "01_Карточки/Ozon/Yota/П36 Тарифыч/3192004155/CS_adc1a2e138ef5ee41612/01_Материалы/Rich/R01.jpg",
+      "integrity_state": "VERIFIED",
+      "sha256": "2a8fbeef844170b9a67946665d3e2c5b1ac0f44c462d5d89ec1ff294203d9033",
+      "bytes": 446542
+    },
+    {
+      "placement_id": "CS_adc1a2e138ef5ee41612:Rich/R02.jpg",
+      "surface": "RICH",
+      "position": 2,
+      "relative_file": "01_Карточки/Ozon/Yota/П36 Тарифыч/3192004155/CS_adc1a2e138ef5ee41612/01_Материалы/Rich/R02.jpg",
+      "integrity_state": "VERIFIED",
+      "sha256": "9e7cfc2b7b3516cc4702444652cca0383cf8dcb9045d8bd6af2e5f2c67c422ad",
+      "bytes": 425294
+    },
+    {
+      "placement_id": "CS_adc1a2e138ef5ee41612:Rich/R03.jpg",
+      "surface": "RICH",
+      "position": 3,
+      "relative_file": "01_Карточки/Ozon/Yota/П36 Тарифыч/3192004155/CS_adc1a2e138ef5ee41612/01_Материалы/Rich/R03.jpg",
+      "integrity_state": "VERIFIED",
+      "sha256": "5cc0561646454e96301112af96baafae25c491577f4d0c8b2068e3461951c14d",
+      "bytes": 147317
+    },
+    {
+      "placement_id": "CS_adc1a2e138ef5ee41612:Rich/rich_ocr.json",
+      "surface": "RICH",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/Yota/П36 Тарифыч/3192004155/CS_adc1a2e138ef5ee41612/01_Материалы/Rich/rich_ocr.json",
+      "integrity_state": "VERIFIED",
+      "sha256": "5ceed1cd5fcfd31c4fd861dc6dd70b4f2f7dc01c20890ddf99ce055c2bd5460a",
+      "bytes": 17297
+    },
+    {
+      "placement_id": "CS_adc1a2e138ef5ee41612:Rich/rich_text.txt",
+      "surface": "RICH",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/Yota/П36 Тарифыч/3192004155/CS_adc1a2e138ef5ee41612/01_Материалы/Rich/rich_text.txt",
+      "integrity_state": "VERIFIED",
+      "sha256": "fc9da338fe69de30c1df545aa14d464a9765b1bf7d1676bc36dcccf1277666ac",
+      "bytes": 4191
+    },
+    {
+      "placement_id": "CS_adc1a2e138ef5ee41612:analytics_rank.txt",
+      "surface": "OTHER",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/Yota/П36 Тарифыч/3192004155/CS_adc1a2e138ef5ee41612/01_Материалы/analytics_rank.txt",
+      "integrity_state": "VERIFIED",
+      "sha256": "5ced0deaf966775a8b592f6bd95a33a67053b242a7c13654896cd9f2d36a0e37",
+      "bytes": 3
+    },
+    {
+      "placement_id": "CS_adc1a2e138ef5ee41612:availability.txt",
+      "surface": "OTHER",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/Yota/П36 Тарифыч/3192004155/CS_adc1a2e138ef5ee41612/01_Материалы/availability.txt",
+      "integrity_state": "VERIFIED",
+      "sha256": "f3db355a863e0dd7fa5ca1c95f35969d61f7cfb1f7a1c64da40b68a8ebed9c4d",
+      "bytes": 26
+    },
+    {
+      "placement_id": "CS_adc1a2e138ef5ee41612:card_data.json",
+      "surface": "OTHER",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/Yota/П36 Тарифыч/3192004155/CS_adc1a2e138ef5ee41612/01_Материалы/card_data.json",
+      "integrity_state": "VERIFIED",
+      "sha256": "b2c9a373fc6990d27c8d0e4995d8ed545c3e28ed20fe6ba8ad34c0f058065702",
+      "bytes": 4589
+    },
+    {
+      "placement_id": "CS_adc1a2e138ef5ee41612:characteristics.txt",
+      "surface": "CHARACTERISTICS",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/Yota/П36 Тарифыч/3192004155/CS_adc1a2e138ef5ee41612/01_Материалы/characteristics.txt",
+      "integrity_state": "VERIFIED",
+      "sha256": "c5389eabfce107f5efa558c02096f9c2e25e393b77e75755d46906419f702d49",
+      "bytes": 1074
+    },
+    {
+      "placement_id": "CS_adc1a2e138ef5ee41612:collection_status.txt",
+      "surface": "OTHER",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/Yota/П36 Тарифыч/3192004155/CS_adc1a2e138ef5ee41612/01_Материалы/collection_status.txt",
+      "integrity_state": "VERIFIED",
+      "sha256": "cf01585829633e2debef0696d8101ca4fb4702310a2f2256b3b17bd0e753ce8c",
+      "bytes": 10
+    },
+    {
+      "placement_id": "CS_adc1a2e138ef5ee41612:content_type.txt",
+      "surface": "OTHER",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/Yota/П36 Тарифыч/3192004155/CS_adc1a2e138ef5ee41612/01_Материалы/content_type.txt",
+      "integrity_state": "VERIFIED",
+      "sha256": "96e6625bbd580d529a6384d96146fa3a05f7fb416cb4614fd8cd7135be2d77d1",
+      "bytes": 28
+    },
+    {
+      "placement_id": "CS_adc1a2e138ef5ee41612:description.txt",
+      "surface": "DESCRIPTION",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/Yota/П36 Тарифыч/3192004155/CS_adc1a2e138ef5ee41612/01_Материалы/description.txt",
+      "integrity_state": "VERIFIED",
+      "sha256": "cfe12a6d70106473638332fbeb30598b4cf94051f939c88fd0705157433b38f1",
+      "bytes": 36
+    },
+    {
+      "placement_id": "CS_adc1a2e138ef5ee41612:manifest.json",
+      "surface": "OTHER",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/Yota/П36 Тарифыч/3192004155/CS_adc1a2e138ef5ee41612/01_Материалы/manifest.json",
+      "integrity_state": "VERIFIED",
+      "sha256": "0362a86d433969a1860b53ede55e91e43a06573dc674c20e26013efffbb19ae9",
+      "bytes": 8804
+    },
+    {
+      "placement_id": "CS_adc1a2e138ef5ee41612:price.txt",
+      "surface": "OTHER",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/Yota/П36 Тарифыч/3192004155/CS_adc1a2e138ef5ee41612/01_Материалы/price.txt",
+      "integrity_state": "VERIFIED",
+      "sha256": "53c234e5e8472b6ac51c1ae1cab3fe06fad053beb8ebfd8977b010655bfdd3c3",
+      "bytes": 2
+    },
+    {
+      "placement_id": "CS_adc1a2e138ef5ee41612:rating.txt",
+      "surface": "OTHER",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/Yota/П36 Тарифыч/3192004155/CS_adc1a2e138ef5ee41612/01_Материалы/rating.txt",
+      "integrity_state": "VERIFIED",
+      "sha256": "597fd61a4dc22d0cf28dd3e89619b1e8cab79ebc61a95aa784a93baab3eecc3a",
+      "bytes": 4
+    },
+    {
+      "placement_id": "CS_adc1a2e138ef5ee41612:reviews_count.txt",
+      "surface": "OTHER",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/Yota/П36 Тарифыч/3192004155/CS_adc1a2e138ef5ee41612/01_Материалы/reviews_count.txt",
+      "integrity_state": "VERIFIED",
+      "sha256": "be59f14351b5ab2d6e6af621dc9b317fb6cb1b68a16895087c2fdee0b04628ae",
+      "bytes": 6
+    },
+    {
+      "placement_id": "CS_adc1a2e138ef5ee41612:seller.txt",
+      "surface": "OTHER",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/Yota/П36 Тарифыч/3192004155/CS_adc1a2e138ef5ee41612/01_Материалы/seller.txt",
+      "integrity_state": "VERIFIED",
+      "sha256": "d09e928372bfbc282c6f42f513b5dc0b4bbc1c149c2b8efc0da58e651ed407fd",
+      "bytes": 15
+    },
+    {
+      "placement_id": "CS_adc1a2e138ef5ee41612:tags.txt",
+      "surface": "OTHER",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/Yota/П36 Тарифыч/3192004155/CS_adc1a2e138ef5ee41612/01_Материалы/tags.txt",
+      "integrity_state": "VERIFIED",
+      "sha256": "0573fed16041ec5fc241ad2c35282363d9acbbcfdf0638e9b293d2a09f555a0d",
+      "bytes": 545
+    },
+    {
+      "placement_id": "CS_adc1a2e138ef5ee41612:title.txt",
+      "surface": "TITLE",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/Yota/П36 Тарифыч/3192004155/CS_adc1a2e138ef5ee41612/01_Материалы/title.txt",
+      "integrity_state": "VERIFIED",
+      "sha256": "4782b16ac570b655eb9b0394863e1a95f2f572b74e8b2320fd1182918e9f9c93",
+      "bytes": 93
+    },
+    {
+      "placement_id": "CS_adc1a2e138ef5ee41612:url.txt",
+      "surface": "OTHER",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/Yota/П36 Тарифыч/3192004155/CS_adc1a2e138ef5ee41612/01_Материалы/url.txt",
+      "integrity_state": "VERIFIED",
+      "sha256": "d28d3bb93debc373c27a7f6e74ad0bd9ac7cf45353ad0330cee82418589b2e5c",
+      "bytes": 107
+    }
+  ],
+  "data_format": "CAPTURE",
+  "change_number": 1,
+  "coverage_scope": "Все файлы предоставленного снимка; полнота действующей страницы и исполнение услуги отдельно не подтверждены.",
+  "source_note": "Точные сведения источника не являются независимой проверкой тарифного договора или юридических полномочий.",
+  "attributes": {
+    "preliminary_classification": {
+      "task_focus": "UNDETERMINED",
+      "bundle_focus": "NOT_EMPHASIZED_IN_TITLE",
+      "configuration_focus": "NOT_EMPHASIZED_IN_TITLE",
+      "period_focus": "NOT_EMPHASIZED_IN_TITLE",
+      "group_id": "",
+      "group_name": "",
+      "device_claims": [],
+      "device_claims_status": "UNDETERMINED_IN_ROUTING_SCOPE",
+      "money_roles": [],
+      "money_review_scope": "NOT_ATOMICALLY_REVIEWED",
+      "porting_role": "NOT_ESTABLISHED_IN_ROUTING_SCOPE",
+      "geo_claims": {
+        "legacy_title_claim": "REGION_NOT_IN_TITLE",
+        "verification": "NOT_VERIFIED",
+        "collection_region": "Moscow"
+      },
+      "targeted_evidence": [
+        {
+          "surface": "TITLE",
+          "source_path": "analysis_handoff_2026-10-27 2/01_current_corpus_master129/Yota_competitors/3192004155/card_data.json",
+          "locator": "$.title",
+          "quote": "Сим карта Йота с безлимитным интернетом за 350 р/мес"
+        }
+      ],
+      "review_note": "Конкретная задача и класс устройства по имеющимся основаниям не установлены. Значение Smart и изображение человека не переводятся в назначение для смартфона.",
+      "flags": [],
+      "legal_party_id": "",
+      "authority_status": "UNKNOWN_IN_INSPECTED_INPUTS",
+      "commercial_readiness": "NOT_ESTABLISHED",
+      "content_effect": "NOT_ASSESSED",
+      "market_row_present": "True",
+      "promotion_row_present": "False",
+      "routing_support": {
+        "surface": "G01",
+        "source_file": "01_Карточки/Ozon/Yota/П36 Тарифыч/3192004155/CS_adc1a2e138ef5ee41612/01_Материалы/Gallery/G01.jpg",
+        "basis_text": "TITLE, характеристики, описание и G01 не дают однозначной основной задачи; прочие кадры требуют отдельного просмотра.",
+        "basis_kind": "VISUAL_EXPLANATION_REQUIRES_REVIEW",
+        "literal_text_match": null,
+        "source_classification_status": "PROVISIONAL_CONTENT_ROUTING",
+        "evidence_status": "INHERITED_NOT_INDEPENDENT_RECODE",
+        "scope_note": "Предоставленное основание предварительной группы; не новая независимая разметка и не проверка совместимости или эффекта."
+      },
+      "device_scope_note": "Перечень устройств является исходной маршрутизацией, а не полной проверкой совместимости."
+    },
+    "classification_status": "PRELIMINARY_CONTENT_ROUTE_NOT_SALES_RANK",
+    "channel": {
+      "platform": "Ozon",
+      "legal_party": "UNKNOWN",
+      "shop_type": "UNKNOWN",
+      "brand_owner": "UNKNOWN",
+      "distributor_status": "UNKNOWN",
+      "budget": "UNKNOWN"
+    },
+    "source_url": "https://www.ozon.ru/product/sim-karta-yota-s-bezlimitnym-internetom-za-350-r-mes-3192004155/?sh=f35iFbOWYQ"
+  },
+  "metadata_files": [
+    "01_Карточки/Ozon/Yota/П36 Тарифыч/3192004155/CS_adc1a2e138ef5ee41612/02_Метаданные/Фрагменты источника.jsonl",
+    "01_Карточки/Ozon/Yota/П36 Тарифыч/3192004155/CS_adc1a2e138ef5ee41612/02_Метаданные/Извлечённые сведения.jsonl"
+  ]
+}

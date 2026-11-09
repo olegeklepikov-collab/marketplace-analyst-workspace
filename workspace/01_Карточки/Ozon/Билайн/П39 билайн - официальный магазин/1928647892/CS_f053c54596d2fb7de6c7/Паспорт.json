@@ -1,0 +1,374 @@
+{
+  "record_type": "CAPTURE",
+  "intake_id": "BASE:CS_f053c54596d2fb7de6c7",
+  "card_id": "OZON:1928647892",
+  "capture_id": "CS_f053c54596d2fb7de6c7",
+  "intake_status": "ACCEPTED",
+  "registered_at": null,
+  "platform": "Ozon",
+  "external_card_id": {
+    "state": "KNOWN",
+    "value": "1928647892",
+    "basis": "OBSERVED",
+    "scope": "внешний номер",
+    "source_locator": "01_Карточки/Ozon/Билайн/П39 билайн - официальный магазин/1928647892/CS_f053c54596d2fb7de6c7/01_Материалы/card_data.json:sku"
+  },
+  "observed_at": {
+    "state": "KNOWN",
+    "value": "2026-09-25T09:42:49.937Z",
+    "basis": "OBSERVED",
+    "scope": "время наблюдения",
+    "source_locator": "01_Карточки/Ozon/Билайн/П39 билайн - официальный магазин/1928647892/CS_f053c54596d2fb7de6c7/01_Материалы/card_data.json:collected_at"
+  },
+  "seller_display_name": {
+    "state": "KNOWN",
+    "value": "билайн - официальный магазин",
+    "basis": "OBSERVED",
+    "scope": "точная строка продавца",
+    "source_locator": "01_Карточки/Ozon/Билайн/П39 билайн - официальный магазин/1928647892/CS_f053c54596d2fb7de6c7/01_Материалы/card_data.json:seller"
+  },
+  "seller_label_code": "П39",
+  "brand": {
+    "state": "KNOWN",
+    "value": "Билайн",
+    "basis": "OBSERVED",
+    "scope": "заявленный бренд",
+    "source_locator": "01_Карточки/Ozon/Билайн/П39 билайн - официальный магазин/1928647892/CS_f053c54596d2fb7de6c7/01_Материалы/card_data.json"
+  },
+  "title": {
+    "state": "KNOWN",
+    "value": "Сим карта Билайн, тариф Эксклюзивный ХИТ, 350 руб./ мес.",
+    "basis": "OBSERVED",
+    "scope": "заголовок",
+    "source_locator": "01_Карточки/Ozon/Билайн/П39 билайн - официальный магазин/1928647892/CS_f053c54596d2fb7de6c7/01_Материалы/card_data.json:title"
+  },
+  "source_origin": "Сохранённая страница маркетплейса; дата наблюдения указана в паспорте.",
+  "actual_relative_path": "01_Карточки/Ozon/Билайн/П39 билайн - официальный магазин/1928647892/CS_f053c54596d2fb7de6c7",
+  "mission": "Подключение: основное предложение",
+  "offer_model": "Услуга, условия не подтверждены",
+  "collection_region": "Moscow",
+  "materials": [
+    {
+      "placement_id": "CS_f053c54596d2fb7de6c7:Gallery/G01.jpg",
+      "surface": "GALLERY",
+      "position": 1,
+      "relative_file": "01_Карточки/Ozon/Билайн/П39 билайн - официальный магазин/1928647892/CS_f053c54596d2fb7de6c7/01_Материалы/Gallery/G01.jpg",
+      "integrity_state": "VERIFIED",
+      "sha256": "be6827f88cb1aafab4eb5bf4b9246b7322bbb5ef3ad6452064c14e248f7821a3",
+      "bytes": 61298
+    },
+    {
+      "placement_id": "CS_f053c54596d2fb7de6c7:Gallery/G02.jpg",
+      "surface": "GALLERY",
+      "position": 2,
+      "relative_file": "01_Карточки/Ozon/Билайн/П39 билайн - официальный магазин/1928647892/CS_f053c54596d2fb7de6c7/01_Материалы/Gallery/G02.jpg",
+      "integrity_state": "VERIFIED",
+      "sha256": "ae5f757ed3d0a635dd4d2e58c2ee25e43ae606c6a5e650ac09bded3ee9e554fa",
+      "bytes": 85327
+    },
+    {
+      "placement_id": "CS_f053c54596d2fb7de6c7:Gallery/G03.jpg",
+      "surface": "GALLERY",
+      "position": 3,
+      "relative_file": "01_Карточки/Ozon/Билайн/П39 билайн - официальный магазин/1928647892/CS_f053c54596d2fb7de6c7/01_Материалы/Gallery/G03.jpg",
+      "integrity_state": "VERIFIED",
+      "sha256": "79ab3d9ed313ade5f829fbfe816af9888c8387a92155965360b789ad7d4a71d1",
+      "bytes": 38749
+    },
+    {
+      "placement_id": "CS_f053c54596d2fb7de6c7:Gallery/G04.jpg",
+      "surface": "GALLERY",
+      "position": 4,
+      "relative_file": "01_Карточки/Ozon/Билайн/П39 билайн - официальный магазин/1928647892/CS_f053c54596d2fb7de6c7/01_Материалы/Gallery/G04.jpg",
+      "integrity_state": "VERIFIED",
+      "sha256": "eba0abe1be158044afea3ac3e06ffbe16399e954ee7b03f8469fad2183b18637",
+      "bytes": 71093
+    },
+    {
+      "placement_id": "CS_f053c54596d2fb7de6c7:Gallery/G05.jpg",
+      "surface": "GALLERY",
+      "position": 5,
+      "relative_file": "01_Карточки/Ozon/Билайн/П39 билайн - официальный магазин/1928647892/CS_f053c54596d2fb7de6c7/01_Материалы/Gallery/G05.jpg",
+      "integrity_state": "VERIFIED",
+      "sha256": "a112d2e5c62980541df085a41cb3d43414137e18f1030f1f6ebc36af901b4290",
+      "bytes": 94754
+    },
+    {
+      "placement_id": "CS_f053c54596d2fb7de6c7:Gallery/G06.jpg",
+      "surface": "GALLERY",
+      "position": 6,
+      "relative_file": "01_Карточки/Ozon/Билайн/П39 билайн - официальный магазин/1928647892/CS_f053c54596d2fb7de6c7/01_Материалы/Gallery/G06.jpg",
+      "integrity_state": "VERIFIED",
+      "sha256": "38e2ee920c05200bc9324a9ff254a455ec31e4681a7b1cbb994785d9f5a17e7a",
+      "bytes": 32550
+    },
+    {
+      "placement_id": "CS_f053c54596d2fb7de6c7:Gallery/G07.jpg",
+      "surface": "GALLERY",
+      "position": 7,
+      "relative_file": "01_Карточки/Ozon/Билайн/П39 билайн - официальный магазин/1928647892/CS_f053c54596d2fb7de6c7/01_Материалы/Gallery/G07.jpg",
+      "integrity_state": "VERIFIED",
+      "sha256": "afb394d3c32c7e16d15271e79b989c0117903e035317d016218cbecac1773fd9",
+      "bytes": 106640
+    },
+    {
+      "placement_id": "CS_f053c54596d2fb7de6c7:Gallery/G08.jpg",
+      "surface": "GALLERY",
+      "position": 8,
+      "relative_file": "01_Карточки/Ozon/Билайн/П39 билайн - официальный магазин/1928647892/CS_f053c54596d2fb7de6c7/01_Материалы/Gallery/G08.jpg",
+      "integrity_state": "VERIFIED",
+      "sha256": "553593b4b60e904700c5f5ae059114c86e43e7bb9b227111ab86fbfadf64075d",
+      "bytes": 110053
+    },
+    {
+      "placement_id": "CS_f053c54596d2fb7de6c7:Gallery/G09.jpg",
+      "surface": "GALLERY",
+      "position": 9,
+      "relative_file": "01_Карточки/Ozon/Билайн/П39 билайн - официальный магазин/1928647892/CS_f053c54596d2fb7de6c7/01_Материалы/Gallery/G09.jpg",
+      "integrity_state": "VERIFIED",
+      "sha256": "aebd7f207a60da2f8f9806d365e2f4937a864b5da118abe24a80ce44cd057e44",
+      "bytes": 69260
+    },
+    {
+      "placement_id": "CS_f053c54596d2fb7de6c7:Gallery/G10.jpg",
+      "surface": "GALLERY",
+      "position": 10,
+      "relative_file": "01_Карточки/Ozon/Билайн/П39 билайн - официальный магазин/1928647892/CS_f053c54596d2fb7de6c7/01_Материалы/Gallery/G10.jpg",
+      "integrity_state": "VERIFIED",
+      "sha256": "c00edb553dc70547ebc23eeedbe31e5ed109aaffacd16584e10e0500a7656b6c",
+      "bytes": 78330
+    },
+    {
+      "placement_id": "CS_f053c54596d2fb7de6c7:Gallery/G11.jpg",
+      "surface": "GALLERY",
+      "position": 11,
+      "relative_file": "01_Карточки/Ozon/Билайн/П39 билайн - официальный магазин/1928647892/CS_f053c54596d2fb7de6c7/01_Материалы/Gallery/G11.jpg",
+      "integrity_state": "VERIFIED",
+      "sha256": "1da5430ac40c4fec595550e2bd61c6a447ea0b468143bb4d51a12211cfd6f20e",
+      "bytes": 82692
+    },
+    {
+      "placement_id": "CS_f053c54596d2fb7de6c7:Rich/R01.jpg",
+      "surface": "RICH",
+      "position": 1,
+      "relative_file": "01_Карточки/Ozon/Билайн/П39 билайн - официальный магазин/1928647892/CS_f053c54596d2fb7de6c7/01_Материалы/Rich/R01.jpg",
+      "integrity_state": "VERIFIED",
+      "sha256": "76f70036b5736fa3f5292259e26e3c23f21fe2b2661f929da020e0016076b758",
+      "bytes": 60797
+    },
+    {
+      "placement_id": "CS_f053c54596d2fb7de6c7:Rich/rich_ocr.json",
+      "surface": "RICH",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/Билайн/П39 билайн - официальный магазин/1928647892/CS_f053c54596d2fb7de6c7/01_Материалы/Rich/rich_ocr.json",
+      "integrity_state": "VERIFIED",
+      "sha256": "0cff912c8adca7fbbe267c2a3438bb7b76c97dffb9c153f253808ea3b5d0b084",
+      "bytes": 681
+    },
+    {
+      "placement_id": "CS_f053c54596d2fb7de6c7:Rich/rich_text.txt",
+      "surface": "RICH",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/Билайн/П39 билайн - официальный магазин/1928647892/CS_f053c54596d2fb7de6c7/01_Материалы/Rich/rich_text.txt",
+      "integrity_state": "VERIFIED",
+      "sha256": "5afecd65df63ef6ab80ed0d98451faa6a33269cc084c22c0019eeaa7b134da71",
+      "bytes": 37
+    },
+    {
+      "placement_id": "CS_f053c54596d2fb7de6c7:analytics_rank.txt",
+      "surface": "OTHER",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/Билайн/П39 билайн - официальный магазин/1928647892/CS_f053c54596d2fb7de6c7/01_Материалы/analytics_rank.txt",
+      "integrity_state": "VERIFIED",
+      "sha256": "7de1555df0c2700329e815b93b32c571c3ea54dc967b89e81ab73b9972b72d1d",
+      "bytes": 2
+    },
+    {
+      "placement_id": "CS_f053c54596d2fb7de6c7:availability.txt",
+      "surface": "OTHER",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/Билайн/П39 билайн - официальный магазин/1928647892/CS_f053c54596d2fb7de6c7/01_Материалы/availability.txt",
+      "integrity_state": "VERIFIED",
+      "sha256": "f3db355a863e0dd7fa5ca1c95f35969d61f7cfb1f7a1c64da40b68a8ebed9c4d",
+      "bytes": 26
+    },
+    {
+      "placement_id": "CS_f053c54596d2fb7de6c7:card_data.json",
+      "surface": "OTHER",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/Билайн/П39 билайн - официальный магазин/1928647892/CS_f053c54596d2fb7de6c7/01_Материалы/card_data.json",
+      "integrity_state": "VERIFIED",
+      "sha256": "5a71ebeac82cd155466e386a58e95c6ae0cbbe5dcf5505b3fe24573dd2a850c6",
+      "bytes": 10412
+    },
+    {
+      "placement_id": "CS_f053c54596d2fb7de6c7:characteristics.txt",
+      "surface": "CHARACTERISTICS",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/Билайн/П39 билайн - официальный магазин/1928647892/CS_f053c54596d2fb7de6c7/01_Материалы/characteristics.txt",
+      "integrity_state": "VERIFIED",
+      "sha256": "e4c6193d76478a802a1b68036410feeae779739796bdb7eb0c0e56622b36b683",
+      "bytes": 1038
+    },
+    {
+      "placement_id": "CS_f053c54596d2fb7de6c7:collection_status.txt",
+      "surface": "OTHER",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/Билайн/П39 билайн - официальный магазин/1928647892/CS_f053c54596d2fb7de6c7/01_Материалы/collection_status.txt",
+      "integrity_state": "VERIFIED",
+      "sha256": "cf01585829633e2debef0696d8101ca4fb4702310a2f2256b3b17bd0e753ce8c",
+      "bytes": 10
+    },
+    {
+      "placement_id": "CS_f053c54596d2fb7de6c7:content_type.txt",
+      "surface": "OTHER",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/Билайн/П39 билайн - официальный магазин/1928647892/CS_f053c54596d2fb7de6c7/01_Материалы/content_type.txt",
+      "integrity_state": "VERIFIED",
+      "sha256": "96e6625bbd580d529a6384d96146fa3a05f7fb416cb4614fd8cd7135be2d77d1",
+      "bytes": 28
+    },
+    {
+      "placement_id": "CS_f053c54596d2fb7de6c7:description.txt",
+      "surface": "DESCRIPTION",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/Билайн/П39 билайн - официальный магазин/1928647892/CS_f053c54596d2fb7de6c7/01_Материалы/description.txt",
+      "integrity_state": "VERIFIED",
+      "sha256": "a5c483d0e9544857b133f922be50e77d69945708fac9432329ea751e400dc27e",
+      "bytes": 6402
+    },
+    {
+      "placement_id": "CS_f053c54596d2fb7de6c7:manifest.json",
+      "surface": "OTHER",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/Билайн/П39 билайн - официальный магазин/1928647892/CS_f053c54596d2fb7de6c7/01_Материалы/manifest.json",
+      "integrity_state": "VERIFIED",
+      "sha256": "63b9445e8d15d5af2c764d13ab65ceb8fdc64bc3664b3663581a6be08afd3176",
+      "bytes": 7022
+    },
+    {
+      "placement_id": "CS_f053c54596d2fb7de6c7:price.txt",
+      "surface": "OTHER",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/Билайн/П39 билайн - официальный магазин/1928647892/CS_f053c54596d2fb7de6c7/01_Материалы/price.txt",
+      "integrity_state": "VERIFIED",
+      "sha256": "53c234e5e8472b6ac51c1ae1cab3fe06fad053beb8ebfd8977b010655bfdd3c3",
+      "bytes": 2
+    },
+    {
+      "placement_id": "CS_f053c54596d2fb7de6c7:rating.txt",
+      "surface": "OTHER",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/Билайн/П39 билайн - официальный магазин/1928647892/CS_f053c54596d2fb7de6c7/01_Материалы/rating.txt",
+      "integrity_state": "VERIFIED",
+      "sha256": "597fd61a4dc22d0cf28dd3e89619b1e8cab79ebc61a95aa784a93baab3eecc3a",
+      "bytes": 4
+    },
+    {
+      "placement_id": "CS_f053c54596d2fb7de6c7:reviews_count.txt",
+      "surface": "OTHER",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/Билайн/П39 билайн - официальный магазин/1928647892/CS_f053c54596d2fb7de6c7/01_Материалы/reviews_count.txt",
+      "integrity_state": "VERIFIED",
+      "sha256": "e69cb25be752208f7d739a38f674e4c3ada66101b84a9870b2f53937ee49f7ff",
+      "bytes": 6
+    },
+    {
+      "placement_id": "CS_f053c54596d2fb7de6c7:seller.txt",
+      "surface": "OTHER",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/Билайн/П39 билайн - официальный магазин/1928647892/CS_f053c54596d2fb7de6c7/01_Материалы/seller.txt",
+      "integrity_state": "VERIFIED",
+      "sha256": "04502f4f9e44340684fc2b5fabd31b3c0d44872149aaf1ad6c2f36286e7b6842",
+      "bytes": 53
+    },
+    {
+      "placement_id": "CS_f053c54596d2fb7de6c7:tags.txt",
+      "surface": "OTHER",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/Билайн/П39 билайн - официальный магазин/1928647892/CS_f053c54596d2fb7de6c7/01_Материалы/tags.txt",
+      "integrity_state": "VERIFIED",
+      "sha256": "9e43223f2dbc34551ec88e4b028eabe69eed186189dc7476db0576beb5ca1847",
+      "bytes": 264
+    },
+    {
+      "placement_id": "CS_f053c54596d2fb7de6c7:title.txt",
+      "surface": "TITLE",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/Билайн/П39 билайн - официальный магазин/1928647892/CS_f053c54596d2fb7de6c7/01_Материалы/title.txt",
+      "integrity_state": "VERIFIED",
+      "sha256": "3e4fafdf5420e8f9c7fdd7d830a96180221eb5b59dba5cd9cc6a586da6a089ce",
+      "bytes": 97
+    },
+    {
+      "placement_id": "CS_f053c54596d2fb7de6c7:url.txt",
+      "surface": "OTHER",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/Билайн/П39 билайн - официальный магазин/1928647892/CS_f053c54596d2fb7de6c7/01_Материалы/url.txt",
+      "integrity_state": "VERIFIED",
+      "sha256": "ae330d78fd7e50c9f59eb36739b1a83f4b67bbd0743461ccd8db93b4265c62c4",
+      "bytes": 107
+    }
+  ],
+  "data_format": "CAPTURE",
+  "change_number": 1,
+  "coverage_scope": "Все файлы предоставленного снимка; полнота действующей страницы и исполнение услуги отдельно не подтверждены.",
+  "source_note": "Точные сведения источника не являются независимой проверкой тарифного договора или юридических полномочий.",
+  "attributes": {
+    "preliminary_classification": {
+      "task_focus": "CONNECT",
+      "bundle_focus": "NOT_EMPHASIZED_IN_TITLE",
+      "configuration_focus": "NOT_EMPHASIZED_IN_TITLE",
+      "period_focus": "NOT_EMPHASIZED_IN_TITLE",
+      "group_id": "CONNECT_BASE",
+      "group_name": "Подключение: основное предложение",
+      "device_claims": [
+        "MULTIPLE_CLASSES_NOT_ENUMERATED"
+      ],
+      "device_claims_status": "PARTIAL_MULTIPLE_CLASS_CLAIM",
+      "money_roles": [],
+      "money_review_scope": "NOT_ATOMICALLY_REVIEWED",
+      "porting_role": "NOT_ESTABLISHED_IN_ROUTING_SCOPE",
+      "geo_claims": {
+        "legacy_title_claim": "REGION_NOT_IN_TITLE",
+        "verification": "NOT_VERIFIED",
+        "collection_region": "Moscow"
+      },
+      "targeted_evidence": [],
+      "review_note": "",
+      "flags": [],
+      "legal_party_id": "",
+      "authority_status": "UNKNOWN_IN_INSPECTED_INPUTS",
+      "commercial_readiness": "NOT_ESTABLISHED",
+      "content_effect": "NOT_ASSESSED",
+      "market_row_present": "True",
+      "promotion_row_present": "False",
+      "routing_support": {
+        "surface": "DESCRIPTION",
+        "source_file": "01_Карточки/Ozon/Билайн/П39 билайн - официальный магазин/1928647892/CS_f053c54596d2fb7de6c7/01_Материалы/description.txt",
+        "basis_text": "Сим-карта подходит для использования в различных устройствах, таких как смартфоны, планшеты, ноутбуки, роутеры, модемы, а также для устройств с GPS-трекером и видеонаблюдения.",
+        "basis_kind": "EXACT_STORED_TEXT",
+        "literal_text_match": true,
+        "source_classification_status": "PROVISIONAL_CONTENT_ROUTING",
+        "evidence_status": "INHERITED_NOT_INDEPENDENT_RECODE",
+        "scope_note": "Предоставленное основание предварительной группы; не новая независимая разметка и не проверка совместимости или эффекта.",
+        "quote": "Сим-карта подходит для использования в различных устройствах, таких как смартфоны, планшеты, ноутбуки, роутеры, модемы, а также для устройств с GPS-трекером и видеонаблюдения."
+      },
+      "device_scope_note": "Перечень устройств является исходной маршрутизацией, а не полной проверкой совместимости."
+    },
+    "classification_status": "PRELIMINARY_CONTENT_ROUTE_NOT_SALES_RANK",
+    "channel": {
+      "platform": "Ozon",
+      "legal_party": "UNKNOWN",
+      "shop_type": "UNKNOWN",
+      "brand_owner": "UNKNOWN",
+      "distributor_status": "UNKNOWN",
+      "budget": "UNKNOWN"
+    },
+    "source_url": "https://www.ozon.ru/product/sim-karta-bilayn-tarif-eksklyuzivnyy-hit-350-rub-mes-1928647892/?sh=f35iFbOWYQ"
+  },
+  "metadata_files": [
+    "01_Карточки/Ozon/Билайн/П39 билайн - официальный магазин/1928647892/CS_f053c54596d2fb7de6c7/02_Метаданные/Фрагменты источника.jsonl",
+    "01_Карточки/Ozon/Билайн/П39 билайн - официальный магазин/1928647892/CS_f053c54596d2fb7de6c7/02_Метаданные/Извлечённые сведения.jsonl"
+  ]
+}

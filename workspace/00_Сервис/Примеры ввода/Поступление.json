@@ -1,0 +1,16 @@
+{
+  "platform": null,
+  "external_card_id": null,
+  "brand": null,
+  "seller_display_name": null,
+  "observed_at": null,
+  "title": null,
+  "collection_region": null,
+  "source_origin": "Материалы, переданные для аналитической работы",
+  "scope": "Указать полученные поверхности и известные пропуски",
+  "scope_complete": false,
+  "mission": null,
+  "offer_model": null,
+  "attributes": {},
+  "context": {}
+}

@@ -1,0 +1,244 @@
+{
+  "schema_version": "1.0",
+  "sku": "4103859568",
+  "cohort": "Yota_competitors",
+  "collected_at": "2026-09-25T09:42:28.188Z",
+  "region": "Moscow",
+  "query": "сим карта",
+  "collection_status": "success",
+  "source_evidence": "OBSERVED_live_ozon_product_page",
+  "selection_source": "supplemental_from_approved_yota_cohort_2026-09-01_not_in_current_116_rows",
+  "analytics_rank": null,
+  "title": "Сим карта Безлимитный интернет 1000 мин 350 руб все регионы раздача в роутере",
+  "seller": "NEO | Связь",
+  "url": "https://www.ozon.ru/product/sim-karta-bezlimitnyy-internet-1000-min-350-rub-vse-regiony-razdacha-v-routere-4103859568/?sh=f35iFfy3FQ",
+  "product_price_rub": "2",
+  "currency": "RUB",
+  "rating": "4.6",
+  "reviews_count": "5606",
+  "availability": "http://schema.org/InStock",
+  "content_type": "pseudo_rich_and_description",
+  "description_present": true,
+  "rich_present": false,
+  "pseudo_rich_present": true,
+  "tags_present": false,
+  "gallery": [
+    {
+      "order": 1,
+      "file": "Gallery/G01.jpg",
+      "source_url": "https://ir.ozone.ru/s3/multimedia-1-w/15151661528.jpg",
+      "role": "hero"
+    },
+    {
+      "order": 2,
+      "file": "Gallery/G02.jpg",
+      "source_url": "https://ir.ozone.ru/s3/multimedia-1-z/12322834343.jpg",
+      "role": "gallery"
+    },
+    {
+      "order": 3,
+      "file": "Gallery/G03.jpg",
+      "source_url": "https://ir.ozone.ru/s3/multimedia-1-c/15151661328.jpg",
+      "role": "gallery"
+    },
+    {
+      "order": 4,
+      "file": "Gallery/G04.jpg",
+      "source_url": "https://ir.ozone.ru/s3/multimedia-1-o/15151659540.jpg",
+      "role": "gallery"
+    },
+    {
+      "order": 5,
+      "file": "Gallery/G05.jpg",
+      "source_url": "https://ir.ozone.ru/s3/multimedia-1-7/15151661395.jpg",
+      "role": "gallery"
+    },
+    {
+      "order": 6,
+      "file": "Gallery/G06.jpg",
+      "source_url": "https://ir.ozone.ru/s3/multimedia-1-z/15151660307.jpg",
+      "role": "gallery"
+    },
+    {
+      "order": 7,
+      "file": "Gallery/G07.jpg",
+      "source_url": "https://ir.ozone.ru/s3/multimedia-1-l/10108596189.jpg",
+      "role": "gallery"
+    }
+  ],
+  "rich": [
+    {
+      "order": 1,
+      "file": "Rich/R01.jpg",
+      "source_url": "https://ir.ozone.ru/s3/multimedia-1-b/12322833779.jpg",
+      "subtype": "pseudo_rich"
+    },
+    {
+      "order": 2,
+      "file": "Rich/R02.jpg",
+      "source_url": "https://ir.ozone.ru/s3/multimedia-1-r/10108200627.jpg",
+      "subtype": "pseudo_rich"
+    },
+    {
+      "order": 3,
+      "file": "Rich/R03.jpg",
+      "source_url": "https://ir.ozone.ru/s3/multimedia-1-4/10108199560.jpg",
+      "subtype": "pseudo_rich"
+    }
+  ],
+  "error": null,
+  "artifact_policy": "TXT and JSON only; no DOCX",
+  "image_qa": [
+    {
+      "kind": "gallery",
+      "order": 1,
+      "file": "Gallery/G01.jpg",
+      "exists": true,
+      "bytes": 59128,
+      "width": 900,
+      "height": 1200,
+      "format": "JPEG",
+      "valid_image": true,
+      "analysis_quality": "HIGH_RES",
+      "error": null
+    },
+    {
+      "kind": "gallery",
+      "order": 2,
+      "file": "Gallery/G02.jpg",
+      "exists": true,
+      "bytes": 85754,
+      "width": 900,
+      "height": 1200,
+      "format": "JPEG",
+      "valid_image": true,
+      "analysis_quality": "HIGH_RES",
+      "error": null
+    },
+    {
+      "kind": "gallery",
+      "order": 3,
+      "file": "Gallery/G03.jpg",
+      "exists": true,
+      "bytes": 66390,
+      "width": 900,
+      "height": 1200,
+      "format": "JPEG",
+      "valid_image": true,
+      "analysis_quality": "HIGH_RES",
+      "error": null
+    },
+    {
+      "kind": "gallery",
+      "order": 4,
+      "file": "Gallery/G04.jpg",
+      "exists": true,
+      "bytes": 64727,
+      "width": 900,
+      "height": 1200,
+      "format": "JPEG",
+      "valid_image": true,
+      "analysis_quality": "HIGH_RES",
+      "error": null
+    },
+    {
+      "kind": "gallery",
+      "order": 5,
+      "file": "Gallery/G05.jpg",
+      "exists": true,
+      "bytes": 59173,
+      "width": 900,
+      "height": 1200,
+      "format": "JPEG",
+      "valid_image": true,
+      "analysis_quality": "HIGH_RES",
+      "error": null
+    },
+    {
+      "kind": "gallery",
+      "order": 6,
+      "file": "Gallery/G06.jpg",
+      "exists": true,
+      "bytes": 56273,
+      "width": 900,
+      "height": 1200,
+      "format": "JPEG",
+      "valid_image": true,
+      "analysis_quality": "HIGH_RES",
+      "error": null
+    },
+    {
+      "kind": "gallery",
+      "order": 7,
+      "file": "Gallery/G07.jpg",
+      "exists": true,
+      "bytes": 82973,
+      "width": 900,
+      "height": 1200,
+      "format": "JPEG",
+      "valid_image": true,
+      "analysis_quality": "HIGH_RES",
+      "error": null
+    },
+    {
+      "kind": "rich",
+      "order": 1,
+      "file": "Rich/R01.jpg",
+      "exists": true,
+      "bytes": 74556,
+      "width": 1416,
+      "height": 708,
+      "format": "JPEG",
+      "valid_image": true,
+      "analysis_quality": "USABLE",
+      "error": null
+    },
+    {
+      "kind": "rich",
+      "order": 2,
+      "file": "Rich/R02.jpg",
+      "exists": true,
+      "bytes": 84171,
+      "width": 1416,
+      "height": 708,
+      "format": "JPEG",
+      "valid_image": true,
+      "analysis_quality": "USABLE",
+      "error": null
+    },
+    {
+      "kind": "rich",
+      "order": 3,
+      "file": "Rich/R03.jpg",
+      "exists": true,
+      "bytes": 77813,
+      "width": 1416,
+      "height": 708,
+      "format": "JPEG",
+      "valid_image": true,
+      "analysis_quality": "USABLE",
+      "error": null
+    }
+  ],
+  "image_qa_summary": {
+    "expected": 10,
+    "downloaded": 10,
+    "valid": 10,
+    "high_res": 7,
+    "usable": 3,
+    "low_res": 0,
+    "missing": 0,
+    "corrupt": 0
+  },
+  "images_suitable_for_analysis": true,
+  "rich_ocr": {
+    "status": "complete",
+    "engine": "PaddleOCR 3.7 / PP-OCRv5 mobile detection / Cyrillic PP-OCRv5 mobile recognition",
+    "images_total": 3,
+    "images_recognized": 3,
+    "images_no_text": 0,
+    "images_error": 0,
+    "text_file": "Rich/rich_text.txt",
+    "json_file": "Rich/rich_ocr.json"
+  }
+}

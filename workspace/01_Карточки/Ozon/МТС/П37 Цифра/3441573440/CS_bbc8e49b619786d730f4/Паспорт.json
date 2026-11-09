@@ -1,0 +1,382 @@
+{
+  "record_type": "CAPTURE",
+  "intake_id": "BASE:CS_bbc8e49b619786d730f4",
+  "card_id": "OZON:3441573440",
+  "capture_id": "CS_bbc8e49b619786d730f4",
+  "intake_status": "ACCEPTED",
+  "registered_at": null,
+  "platform": "Ozon",
+  "external_card_id": {
+    "state": "KNOWN",
+    "value": "3441573440",
+    "basis": "OBSERVED",
+    "scope": "внешний номер",
+    "source_locator": "01_Карточки/Ozon/МТС/П37 Цифра/3441573440/CS_bbc8e49b619786d730f4/01_Материалы/card_data.json:sku"
+  },
+  "observed_at": {
+    "state": "KNOWN",
+    "value": "2026-09-25T09:42:56.776Z",
+    "basis": "OBSERVED",
+    "scope": "время наблюдения",
+    "source_locator": "01_Карточки/Ozon/МТС/П37 Цифра/3441573440/CS_bbc8e49b619786d730f4/01_Материалы/card_data.json:collected_at"
+  },
+  "seller_display_name": {
+    "state": "KNOWN",
+    "value": "Цифра",
+    "basis": "OBSERVED",
+    "scope": "точная строка продавца",
+    "source_locator": "01_Карточки/Ozon/МТС/П37 Цифра/3441573440/CS_bbc8e49b619786d730f4/01_Материалы/card_data.json:seller"
+  },
+  "seller_label_code": "П37",
+  "brand": {
+    "state": "KNOWN",
+    "value": "МТС",
+    "basis": "OBSERVED",
+    "scope": "заявленный бренд",
+    "source_locator": "01_Карточки/Ozon/МТС/П37 Цифра/3441573440/CS_bbc8e49b619786d730f4/01_Материалы/card_data.json"
+  },
+  "title": {
+    "state": "KNOWN",
+    "value": "Сим карта МТС, безлимитный интернет",
+    "basis": "OBSERVED",
+    "scope": "заголовок",
+    "source_locator": "01_Карточки/Ozon/МТС/П37 Цифра/3441573440/CS_bbc8e49b619786d730f4/01_Материалы/card_data.json:title"
+  },
+  "source_origin": "Сохранённая страница маркетплейса; дата наблюдения указана в паспорте.",
+  "actual_relative_path": "01_Карточки/Ozon/МТС/П37 Цифра/3441573440/CS_bbc8e49b619786d730f4",
+  "mission": "Подключение: основное предложение",
+  "offer_model": "Услуга, условия не подтверждены",
+  "collection_region": "Moscow",
+  "materials": [
+    {
+      "placement_id": "CS_bbc8e49b619786d730f4:Gallery/G01.jpg",
+      "surface": "GALLERY",
+      "position": 1,
+      "relative_file": "01_Карточки/Ozon/МТС/П37 Цифра/3441573440/CS_bbc8e49b619786d730f4/01_Материалы/Gallery/G01.jpg",
+      "integrity_state": "VERIFIED",
+      "sha256": "b3c52cc396fd9faefb0ead2aed1e1ef6fb4c12022a2f2bd34f5d1640742954a8",
+      "bytes": 181843
+    },
+    {
+      "placement_id": "CS_bbc8e49b619786d730f4:Gallery/G02.jpg",
+      "surface": "GALLERY",
+      "position": 2,
+      "relative_file": "01_Карточки/Ozon/МТС/П37 Цифра/3441573440/CS_bbc8e49b619786d730f4/01_Материалы/Gallery/G02.jpg",
+      "integrity_state": "VERIFIED",
+      "sha256": "a33602ed228ce4942f576f3e4c5ecae67f38e3ef2c24e31f6862c629669b6934",
+      "bytes": 165174
+    },
+    {
+      "placement_id": "CS_bbc8e49b619786d730f4:Gallery/G03.jpg",
+      "surface": "GALLERY",
+      "position": 3,
+      "relative_file": "01_Карточки/Ozon/МТС/П37 Цифра/3441573440/CS_bbc8e49b619786d730f4/01_Материалы/Gallery/G03.jpg",
+      "integrity_state": "VERIFIED",
+      "sha256": "b180db21cbd8ac9c35af4b4905ffc62f62adaf5219bbdb2d48b57f4514e42650",
+      "bytes": 168046
+    },
+    {
+      "placement_id": "CS_bbc8e49b619786d730f4:Gallery/G04.jpg",
+      "surface": "GALLERY",
+      "position": 4,
+      "relative_file": "01_Карточки/Ozon/МТС/П37 Цифра/3441573440/CS_bbc8e49b619786d730f4/01_Материалы/Gallery/G04.jpg",
+      "integrity_state": "VERIFIED",
+      "sha256": "254b6023f4d23a330181cf19d5efe0895430ce7678b1cbda01327203dbd3d3c3",
+      "bytes": 207623
+    },
+    {
+      "placement_id": "CS_bbc8e49b619786d730f4:Gallery/G05.jpg",
+      "surface": "GALLERY",
+      "position": 5,
+      "relative_file": "01_Карточки/Ozon/МТС/П37 Цифра/3441573440/CS_bbc8e49b619786d730f4/01_Материалы/Gallery/G05.jpg",
+      "integrity_state": "VERIFIED",
+      "sha256": "8dadc94d0929b51fec4fab26aa6f3b8cf23c6c3b0ffcdb0726d4c2d002fce037",
+      "bytes": 243262
+    },
+    {
+      "placement_id": "CS_bbc8e49b619786d730f4:Gallery/G06.jpg",
+      "surface": "GALLERY",
+      "position": 6,
+      "relative_file": "01_Карточки/Ozon/МТС/П37 Цифра/3441573440/CS_bbc8e49b619786d730f4/01_Материалы/Gallery/G06.jpg",
+      "integrity_state": "VERIFIED",
+      "sha256": "0d0b447d373601ccecd604b4da18ce90aae58df66303c207e473e110f5f60112",
+      "bytes": 261101
+    },
+    {
+      "placement_id": "CS_bbc8e49b619786d730f4:Gallery/G07.jpg",
+      "surface": "GALLERY",
+      "position": 7,
+      "relative_file": "01_Карточки/Ozon/МТС/П37 Цифра/3441573440/CS_bbc8e49b619786d730f4/01_Материалы/Gallery/G07.jpg",
+      "integrity_state": "VERIFIED",
+      "sha256": "f5e6e1a05c2f0dcf85c253d927a25882e443aa867486d42ac37b6058aa8aac71",
+      "bytes": 239504
+    },
+    {
+      "placement_id": "CS_bbc8e49b619786d730f4:Gallery/G08.jpg",
+      "surface": "GALLERY",
+      "position": 8,
+      "relative_file": "01_Карточки/Ozon/МТС/П37 Цифра/3441573440/CS_bbc8e49b619786d730f4/01_Материалы/Gallery/G08.jpg",
+      "integrity_state": "VERIFIED",
+      "sha256": "c41d3645a5054760c4dc8f9d068128f636d5e5d5888895194d69f149352f9edc",
+      "bytes": 204968
+    },
+    {
+      "placement_id": "CS_bbc8e49b619786d730f4:Gallery/G09.jpg",
+      "surface": "GALLERY",
+      "position": 9,
+      "relative_file": "01_Карточки/Ozon/МТС/П37 Цифра/3441573440/CS_bbc8e49b619786d730f4/01_Материалы/Gallery/G09.jpg",
+      "integrity_state": "VERIFIED",
+      "sha256": "948cf46f9f58b4a323f0a9e1f894ed171bf909f2fe229c95c9c03f8f021e748a",
+      "bytes": 198112
+    },
+    {
+      "placement_id": "CS_bbc8e49b619786d730f4:Gallery/G10.jpg",
+      "surface": "GALLERY",
+      "position": 10,
+      "relative_file": "01_Карточки/Ozon/МТС/П37 Цифра/3441573440/CS_bbc8e49b619786d730f4/01_Материалы/Gallery/G10.jpg",
+      "integrity_state": "VERIFIED",
+      "sha256": "474b1152fc1a438448d798ec6262eacc2203787f9ec3f20fb9f1aeb7673e1c9e",
+      "bytes": 207035
+    },
+    {
+      "placement_id": "CS_bbc8e49b619786d730f4:Gallery/G11.jpg",
+      "surface": "GALLERY",
+      "position": 11,
+      "relative_file": "01_Карточки/Ozon/МТС/П37 Цифра/3441573440/CS_bbc8e49b619786d730f4/01_Материалы/Gallery/G11.jpg",
+      "integrity_state": "VERIFIED",
+      "sha256": "c148a692454154bab245ca5999c4673efc6c3898b73b0a62bb9be0ee49ed4b4b",
+      "bytes": 209829
+    },
+    {
+      "placement_id": "CS_bbc8e49b619786d730f4:Gallery/G12.jpg",
+      "surface": "GALLERY",
+      "position": 12,
+      "relative_file": "01_Карточки/Ozon/МТС/П37 Цифра/3441573440/CS_bbc8e49b619786d730f4/01_Материалы/Gallery/G12.jpg",
+      "integrity_state": "VERIFIED",
+      "sha256": "317ca229cdb23a24b2b7b90e6ca8ad2d621c607b00cb02ad5e7be6ca57e1ad99",
+      "bytes": 212880
+    },
+    {
+      "placement_id": "CS_bbc8e49b619786d730f4:Gallery/G13.jpg",
+      "surface": "GALLERY",
+      "position": 13,
+      "relative_file": "01_Карточки/Ozon/МТС/П37 Цифра/3441573440/CS_bbc8e49b619786d730f4/01_Материалы/Gallery/G13.jpg",
+      "integrity_state": "VERIFIED",
+      "sha256": "06a29113594dd77baec9b07beb6fbf4a401324b25a140b21deaa38b539434e6f",
+      "bytes": 259902
+    },
+    {
+      "placement_id": "CS_bbc8e49b619786d730f4:Rich/rich_ocr.json",
+      "surface": "RICH",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/МТС/П37 Цифра/3441573440/CS_bbc8e49b619786d730f4/01_Материалы/Rich/rich_ocr.json",
+      "integrity_state": "VERIFIED",
+      "sha256": "c6dd475af10650f881c847380c07cd18f98a8324fe53fb4c95b12527a121be65",
+      "bytes": 428
+    },
+    {
+      "placement_id": "CS_bbc8e49b619786d730f4:Rich/rich_text.txt",
+      "surface": "RICH",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/МТС/П37 Цифра/3441573440/CS_bbc8e49b619786d730f4/01_Материалы/Rich/rich_text.txt",
+      "integrity_state": "VERIFIED",
+      "sha256": "475c6d9f67450ad806600893977435aa206f13a1fc313805a11336835014fb2e",
+      "bytes": 17
+    },
+    {
+      "placement_id": "CS_bbc8e49b619786d730f4:analytics_rank.txt",
+      "surface": "OTHER",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/МТС/П37 Цифра/3441573440/CS_bbc8e49b619786d730f4/01_Материалы/analytics_rank.txt",
+      "integrity_state": "VERIFIED",
+      "sha256": "6e2ae11dad0616f66bbb2b6e6556f580bb987fd911d7132aa6bee2bfc7cc7b52",
+      "bytes": 3
+    },
+    {
+      "placement_id": "CS_bbc8e49b619786d730f4:availability.txt",
+      "surface": "OTHER",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/МТС/П37 Цифра/3441573440/CS_bbc8e49b619786d730f4/01_Материалы/availability.txt",
+      "integrity_state": "VERIFIED",
+      "sha256": "f3db355a863e0dd7fa5ca1c95f35969d61f7cfb1f7a1c64da40b68a8ebed9c4d",
+      "bytes": 26
+    },
+    {
+      "placement_id": "CS_bbc8e49b619786d730f4:card_data.json",
+      "surface": "OTHER",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/МТС/П37 Цифра/3441573440/CS_bbc8e49b619786d730f4/01_Материалы/card_data.json",
+      "integrity_state": "VERIFIED",
+      "sha256": "4cc6c9d9c550d48a8d785efea59378dd26c41021a9d42306f6320055edb9ccb3",
+      "bytes": 6250
+    },
+    {
+      "placement_id": "CS_bbc8e49b619786d730f4:characteristics.txt",
+      "surface": "CHARACTERISTICS",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/МТС/П37 Цифра/3441573440/CS_bbc8e49b619786d730f4/01_Материалы/characteristics.txt",
+      "integrity_state": "VERIFIED",
+      "sha256": "c5cc89a5ef71c9c37a454e424095e0717cf5b2fbca83e6a0bc6d9c7bffb0e201",
+      "bytes": 1202
+    },
+    {
+      "placement_id": "CS_bbc8e49b619786d730f4:collection_status.txt",
+      "surface": "OTHER",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/МТС/П37 Цифра/3441573440/CS_bbc8e49b619786d730f4/01_Материалы/collection_status.txt",
+      "integrity_state": "VERIFIED",
+      "sha256": "cf01585829633e2debef0696d8101ca4fb4702310a2f2256b3b17bd0e753ce8c",
+      "bytes": 10
+    },
+    {
+      "placement_id": "CS_bbc8e49b619786d730f4:content_type.txt",
+      "surface": "OTHER",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/МТС/П37 Цифра/3441573440/CS_bbc8e49b619786d730f4/01_Материалы/content_type.txt",
+      "integrity_state": "VERIFIED",
+      "sha256": "ef2f19aa952ed53e7278d36afe2186ded6897e77c46984147cc568a21901af62",
+      "bytes": 12
+    },
+    {
+      "placement_id": "CS_bbc8e49b619786d730f4:description.txt",
+      "surface": "DESCRIPTION",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/МТС/П37 Цифра/3441573440/CS_bbc8e49b619786d730f4/01_Материалы/description.txt",
+      "integrity_state": "VERIFIED",
+      "sha256": "2cbaa9d6982fabbb2a53ac1590ffbdffdfac4fd7dd1004f9d25e6b2ffc434a15",
+      "bytes": 2037
+    },
+    {
+      "placement_id": "CS_bbc8e49b619786d730f4:manifest.json",
+      "surface": "OTHER",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/МТС/П37 Цифра/3441573440/CS_bbc8e49b619786d730f4/01_Материалы/manifest.json",
+      "integrity_state": "VERIFIED",
+      "sha256": "817d2fc72728113e2d457a4ef382739fcc4ee376d2064e222f6d7972aca743ce",
+      "bytes": 7399
+    },
+    {
+      "placement_id": "CS_bbc8e49b619786d730f4:price.txt",
+      "surface": "OTHER",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/МТС/П37 Цифра/3441573440/CS_bbc8e49b619786d730f4/01_Материалы/price.txt",
+      "integrity_state": "VERIFIED",
+      "sha256": "53c234e5e8472b6ac51c1ae1cab3fe06fad053beb8ebfd8977b010655bfdd3c3",
+      "bytes": 2
+    },
+    {
+      "placement_id": "CS_bbc8e49b619786d730f4:rating.txt",
+      "surface": "OTHER",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/МТС/П37 Цифра/3441573440/CS_bbc8e49b619786d730f4/01_Материалы/rating.txt",
+      "integrity_state": "VERIFIED",
+      "sha256": "8048d1e7e392843de42064d4c1ae59880ce5b149895a2cb79b0680fbf35e488c",
+      "bytes": 4
+    },
+    {
+      "placement_id": "CS_bbc8e49b619786d730f4:reviews_count.txt",
+      "surface": "OTHER",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/МТС/П37 Цифра/3441573440/CS_bbc8e49b619786d730f4/01_Материалы/reviews_count.txt",
+      "integrity_state": "VERIFIED",
+      "sha256": "756895a0e97b1fb3238968d9a2df7ba2bf4282d52105b65ba6db036c033c44f1",
+      "bytes": 5
+    },
+    {
+      "placement_id": "CS_bbc8e49b619786d730f4:seller.txt",
+      "surface": "OTHER",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/МТС/П37 Цифра/3441573440/CS_bbc8e49b619786d730f4/01_Материалы/seller.txt",
+      "integrity_state": "VERIFIED",
+      "sha256": "9becd00533376bdc14e0d333ef2ccb908f630041bcdbcaab962855eaeed1e9bf",
+      "bytes": 11
+    },
+    {
+      "placement_id": "CS_bbc8e49b619786d730f4:tags.txt",
+      "surface": "OTHER",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/МТС/П37 Цифра/3441573440/CS_bbc8e49b619786d730f4/01_Материалы/tags.txt",
+      "integrity_state": "VERIFIED",
+      "sha256": "195eadf43007e99775ae565c1f1d9323e7c5b30903c52e379c429f636bdada8c",
+      "bytes": 564
+    },
+    {
+      "placement_id": "CS_bbc8e49b619786d730f4:title.txt",
+      "surface": "TITLE",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/МТС/П37 Цифра/3441573440/CS_bbc8e49b619786d730f4/01_Материалы/title.txt",
+      "integrity_state": "VERIFIED",
+      "sha256": "7587721022452542a5eccc81d6ebcf538e8f21c1954c12e061cb8f5af447cf04",
+      "bytes": 66
+    },
+    {
+      "placement_id": "CS_bbc8e49b619786d730f4:url.txt",
+      "surface": "OTHER",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/МТС/П37 Цифра/3441573440/CS_bbc8e49b619786d730f4/01_Материалы/url.txt",
+      "integrity_state": "VERIFIED",
+      "sha256": "a3c77f65ab169fb9294acd2a1a6a762f458aa171175152962bd7d9654a248936",
+      "bytes": 89
+    }
+  ],
+  "data_format": "CAPTURE",
+  "change_number": 1,
+  "coverage_scope": "Все файлы предоставленного снимка; полнота действующей страницы и исполнение услуги отдельно не подтверждены.",
+  "source_note": "Точные сведения источника не являются независимой проверкой тарифного договора или юридических полномочий.",
+  "attributes": {
+    "preliminary_classification": {
+      "task_focus": "CONNECT",
+      "bundle_focus": "NOT_EMPHASIZED_IN_TITLE",
+      "configuration_focus": "NOT_EMPHASIZED_IN_TITLE",
+      "period_focus": "NOT_EMPHASIZED_IN_TITLE",
+      "group_id": "CONNECT_BASE",
+      "group_name": "Подключение: основное предложение",
+      "device_claims": [
+        "PHONE_TABLET"
+      ],
+      "device_claims_status": "POSITIVE_SOURCE_CLAIM_NOT_VERIFIED",
+      "money_roles": [],
+      "money_review_scope": "NOT_ATOMICALLY_REVIEWED",
+      "porting_role": "NOT_ESTABLISHED_IN_ROUTING_SCOPE",
+      "geo_claims": {
+        "legacy_title_claim": "REGION_NOT_IN_TITLE",
+        "verification": "NOT_VERIFIED",
+        "collection_region": "Moscow"
+      },
+      "targeted_evidence": [],
+      "review_note": "",
+      "flags": [],
+      "legal_party_id": "",
+      "authority_status": "UNKNOWN_IN_INSPECTED_INPUTS",
+      "commercial_readiness": "NOT_ESTABLISHED",
+      "content_effect": "NOT_ASSESSED",
+      "market_row_present": "True",
+      "promotion_row_present": "False",
+      "routing_support": {
+        "surface": "CHARACTERISTICS",
+        "source_file": "01_Карточки/Ozon/МТС/П37 Цифра/3441573440/CS_bbc8e49b619786d730f4/01_Материалы/characteristics.txt",
+        "basis_text": "Вид тарифного плана: Для телефона",
+        "basis_kind": "PROVIDED_ROUTING_EXPLANATION",
+        "literal_text_match": false,
+        "source_classification_status": "PROVISIONAL_CONTENT_ROUTING",
+        "evidence_status": "INHERITED_NOT_INDEPENDENT_RECODE",
+        "scope_note": "Предоставленное основание предварительной группы; не новая независимая разметка и не проверка совместимости или эффекта."
+      },
+      "device_scope_note": "Перечень устройств является исходной маршрутизацией, а не полной проверкой совместимости."
+    },
+    "classification_status": "PRELIMINARY_CONTENT_ROUTE_NOT_SALES_RANK",
+    "channel": {
+      "platform": "Ozon",
+      "legal_party": "UNKNOWN",
+      "shop_type": "UNKNOWN",
+      "brand_owner": "UNKNOWN",
+      "distributor_status": "UNKNOWN",
+      "budget": "UNKNOWN"
+    },
+    "source_url": "https://www.ozon.ru/product/sim-karta-mts-bezlimitnyy-internet-3441573440/?sh=f35iFbOWYQ"
+  },
+  "metadata_files": [
+    "01_Карточки/Ozon/МТС/П37 Цифра/3441573440/CS_bbc8e49b619786d730f4/02_Метаданные/Фрагменты источника.jsonl",
+    "01_Карточки/Ozon/МТС/П37 Цифра/3441573440/CS_bbc8e49b619786d730f4/02_Метаданные/Извлечённые сведения.jsonl"
+  ]
+}

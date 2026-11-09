@@ -1,0 +1,374 @@
+{
+  "record_type": "CAPTURE",
+  "intake_id": "BASE:CS_86b2e76531d088a07ebc",
+  "card_id": "OZON:3487569046",
+  "capture_id": "CS_86b2e76531d088a07ebc",
+  "intake_status": "ACCEPTED",
+  "registered_at": null,
+  "platform": "Ozon",
+  "external_card_id": {
+    "state": "KNOWN",
+    "value": "3487569046",
+    "basis": "OBSERVED",
+    "scope": "внешний номер",
+    "source_locator": "01_Карточки/Ozon/Yota/П08 SIMSITY/3487569046/CS_86b2e76531d088a07ebc/01_Материалы/card_data.json:sku"
+  },
+  "observed_at": {
+    "state": "KNOWN",
+    "value": "2026-09-25T09:42:21.296Z",
+    "basis": "OBSERVED",
+    "scope": "время наблюдения",
+    "source_locator": "01_Карточки/Ozon/Yota/П08 SIMSITY/3487569046/CS_86b2e76531d088a07ebc/01_Материалы/card_data.json:collected_at"
+  },
+  "seller_display_name": {
+    "state": "KNOWN",
+    "value": "SIMSITY",
+    "basis": "OBSERVED",
+    "scope": "точная строка продавца",
+    "source_locator": "01_Карточки/Ozon/Yota/П08 SIMSITY/3487569046/CS_86b2e76531d088a07ebc/01_Материалы/card_data.json:seller"
+  },
+  "seller_label_code": "П08",
+  "brand": {
+    "state": "KNOWN",
+    "value": "Yota",
+    "basis": "OBSERVED",
+    "scope": "заявленный бренд",
+    "source_locator": "01_Карточки/Ozon/Yota/П08 SIMSITY/3487569046/CS_86b2e76531d088a07ebc/01_Материалы/card_data.json"
+  },
+  "title": {
+    "state": "KNOWN",
+    "value": "Сим-карта Yota с безлимитным интернетом Тариф Просто за 350 руб/мес.",
+    "basis": "OBSERVED",
+    "scope": "заголовок",
+    "source_locator": "01_Карточки/Ozon/Yota/П08 SIMSITY/3487569046/CS_86b2e76531d088a07ebc/01_Материалы/card_data.json:title"
+  },
+  "source_origin": "Сохранённая страница маркетплейса; дата наблюдения указана в паспорте.",
+  "actual_relative_path": "01_Карточки/Ozon/Yota/П08 SIMSITY/3487569046/CS_86b2e76531d088a07ebc",
+  "mission": "Подключение: основное предложение",
+  "offer_model": "Услуга, условия не подтверждены",
+  "collection_region": "Moscow",
+  "materials": [
+    {
+      "placement_id": "CS_86b2e76531d088a07ebc:Gallery/G01.jpg",
+      "surface": "GALLERY",
+      "position": 1,
+      "relative_file": "01_Карточки/Ozon/Yota/П08 SIMSITY/3487569046/CS_86b2e76531d088a07ebc/01_Материалы/Gallery/G01.jpg",
+      "integrity_state": "VERIFIED",
+      "sha256": "28f7591e7aeb96d289bd7d3b7795512e7796477071500207fda3dbee1fd4f722",
+      "bytes": 312341
+    },
+    {
+      "placement_id": "CS_86b2e76531d088a07ebc:Gallery/G02.jpg",
+      "surface": "GALLERY",
+      "position": 2,
+      "relative_file": "01_Карточки/Ozon/Yota/П08 SIMSITY/3487569046/CS_86b2e76531d088a07ebc/01_Материалы/Gallery/G02.jpg",
+      "integrity_state": "VERIFIED",
+      "sha256": "a80ba9fab599eff88c4589332bd2a5e7f605d92be5909438c765bb73d676fea4",
+      "bytes": 305870
+    },
+    {
+      "placement_id": "CS_86b2e76531d088a07ebc:Gallery/G03.jpg",
+      "surface": "GALLERY",
+      "position": 3,
+      "relative_file": "01_Карточки/Ozon/Yota/П08 SIMSITY/3487569046/CS_86b2e76531d088a07ebc/01_Материалы/Gallery/G03.jpg",
+      "integrity_state": "VERIFIED",
+      "sha256": "a0e69b58af6712e8afd1d8ceccbcfb41c07b9d0360d1994202649bae5e142fb9",
+      "bytes": 287118
+    },
+    {
+      "placement_id": "CS_86b2e76531d088a07ebc:Gallery/G04.jpg",
+      "surface": "GALLERY",
+      "position": 4,
+      "relative_file": "01_Карточки/Ozon/Yota/П08 SIMSITY/3487569046/CS_86b2e76531d088a07ebc/01_Материалы/Gallery/G04.jpg",
+      "integrity_state": "VERIFIED",
+      "sha256": "b817490add9848f9c90866eb1195a2e1871280ce14af76f08a53e282fa65ef7d",
+      "bytes": 152381
+    },
+    {
+      "placement_id": "CS_86b2e76531d088a07ebc:Gallery/G05.jpg",
+      "surface": "GALLERY",
+      "position": 5,
+      "relative_file": "01_Карточки/Ozon/Yota/П08 SIMSITY/3487569046/CS_86b2e76531d088a07ebc/01_Материалы/Gallery/G05.jpg",
+      "integrity_state": "VERIFIED",
+      "sha256": "1d6f666328855a1ce1a4d5dbd5e95bf8f75375dd7efb7eb993f7820dcbbbf9f6",
+      "bytes": 347460
+    },
+    {
+      "placement_id": "CS_86b2e76531d088a07ebc:Gallery/G06.jpg",
+      "surface": "GALLERY",
+      "position": 6,
+      "relative_file": "01_Карточки/Ozon/Yota/П08 SIMSITY/3487569046/CS_86b2e76531d088a07ebc/01_Материалы/Gallery/G06.jpg",
+      "integrity_state": "VERIFIED",
+      "sha256": "e708334b0cc60e4249c0cbd87e8b03a4c35302367a5c34c58c14927cd4c72c60",
+      "bytes": 356353
+    },
+    {
+      "placement_id": "CS_86b2e76531d088a07ebc:Gallery/G07.jpg",
+      "surface": "GALLERY",
+      "position": 7,
+      "relative_file": "01_Карточки/Ozon/Yota/П08 SIMSITY/3487569046/CS_86b2e76531d088a07ebc/01_Материалы/Gallery/G07.jpg",
+      "integrity_state": "VERIFIED",
+      "sha256": "469c8604e63b90c4775120a6cc5d73ca408987184100dfd99df8665560dfa89a",
+      "bytes": 413037
+    },
+    {
+      "placement_id": "CS_86b2e76531d088a07ebc:Gallery/G08.jpg",
+      "surface": "GALLERY",
+      "position": 8,
+      "relative_file": "01_Карточки/Ozon/Yota/П08 SIMSITY/3487569046/CS_86b2e76531d088a07ebc/01_Материалы/Gallery/G08.jpg",
+      "integrity_state": "VERIFIED",
+      "sha256": "9a6456592be5c165140699a38906f09a8c404a74ac760c957a7c23ac31acd75a",
+      "bytes": 469542
+    },
+    {
+      "placement_id": "CS_86b2e76531d088a07ebc:Gallery/G09.jpg",
+      "surface": "GALLERY",
+      "position": 9,
+      "relative_file": "01_Карточки/Ozon/Yota/П08 SIMSITY/3487569046/CS_86b2e76531d088a07ebc/01_Материалы/Gallery/G09.jpg",
+      "integrity_state": "VERIFIED",
+      "sha256": "15f75e3536315e063869001370308ac11f418cd945c9fbafb7e65deb4737b45d",
+      "bytes": 257705
+    },
+    {
+      "placement_id": "CS_86b2e76531d088a07ebc:Gallery/G10.jpg",
+      "surface": "GALLERY",
+      "position": 10,
+      "relative_file": "01_Карточки/Ozon/Yota/П08 SIMSITY/3487569046/CS_86b2e76531d088a07ebc/01_Материалы/Gallery/G10.jpg",
+      "integrity_state": "VERIFIED",
+      "sha256": "dc2a346b5638c1d387c095e303eee4f0ddb034d76390d108d9c2cbe57766a8e2",
+      "bytes": 387562
+    },
+    {
+      "placement_id": "CS_86b2e76531d088a07ebc:Gallery/G11.jpg",
+      "surface": "GALLERY",
+      "position": 11,
+      "relative_file": "01_Карточки/Ozon/Yota/П08 SIMSITY/3487569046/CS_86b2e76531d088a07ebc/01_Материалы/Gallery/G11.jpg",
+      "integrity_state": "VERIFIED",
+      "sha256": "204cbe932513ea849ee560247f624e1fb5eff1ba4f59d2559418dcf57159cf6f",
+      "bytes": 96223
+    },
+    {
+      "placement_id": "CS_86b2e76531d088a07ebc:Rich/R01.jpg",
+      "surface": "RICH",
+      "position": 1,
+      "relative_file": "01_Карточки/Ozon/Yota/П08 SIMSITY/3487569046/CS_86b2e76531d088a07ebc/01_Материалы/Rich/R01.jpg",
+      "integrity_state": "VERIFIED",
+      "sha256": "16f58a616c2ad6c6f4d34f2230080d06805f393b2507c5952107a5047ce1f1b5",
+      "bytes": 166675
+    },
+    {
+      "placement_id": "CS_86b2e76531d088a07ebc:Rich/rich_ocr.json",
+      "surface": "RICH",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/Yota/П08 SIMSITY/3487569046/CS_86b2e76531d088a07ebc/01_Материалы/Rich/rich_ocr.json",
+      "integrity_state": "VERIFIED",
+      "sha256": "ba550fe4383190d1ff372ffc2fee58abd5655ed6a98a70e1b297647ffdf2524a",
+      "bytes": 2035
+    },
+    {
+      "placement_id": "CS_86b2e76531d088a07ebc:Rich/rich_text.txt",
+      "surface": "RICH",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/Yota/П08 SIMSITY/3487569046/CS_86b2e76531d088a07ebc/01_Материалы/Rich/rich_text.txt",
+      "integrity_state": "VERIFIED",
+      "sha256": "16b48db2d9dc94da8117f8e8ff27af107aaf2c6f2727749897aedc52c0b1a51f",
+      "bytes": 286
+    },
+    {
+      "placement_id": "CS_86b2e76531d088a07ebc:analytics_rank.txt",
+      "surface": "OTHER",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/Yota/П08 SIMSITY/3487569046/CS_86b2e76531d088a07ebc/01_Материалы/analytics_rank.txt",
+      "integrity_state": "VERIFIED",
+      "sha256": "c2464c2bbb48985528da8c1add16bda77c1aa84c2c9813db2e4f4158a5f9167b",
+      "bytes": 18
+    },
+    {
+      "placement_id": "CS_86b2e76531d088a07ebc:availability.txt",
+      "surface": "OTHER",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/Yota/П08 SIMSITY/3487569046/CS_86b2e76531d088a07ebc/01_Материалы/availability.txt",
+      "integrity_state": "VERIFIED",
+      "sha256": "f3db355a863e0dd7fa5ca1c95f35969d61f7cfb1f7a1c64da40b68a8ebed9c4d",
+      "bytes": 26
+    },
+    {
+      "placement_id": "CS_86b2e76531d088a07ebc:card_data.json",
+      "surface": "OTHER",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/Yota/П08 SIMSITY/3487569046/CS_86b2e76531d088a07ebc/01_Материалы/card_data.json",
+      "integrity_state": "VERIFIED",
+      "sha256": "161795cae6f3d3a08e59c2468dc4b82f43d45ac56e8faf53765a99bd34939b39",
+      "bytes": 5754
+    },
+    {
+      "placement_id": "CS_86b2e76531d088a07ebc:characteristics.txt",
+      "surface": "CHARACTERISTICS",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/Yota/П08 SIMSITY/3487569046/CS_86b2e76531d088a07ebc/01_Материалы/characteristics.txt",
+      "integrity_state": "VERIFIED",
+      "sha256": "4b6f3d837587564bc89e482852cfaa50dc97226498451a94b4c66103c7d49a49",
+      "bytes": 1084
+    },
+    {
+      "placement_id": "CS_86b2e76531d088a07ebc:collection_status.txt",
+      "surface": "OTHER",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/Yota/П08 SIMSITY/3487569046/CS_86b2e76531d088a07ebc/01_Материалы/collection_status.txt",
+      "integrity_state": "VERIFIED",
+      "sha256": "cf01585829633e2debef0696d8101ca4fb4702310a2f2256b3b17bd0e753ce8c",
+      "bytes": 10
+    },
+    {
+      "placement_id": "CS_86b2e76531d088a07ebc:content_type.txt",
+      "surface": "OTHER",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/Yota/П08 SIMSITY/3487569046/CS_86b2e76531d088a07ebc/01_Материалы/content_type.txt",
+      "integrity_state": "VERIFIED",
+      "sha256": "96e6625bbd580d529a6384d96146fa3a05f7fb416cb4614fd8cd7135be2d77d1",
+      "bytes": 28
+    },
+    {
+      "placement_id": "CS_86b2e76531d088a07ebc:description.txt",
+      "surface": "DESCRIPTION",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/Yota/П08 SIMSITY/3487569046/CS_86b2e76531d088a07ebc/01_Материалы/description.txt",
+      "integrity_state": "VERIFIED",
+      "sha256": "baa9dfaa79f3ed7e1b22ed2cf8a9ad86c34bf0f176c294b2fcec7934e5bb704c",
+      "bytes": 2429
+    },
+    {
+      "placement_id": "CS_86b2e76531d088a07ebc:manifest.json",
+      "surface": "OTHER",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/Yota/П08 SIMSITY/3487569046/CS_86b2e76531d088a07ebc/01_Материалы/manifest.json",
+      "integrity_state": "VERIFIED",
+      "sha256": "f8240189418796eb9856bc882173a240c7fd9a1391e069be8cd4a0f279ed0a97",
+      "bytes": 7061
+    },
+    {
+      "placement_id": "CS_86b2e76531d088a07ebc:price.txt",
+      "surface": "OTHER",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/Yota/П08 SIMSITY/3487569046/CS_86b2e76531d088a07ebc/01_Материалы/price.txt",
+      "integrity_state": "VERIFIED",
+      "sha256": "53c234e5e8472b6ac51c1ae1cab3fe06fad053beb8ebfd8977b010655bfdd3c3",
+      "bytes": 2
+    },
+    {
+      "placement_id": "CS_86b2e76531d088a07ebc:rating.txt",
+      "surface": "OTHER",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/Yota/П08 SIMSITY/3487569046/CS_86b2e76531d088a07ebc/01_Материалы/rating.txt",
+      "integrity_state": "VERIFIED",
+      "sha256": "8048d1e7e392843de42064d4c1ae59880ce5b149895a2cb79b0680fbf35e488c",
+      "bytes": 4
+    },
+    {
+      "placement_id": "CS_86b2e76531d088a07ebc:reviews_count.txt",
+      "surface": "OTHER",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/Yota/П08 SIMSITY/3487569046/CS_86b2e76531d088a07ebc/01_Материалы/reviews_count.txt",
+      "integrity_state": "VERIFIED",
+      "sha256": "6bf2164c559ea7619f8de5a02152ee8a6c508f874ac0acd8f56ba80751c8cb89",
+      "bytes": 5
+    },
+    {
+      "placement_id": "CS_86b2e76531d088a07ebc:seller.txt",
+      "surface": "OTHER",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/Yota/П08 SIMSITY/3487569046/CS_86b2e76531d088a07ebc/01_Материалы/seller.txt",
+      "integrity_state": "VERIFIED",
+      "sha256": "9b1b9846796fa88bbdd250f09e4bc25c19695998193eb18f63c1602feecdee8e",
+      "bytes": 8
+    },
+    {
+      "placement_id": "CS_86b2e76531d088a07ebc:tags.txt",
+      "surface": "OTHER",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/Yota/П08 SIMSITY/3487569046/CS_86b2e76531d088a07ebc/01_Материалы/tags.txt",
+      "integrity_state": "VERIFIED",
+      "sha256": "3e436e7b9e69b71d2b1e9677f882ce3a3ddc1b3286742d2465c6d52bed0f9769",
+      "bytes": 36
+    },
+    {
+      "placement_id": "CS_86b2e76531d088a07ebc:title.txt",
+      "surface": "TITLE",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/Yota/П08 SIMSITY/3487569046/CS_86b2e76531d088a07ebc/01_Материалы/title.txt",
+      "integrity_state": "VERIFIED",
+      "sha256": "c713ff648769155e3b07ee858f865752022dec208c840e554d59865145adfe51",
+      "bytes": 118
+    },
+    {
+      "placement_id": "CS_86b2e76531d088a07ebc:url.txt",
+      "surface": "OTHER",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/Yota/П08 SIMSITY/3487569046/CS_86b2e76531d088a07ebc/01_Материалы/url.txt",
+      "integrity_state": "VERIFIED",
+      "sha256": "863dda78f9cdd5890a016be3fb380f85e0bc7249d8d84731d7eea7369bb7d119",
+      "bytes": 122
+    }
+  ],
+  "data_format": "CAPTURE",
+  "change_number": 1,
+  "coverage_scope": "Все файлы предоставленного снимка; полнота действующей страницы и исполнение услуги отдельно не подтверждены.",
+  "source_note": "Точные сведения источника не являются независимой проверкой тарифного договора или юридических полномочий.",
+  "attributes": {
+    "preliminary_classification": {
+      "task_focus": "CONNECT",
+      "bundle_focus": "NOT_EMPHASIZED_IN_TITLE",
+      "configuration_focus": "NOT_EMPHASIZED_IN_TITLE",
+      "period_focus": "NOT_EMPHASIZED_IN_TITLE",
+      "group_id": "CONNECT_BASE",
+      "group_name": "Подключение: основное предложение",
+      "device_claims": [
+        "MULTIPLE_CLASSES_NOT_ENUMERATED"
+      ],
+      "device_claims_status": "PARTIAL_MULTIPLE_CLASS_CLAIM",
+      "money_roles": [],
+      "money_review_scope": "NOT_ATOMICALLY_REVIEWED",
+      "porting_role": "NOT_ESTABLISHED_IN_ROUTING_SCOPE",
+      "geo_claims": {
+        "legacy_title_claim": "REGION_NOT_IN_TITLE",
+        "verification": "NOT_VERIFIED",
+        "collection_region": "Moscow"
+      },
+      "targeted_evidence": [],
+      "review_note": "",
+      "flags": [],
+      "legal_party_id": "",
+      "authority_status": "UNKNOWN_IN_INSPECTED_INPUTS",
+      "commercial_readiness": "NOT_ESTABLISHED",
+      "content_effect": "NOT_ASSESSED",
+      "market_row_present": "True",
+      "promotion_row_present": "False",
+      "routing_support": {
+        "surface": "DESCRIPTION",
+        "source_file": "01_Карточки/Ozon/Yota/П08 SIMSITY/3487569046/CS_86b2e76531d088a07ebc/01_Материалы/description.txt",
+        "basis_text": "Универсальное решение для всех ваших гаджетов и умных устройств:",
+        "basis_kind": "EXACT_STORED_TEXT",
+        "literal_text_match": true,
+        "source_classification_status": "PROVISIONAL_CONTENT_ROUTING",
+        "evidence_status": "INHERITED_NOT_INDEPENDENT_RECODE",
+        "scope_note": "Предоставленное основание предварительной группы; не новая независимая разметка и не проверка совместимости или эффекта.",
+        "quote": "Универсальное решение для всех ваших гаджетов и умных устройств:"
+      },
+      "device_scope_note": "Перечень устройств является исходной маршрутизацией, а не полной проверкой совместимости."
+    },
+    "classification_status": "PRELIMINARY_CONTENT_ROUTE_NOT_SALES_RANK",
+    "channel": {
+      "platform": "Ozon",
+      "legal_party": "UNKNOWN",
+      "shop_type": "UNKNOWN",
+      "brand_owner": "UNKNOWN",
+      "distributor_status": "UNKNOWN",
+      "budget": "UNKNOWN"
+    },
+    "source_url": "https://www.ozon.ru/product/sim-karta-yota-s-bezlimitnym-internetom-tarif-prosto-za-350-rub-mes-3487569046/?sh=f35iFbOWYQ"
+  },
+  "metadata_files": [
+    "01_Карточки/Ozon/Yota/П08 SIMSITY/3487569046/CS_86b2e76531d088a07ebc/02_Метаданные/Фрагменты источника.jsonl",
+    "01_Карточки/Ozon/Yota/П08 SIMSITY/3487569046/CS_86b2e76531d088a07ebc/02_Метаданные/Извлечённые сведения.jsonl"
+  ]
+}

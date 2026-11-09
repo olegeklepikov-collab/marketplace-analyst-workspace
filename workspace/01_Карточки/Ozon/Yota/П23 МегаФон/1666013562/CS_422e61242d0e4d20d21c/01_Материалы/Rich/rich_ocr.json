@@ -1,0 +1,12 @@
+{
+  "sku": "1666013562",
+  "status": "not_applicable",
+  "engine": "PaddleOCR 3.7 / PP-OCRv5 mobile detection / Cyrillic PP-OCRv5 mobile recognition",
+  "languages": [
+    "Cyrillic",
+    "Latin",
+    "digits"
+  ],
+  "note": "В текущей карточке отдельные изображения рич/псевдорич не обнаружены.",
+  "images": []
+}

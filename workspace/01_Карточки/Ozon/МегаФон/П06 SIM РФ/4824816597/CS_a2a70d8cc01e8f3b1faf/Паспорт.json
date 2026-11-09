@@ -1,0 +1,445 @@
+{
+  "record_type": "CAPTURE",
+  "intake_id": "BASE:CS_a2a70d8cc01e8f3b1faf",
+  "card_id": "OZON:4824816597",
+  "capture_id": "CS_a2a70d8cc01e8f3b1faf",
+  "intake_status": "ACCEPTED",
+  "registered_at": null,
+  "platform": "Ozon",
+  "external_card_id": {
+    "state": "KNOWN",
+    "value": "4824816597",
+    "basis": "OBSERVED",
+    "scope": "внешний номер",
+    "source_locator": "01_Карточки/Ozon/МегаФон/П06 SIM РФ/4824816597/CS_a2a70d8cc01e8f3b1faf/01_Материалы/card_data.json:sku"
+  },
+  "observed_at": {
+    "state": "KNOWN",
+    "value": "2026-09-25T09:41:59.523Z",
+    "basis": "OBSERVED",
+    "scope": "время наблюдения",
+    "source_locator": "01_Карточки/Ozon/МегаФон/П06 SIM РФ/4824816597/CS_a2a70d8cc01e8f3b1faf/01_Материалы/card_data.json:collected_at"
+  },
+  "seller_display_name": {
+    "state": "KNOWN",
+    "value": "SIM РФ",
+    "basis": "OBSERVED",
+    "scope": "точная строка продавца",
+    "source_locator": "01_Карточки/Ozon/МегаФон/П06 SIM РФ/4824816597/CS_a2a70d8cc01e8f3b1faf/01_Материалы/card_data.json:seller"
+  },
+  "seller_label_code": "П06",
+  "brand": {
+    "state": "KNOWN",
+    "value": "МегаФон",
+    "basis": "OBSERVED",
+    "scope": "заявленный бренд",
+    "source_locator": "01_Карточки/Ozon/МегаФон/П06 SIM РФ/4824816597/CS_a2a70d8cc01e8f3b1faf/01_Материалы/card_data.json"
+  },
+  "title": {
+    "state": "KNOWN",
+    "value": "Сим карта Мегафон безлимитный интернет для модема и телефона",
+    "basis": "OBSERVED",
+    "scope": "заголовок",
+    "source_locator": "01_Карточки/Ozon/МегаФон/П06 SIM РФ/4824816597/CS_a2a70d8cc01e8f3b1faf/01_Материалы/card_data.json:title"
+  },
+  "source_origin": "Сохранённая страница маркетплейса; дата наблюдения указана в паспорте.",
+  "actual_relative_path": "01_Карточки/Ozon/МегаФон/П06 SIM РФ/4824816597/CS_a2a70d8cc01e8f3b1faf",
+  "mission": "Подключение: основное предложение",
+  "offer_model": "Услуга, условия не подтверждены",
+  "collection_region": "Moscow",
+  "materials": [
+    {
+      "placement_id": "CS_a2a70d8cc01e8f3b1faf:Gallery/G01.jpg",
+      "surface": "GALLERY",
+      "position": 1,
+      "relative_file": "01_Карточки/Ozon/МегаФон/П06 SIM РФ/4824816597/CS_a2a70d8cc01e8f3b1faf/01_Материалы/Gallery/G01.jpg",
+      "integrity_state": "VERIFIED",
+      "sha256": "cb3eae9ef7584ac532b9bd83a8792bd1d841cacb06c14d9ec66dd4c4a53337eb",
+      "bytes": 168482
+    },
+    {
+      "placement_id": "CS_a2a70d8cc01e8f3b1faf:Gallery/G02.jpg",
+      "surface": "GALLERY",
+      "position": 2,
+      "relative_file": "01_Карточки/Ozon/МегаФон/П06 SIM РФ/4824816597/CS_a2a70d8cc01e8f3b1faf/01_Материалы/Gallery/G02.jpg",
+      "integrity_state": "VERIFIED",
+      "sha256": "6d8ece1d4c529986864ef3a91df086ee3cc0130f8594d5a56ee38f6539aafa64",
+      "bytes": 139288
+    },
+    {
+      "placement_id": "CS_a2a70d8cc01e8f3b1faf:Gallery/G03.jpg",
+      "surface": "GALLERY",
+      "position": 3,
+      "relative_file": "01_Карточки/Ozon/МегаФон/П06 SIM РФ/4824816597/CS_a2a70d8cc01e8f3b1faf/01_Материалы/Gallery/G03.jpg",
+      "integrity_state": "VERIFIED",
+      "sha256": "3b22ff33d604c915705c9148af6f7e3c489320ec36a909d7b690321cee265f87",
+      "bytes": 143109
+    },
+    {
+      "placement_id": "CS_a2a70d8cc01e8f3b1faf:Gallery/G04.jpg",
+      "surface": "GALLERY",
+      "position": 4,
+      "relative_file": "01_Карточки/Ozon/МегаФон/П06 SIM РФ/4824816597/CS_a2a70d8cc01e8f3b1faf/01_Материалы/Gallery/G04.jpg",
+      "integrity_state": "VERIFIED",
+      "sha256": "ee33f539fe53b4e4a70b17d807bd0d04e6e6f207d6bed49ca9cd8fb174e9c760",
+      "bytes": 125136
+    },
+    {
+      "placement_id": "CS_a2a70d8cc01e8f3b1faf:Gallery/G05.jpg",
+      "surface": "GALLERY",
+      "position": 5,
+      "relative_file": "01_Карточки/Ozon/МегаФон/П06 SIM РФ/4824816597/CS_a2a70d8cc01e8f3b1faf/01_Материалы/Gallery/G05.jpg",
+      "integrity_state": "VERIFIED",
+      "sha256": "addb23c53741aac4b7d96a542df997675c90e3bd5cc20398d1e9dc19f2ad3705",
+      "bytes": 120859
+    },
+    {
+      "placement_id": "CS_a2a70d8cc01e8f3b1faf:Gallery/G06.jpg",
+      "surface": "GALLERY",
+      "position": 6,
+      "relative_file": "01_Карточки/Ozon/МегаФон/П06 SIM РФ/4824816597/CS_a2a70d8cc01e8f3b1faf/01_Материалы/Gallery/G06.jpg",
+      "integrity_state": "VERIFIED",
+      "sha256": "0ffa80892faf94b9124581bf5ae022b981a22c07dd886817aec69487791d9a70",
+      "bytes": 128961
+    },
+    {
+      "placement_id": "CS_a2a70d8cc01e8f3b1faf:Gallery/G07.jpg",
+      "surface": "GALLERY",
+      "position": 7,
+      "relative_file": "01_Карточки/Ozon/МегаФон/П06 SIM РФ/4824816597/CS_a2a70d8cc01e8f3b1faf/01_Материалы/Gallery/G07.jpg",
+      "integrity_state": "VERIFIED",
+      "sha256": "3372d5536fb6aee28b11c05f0ebc808cbadebb1946e8f026128f4f83b0604850",
+      "bytes": 120879
+    },
+    {
+      "placement_id": "CS_a2a70d8cc01e8f3b1faf:Gallery/G08.jpg",
+      "surface": "GALLERY",
+      "position": 8,
+      "relative_file": "01_Карточки/Ozon/МегаФон/П06 SIM РФ/4824816597/CS_a2a70d8cc01e8f3b1faf/01_Материалы/Gallery/G08.jpg",
+      "integrity_state": "VERIFIED",
+      "sha256": "b762b9b6fe0a7770d5c120d7cdb551212e1a4bd4a11730058820d1cdc8e6df8a",
+      "bytes": 129354
+    },
+    {
+      "placement_id": "CS_a2a70d8cc01e8f3b1faf:Gallery/G09.jpg",
+      "surface": "GALLERY",
+      "position": 9,
+      "relative_file": "01_Карточки/Ozon/МегаФон/П06 SIM РФ/4824816597/CS_a2a70d8cc01e8f3b1faf/01_Материалы/Gallery/G09.jpg",
+      "integrity_state": "VERIFIED",
+      "sha256": "f9e4cc66ab297a13a9c2361cff7507af05f73523687cbbb611e063cb42b34fc3",
+      "bytes": 153071
+    },
+    {
+      "placement_id": "CS_a2a70d8cc01e8f3b1faf:Gallery/G10.jpg",
+      "surface": "GALLERY",
+      "position": 10,
+      "relative_file": "01_Карточки/Ozon/МегаФон/П06 SIM РФ/4824816597/CS_a2a70d8cc01e8f3b1faf/01_Материалы/Gallery/G10.jpg",
+      "integrity_state": "VERIFIED",
+      "sha256": "4a26c2fce2a80f106674ab09f02c66feaff185eb73f670f8747d463cd0749113",
+      "bytes": 125776
+    },
+    {
+      "placement_id": "CS_a2a70d8cc01e8f3b1faf:Gallery/G11.jpg",
+      "surface": "GALLERY",
+      "position": 11,
+      "relative_file": "01_Карточки/Ozon/МегаФон/П06 SIM РФ/4824816597/CS_a2a70d8cc01e8f3b1faf/01_Материалы/Gallery/G11.jpg",
+      "integrity_state": "VERIFIED",
+      "sha256": "d121fbd3ebc724e7a01138c533b94292cba864a3353084e0789acaf3c8e6acce",
+      "bytes": 123979
+    },
+    {
+      "placement_id": "CS_a2a70d8cc01e8f3b1faf:Gallery/G12.jpg",
+      "surface": "GALLERY",
+      "position": 12,
+      "relative_file": "01_Карточки/Ozon/МегаФон/П06 SIM РФ/4824816597/CS_a2a70d8cc01e8f3b1faf/01_Материалы/Gallery/G12.jpg",
+      "integrity_state": "VERIFIED",
+      "sha256": "f27855cfa8f96aee999b88b9b239ccb94e405ff0f4ba65f3a28d2db70fbb3bcd",
+      "bytes": 131161
+    },
+    {
+      "placement_id": "CS_a2a70d8cc01e8f3b1faf:Gallery/G13.jpg",
+      "surface": "GALLERY",
+      "position": 13,
+      "relative_file": "01_Карточки/Ozon/МегаФон/П06 SIM РФ/4824816597/CS_a2a70d8cc01e8f3b1faf/01_Материалы/Gallery/G13.jpg",
+      "integrity_state": "VERIFIED",
+      "sha256": "bac174d0f551222e50c7aec3e7c1ecda8c955ffca95602bd3b0168b3e5cd3ca2",
+      "bytes": 142603
+    },
+    {
+      "placement_id": "CS_a2a70d8cc01e8f3b1faf:Gallery/G14.jpg",
+      "surface": "GALLERY",
+      "position": 14,
+      "relative_file": "01_Карточки/Ozon/МегаФон/П06 SIM РФ/4824816597/CS_a2a70d8cc01e8f3b1faf/01_Материалы/Gallery/G14.jpg",
+      "integrity_state": "VERIFIED",
+      "sha256": "e1fd756387b984f6374b63ac57459f41105e32066ca5821697e4f3cbd7e6ed36",
+      "bytes": 142505
+    },
+    {
+      "placement_id": "CS_a2a70d8cc01e8f3b1faf:Gallery/G15.jpg",
+      "surface": "GALLERY",
+      "position": 15,
+      "relative_file": "01_Карточки/Ozon/МегаФон/П06 SIM РФ/4824816597/CS_a2a70d8cc01e8f3b1faf/01_Материалы/Gallery/G15.jpg",
+      "integrity_state": "VERIFIED",
+      "sha256": "3c4db856dd02911c106efb293ffb1e8590a12597bc0a7ba9df3c7ffc9c5237b7",
+      "bytes": 139977
+    },
+    {
+      "placement_id": "CS_a2a70d8cc01e8f3b1faf:Gallery/G16.jpg",
+      "surface": "GALLERY",
+      "position": 16,
+      "relative_file": "01_Карточки/Ozon/МегаФон/П06 SIM РФ/4824816597/CS_a2a70d8cc01e8f3b1faf/01_Материалы/Gallery/G16.jpg",
+      "integrity_state": "VERIFIED",
+      "sha256": "39386e2fdf20635df7307a200fee9dbf874922de49a9902ee273a8d38ae431b5",
+      "bytes": 128234
+    },
+    {
+      "placement_id": "CS_a2a70d8cc01e8f3b1faf:Gallery/G17.jpg",
+      "surface": "GALLERY",
+      "position": 17,
+      "relative_file": "01_Карточки/Ozon/МегаФон/П06 SIM РФ/4824816597/CS_a2a70d8cc01e8f3b1faf/01_Материалы/Gallery/G17.jpg",
+      "integrity_state": "VERIFIED",
+      "sha256": "6c4ab7fe8586ad4a09fec2af7433c92bfafacd4a41efc179c7816d9efb6b1916",
+      "bytes": 120684
+    },
+    {
+      "placement_id": "CS_a2a70d8cc01e8f3b1faf:Gallery/G18.jpg",
+      "surface": "GALLERY",
+      "position": 18,
+      "relative_file": "01_Карточки/Ozon/МегаФон/П06 SIM РФ/4824816597/CS_a2a70d8cc01e8f3b1faf/01_Материалы/Gallery/G18.jpg",
+      "integrity_state": "VERIFIED",
+      "sha256": "43d4096dbe3d35c0f90888951276669e5deddae0e6ae3f8e3ed70579b855eaa3",
+      "bytes": 138707
+    },
+    {
+      "placement_id": "CS_a2a70d8cc01e8f3b1faf:Gallery/G19.jpg",
+      "surface": "GALLERY",
+      "position": 19,
+      "relative_file": "01_Карточки/Ozon/МегаФон/П06 SIM РФ/4824816597/CS_a2a70d8cc01e8f3b1faf/01_Материалы/Gallery/G19.jpg",
+      "integrity_state": "VERIFIED",
+      "sha256": "5fcc1d41afdfdf6d504d52030c77391fd721fa0f38a6ddffa79b18b61fafa60d",
+      "bytes": 131446
+    },
+    {
+      "placement_id": "CS_a2a70d8cc01e8f3b1faf:Gallery/G20.jpg",
+      "surface": "GALLERY",
+      "position": 20,
+      "relative_file": "01_Карточки/Ozon/МегаФон/П06 SIM РФ/4824816597/CS_a2a70d8cc01e8f3b1faf/01_Материалы/Gallery/G20.jpg",
+      "integrity_state": "VERIFIED",
+      "sha256": "35efd1d8c9ceb1374312b7b100af626f405f6b26cb975f4a46ea8d7b830b4d75",
+      "bytes": 140962
+    },
+    {
+      "placement_id": "CS_a2a70d8cc01e8f3b1faf:Rich/rich_ocr.json",
+      "surface": "RICH",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/МегаФон/П06 SIM РФ/4824816597/CS_a2a70d8cc01e8f3b1faf/01_Материалы/Rich/rich_ocr.json",
+      "integrity_state": "VERIFIED",
+      "sha256": "77f869547642290fd3e0db267d2077e2e1109209038e7fea148708230b2c995c",
+      "bytes": 428
+    },
+    {
+      "placement_id": "CS_a2a70d8cc01e8f3b1faf:Rich/rich_text.txt",
+      "surface": "RICH",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/МегаФон/П06 SIM РФ/4824816597/CS_a2a70d8cc01e8f3b1faf/01_Материалы/Rich/rich_text.txt",
+      "integrity_state": "VERIFIED",
+      "sha256": "475c6d9f67450ad806600893977435aa206f13a1fc313805a11336835014fb2e",
+      "bytes": 17
+    },
+    {
+      "placement_id": "CS_a2a70d8cc01e8f3b1faf:analytics_rank.txt",
+      "surface": "OTHER",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/МегаФон/П06 SIM РФ/4824816597/CS_a2a70d8cc01e8f3b1faf/01_Материалы/analytics_rank.txt",
+      "integrity_state": "VERIFIED",
+      "sha256": "45080860abd6d79b808dbd71836bf29e41918f1bf1f05f7ce732ada7674cc816",
+      "bytes": 4
+    },
+    {
+      "placement_id": "CS_a2a70d8cc01e8f3b1faf:availability.txt",
+      "surface": "OTHER",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/МегаФон/П06 SIM РФ/4824816597/CS_a2a70d8cc01e8f3b1faf/01_Материалы/availability.txt",
+      "integrity_state": "VERIFIED",
+      "sha256": "f3db355a863e0dd7fa5ca1c95f35969d61f7cfb1f7a1c64da40b68a8ebed9c4d",
+      "bytes": 26
+    },
+    {
+      "placement_id": "CS_a2a70d8cc01e8f3b1faf:card_data.json",
+      "surface": "OTHER",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/МегаФон/П06 SIM РФ/4824816597/CS_a2a70d8cc01e8f3b1faf/01_Материалы/card_data.json",
+      "integrity_state": "VERIFIED",
+      "sha256": "9e29357c8e99a31675de98496dff82ba2aadea5bb49fc1cad2c4cef889ea9dbb",
+      "bytes": 7601
+    },
+    {
+      "placement_id": "CS_a2a70d8cc01e8f3b1faf:characteristics.txt",
+      "surface": "CHARACTERISTICS",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/МегаФон/П06 SIM РФ/4824816597/CS_a2a70d8cc01e8f3b1faf/01_Материалы/characteristics.txt",
+      "integrity_state": "VERIFIED",
+      "sha256": "0414e297d991fa16784182a34b7d4c78a7c6dccbe1caa8578247f66c47db17cd",
+      "bytes": 1217
+    },
+    {
+      "placement_id": "CS_a2a70d8cc01e8f3b1faf:collection_status.txt",
+      "surface": "OTHER",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/МегаФон/П06 SIM РФ/4824816597/CS_a2a70d8cc01e8f3b1faf/01_Материалы/collection_status.txt",
+      "integrity_state": "VERIFIED",
+      "sha256": "cf01585829633e2debef0696d8101ca4fb4702310a2f2256b3b17bd0e753ce8c",
+      "bytes": 10
+    },
+    {
+      "placement_id": "CS_a2a70d8cc01e8f3b1faf:content_type.txt",
+      "surface": "OTHER",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/МегаФон/П06 SIM РФ/4824816597/CS_a2a70d8cc01e8f3b1faf/01_Материалы/content_type.txt",
+      "integrity_state": "VERIFIED",
+      "sha256": "ef2f19aa952ed53e7278d36afe2186ded6897e77c46984147cc568a21901af62",
+      "bytes": 12
+    },
+    {
+      "placement_id": "CS_a2a70d8cc01e8f3b1faf:description.txt",
+      "surface": "DESCRIPTION",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/МегаФон/П06 SIM РФ/4824816597/CS_a2a70d8cc01e8f3b1faf/01_Материалы/description.txt",
+      "integrity_state": "VERIFIED",
+      "sha256": "faa0af69ab773097550ec3690c12d01d74a3b6042ac3a10343aca71fddfa574e",
+      "bytes": 3435
+    },
+    {
+      "placement_id": "CS_a2a70d8cc01e8f3b1faf:manifest.json",
+      "surface": "OTHER",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/МегаФон/П06 SIM РФ/4824816597/CS_a2a70d8cc01e8f3b1faf/01_Материалы/manifest.json",
+      "integrity_state": "VERIFIED",
+      "sha256": "e69dbf5bad537d5d7a770dd49ca7403353653ac737609b1a41eabfe17e671cc2",
+      "bytes": 10648
+    },
+    {
+      "placement_id": "CS_a2a70d8cc01e8f3b1faf:price.txt",
+      "surface": "OTHER",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/МегаФон/П06 SIM РФ/4824816597/CS_a2a70d8cc01e8f3b1faf/01_Материалы/price.txt",
+      "integrity_state": "VERIFIED",
+      "sha256": "53c234e5e8472b6ac51c1ae1cab3fe06fad053beb8ebfd8977b010655bfdd3c3",
+      "bytes": 2
+    },
+    {
+      "placement_id": "CS_a2a70d8cc01e8f3b1faf:rating.txt",
+      "surface": "OTHER",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/МегаФон/П06 SIM РФ/4824816597/CS_a2a70d8cc01e8f3b1faf/01_Материалы/rating.txt",
+      "integrity_state": "VERIFIED",
+      "sha256": "597fd61a4dc22d0cf28dd3e89619b1e8cab79ebc61a95aa784a93baab3eecc3a",
+      "bytes": 4
+    },
+    {
+      "placement_id": "CS_a2a70d8cc01e8f3b1faf:reviews_count.txt",
+      "surface": "OTHER",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/МегаФон/П06 SIM РФ/4824816597/CS_a2a70d8cc01e8f3b1faf/01_Материалы/reviews_count.txt",
+      "integrity_state": "VERIFIED",
+      "sha256": "e11e6079110680dbfcebe02b69f00171df4e71bdd97ff8b23599db0038721eff",
+      "bytes": 4
+    },
+    {
+      "placement_id": "CS_a2a70d8cc01e8f3b1faf:seller.txt",
+      "surface": "OTHER",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/МегаФон/П06 SIM РФ/4824816597/CS_a2a70d8cc01e8f3b1faf/01_Материалы/seller.txt",
+      "integrity_state": "VERIFIED",
+      "sha256": "f91fb1693ac946195cffe463c78cadbf9905d0a5960b4f9cb1bf8de4b7166014",
+      "bytes": 9
+    },
+    {
+      "placement_id": "CS_a2a70d8cc01e8f3b1faf:tags.txt",
+      "surface": "OTHER",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/МегаФон/П06 SIM РФ/4824816597/CS_a2a70d8cc01e8f3b1faf/01_Материалы/tags.txt",
+      "integrity_state": "VERIFIED",
+      "sha256": "3e436e7b9e69b71d2b1e9677f882ce3a3ddc1b3286742d2465c6d52bed0f9769",
+      "bytes": 36
+    },
+    {
+      "placement_id": "CS_a2a70d8cc01e8f3b1faf:title.txt",
+      "surface": "TITLE",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/МегаФон/П06 SIM РФ/4824816597/CS_a2a70d8cc01e8f3b1faf/01_Материалы/title.txt",
+      "integrity_state": "VERIFIED",
+      "sha256": "5b0f5aa05d4e279cdea2ef741843a570c56c35997f58a0755ad8f315fb447c4c",
+      "bytes": 113
+    },
+    {
+      "placement_id": "CS_a2a70d8cc01e8f3b1faf:url.txt",
+      "surface": "OTHER",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/МегаФон/П06 SIM РФ/4824816597/CS_a2a70d8cc01e8f3b1faf/01_Материалы/url.txt",
+      "integrity_state": "VERIFIED",
+      "sha256": "1a2eacf90544addbc78b0d975740d7a9ea7481a3f6924023af400b7f0d5d67ef",
+      "bytes": 116
+    }
+  ],
+  "data_format": "CAPTURE",
+  "change_number": 1,
+  "coverage_scope": "Все файлы предоставленного снимка; полнота действующей страницы и исполнение услуги отдельно не подтверждены.",
+  "source_note": "Точные сведения источника не являются независимой проверкой тарифного договора или юридических полномочий.",
+  "attributes": {
+    "preliminary_classification": {
+      "task_focus": "CONNECT",
+      "bundle_focus": "NOT_EMPHASIZED_IN_TITLE",
+      "configuration_focus": "NOT_EMPHASIZED_IN_TITLE",
+      "period_focus": "NOT_EMPHASIZED_IN_TITLE",
+      "group_id": "CONNECT_BASE",
+      "group_name": "Подключение: основное предложение",
+      "device_claims": [
+        "MULTIPLE_CLASSES_NOT_ENUMERATED"
+      ],
+      "device_claims_status": "PARTIAL_MULTIPLE_CLASS_CLAIM",
+      "money_roles": [],
+      "money_review_scope": "NOT_ATOMICALLY_REVIEWED",
+      "porting_role": "NOT_ESTABLISHED_IN_ROUTING_SCOPE",
+      "geo_claims": {
+        "legacy_title_claim": "REGION_NOT_IN_TITLE",
+        "verification": "NOT_VERIFIED",
+        "collection_region": "Moscow"
+      },
+      "targeted_evidence": [],
+      "review_note": "",
+      "flags": [],
+      "legal_party_id": "",
+      "authority_status": "UNKNOWN_IN_INSPECTED_INPUTS",
+      "commercial_readiness": "NOT_ESTABLISHED",
+      "content_effect": "NOT_ASSESSED",
+      "market_row_present": "True",
+      "promotion_row_present": "False",
+      "routing_support": {
+        "surface": "TITLE",
+        "source_file": "01_Карточки/Ozon/МегаФон/П06 SIM РФ/4824816597/CS_a2a70d8cc01e8f3b1faf/01_Материалы/title.txt",
+        "basis_text": "несколько классов устройств в TITLE",
+        "basis_kind": "PROVIDED_ROUTING_EXPLANATION",
+        "literal_text_match": false,
+        "source_classification_status": "PROVISIONAL_CONTENT_ROUTING",
+        "evidence_status": "INHERITED_NOT_INDEPENDENT_RECODE",
+        "scope_note": "Предоставленное основание предварительной группы; не новая независимая разметка и не проверка совместимости или эффекта."
+      },
+      "device_scope_note": "Перечень устройств является исходной маршрутизацией, а не полной проверкой совместимости."
+    },
+    "classification_status": "PRELIMINARY_CONTENT_ROUTE_NOT_SALES_RANK",
+    "channel": {
+      "platform": "Ozon",
+      "legal_party": "UNKNOWN",
+      "shop_type": "UNKNOWN",
+      "brand_owner": "UNKNOWN",
+      "distributor_status": "UNKNOWN",
+      "budget": "UNKNOWN"
+    },
+    "source_url": "https://www.ozon.ru/product/sim-karta-megafon-bezlimitnyy-internet-dlya-modema-i-telefona-4824816597/?sh=f35iFbOWYQ"
+  },
+  "metadata_files": [
+    "01_Карточки/Ozon/МегаФон/П06 SIM РФ/4824816597/CS_a2a70d8cc01e8f3b1faf/02_Метаданные/Фрагменты источника.jsonl",
+    "01_Карточки/Ozon/МегаФон/П06 SIM РФ/4824816597/CS_a2a70d8cc01e8f3b1faf/02_Метаданные/Извлечённые сведения.jsonl"
+  ]
+}

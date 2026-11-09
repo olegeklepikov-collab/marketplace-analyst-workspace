@@ -1,0 +1,947 @@
+{
+  "principle": "Глубина описания независима от компактности маршрутизации. Атрибуция разреженная и связанная: свойство, роль, область, фаза и источник; группы строятся отдельной проекцией под вопрос.",
+  "modules": [
+    {
+      "id": "SOURCE",
+      "facets": [
+        "F01",
+        "F02",
+        "F03",
+        "F13"
+      ],
+      "name": "Источники и границы наблюдения",
+      "attributes": [
+        "идентификатор",
+        "момент фиксации",
+        "поверхность",
+        "порядок",
+        "хеш",
+        "область просмотра",
+        "пропуск",
+        "повтор",
+        "версия"
+      ]
+    },
+    {
+      "id": "CHANNEL",
+      "facets": [
+        "F12",
+        "F30",
+        "F31",
+        "F32",
+        "F33",
+        "F29",
+        "F34"
+      ],
+      "name": "Площадка и участники",
+      "attributes": [
+        "площадка",
+        "продавец как отображаемое имя",
+        "кабинет",
+        "компания",
+        "бренд",
+        "заявление официальности",
+        "документ полномочия",
+        "плательщик/получатель"
+      ]
+    },
+    {
+      "id": "OFFER",
+      "facets": [
+        "F04",
+        "F05"
+      ],
+      "name": "Предмет и ветви предложения",
+      "attributes": [
+        "физический комплект",
+        "услуга",
+        "вариант",
+        "параметр выбора",
+        "связь SKU с вариантом",
+        "основная задача",
+        "дополнительный сценарий",
+        "область выбранного условия"
+      ]
+    },
+    {
+      "id": "ROLES",
+      "facets": [
+        "F06"
+      ],
+      "name": "Люди и отношения",
+      "attributes": [
+        "покупатель",
+        "договорной абонент",
+        "пользователь",
+        "организатор",
+        "участник",
+        "плательщик",
+        "кто получает ресурс",
+        "кто проходит идентификацию"
+      ]
+    },
+    {
+      "id": "TECH",
+      "facets": [
+        "F07"
+      ],
+      "name": "Устройства и технические условия",
+      "attributes": [
+        "целевое устройство",
+        "устройство активации",
+        "форм-фактор",
+        "поколение сети",
+        "положительная совместимость",
+        "исключение",
+        "зависимость от тарифа",
+        "тип трафика"
+      ]
+    },
+    {
+      "id": "RESOURCE",
+      "facets": [
+        "F08",
+        "F15"
+      ],
+      "name": "Ресурсы",
+      "attributes": [
+        "вид ресурса",
+        "количество",
+        "единица",
+        "период",
+        "направление звонка",
+        "личный/общий",
+        "порог",
+        "скорость после порога",
+        "область безлимита"
+      ]
+    },
+    {
+      "id": "MONEY",
+      "facets": [
+        "F09"
+      ],
+      "name": "Денежные отношения",
+      "attributes": [
+        "сумма",
+        "валюта",
+        "роль",
+        "кто платит",
+        "за кого",
+        "период",
+        "фаза",
+        "условие скидки",
+        "распределение взноса",
+        "сравнительная база",
+        "среднее и реальное списание"
+      ]
+    },
+    {
+      "id": "GEO",
+      "facets": [
+        "F11"
+      ],
+      "name": "Географические роли",
+      "attributes": [
+        "регион наблюдения",
+        "домашний регион",
+        "регион нового номера",
+        "исходный регион переноса",
+        "активация",
+        "использование",
+        "исключение",
+        "особая тарификация"
+      ]
+    },
+    {
+      "id": "PROCESS",
+      "facets": [
+        "F10",
+        "F15"
+      ],
+      "name": "Процесс и состояние",
+      "attributes": [
+        "новый номер/перенос",
+        "действия",
+        "предусловия",
+        "AND/OR",
+        "временное состояние",
+        "итоговое состояние",
+        "длительность",
+        "начальное событие",
+        "рекомендованный срок",
+        "восстановление"
+      ]
+    },
+    {
+      "id": "TEXT",
+      "facets": [
+        "F14"
+      ],
+      "name": "Редакционное устройство текста",
+      "attributes": [
+        "регистр",
+        "терминология",
+        "орфография",
+        "грамматика",
+        "синтаксис",
+        "повтор",
+        "структура FAQ",
+        "императив/объяснение"
+      ]
+    },
+    {
+      "id": "TSEM",
+      "facets": [
+        "F15"
+      ],
+      "name": "Текстовый смысл",
+      "attributes": [
+        "предикат",
+        "аргументы",
+        "отрицание",
+        "квантор",
+        "модальность",
+        "условие",
+        "область",
+        "отсылка",
+        "альтернативное прочтение"
+      ]
+    },
+    {
+      "id": "CLAIM",
+      "facets": [
+        "F16"
+      ],
+      "name": "Рекламное обещание и основание",
+      "attributes": [
+        "выгода",
+        "сила формулировки",
+        "эталон сравнения",
+        "условие",
+        "самозаявление/документ",
+        "подтверждаемая область",
+        "достаточность основания"
+      ]
+    },
+    {
+      "id": "VSEM_LITERAL",
+      "facets": [
+        "F17"
+      ],
+      "name": "Буквальный состав изображения",
+      "attributes": [
+        "объект",
+        "персонаж",
+        "жест",
+        "надпись",
+        "схема",
+        "скриншот как изображение",
+        "изображённый товар и комплект",
+        "символ и реальный функциональный объект"
+      ]
+    },
+    {
+      "id": "VSEM_MAPPING",
+      "facets": [
+        "F18"
+      ],
+      "name": "Механизм визуального значения",
+      "attributes": [
+        "буквальное изображение",
+        "условный знак",
+        "метафора",
+        "исходная область",
+        "целевая область",
+        "соответствие ролей",
+        "сохранённое отношение",
+        "лишний перенос",
+        "альтернатива"
+      ]
+    },
+    {
+      "id": "COMP",
+      "facets": [
+        "F19"
+      ],
+      "name": "Композиция кадра",
+      "attributes": [
+        "иерархия",
+        "пространственные отношения",
+        "группировка",
+        "размер/контраст",
+        "типографические роли",
+        "доминирующий блок",
+        "пустое пространство",
+        "область обрезки"
+      ]
+    },
+    {
+      "id": "DESIGN",
+      "facets": [
+        "F20"
+      ],
+      "name": "Система оформления",
+      "attributes": [
+        "повторяемые средства",
+        "кодирование одинаковых ролей",
+        "вариации",
+        "переход Gallery/Rich",
+        "изменение стиля",
+        "семейство макета",
+        "авторство отдельно от сходства"
+      ]
+    },
+    {
+      "id": "SEQUENCE",
+      "facets": [
+        "F21"
+      ],
+      "name": "Последовательность и аргументация",
+      "attributes": [
+        "функция кадра",
+        "порядок раскрытия",
+        "зависимость обещания и условия",
+        "повтор",
+        "ветвление вариантов",
+        "навигация",
+        "потерянная часть носителя"
+      ]
+    },
+    {
+      "id": "SALES",
+      "facets": [
+        "F22"
+      ],
+      "name": "Поддержка выбора",
+      "attributes": [
+        "связь задачи и предложения",
+        "причина выбора",
+        "сравнение",
+        "сомнение",
+        "условие пригодности",
+        "действие",
+        "сопровождение",
+        "состояние функции"
+      ]
+    },
+    {
+      "id": "MEASUREMENT",
+      "facets": [
+        "F23",
+        "F24",
+        "F25",
+        "F26",
+        "F27",
+        "F28",
+        "F35"
+      ],
+      "name": "Оценивание и границы вывода",
+      "attributes": [
+        "наблюдение/интерпретация",
+        "сила подтверждения",
+        "применимость",
+        "согласие исполнителей",
+        "предсказание/измерение",
+        "связь с экспозицией",
+        "метрика",
+        "гипотеза",
+        "эффект"
+      ]
+    }
+  ],
+  "assertion_dimensions": [
+    "subject",
+    "predicate",
+    "value",
+    "value_kind",
+    "unit",
+    "quantity_role",
+    "actor_role",
+    "beneficiary_scope",
+    "period",
+    "phase",
+    "variant_ref",
+    "quantifier",
+    "condition",
+    "exception",
+    "source",
+    "locator",
+    "evidence_status"
+  ],
+  "epistemic_kinds": [
+    "NATIVE_FIELD_OBSERVATION",
+    "RULE_CANDIDATE",
+    "MANUAL_SOURCE_CLAIM",
+    "ANALYTICAL_INTERPRETATION",
+    "LOCAL_CONTENT_ASSESSMENT",
+    "UNTESTED_HYPOTHESIS"
+  ],
+  "canonical_attributes": {
+    "money.recurring_charge": {
+      "label": "Периодическая плата",
+      "raw_predicates": [
+        "monthly_fee",
+        "monthly_fee_claim",
+        "monthly_fee_from",
+        "headline_monthly_price",
+        "base_monthly_fee",
+        "group_monthly_fee",
+        "organizer_monthly_group_fee",
+        "participant_connection_monthly_component",
+        "participant_separate_fee",
+        "participant_separate_monthly_fee",
+        "native_monthly_fee_field",
+        "initial_daily_fee",
+        "description_example_daily_fee",
+        "simple_plan_description_fee",
+        "subsequent_monthly_fee",
+        "variant_monthly_fee_claim",
+        "sms_unlimited_addon_fee"
+      ]
+    },
+    "money.topup": {
+      "label": "Первоначальное пополнение",
+      "raw_predicates": [
+        "activation_topup",
+        "activation_topup_wording",
+        "initial_topup",
+        "initial_topup_first_15_days",
+        "second_half_month_topup"
+      ]
+    },
+    "money.balance": {
+      "label": "Баланс или остаток",
+      "raw_predicates": [
+        "initial_balance",
+        "remaining_balance_after_activation",
+        "native_start_balance_field",
+        "starting_balance_claim"
+      ]
+    },
+    "money.allocation": {
+      "label": "Распределение внесённой суммы",
+      "raw_predicates": [
+        "initial_service_allocation",
+        "service_allocation"
+      ]
+    },
+    "money.one_time_charge": {
+      "label": "Разовая плата за операцию",
+      "raw_predicates": [
+        "activation_fee",
+        "connection_fee",
+        "connection_fee_label",
+        "description_example_activation_requirement"
+      ]
+    },
+    "money.average_price": {
+      "label": "Средняя цена на участника",
+      "raw_predicates": [
+        "per_subscriber_average_price"
+      ]
+    },
+    "money.reference_price": {
+      "label": "Сравнительная цена",
+      "raw_predicates": [
+        "comparative_reference_price",
+        "strikethrough_reference_price"
+      ]
+    },
+    "money.expected_savings": {
+      "label": "Заявленная экономия",
+      "raw_predicates": [
+        "annual_savings_claim"
+      ]
+    },
+    "money.function_extra_charge": {
+      "label": "Доплата за отдельную функцию",
+      "raw_predicates": [
+        "tethering_extra_charge",
+        "onnetwork_calls_extra_charge"
+      ]
+    },
+    "money.insurance_limit": {
+      "label": "Заявленный страховой предел",
+      "raw_predicates": [
+        "insurance_limit_claim"
+      ]
+    },
+    "money.unresolved_amount": {
+      "label": "Сумма с неустановленной ролью",
+      "raw_predicates": [
+        "untyped_title_amount"
+      ]
+    },
+    "money.debit_schedule": {
+      "label": "Порядок списания",
+      "raw_predicates": [
+        "first_daily_debit_period",
+        "first_month_prorated",
+        "recurring_debit_calendar_day"
+      ]
+    },
+    "resource.allowance": {
+      "label": "Количество ресурса",
+      "raw_predicates": [
+        "data_allowance",
+        "voice_allowance",
+        "sms_allowance",
+        "offnetwork_minutes",
+        "offnetwork_voice_allowance",
+        "organizer_data",
+        "participant_data",
+        "voice_pool",
+        "sms_pool",
+        "shared_voice_pool",
+        "shared_sms_pool",
+        "rich_phone_voice",
+        "rich_phone_sms",
+        "native_data_field",
+        "family_data_claim"
+      ]
+    },
+    "resource.limit_mode": {
+      "label": "Режим ограничения ресурса",
+      "raw_predicates": [
+        "data_unlimited_claim",
+        "incoming_calls_unlimited",
+        "onnetwork_calls_unlimited",
+        "onnetwork_unlimited_condition"
+      ]
+    },
+    "resource.bonus": {
+      "label": "Условный бонусный ресурс",
+      "raw_predicates": [
+        "monthly_family_bonus_upper"
+      ]
+    },
+    "resource.speed_threshold": {
+      "label": "Порог полной скорости",
+      "raw_predicates": [
+        "router_full_speed_threshold"
+      ]
+    },
+    "resource.speed_after_threshold": {
+      "label": "Скорость после порога",
+      "raw_predicates": [
+        "router_speed_after_threshold_upper"
+      ]
+    },
+    "resource.capacity": {
+      "label": "Количество подключений или выборов",
+      "raw_predicates": [
+        "additional_connections_upper",
+        "paid_family_slots",
+        "free_megasila_choices"
+      ]
+    },
+    "device.compatibility": {
+      "label": "Заявленная совместимость",
+      "raw_predicates": [
+        "all_devices_claim",
+        "declared_device_examples",
+        "declared_supported_devices",
+        "declared_unsupported_devices",
+        "device_coverage_claim",
+        "supported_device",
+        "modem_smartwatch_smart_home_supported"
+      ]
+    },
+    "device.plan_dependency": {
+      "label": "Зависимость устройства от тарифа",
+      "raw_predicates": [
+        "device_choice_requires_plan_choice",
+        "device_compatibility_requires_tariff_choice"
+      ]
+    },
+    "device.activation_tool": {
+      "label": "Устройство для активации",
+      "raw_predicates": [
+        "smartphone_internet_needed_for_activation"
+      ]
+    },
+    "device.esim_condition": {
+      "label": "Условная возможность eSIM",
+      "raw_predicates": [
+        "esim_available_if_device_supports"
+      ]
+    },
+    "network.generation_claim": {
+      "label": "Заявленное поколение сети",
+      "raw_predicates": [
+        "network_generations",
+        "5g_support_claim"
+      ]
+    },
+    "process.duration": {
+      "label": "Длительность процесса",
+      "raw_predicates": [
+        "activation_duration_upper_claim",
+        "activation_time_claim",
+        "registration_duration_upper",
+        "transfer_duration_upper"
+      ]
+    },
+    "process.activation_window": {
+      "label": "Рекомендуемый срок активации",
+      "raw_predicates": [
+        "recommended_activation_period",
+        "recommended_activation_window"
+      ]
+    },
+    "process.cooldown": {
+      "label": "Интервал между операциями",
+      "raw_predicates": [
+        "time_since_last_porting_required"
+      ]
+    },
+    "process.identity_routes": {
+      "label": "Способы идентификации",
+      "raw_predicates": [
+        "identity_routes"
+      ]
+    },
+    "process.age_condition": {
+      "label": "Возрастное условие",
+      "raw_predicates": [
+        "minimum_registration_age",
+        "age_wording"
+      ]
+    },
+    "process.identity_requirement": {
+      "label": "Условие идентификации",
+      "raw_predicates": [
+        "citizenship_requirement",
+        "passport_required"
+      ]
+    },
+    "process.porting_availability": {
+      "label": "Доступность переноса",
+      "raw_predicates": [
+        "MNP_available",
+        "same_operator_porting",
+        "same_operator_transfer",
+        "porting_from_current_yota_supported"
+      ]
+    },
+    "process.migration_availability": {
+      "label": "Переход с существующего тарифа",
+      "raw_predicates": [
+        "existing_tariff_migration_available"
+      ]
+    },
+    "process.temporary_number": {
+      "label": "Смена временного номера",
+      "raw_predicates": [
+        "temporary_number_precedes_ported_number"
+      ]
+    },
+    "process.activation_select_tariff": {
+      "label": "Выбор тарифа при активации",
+      "raw_predicates": [
+        "activation_step_select_tariff"
+      ]
+    },
+    "process.plan_change_consequence": {
+      "label": "Последствие изменения тарифа",
+      "raw_predicates": [
+        "plan_change_cancels_subscription_discount",
+        "unused_subscription_days_refunded_on_change",
+        "subscription_reconnection_available"
+      ]
+    },
+    "process.nonpayment_consequence": {
+      "label": "Последствие неоплаты",
+      "raw_predicates": [
+        "nonpayment_termination_threshold"
+      ]
+    },
+    "offer.guarantee_window": {
+      "label": "Окно гарантии условий",
+      "raw_predicates": [
+        "offer_guarantee_activation_window"
+      ]
+    },
+    "offer.included_period": {
+      "label": "Включённый период основной связи",
+      "raw_predicates": [
+        "included_service_period",
+        "topup_not_required_during_initial_period"
+      ]
+    },
+    "offer.addon_trial": {
+      "label": "Пробный период дополнительной услуги",
+      "raw_predicates": [
+        "security_addon_free_trial"
+      ]
+    },
+    "offer.plan_identity": {
+      "label": "Название тарифа в состоянии",
+      "raw_predicates": [
+        "plan_name_after_activation",
+        "plan_name_before_or_at_purchase"
+      ]
+    },
+    "offer.physical_count": {
+      "label": "Физическое число SIM",
+      "raw_predicates": [
+        "physical_sim_count"
+      ]
+    },
+    "offer.independent_lines": {
+      "label": "Независимость линий",
+      "raw_predicates": [
+        "initial_lines_independent"
+      ]
+    },
+    "offer.configuration": {
+      "label": "Выбор конфигурации",
+      "raw_predicates": [
+        "configuration_selectable",
+        "plans_may_differ_between_lines",
+        "choice_dimensions",
+        "tariff_selected_on_activation"
+      ]
+    },
+    "offer.number_choice": {
+      "label": "Выбор номера и момент выбора",
+      "raw_predicates": [
+        "new_number_alternative",
+        "number_choice_options",
+        "number_selected_before_purchase",
+        "numbers_differ_by_digits"
+      ]
+    },
+    "offer.family_join": {
+      "label": "Дополнительное объединение в семью",
+      "raw_predicates": [
+        "family_group_requires_joining_action"
+      ]
+    },
+    "offer.registration_roles": {
+      "label": "Кто регистрирует линии",
+      "raw_predicates": [
+        "same_or_different_registered_persons"
+      ]
+    },
+    "geo.activation": {
+      "label": "Территория активации",
+      "raw_predicates": [
+        "activation_territory_claim"
+      ]
+    },
+    "geo.home_region": {
+      "label": "Домашний регион и его изменение",
+      "raw_predicates": [
+        "native_home_region_field",
+        "home_region_change_on_porting"
+      ]
+    },
+    "geo.exception": {
+      "label": "Исключение или изменение условий",
+      "raw_predicates": [
+        "geo_package_difference",
+        "geographic_exceptions"
+      ]
+    },
+    "claim.payment_policy": {
+      "label": "Заявление о списаниях",
+      "raw_predicates": [
+        "imposed_services_absent",
+        "unexplained_debits_absent",
+        "negative_balance_avoided",
+        "balance_available_for_communications"
+      ]
+    },
+    "claim.authority": {
+      "label": "Заявление о полномочии",
+      "raw_predicates": [
+        "official_partner_claim"
+      ]
+    },
+    "claim.application_restriction": {
+      "label": "Доступность типа трафика",
+      "raw_predicates": [
+        "p2p_torrent_available"
+      ]
+    },
+    "claim.support_availability": {
+      "label": "Заявленная доступность поддержки",
+      "raw_predicates": [
+        "support_availability_claim"
+      ]
+    },
+    "state.version_warning": {
+      "label": "Предупреждение о версии",
+      "raw_predicates": [
+        "on_material_sticker_may_be_outdated",
+        "shown_initial_tariff_may_be_wrong"
+      ]
+    },
+    "depiction.numeric_example": {
+      "label": "Число в иллюстрации",
+      "raw_predicates": [
+        "depicted_calendar_numeral",
+        "illustrated_account_balance",
+        "illustrated_postactivation_resource_pair",
+        "price_period_interface_illustration"
+      ]
+    }
+  },
+  "critical_rules": [
+    "Сегмент текста не объявляется одним атомарным фактом.",
+    "Кандидат правила не объявляется проверенной интерпретацией.",
+    "Два значения сравниваются по одной роли, периоду, области, варианту и фазе.",
+    "Неустановленное не заменяется отсутствием или нулём.",
+    "Средний показатель не равен реальному списанию.",
+    "Номер в иллюстрации не равен договорному сроку/балансу.",
+    "Изображённый объект не обязательно входит в комплект или совместим с услугой.",
+    "Один SKU может представлять каталог вариантов.",
+    "Полный просмотр сохранённых изображений не равен полноте живой страницы и всем текстам Rich.",
+    "Наблюдение дизайна, гипотеза восприятия, оценка и эффект различаются."
+  ],
+  "predicate_labels": {
+    "5g_support_claim": "Заявление о поддержке 5G",
+    "MNP_available": "Доступность переноса номера",
+    "activation_duration_upper_claim": "Заявленная длительность активации",
+    "activation_time_claim": "Заявленная длительность активации",
+    "activation_fee": "Разовая плата за активацию",
+    "activation_step_select_tariff": "Выбор тарифа как шаг активации",
+    "activation_territory_claim": "Территория активации",
+    "activation_topup": "Первоначальное пополнение",
+    "activation_topup_wording": "Первоначальное пополнение",
+    "initial_topup": "Первоначальное пополнение",
+    "additional_connections_upper": "Предельное число дополнительных подключений",
+    "age_wording": "Буквальная формулировка возраста",
+    "all_devices_claim": "Заявление универсальной совместимости",
+    "device_coverage_claim": "Заявление универсальной совместимости",
+    "annual_savings_claim": "Заявленная экономия за год",
+    "balance_available_for_communications": "Возможность расходовать баланс на связь",
+    "base_monthly_fee": "Месячная плата основного тарифа",
+    "choice_dimensions": "Что можно выбирать",
+    "citizenship_requirement": "Требование гражданства",
+    "comparative_reference_price": "Цена сравнительного предложения",
+    "configuration_selectable": "Возможность настройки конфигурации",
+    "connection_fee": "Плата за подключение",
+    "connection_fee_label": "Плата за подключение",
+    "data_allowance": "Объём интернета",
+    "data_unlimited_claim": "Заявление безлимита интернета",
+    "declared_device_examples": "Примеры целевых устройств",
+    "declared_supported_devices": "Заявленные подходящие устройства",
+    "declared_unsupported_devices": "Заявленные исключения устройств",
+    "depicted_calendar_numeral": "Цифра на иллюстрации календаря",
+    "description_example_activation_requirement": "Активационный платёж в примере FAQ",
+    "description_example_daily_fee": "Суточная плата в примере FAQ",
+    "device_choice_requires_plan_choice": "Зависимость устройства от выбранного тарифа",
+    "device_compatibility_requires_tariff_choice": "Зависимость устройства от выбранного тарифа",
+    "esim_available_if_device_supports": "eSIM при поддержке устройством",
+    "existing_tariff_migration_available": "Возможность перехода с существующего тарифа",
+    "family_data_claim": "Интернет для семейной группы с неустановленной областью",
+    "family_group_requires_joining_action": "Необходимость отдельного объединения в группу",
+    "first_daily_debit_period": "Период начального посуточного списания",
+    "first_month_prorated": "Пропорциональное списание первого месяца",
+    "free_megasila_choices": "Количество бесплатных МегаСил на выбор",
+    "geo_package_difference": "Регионы с отличающимся наполнением",
+    "geographic_exceptions": "Территориальные исключения",
+    "group_monthly_fee": "Месячное списание с организатора за группу",
+    "organizer_monthly_group_fee": "Месячное списание с организатора за группу",
+    "headline_monthly_price": "Нижняя граница месячной цены",
+    "monthly_fee_from": "Нижняя граница месячной цены",
+    "home_region_change_on_porting": "Изменение домашнего региона при переносе",
+    "identity_routes": "Альтернативные способы идентификации",
+    "illustrated_account_balance": "Баланс в иллюстрации интерфейса",
+    "illustrated_postactivation_resource_pair": "Ресурсные числа в иллюстрации интерфейса",
+    "imposed_services_absent": "Заявление отсутствия навязанных услуг",
+    "included_service_period": "Включённый период основной связи",
+    "incoming_calls_unlimited": "Безлимит входящих звонков",
+    "initial_balance": "Начальный баланс",
+    "initial_daily_fee": "Суточная плата первого периода",
+    "initial_lines_independent": "Независимость двух линий",
+    "initial_service_allocation": "Часть взноса на услуги связи",
+    "service_allocation": "Часть взноса на услуги связи",
+    "initial_topup_first_15_days": "Первое пополнение за первые 15 дней",
+    "insurance_limit_claim": "Заявленный предел страхового покрытия",
+    "minimum_registration_age": "Минимальный возраст оформления",
+    "modem_smartwatch_smart_home_supported": "Совместимость с модемом и умными устройствами",
+    "monthly_family_bonus_upper": "Предельный семейный бонус за месяц",
+    "monthly_fee": "Заявленная месячная плата",
+    "monthly_fee_claim": "Заявленная месячная плата",
+    "native_data_field": "Значение каталожного поля трафика",
+    "native_home_region_field": "Значение каталожного поля домашнего региона",
+    "native_monthly_fee_field": "Значение каталожного поля месячной платы",
+    "native_start_balance_field": "Заявленный стартовый баланс",
+    "starting_balance_claim": "Заявленный стартовый баланс",
+    "negative_balance_avoided": "Заявление отсутствия отрицательного баланса",
+    "network_generations": "Указанные поколения сети",
+    "new_number_alternative": "Вариант подключения нового номера",
+    "nonpayment_termination_threshold": "Срок до прекращения при неоплате",
+    "number_choice_options": "Варианты выбора номера",
+    "number_selected_before_purchase": "Выбор номера до покупки",
+    "numbers_differ_by_digits": "Различие номеров по числу цифр",
+    "offer_guarantee_activation_window": "Окно гарантии тарифа при активации",
+    "official_partner_claim": "Заявление официального партнёрства",
+    "offnetwork_minutes": "Минуты другим операторам",
+    "offnetwork_voice_allowance": "Минуты другим операторам",
+    "on_material_sticker_may_be_outdated": "Предупреждение об устаревшей наклейке",
+    "onnetwork_calls_extra_charge": "Доплата за внутрисетевые звонки",
+    "onnetwork_calls_unlimited": "Безлимит внутрисетевых звонков",
+    "onnetwork_unlimited_condition": "Условие внутрисетевого безлимита",
+    "organizer_data": "Личный интернет организатора",
+    "p2p_torrent_available": "Доступность P2P/торрентов",
+    "paid_family_slots": "Платные семейные подключения",
+    "participant_connection_monthly_component": "Месячная доплата организатора за участника",
+    "participant_data": "Личный интернет участника",
+    "participant_separate_fee": "Отдельная месячная плата участника",
+    "participant_separate_monthly_fee": "Отдельная месячная плата участника",
+    "passport_required": "Необходимость паспорта",
+    "per_subscriber_average_price": "Средняя месячная цена на участника",
+    "physical_sim_count": "Количество физических SIM в комплекте",
+    "plan_change_cancels_subscription_discount": "Отключение абонемента при смене тарифа",
+    "plan_name_after_activation": "Название тарифа после активации",
+    "plan_name_before_or_at_purchase": "Название тарифа до или при покупке",
+    "plans_may_differ_between_lines": "Возможность разных тарифов двух линий",
+    "porting_from_current_yota_supported": "Перенос действующего номера Yota",
+    "price_period_interface_illustration": "Период цены в иллюстрации кабинета",
+    "recommended_activation_period": "Рекомендуемый срок активации",
+    "recommended_activation_window": "Рекомендуемый срок активации",
+    "recurring_debit_calendar_day": "Календарный день списания",
+    "registration_duration_upper": "Предельная длительность регистрации",
+    "remaining_balance_after_activation": "Остаток после активации",
+    "rich_phone_sms": "SMS для смартфона в подробном блоке",
+    "rich_phone_voice": "Минуты для смартфона в подробном блоке",
+    "router_full_speed_threshold": "Объём до ограничения скорости в роутере",
+    "router_speed_after_threshold_upper": "Скорость после порога в роутере",
+    "same_operator_porting": "Перенос внутри того же оператора",
+    "same_operator_transfer": "Перенос внутри того же оператора",
+    "same_or_different_registered_persons": "Оформление на одного или разных людей",
+    "second_half_month_topup": "Следующее пополнение через 15 дней",
+    "security_addon_free_trial": "Бесплатный период дополнительной защиты",
+    "shared_sms_pool": "Общий пакет SMS",
+    "sms_pool": "Общий пакет SMS",
+    "shared_voice_pool": "Общий пакет минут",
+    "voice_pool": "Общий пакет минут",
+    "shown_initial_tariff_may_be_wrong": "Предупреждение о временном отображении тарифа",
+    "simple_plan_description_fee": "Цена Проще в описании",
+    "smartphone_internet_needed_for_activation": "Смартфон с интернетом как инструмент активации",
+    "sms_allowance": "Количество SMS",
+    "sms_unlimited_addon_fee": "Доплата за опцию безлимитных SMS",
+    "strikethrough_reference_price": "Зачёркнутая сравнительная цена",
+    "subscription_reconnection_available": "Повторное подключение абонемента",
+    "subsequent_monthly_fee": "Месячная плата после включённого периода",
+    "support_availability_claim": "Заявленный режим поддержки",
+    "supported_device": "Целевое устройство услуги",
+    "tariff_selected_on_activation": "Выбор тарифа при активации",
+    "temporary_number_precedes_ported_number": "Временный номер до переноса",
+    "tethering_extra_charge": "Доплата за раздачу интернета",
+    "time_since_last_porting_required": "Требуемый интервал после предыдущего переноса",
+    "topup_not_required_during_initial_period": "Отсутствие пополнений во включённом периоде",
+    "transfer_duration_upper": "Предельная длительность переноса",
+    "unexplained_debits_absent": "Заявление отсутствия непонятных списаний",
+    "untyped_title_amount": "Сумма в заголовке с неустановленной ролью",
+    "unused_subscription_days_refunded_on_change": "Возврат за дни абонемента при смене",
+    "variant_monthly_fee_claim": "Месячная цена конкретной тарифной ветви",
+    "voice_allowance": "Количество минут"
+  },
+  "family_identity_policy": "Семейство группирует связанные свойства и не доказывает тождество предикатов. Для сравнения сохраняются точный предикат, тип значения и все существенные роли/области/фазы."
+}

@@ -1,0 +1,355 @@
+{
+  "record_type": "CAPTURE",
+  "intake_id": "BASE:CS_422e61242d0e4d20d21c",
+  "card_id": "OZON:1666013562",
+  "capture_id": "CS_422e61242d0e4d20d21c",
+  "intake_status": "ACCEPTED",
+  "registered_at": null,
+  "platform": "Ozon",
+  "external_card_id": {
+    "state": "KNOWN",
+    "value": "1666013562",
+    "basis": "OBSERVED",
+    "scope": "внешний номер",
+    "source_locator": "01_Карточки/Ozon/Yota/П23 МегаФон/1666013562/CS_422e61242d0e4d20d21c/01_Материалы/card_data.json:sku"
+  },
+  "observed_at": {
+    "state": "KNOWN",
+    "value": "2026-09-25T11:25:35.488Z",
+    "basis": "OBSERVED",
+    "scope": "время наблюдения",
+    "source_locator": "01_Карточки/Ozon/Yota/П23 МегаФон/1666013562/CS_422e61242d0e4d20d21c/01_Материалы/card_data.json:collected_at"
+  },
+  "seller_display_name": {
+    "state": "KNOWN",
+    "value": "МегаФон",
+    "basis": "OBSERVED",
+    "scope": "точная строка продавца",
+    "source_locator": "01_Карточки/Ozon/Yota/П23 МегаФон/1666013562/CS_422e61242d0e4d20d21c/01_Материалы/card_data.json:seller"
+  },
+  "seller_label_code": "П23",
+  "brand": {
+    "state": "KNOWN",
+    "value": "Yota",
+    "basis": "OBSERVED",
+    "scope": "заявленный бренд",
+    "source_locator": "01_Карточки/Ozon/Yota/П23 МегаФон/1666013562/CS_422e61242d0e4d20d21c/01_Материалы/card_data.json"
+  },
+  "title": {
+    "state": "KNOWN",
+    "value": "Сим-карта YOTA Максимум на первый месяц, безлимитный интернет, 800 мин",
+    "basis": "OBSERVED",
+    "scope": "заголовок",
+    "source_locator": "01_Карточки/Ozon/Yota/П23 МегаФон/1666013562/CS_422e61242d0e4d20d21c/01_Материалы/card_data.json:title"
+  },
+  "source_origin": "Сохранённая страница маркетплейса; дата наблюдения указана в паспорте.",
+  "actual_relative_path": "01_Карточки/Ozon/Yota/П23 МегаФон/1666013562/CS_422e61242d0e4d20d21c",
+  "mission": "Подключение: основное предложение",
+  "offer_model": "Услуга, условия не подтверждены",
+  "collection_region": "Moscow",
+  "materials": [
+    {
+      "placement_id": "CS_422e61242d0e4d20d21c:Gallery/G01.jpg",
+      "surface": "GALLERY",
+      "position": 1,
+      "relative_file": "01_Карточки/Ozon/Yota/П23 МегаФон/1666013562/CS_422e61242d0e4d20d21c/01_Материалы/Gallery/G01.jpg",
+      "integrity_state": "VERIFIED",
+      "sha256": "284c0a189400f5581b19d52f6359e2ec64bca36e77fe387be0f22186576200e1",
+      "bytes": 71566
+    },
+    {
+      "placement_id": "CS_422e61242d0e4d20d21c:Gallery/G02.jpg",
+      "surface": "GALLERY",
+      "position": 2,
+      "relative_file": "01_Карточки/Ozon/Yota/П23 МегаФон/1666013562/CS_422e61242d0e4d20d21c/01_Материалы/Gallery/G02.jpg",
+      "integrity_state": "VERIFIED",
+      "sha256": "0ac1e47719d67ca7541dcb4e4cfeb7fff837ebf773a6e1b81bdfcefee74b31f5",
+      "bytes": 64629
+    },
+    {
+      "placement_id": "CS_422e61242d0e4d20d21c:Gallery/G03.jpg",
+      "surface": "GALLERY",
+      "position": 3,
+      "relative_file": "01_Карточки/Ozon/Yota/П23 МегаФон/1666013562/CS_422e61242d0e4d20d21c/01_Материалы/Gallery/G03.jpg",
+      "integrity_state": "VERIFIED",
+      "sha256": "79a9a6ad63b72672dbb68d57e2a3bee564652bdc7b91e82fca3aa739eeaf7842",
+      "bytes": 73231
+    },
+    {
+      "placement_id": "CS_422e61242d0e4d20d21c:Gallery/G04.jpg",
+      "surface": "GALLERY",
+      "position": 4,
+      "relative_file": "01_Карточки/Ozon/Yota/П23 МегаФон/1666013562/CS_422e61242d0e4d20d21c/01_Материалы/Gallery/G04.jpg",
+      "integrity_state": "VERIFIED",
+      "sha256": "1646dbd7074fccd0ab24b0848b72adf2afdb270804ad7577d35dcb235b7a99ea",
+      "bytes": 72879
+    },
+    {
+      "placement_id": "CS_422e61242d0e4d20d21c:Gallery/G05.jpg",
+      "surface": "GALLERY",
+      "position": 5,
+      "relative_file": "01_Карточки/Ozon/Yota/П23 МегаФон/1666013562/CS_422e61242d0e4d20d21c/01_Материалы/Gallery/G05.jpg",
+      "integrity_state": "VERIFIED",
+      "sha256": "c9c0b8a1d186e95e7ac32dc08d670e4a4e2374316506623d9d31d0ff7af40545",
+      "bytes": 72281
+    },
+    {
+      "placement_id": "CS_422e61242d0e4d20d21c:Gallery/G06.jpg",
+      "surface": "GALLERY",
+      "position": 6,
+      "relative_file": "01_Карточки/Ozon/Yota/П23 МегаФон/1666013562/CS_422e61242d0e4d20d21c/01_Материалы/Gallery/G06.jpg",
+      "integrity_state": "VERIFIED",
+      "sha256": "884e753027d2e6d45d1648c0bf014808e9e8c03150f53b0b7ba47aaf99fe7abf",
+      "bytes": 63043
+    },
+    {
+      "placement_id": "CS_422e61242d0e4d20d21c:Gallery/G07.jpg",
+      "surface": "GALLERY",
+      "position": 7,
+      "relative_file": "01_Карточки/Ozon/Yota/П23 МегаФон/1666013562/CS_422e61242d0e4d20d21c/01_Материалы/Gallery/G07.jpg",
+      "integrity_state": "VERIFIED",
+      "sha256": "6fd7224916b84c2354bcafd49ba326b22fb0d99500c559d4750ce9ad07ad8784",
+      "bytes": 70315
+    },
+    {
+      "placement_id": "CS_422e61242d0e4d20d21c:Gallery/G08.jpg",
+      "surface": "GALLERY",
+      "position": 8,
+      "relative_file": "01_Карточки/Ozon/Yota/П23 МегаФон/1666013562/CS_422e61242d0e4d20d21c/01_Материалы/Gallery/G08.jpg",
+      "integrity_state": "VERIFIED",
+      "sha256": "a8451d3aa44a129133e83cbbf31dfd15fcc6e79a3487564b525702ceb6c2021e",
+      "bytes": 69231
+    },
+    {
+      "placement_id": "CS_422e61242d0e4d20d21c:Gallery/G09.jpg",
+      "surface": "GALLERY",
+      "position": 9,
+      "relative_file": "01_Карточки/Ozon/Yota/П23 МегаФон/1666013562/CS_422e61242d0e4d20d21c/01_Материалы/Gallery/G09.jpg",
+      "integrity_state": "VERIFIED",
+      "sha256": "e346c390aeda52af902ebe6453fb3180baad6465d7d70c3c4306399714793869",
+      "bytes": 66470
+    },
+    {
+      "placement_id": "CS_422e61242d0e4d20d21c:Gallery/G10.jpg",
+      "surface": "GALLERY",
+      "position": 10,
+      "relative_file": "01_Карточки/Ozon/Yota/П23 МегаФон/1666013562/CS_422e61242d0e4d20d21c/01_Материалы/Gallery/G10.jpg",
+      "integrity_state": "VERIFIED",
+      "sha256": "e9de3cd48907b42d848395d6d514df6322e2e9de4286cf998e887c0a87108ea8",
+      "bytes": 73499
+    },
+    {
+      "placement_id": "CS_422e61242d0e4d20d21c:Rich/rich_ocr.json",
+      "surface": "RICH",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/Yota/П23 МегаФон/1666013562/CS_422e61242d0e4d20d21c/01_Материалы/Rich/rich_ocr.json",
+      "integrity_state": "VERIFIED",
+      "sha256": "3875a168b1d263820d01c387a4dc20fe9b30553ed238f6d95623dd4e3457b156",
+      "bytes": 374
+    },
+    {
+      "placement_id": "CS_422e61242d0e4d20d21c:Rich/rich_text.txt",
+      "surface": "RICH",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/Yota/П23 МегаФон/1666013562/CS_422e61242d0e4d20d21c/01_Материалы/Rich/rich_text.txt",
+      "integrity_state": "VERIFIED",
+      "sha256": "475c6d9f67450ad806600893977435aa206f13a1fc313805a11336835014fb2e",
+      "bytes": 17
+    },
+    {
+      "placement_id": "CS_422e61242d0e4d20d21c:analytics_rank.txt",
+      "surface": "OTHER",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/Yota/П23 МегаФон/1666013562/CS_422e61242d0e4d20d21c/01_Материалы/analytics_rank.txt",
+      "integrity_state": "VERIFIED",
+      "sha256": "c2464c2bbb48985528da8c1add16bda77c1aa84c2c9813db2e4f4158a5f9167b",
+      "bytes": 18
+    },
+    {
+      "placement_id": "CS_422e61242d0e4d20d21c:availability.txt",
+      "surface": "OTHER",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/Yota/П23 МегаФон/1666013562/CS_422e61242d0e4d20d21c/01_Материалы/availability.txt",
+      "integrity_state": "VERIFIED",
+      "sha256": "fc816d2e287924d67610e3d4ced5971d51a2329d58db37596385ca2b04d033ea",
+      "bytes": 52
+    },
+    {
+      "placement_id": "CS_422e61242d0e4d20d21c:card_data.json",
+      "surface": "OTHER",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/Yota/П23 МегаФон/1666013562/CS_422e61242d0e4d20d21c/01_Материалы/card_data.json",
+      "integrity_state": "VERIFIED",
+      "sha256": "32dd92d56b66e9c47c062abd91c317a818ccafc866fb66b66f9b66ade7ad9b57",
+      "bytes": 6481
+    },
+    {
+      "placement_id": "CS_422e61242d0e4d20d21c:characteristics.txt",
+      "surface": "CHARACTERISTICS",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/Yota/П23 МегаФон/1666013562/CS_422e61242d0e4d20d21c/01_Материалы/characteristics.txt",
+      "integrity_state": "VERIFIED",
+      "sha256": "bac6939e6b88b13cad261e300313630fede11c93c3dde96fcb196331bceda45b",
+      "bytes": 1116
+    },
+    {
+      "placement_id": "CS_422e61242d0e4d20d21c:collection_status.txt",
+      "surface": "OTHER",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/Yota/П23 МегаФон/1666013562/CS_422e61242d0e4d20d21c/01_Материалы/collection_status.txt",
+      "integrity_state": "VERIFIED",
+      "sha256": "b4cb3a6ae06cfc303f8ec9016b6e351a5327370f9bc00d5978ae28da97a3a6d3",
+      "bytes": 62
+    },
+    {
+      "placement_id": "CS_422e61242d0e4d20d21c:content_type.txt",
+      "surface": "OTHER",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/Yota/П23 МегаФон/1666013562/CS_422e61242d0e4d20d21c/01_Материалы/content_type.txt",
+      "integrity_state": "VERIFIED",
+      "sha256": "ef2f19aa952ed53e7278d36afe2186ded6897e77c46984147cc568a21901af62",
+      "bytes": 12
+    },
+    {
+      "placement_id": "CS_422e61242d0e4d20d21c:description.txt",
+      "surface": "DESCRIPTION",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/Yota/П23 МегаФон/1666013562/CS_422e61242d0e4d20d21c/01_Материалы/description.txt",
+      "integrity_state": "VERIFIED",
+      "sha256": "c70e486e3b072f3eea31cdce3b5a3225f3a050e17c4541375c5ad8e67048d7ec",
+      "bytes": 2745
+    },
+    {
+      "placement_id": "CS_422e61242d0e4d20d21c:manifest.json",
+      "surface": "OTHER",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/Yota/П23 МегаФон/1666013562/CS_422e61242d0e4d20d21c/01_Материалы/manifest.json",
+      "integrity_state": "VERIFIED",
+      "sha256": "6507c9d3a93e2b552cf2d88f98cc6e299084aedaee71dd1196d68245b27f2e0b",
+      "bytes": 6367
+    },
+    {
+      "placement_id": "CS_422e61242d0e4d20d21c:price.txt",
+      "surface": "OTHER",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/Yota/П23 МегаФон/1666013562/CS_422e61242d0e4d20d21c/01_Материалы/price.txt",
+      "integrity_state": "VERIFIED",
+      "sha256": "53c234e5e8472b6ac51c1ae1cab3fe06fad053beb8ebfd8977b010655bfdd3c3",
+      "bytes": 2
+    },
+    {
+      "placement_id": "CS_422e61242d0e4d20d21c:rating.txt",
+      "surface": "OTHER",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/Yota/П23 МегаФон/1666013562/CS_422e61242d0e4d20d21c/01_Материалы/rating.txt",
+      "integrity_state": "VERIFIED",
+      "sha256": "8048d1e7e392843de42064d4c1ae59880ce5b149895a2cb79b0680fbf35e488c",
+      "bytes": 4
+    },
+    {
+      "placement_id": "CS_422e61242d0e4d20d21c:reviews_count.txt",
+      "surface": "OTHER",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/Yota/П23 МегаФон/1666013562/CS_422e61242d0e4d20d21c/01_Материалы/reviews_count.txt",
+      "integrity_state": "VERIFIED",
+      "sha256": "ac6ec9c9d3f1137e842562b29c0a996aaa480202ec43d6e8b7e961c4d71ca748",
+      "bytes": 4
+    },
+    {
+      "placement_id": "CS_422e61242d0e4d20d21c:seller.txt",
+      "surface": "OTHER",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/Yota/П23 МегаФон/1666013562/CS_422e61242d0e4d20d21c/01_Материалы/seller.txt",
+      "integrity_state": "VERIFIED",
+      "sha256": "c46b39fabfa12f5af4e6a070c036df8db5584816566bb5c955b6d8ad5eb398cf",
+      "bytes": 15
+    },
+    {
+      "placement_id": "CS_422e61242d0e4d20d21c:tags.txt",
+      "surface": "OTHER",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/Yota/П23 МегаФон/1666013562/CS_422e61242d0e4d20d21c/01_Материалы/tags.txt",
+      "integrity_state": "VERIFIED",
+      "sha256": "7d6be6ce9ffa903e7285ea05e537b6ded9f51b312fd8f640817715525aca1854",
+      "bytes": 170
+    },
+    {
+      "placement_id": "CS_422e61242d0e4d20d21c:title.txt",
+      "surface": "TITLE",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/Yota/П23 МегаФон/1666013562/CS_422e61242d0e4d20d21c/01_Материалы/title.txt",
+      "integrity_state": "VERIFIED",
+      "sha256": "3e412040c83bad346ad4c683ce10e0456ca3adb3e57cb20f708d3993140c7ad9",
+      "bytes": 122
+    },
+    {
+      "placement_id": "CS_422e61242d0e4d20d21c:url.txt",
+      "surface": "OTHER",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/Yota/П23 МегаФон/1666013562/CS_422e61242d0e4d20d21c/01_Материалы/url.txt",
+      "integrity_state": "VERIFIED",
+      "sha256": "287c37999be2bd19d8adbe4061e9b88eae181307b45adaea40053ee6ab553af3",
+      "bytes": 142
+    }
+  ],
+  "data_format": "CAPTURE",
+  "change_number": 1,
+  "coverage_scope": "Все файлы предоставленного снимка; полнота действующей страницы и исполнение услуги отдельно не подтверждены.",
+  "source_note": "Точные сведения источника не являются независимой проверкой тарифного договора или юридических полномочий.",
+  "attributes": {
+    "preliminary_classification": {
+      "task_focus": "CONNECT",
+      "bundle_focus": "NOT_EMPHASIZED_IN_TITLE",
+      "configuration_focus": "NOT_EMPHASIZED_IN_TITLE",
+      "period_focus": "NOT_EMPHASIZED_IN_TITLE",
+      "group_id": "CONNECT_BASE",
+      "group_name": "Подключение: основное предложение",
+      "device_claims": [
+        "PHONE_TABLET"
+      ],
+      "device_claims_status": "POSITIVE_SOURCE_CLAIM_NOT_VERIFIED",
+      "money_roles": [],
+      "money_review_scope": "NOT_ATOMICALLY_REVIEWED",
+      "porting_role": "NOT_ESTABLISHED_IN_ROUTING_SCOPE",
+      "geo_claims": {
+        "legacy_title_claim": "REGION_NOT_IN_TITLE",
+        "verification": "NOT_VERIFIED",
+        "collection_region": "Moscow"
+      },
+      "targeted_evidence": [],
+      "review_note": "",
+      "flags": [],
+      "legal_party_id": "",
+      "authority_status": "UNKNOWN_IN_INSPECTED_INPUTS",
+      "commercial_readiness": "NOT_ESTABLISHED",
+      "content_effect": "NOT_ASSESSED",
+      "market_row_present": "False",
+      "promotion_row_present": "False",
+      "routing_support": {
+        "surface": "CHARACTERISTICS",
+        "source_file": "01_Карточки/Ozon/Yota/П23 МегаФон/1666013562/CS_422e61242d0e4d20d21c/01_Материалы/characteristics.txt",
+        "basis_text": "Вид тарифного плана: Для телефона",
+        "basis_kind": "PROVIDED_ROUTING_EXPLANATION",
+        "literal_text_match": false,
+        "source_classification_status": "PROVISIONAL_CONTENT_ROUTING",
+        "evidence_status": "INHERITED_NOT_INDEPENDENT_RECODE",
+        "scope_note": "Предоставленное основание предварительной группы; не новая независимая разметка и не проверка совместимости или эффекта."
+      },
+      "device_scope_note": "Перечень устройств является исходной маршрутизацией, а не полной проверкой совместимости."
+    },
+    "classification_status": "PRELIMINARY_CONTENT_ROUTE_NOT_SALES_RANK",
+    "channel": {
+      "platform": "Ozon",
+      "legal_party": "UNKNOWN",
+      "shop_type": "UNKNOWN",
+      "brand_owner": "UNKNOWN",
+      "distributor_status": "UNKNOWN",
+      "budget": "UNKNOWN"
+    },
+    "source_url": "https://www.ozon.ru/product/sim-karta-yota-maksimum-na-pervyy-mesyats-bezlimitnyy-internet-800-min-1666013562/?oos_search=false&sh=f35iFWU_hw"
+  },
+  "metadata_files": [
+    "01_Карточки/Ozon/Yota/П23 МегаФон/1666013562/CS_422e61242d0e4d20d21c/02_Метаданные/Фрагменты источника.jsonl",
+    "01_Карточки/Ozon/Yota/П23 МегаФон/1666013562/CS_422e61242d0e4d20d21c/02_Метаданные/Извлечённые сведения.jsonl"
+  ]
+}

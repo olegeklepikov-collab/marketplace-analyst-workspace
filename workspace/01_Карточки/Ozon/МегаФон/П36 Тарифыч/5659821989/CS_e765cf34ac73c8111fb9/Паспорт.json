@@ -1,0 +1,441 @@
+{
+  "record_type": "CAPTURE",
+  "intake_id": "BASE:CS_e765cf34ac73c8111fb9",
+  "card_id": "OZON:5659821989",
+  "capture_id": "CS_e765cf34ac73c8111fb9",
+  "intake_status": "ACCEPTED",
+  "registered_at": null,
+  "platform": "Ozon",
+  "external_card_id": {
+    "state": "KNOWN",
+    "value": "5659821989",
+    "basis": "OBSERVED",
+    "scope": "внешний номер",
+    "source_locator": "01_Карточки/Ozon/МегаФон/П36 Тарифыч/5659821989/CS_e765cf34ac73c8111fb9/01_Материалы/card_data.json:sku"
+  },
+  "observed_at": {
+    "state": "KNOWN",
+    "value": "2026-09-25T09:41:34.649Z",
+    "basis": "OBSERVED",
+    "scope": "время наблюдения",
+    "source_locator": "01_Карточки/Ozon/МегаФон/П36 Тарифыч/5659821989/CS_e765cf34ac73c8111fb9/01_Материалы/card_data.json:collected_at"
+  },
+  "seller_display_name": {
+    "state": "KNOWN",
+    "value": "Тарифыч",
+    "basis": "OBSERVED",
+    "scope": "точная строка продавца",
+    "source_locator": "01_Карточки/Ozon/МегаФон/П36 Тарифыч/5659821989/CS_e765cf34ac73c8111fb9/01_Материалы/card_data.json:seller"
+  },
+  "seller_label_code": "П36",
+  "brand": {
+    "state": "KNOWN",
+    "value": "МегаФон",
+    "basis": "OBSERVED",
+    "scope": "заявленный бренд",
+    "source_locator": "01_Карточки/Ozon/МегаФон/П36 Тарифыч/5659821989/CS_e765cf34ac73c8111fb9/01_Материалы/card_data.json"
+  },
+  "title": {
+    "state": "KNOWN",
+    "value": "Сим карта Мегафон Безлимит интернета и 1000 мин за 350р",
+    "basis": "OBSERVED",
+    "scope": "заголовок",
+    "source_locator": "01_Карточки/Ozon/МегаФон/П36 Тарифыч/5659821989/CS_e765cf34ac73c8111fb9/01_Материалы/card_data.json:title"
+  },
+  "source_origin": "Сохранённая страница маркетплейса; дата наблюдения указана в паспорте.",
+  "actual_relative_path": "01_Карточки/Ozon/МегаФон/П36 Тарифыч/5659821989/CS_e765cf34ac73c8111fb9",
+  "mission": "Требует уточнения",
+  "offer_model": "Услуга, условия не подтверждены",
+  "collection_region": "Moscow",
+  "materials": [
+    {
+      "placement_id": "CS_e765cf34ac73c8111fb9:Gallery/G01.jpg",
+      "surface": "GALLERY",
+      "position": 1,
+      "relative_file": "01_Карточки/Ozon/МегаФон/П36 Тарифыч/5659821989/CS_e765cf34ac73c8111fb9/01_Материалы/Gallery/G01.jpg",
+      "integrity_state": "VERIFIED",
+      "sha256": "aeb9fd1468907599afba73238ebfa7560d49c3dc966252777d42859bf39fe2ec",
+      "bytes": 161344
+    },
+    {
+      "placement_id": "CS_e765cf34ac73c8111fb9:Gallery/G02.jpg",
+      "surface": "GALLERY",
+      "position": 2,
+      "relative_file": "01_Карточки/Ozon/МегаФон/П36 Тарифыч/5659821989/CS_e765cf34ac73c8111fb9/01_Материалы/Gallery/G02.jpg",
+      "integrity_state": "VERIFIED",
+      "sha256": "ecfe7c5eab7319da5b879e1af28179971ab89a8ec9d7ebdffe1636230ff78739",
+      "bytes": 179944
+    },
+    {
+      "placement_id": "CS_e765cf34ac73c8111fb9:Gallery/G03.jpg",
+      "surface": "GALLERY",
+      "position": 3,
+      "relative_file": "01_Карточки/Ozon/МегаФон/П36 Тарифыч/5659821989/CS_e765cf34ac73c8111fb9/01_Материалы/Gallery/G03.jpg",
+      "integrity_state": "VERIFIED",
+      "sha256": "7c14ee682e61c35937ea7c8ea13814fb45465e42a1f379191cd0e7c46ab45f22",
+      "bytes": 198014
+    },
+    {
+      "placement_id": "CS_e765cf34ac73c8111fb9:Gallery/G04.jpg",
+      "surface": "GALLERY",
+      "position": 4,
+      "relative_file": "01_Карточки/Ozon/МегаФон/П36 Тарифыч/5659821989/CS_e765cf34ac73c8111fb9/01_Материалы/Gallery/G04.jpg",
+      "integrity_state": "VERIFIED",
+      "sha256": "5001c92ec90b563489c3e4b52eba47683e1d003c5023df7615978634ce7ec326",
+      "bytes": 277158
+    },
+    {
+      "placement_id": "CS_e765cf34ac73c8111fb9:Gallery/G05.jpg",
+      "surface": "GALLERY",
+      "position": 5,
+      "relative_file": "01_Карточки/Ozon/МегаФон/П36 Тарифыч/5659821989/CS_e765cf34ac73c8111fb9/01_Материалы/Gallery/G05.jpg",
+      "integrity_state": "VERIFIED",
+      "sha256": "8ab7227478194243efb905d8503785645803c2c4c3d441fb0339dba94e80257a",
+      "bytes": 189651
+    },
+    {
+      "placement_id": "CS_e765cf34ac73c8111fb9:Gallery/G06.jpg",
+      "surface": "GALLERY",
+      "position": 6,
+      "relative_file": "01_Карточки/Ozon/МегаФон/П36 Тарифыч/5659821989/CS_e765cf34ac73c8111fb9/01_Материалы/Gallery/G06.jpg",
+      "integrity_state": "VERIFIED",
+      "sha256": "7dc4811e1f3b16cb070b2e5256d4e055180962ce868f39ab058ea7e71ff58c4f",
+      "bytes": 157357
+    },
+    {
+      "placement_id": "CS_e765cf34ac73c8111fb9:Gallery/G07.jpg",
+      "surface": "GALLERY",
+      "position": 7,
+      "relative_file": "01_Карточки/Ozon/МегаФон/П36 Тарифыч/5659821989/CS_e765cf34ac73c8111fb9/01_Материалы/Gallery/G07.jpg",
+      "integrity_state": "VERIFIED",
+      "sha256": "9642e511a9a4a23ff939ca991bbe966d3a93fef65377f3941983f2044cb77d35",
+      "bytes": 174171
+    },
+    {
+      "placement_id": "CS_e765cf34ac73c8111fb9:Gallery/G08.jpg",
+      "surface": "GALLERY",
+      "position": 8,
+      "relative_file": "01_Карточки/Ozon/МегаФон/П36 Тарифыч/5659821989/CS_e765cf34ac73c8111fb9/01_Материалы/Gallery/G08.jpg",
+      "integrity_state": "VERIFIED",
+      "sha256": "b5a1813416e5ebf5974c2e77e0d552ce4cc52eb8f54e7a39cb2e97a5389922fc",
+      "bytes": 150483
+    },
+    {
+      "placement_id": "CS_e765cf34ac73c8111fb9:Gallery/G09.jpg",
+      "surface": "GALLERY",
+      "position": 9,
+      "relative_file": "01_Карточки/Ozon/МегаФон/П36 Тарифыч/5659821989/CS_e765cf34ac73c8111fb9/01_Материалы/Gallery/G09.jpg",
+      "integrity_state": "VERIFIED",
+      "sha256": "8689c198a8cdc9756d1e08e82a65d6f8ade4a4b838b843a9d4e88cef57148e2d",
+      "bytes": 132267
+    },
+    {
+      "placement_id": "CS_e765cf34ac73c8111fb9:Gallery/G10.jpg",
+      "surface": "GALLERY",
+      "position": 10,
+      "relative_file": "01_Карточки/Ozon/МегаФон/П36 Тарифыч/5659821989/CS_e765cf34ac73c8111fb9/01_Материалы/Gallery/G10.jpg",
+      "integrity_state": "VERIFIED",
+      "sha256": "4b6fd6a31ba7e9ad183bcda707d8bd30abf7bcd20dc0c64bafc8358a49fd29d2",
+      "bytes": 156895
+    },
+    {
+      "placement_id": "CS_e765cf34ac73c8111fb9:Gallery/G11.jpg",
+      "surface": "GALLERY",
+      "position": 11,
+      "relative_file": "01_Карточки/Ozon/МегаФон/П36 Тарифыч/5659821989/CS_e765cf34ac73c8111fb9/01_Материалы/Gallery/G11.jpg",
+      "integrity_state": "VERIFIED",
+      "sha256": "e575844f44cd23b5f9c03a8607fc4fcbfe1ff34e1e45c22d75c01c017e4396ee",
+      "bytes": 169814
+    },
+    {
+      "placement_id": "CS_e765cf34ac73c8111fb9:Gallery/G12.jpg",
+      "surface": "GALLERY",
+      "position": 12,
+      "relative_file": "01_Карточки/Ozon/МегаФон/П36 Тарифыч/5659821989/CS_e765cf34ac73c8111fb9/01_Материалы/Gallery/G12.jpg",
+      "integrity_state": "VERIFIED",
+      "sha256": "af3e35ef4d386a8fbfc2d4f11443fdc879008f7e282d31be880aee4116ab67d0",
+      "bytes": 173429
+    },
+    {
+      "placement_id": "CS_e765cf34ac73c8111fb9:Gallery/G13.jpg",
+      "surface": "GALLERY",
+      "position": 13,
+      "relative_file": "01_Карточки/Ozon/МегаФон/П36 Тарифыч/5659821989/CS_e765cf34ac73c8111fb9/01_Материалы/Gallery/G13.jpg",
+      "integrity_state": "VERIFIED",
+      "sha256": "82f7d107df8c447efaf8582ccd34a059a0680eab7c57c1244ef6db4d7a64e2a1",
+      "bytes": 168334
+    },
+    {
+      "placement_id": "CS_e765cf34ac73c8111fb9:Gallery/G14.jpg",
+      "surface": "GALLERY",
+      "position": 14,
+      "relative_file": "01_Карточки/Ozon/МегаФон/П36 Тарифыч/5659821989/CS_e765cf34ac73c8111fb9/01_Материалы/Gallery/G14.jpg",
+      "integrity_state": "VERIFIED",
+      "sha256": "7eea0115624d5418389a3c36eaaf5a05eb709ad420735ddd228e56ad64839035",
+      "bytes": 177208
+    },
+    {
+      "placement_id": "CS_e765cf34ac73c8111fb9:Gallery/G15.jpg",
+      "surface": "GALLERY",
+      "position": 15,
+      "relative_file": "01_Карточки/Ozon/МегаФон/П36 Тарифыч/5659821989/CS_e765cf34ac73c8111fb9/01_Материалы/Gallery/G15.jpg",
+      "integrity_state": "VERIFIED",
+      "sha256": "e1e7c934c282f1b7534da78baa55d314359cda4282f070159e5f88139e2416c0",
+      "bytes": 268823
+    },
+    {
+      "placement_id": "CS_e765cf34ac73c8111fb9:Rich/R01.jpg",
+      "surface": "RICH",
+      "position": 1,
+      "relative_file": "01_Карточки/Ozon/МегаФон/П36 Тарифыч/5659821989/CS_e765cf34ac73c8111fb9/01_Материалы/Rich/R01.jpg",
+      "integrity_state": "VERIFIED",
+      "sha256": "6a45cfc571c79861223d89be5e7fb34a5ee1434a2a1749742f359a76ac63e749",
+      "bytes": 530752
+    },
+    {
+      "placement_id": "CS_e765cf34ac73c8111fb9:Rich/R02.jpg",
+      "surface": "RICH",
+      "position": 2,
+      "relative_file": "01_Карточки/Ozon/МегаФон/П36 Тарифыч/5659821989/CS_e765cf34ac73c8111fb9/01_Материалы/Rich/R02.jpg",
+      "integrity_state": "VERIFIED",
+      "sha256": "3ac48c7621344f97c0d94c3955aaa4a524918ded0a4ff45ca111fed386822935",
+      "bytes": 500721
+    },
+    {
+      "placement_id": "CS_e765cf34ac73c8111fb9:Rich/R03.jpg",
+      "surface": "RICH",
+      "position": 3,
+      "relative_file": "01_Карточки/Ozon/МегаФон/П36 Тарифыч/5659821989/CS_e765cf34ac73c8111fb9/01_Материалы/Rich/R03.jpg",
+      "integrity_state": "VERIFIED",
+      "sha256": "bb6a420338b74e0e5e4d8a517fba28eba2ac1f363aad2b43b93f1fe64f73fa91",
+      "bytes": 289258
+    },
+    {
+      "placement_id": "CS_e765cf34ac73c8111fb9:Rich/R04.jpg",
+      "surface": "RICH",
+      "position": 4,
+      "relative_file": "01_Карточки/Ozon/МегаФон/П36 Тарифыч/5659821989/CS_e765cf34ac73c8111fb9/01_Материалы/Rich/R04.jpg",
+      "integrity_state": "VERIFIED",
+      "sha256": "ad2af3e8c2d957ad69ad829c678b69eb46b5619c15419e8869c75bf37145d764",
+      "bytes": 289316
+    },
+    {
+      "placement_id": "CS_e765cf34ac73c8111fb9:Rich/rich_ocr.json",
+      "surface": "RICH",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/МегаФон/П36 Тарифыч/5659821989/CS_e765cf34ac73c8111fb9/01_Материалы/Rich/rich_ocr.json",
+      "integrity_state": "VERIFIED",
+      "sha256": "30a26e6811f17ecee21c1b61b2af96b4312963fcebd4ebd3e1cc9fc691178a8b",
+      "bytes": 20779
+    },
+    {
+      "placement_id": "CS_e765cf34ac73c8111fb9:Rich/rich_text.txt",
+      "surface": "RICH",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/МегаФон/П36 Тарифыч/5659821989/CS_e765cf34ac73c8111fb9/01_Материалы/Rich/rich_text.txt",
+      "integrity_state": "VERIFIED",
+      "sha256": "51787a1989d938547d90fa95550c8cd76033d98622d0da1d0ccef86735905800",
+      "bytes": 4453
+    },
+    {
+      "placement_id": "CS_e765cf34ac73c8111fb9:analytics_rank.txt",
+      "surface": "OTHER",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/МегаФон/П36 Тарифыч/5659821989/CS_e765cf34ac73c8111fb9/01_Материалы/analytics_rank.txt",
+      "integrity_state": "VERIFIED",
+      "sha256": "5378796307535df3ec8d8b15a2e2dc5641419c3d3060cfe32238c0fa973f7aa3",
+      "bytes": 3
+    },
+    {
+      "placement_id": "CS_e765cf34ac73c8111fb9:availability.txt",
+      "surface": "OTHER",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/МегаФон/П36 Тарифыч/5659821989/CS_e765cf34ac73c8111fb9/01_Материалы/availability.txt",
+      "integrity_state": "VERIFIED",
+      "sha256": "f3db355a863e0dd7fa5ca1c95f35969d61f7cfb1f7a1c64da40b68a8ebed9c4d",
+      "bytes": 26
+    },
+    {
+      "placement_id": "CS_e765cf34ac73c8111fb9:card_data.json",
+      "surface": "OTHER",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/МегаФон/П36 Тарифыч/5659821989/CS_e765cf34ac73c8111fb9/01_Материалы/card_data.json",
+      "integrity_state": "VERIFIED",
+      "sha256": "fa17ae69ceca86c71f8ba48424287b5c50fd45b07c9fd0164a6cba603d269509",
+      "bytes": 4633
+    },
+    {
+      "placement_id": "CS_e765cf34ac73c8111fb9:characteristics.txt",
+      "surface": "CHARACTERISTICS",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/МегаФон/П36 Тарифыч/5659821989/CS_e765cf34ac73c8111fb9/01_Материалы/characteristics.txt",
+      "integrity_state": "VERIFIED",
+      "sha256": "973d5b2bc56434a1fc60f535ba992b2e11bdc1eff6dfa51164b0af65346fb274",
+      "bytes": 1208
+    },
+    {
+      "placement_id": "CS_e765cf34ac73c8111fb9:collection_status.txt",
+      "surface": "OTHER",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/МегаФон/П36 Тарифыч/5659821989/CS_e765cf34ac73c8111fb9/01_Материалы/collection_status.txt",
+      "integrity_state": "VERIFIED",
+      "sha256": "cf01585829633e2debef0696d8101ca4fb4702310a2f2256b3b17bd0e753ce8c",
+      "bytes": 10
+    },
+    {
+      "placement_id": "CS_e765cf34ac73c8111fb9:content_type.txt",
+      "surface": "OTHER",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/МегаФон/П36 Тарифыч/5659821989/CS_e765cf34ac73c8111fb9/01_Материалы/content_type.txt",
+      "integrity_state": "VERIFIED",
+      "sha256": "96e6625bbd580d529a6384d96146fa3a05f7fb416cb4614fd8cd7135be2d77d1",
+      "bytes": 28
+    },
+    {
+      "placement_id": "CS_e765cf34ac73c8111fb9:description.txt",
+      "surface": "DESCRIPTION",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/МегаФон/П36 Тарифыч/5659821989/CS_e765cf34ac73c8111fb9/01_Материалы/description.txt",
+      "integrity_state": "VERIFIED",
+      "sha256": "cfe12a6d70106473638332fbeb30598b4cf94051f939c88fd0705157433b38f1",
+      "bytes": 36
+    },
+    {
+      "placement_id": "CS_e765cf34ac73c8111fb9:manifest.json",
+      "surface": "OTHER",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/МегаФон/П36 Тарифыч/5659821989/CS_e765cf34ac73c8111fb9/01_Материалы/manifest.json",
+      "integrity_state": "VERIFIED",
+      "sha256": "49c11dddb2a2f14453bf844d4d0d7d88997b6d1666919cba9af2f6b04aeb8d44",
+      "bytes": 10170
+    },
+    {
+      "placement_id": "CS_e765cf34ac73c8111fb9:price.txt",
+      "surface": "OTHER",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/МегаФон/П36 Тарифыч/5659821989/CS_e765cf34ac73c8111fb9/01_Материалы/price.txt",
+      "integrity_state": "VERIFIED",
+      "sha256": "53c234e5e8472b6ac51c1ae1cab3fe06fad053beb8ebfd8977b010655bfdd3c3",
+      "bytes": 2
+    },
+    {
+      "placement_id": "CS_e765cf34ac73c8111fb9:rating.txt",
+      "surface": "OTHER",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/МегаФон/П36 Тарифыч/5659821989/CS_e765cf34ac73c8111fb9/01_Материалы/rating.txt",
+      "integrity_state": "VERIFIED",
+      "sha256": "2e5d3cf3acb0a8d0cc0e152cde65449f85111c01edb6c7cd6a3cbf9ea06aea9d",
+      "bytes": 4
+    },
+    {
+      "placement_id": "CS_e765cf34ac73c8111fb9:reviews_count.txt",
+      "surface": "OTHER",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/МегаФон/П36 Тарифыч/5659821989/CS_e765cf34ac73c8111fb9/01_Материалы/reviews_count.txt",
+      "integrity_state": "VERIFIED",
+      "sha256": "0f3d5add13e3e2b7d1387d7790fe16545c72cdd3d4d27dd5175de4322fae192b",
+      "bytes": 4
+    },
+    {
+      "placement_id": "CS_e765cf34ac73c8111fb9:seller.txt",
+      "surface": "OTHER",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/МегаФон/П36 Тарифыч/5659821989/CS_e765cf34ac73c8111fb9/01_Материалы/seller.txt",
+      "integrity_state": "VERIFIED",
+      "sha256": "d09e928372bfbc282c6f42f513b5dc0b4bbc1c149c2b8efc0da58e651ed407fd",
+      "bytes": 15
+    },
+    {
+      "placement_id": "CS_e765cf34ac73c8111fb9:tags.txt",
+      "surface": "OTHER",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/МегаФон/П36 Тарифыч/5659821989/CS_e765cf34ac73c8111fb9/01_Материалы/tags.txt",
+      "integrity_state": "VERIFIED",
+      "sha256": "ad6f55b3a25b0f858246ebf5e519124e32898be6a81dbd14a629d29cc9df11a8",
+      "bytes": 258
+    },
+    {
+      "placement_id": "CS_e765cf34ac73c8111fb9:title.txt",
+      "surface": "TITLE",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/МегаФон/П36 Тарифыч/5659821989/CS_e765cf34ac73c8111fb9/01_Материалы/title.txt",
+      "integrity_state": "VERIFIED",
+      "sha256": "04373e32123da297cc31884107b814c57e5793ea7f963e9afe40284d9d9e9fed",
+      "bytes": 95
+    },
+    {
+      "placement_id": "CS_e765cf34ac73c8111fb9:url.txt",
+      "surface": "OTHER",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/МегаФон/П36 Тарифыч/5659821989/CS_e765cf34ac73c8111fb9/01_Материалы/url.txt",
+      "integrity_state": "VERIFIED",
+      "sha256": "a82793b33cbed3ff76c0351b92fe14cb0c4b7af253df2e27eaa2e0afc320802f",
+      "bytes": 110
+    }
+  ],
+  "data_format": "CAPTURE",
+  "change_number": 1,
+  "coverage_scope": "Все файлы предоставленного снимка; полнота действующей страницы и исполнение услуги отдельно не подтверждены.",
+  "source_note": "Точные сведения источника не являются независимой проверкой тарифного договора или юридических полномочий.",
+  "attributes": {
+    "preliminary_classification": {
+      "task_focus": "UNDETERMINED",
+      "bundle_focus": "NOT_EMPHASIZED_IN_TITLE",
+      "configuration_focus": "NOT_EMPHASIZED_IN_TITLE",
+      "period_focus": "NOT_EMPHASIZED_IN_TITLE",
+      "group_id": "",
+      "group_name": "",
+      "device_claims": [],
+      "device_claims_status": "UNDETERMINED_IN_ROUTING_SCOPE",
+      "money_roles": [],
+      "money_review_scope": "NOT_ATOMICALLY_REVIEWED",
+      "porting_role": "NOT_ESTABLISHED_IN_ROUTING_SCOPE",
+      "geo_claims": {
+        "legacy_title_claim": "REGION_NOT_IN_TITLE",
+        "verification": "NOT_VERIFIED",
+        "collection_region": "Moscow"
+      },
+      "targeted_evidence": [
+        {
+          "surface": "TITLE",
+          "source_path": "analysis_handoff_2026-10-27 2/01_current_corpus_master129/Megafon_competitors/5659821989/card_data.json",
+          "locator": "$.title",
+          "quote": "Сим карта Мегафон Безлимит интернета и 1000 мин за 350р"
+        }
+      ],
+      "review_note": "Конкретная задача и класс устройства по имеющимся основаниям не установлены. Значение Smart и изображение человека не переводятся в назначение для смартфона.",
+      "flags": [],
+      "legal_party_id": "",
+      "authority_status": "UNKNOWN_IN_INSPECTED_INPUTS",
+      "commercial_readiness": "NOT_ESTABLISHED",
+      "content_effect": "NOT_ASSESSED",
+      "market_row_present": "True",
+      "promotion_row_present": "False",
+      "routing_support": {
+        "surface": "G01",
+        "source_file": "01_Карточки/Ozon/МегаФон/П36 Тарифыч/5659821989/CS_e765cf34ac73c8111fb9/01_Материалы/Gallery/G01.jpg",
+        "basis_text": "TITLE, характеристики, описание и G01 не дают однозначной основной задачи; прочие кадры требуют отдельного просмотра.",
+        "basis_kind": "VISUAL_EXPLANATION_REQUIRES_REVIEW",
+        "literal_text_match": null,
+        "source_classification_status": "PROVISIONAL_CONTENT_ROUTING",
+        "evidence_status": "INHERITED_NOT_INDEPENDENT_RECODE",
+        "scope_note": "Предоставленное основание предварительной группы; не новая независимая разметка и не проверка совместимости или эффекта."
+      },
+      "device_scope_note": "Перечень устройств является исходной маршрутизацией, а не полной проверкой совместимости."
+    },
+    "classification_status": "PRELIMINARY_CONTENT_ROUTE_NOT_SALES_RANK",
+    "channel": {
+      "platform": "Ozon",
+      "legal_party": "UNKNOWN",
+      "shop_type": "UNKNOWN",
+      "brand_owner": "UNKNOWN",
+      "distributor_status": "UNKNOWN",
+      "budget": "UNKNOWN"
+    },
+    "source_url": "https://www.ozon.ru/product/sim-karta-megafon-bezlimit-interneta-i-1000-min-za-350r-5659821989/?sh=f35iFbOWYQ"
+  },
+  "metadata_files": [
+    "01_Карточки/Ozon/МегаФон/П36 Тарифыч/5659821989/CS_e765cf34ac73c8111fb9/02_Метаданные/Фрагменты источника.jsonl",
+    "01_Карточки/Ozon/МегаФон/П36 Тарифыч/5659821989/CS_e765cf34ac73c8111fb9/02_Метаданные/Извлечённые сведения.jsonl"
+  ]
+}

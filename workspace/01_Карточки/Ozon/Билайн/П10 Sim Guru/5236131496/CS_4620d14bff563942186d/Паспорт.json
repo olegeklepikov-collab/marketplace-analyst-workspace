@@ -1,0 +1,320 @@
+{
+  "record_type": "CAPTURE",
+  "intake_id": "BASE:CS_4620d14bff563942186d",
+  "card_id": "OZON:5236131496",
+  "capture_id": "CS_4620d14bff563942186d",
+  "intake_status": "ACCEPTED",
+  "registered_at": null,
+  "platform": "Ozon",
+  "external_card_id": {
+    "state": "KNOWN",
+    "value": "5236131496",
+    "basis": "OBSERVED",
+    "scope": "внешний номер",
+    "source_locator": "01_Карточки/Ozon/Билайн/П10 Sim Guru/5236131496/CS_4620d14bff563942186d/01_Материалы/card_data.json:sku"
+  },
+  "observed_at": {
+    "state": "KNOWN",
+    "value": "2026-09-25T09:43:00.208Z",
+    "basis": "OBSERVED",
+    "scope": "время наблюдения",
+    "source_locator": "01_Карточки/Ozon/Билайн/П10 Sim Guru/5236131496/CS_4620d14bff563942186d/01_Материалы/card_data.json:collected_at"
+  },
+  "seller_display_name": {
+    "state": "KNOWN",
+    "value": "Sim Guru",
+    "basis": "OBSERVED",
+    "scope": "точная строка продавца",
+    "source_locator": "01_Карточки/Ozon/Билайн/П10 Sim Guru/5236131496/CS_4620d14bff563942186d/01_Материалы/card_data.json:seller"
+  },
+  "seller_label_code": "П10",
+  "brand": {
+    "state": "KNOWN",
+    "value": "Билайн",
+    "basis": "OBSERVED",
+    "scope": "заявленный бренд",
+    "source_locator": "01_Карточки/Ozon/Билайн/П10 Sim Guru/5236131496/CS_4620d14bff563942186d/01_Материалы/card_data.json"
+  },
+  "title": {
+    "state": "KNOWN",
+    "value": "Сим-карта Билайн безлимитный интернет",
+    "basis": "OBSERVED",
+    "scope": "заголовок",
+    "source_locator": "01_Карточки/Ozon/Билайн/П10 Sim Guru/5236131496/CS_4620d14bff563942186d/01_Материалы/card_data.json:title"
+  },
+  "source_origin": "Сохранённая страница маркетплейса; дата наблюдения указана в паспорте.",
+  "actual_relative_path": "01_Карточки/Ozon/Билайн/П10 Sim Guru/5236131496/CS_4620d14bff563942186d",
+  "mission": "Подключение: основное предложение",
+  "offer_model": "Услуга, условия не подтверждены",
+  "collection_region": "Moscow",
+  "materials": [
+    {
+      "placement_id": "CS_4620d14bff563942186d:Gallery/G01.jpg",
+      "surface": "GALLERY",
+      "position": 1,
+      "relative_file": "01_Карточки/Ozon/Билайн/П10 Sim Guru/5236131496/CS_4620d14bff563942186d/01_Материалы/Gallery/G01.jpg",
+      "integrity_state": "VERIFIED",
+      "sha256": "ba73270e6c799f2f0db77ad87d9b613a605f67e2bec519f86aa461f4d1fd1e30",
+      "bytes": 193857
+    },
+    {
+      "placement_id": "CS_4620d14bff563942186d:Gallery/G02.jpg",
+      "surface": "GALLERY",
+      "position": 2,
+      "relative_file": "01_Карточки/Ozon/Билайн/П10 Sim Guru/5236131496/CS_4620d14bff563942186d/01_Материалы/Gallery/G02.jpg",
+      "integrity_state": "VERIFIED",
+      "sha256": "43f72d173f7a40cf09b81aa75fe434b5adb619c025b09c41a13bd10607c3c31f",
+      "bytes": 172396
+    },
+    {
+      "placement_id": "CS_4620d14bff563942186d:Gallery/G03.jpg",
+      "surface": "GALLERY",
+      "position": 3,
+      "relative_file": "01_Карточки/Ozon/Билайн/П10 Sim Guru/5236131496/CS_4620d14bff563942186d/01_Материалы/Gallery/G03.jpg",
+      "integrity_state": "VERIFIED",
+      "sha256": "97de766f474bad5f2a3e25e473d5d8969fe98d6b324bf01991c8ecbf9463296f",
+      "bytes": 215375
+    },
+    {
+      "placement_id": "CS_4620d14bff563942186d:Gallery/G04.jpg",
+      "surface": "GALLERY",
+      "position": 4,
+      "relative_file": "01_Карточки/Ozon/Билайн/П10 Sim Guru/5236131496/CS_4620d14bff563942186d/01_Материалы/Gallery/G04.jpg",
+      "integrity_state": "VERIFIED",
+      "sha256": "074d82d4ae6f8fbe92fc63961ae034659cc81b003586e70ef2cbe515fccd6858",
+      "bytes": 176132
+    },
+    {
+      "placement_id": "CS_4620d14bff563942186d:Gallery/G05.jpg",
+      "surface": "GALLERY",
+      "position": 5,
+      "relative_file": "01_Карточки/Ozon/Билайн/П10 Sim Guru/5236131496/CS_4620d14bff563942186d/01_Материалы/Gallery/G05.jpg",
+      "integrity_state": "VERIFIED",
+      "sha256": "5c8f1c15e9e77eeecd19dcda3d5147c0a1a960fae8bb5c598e68d3886de2f900",
+      "bytes": 210393
+    },
+    {
+      "placement_id": "CS_4620d14bff563942186d:Gallery/G06.jpg",
+      "surface": "GALLERY",
+      "position": 6,
+      "relative_file": "01_Карточки/Ozon/Билайн/П10 Sim Guru/5236131496/CS_4620d14bff563942186d/01_Материалы/Gallery/G06.jpg",
+      "integrity_state": "VERIFIED",
+      "sha256": "12e007e5a94691400cd295dc5251835fe53484bb4b0a652807abd61eb2742100",
+      "bytes": 182262
+    },
+    {
+      "placement_id": "CS_4620d14bff563942186d:Rich/rich_ocr.json",
+      "surface": "RICH",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/Билайн/П10 Sim Guru/5236131496/CS_4620d14bff563942186d/01_Материалы/Rich/rich_ocr.json",
+      "integrity_state": "VERIFIED",
+      "sha256": "72346e7dbd26fcd2cf713d59076ec892544b1d3ce1433ee75beab6851d1b21a5",
+      "bytes": 428
+    },
+    {
+      "placement_id": "CS_4620d14bff563942186d:Rich/rich_text.txt",
+      "surface": "RICH",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/Билайн/П10 Sim Guru/5236131496/CS_4620d14bff563942186d/01_Материалы/Rich/rich_text.txt",
+      "integrity_state": "VERIFIED",
+      "sha256": "475c6d9f67450ad806600893977435aa206f13a1fc313805a11336835014fb2e",
+      "bytes": 17
+    },
+    {
+      "placement_id": "CS_4620d14bff563942186d:analytics_rank.txt",
+      "surface": "OTHER",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/Билайн/П10 Sim Guru/5236131496/CS_4620d14bff563942186d/01_Материалы/analytics_rank.txt",
+      "integrity_state": "VERIFIED",
+      "sha256": "9961d158a7e0e2f990765971a9e490af826c0743b7d603020f34cc8944319fcb",
+      "bytes": 3
+    },
+    {
+      "placement_id": "CS_4620d14bff563942186d:availability.txt",
+      "surface": "OTHER",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/Билайн/П10 Sim Guru/5236131496/CS_4620d14bff563942186d/01_Материалы/availability.txt",
+      "integrity_state": "VERIFIED",
+      "sha256": "f3db355a863e0dd7fa5ca1c95f35969d61f7cfb1f7a1c64da40b68a8ebed9c4d",
+      "bytes": 26
+    },
+    {
+      "placement_id": "CS_4620d14bff563942186d:card_data.json",
+      "surface": "OTHER",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/Билайн/П10 Sim Guru/5236131496/CS_4620d14bff563942186d/01_Материалы/card_data.json",
+      "integrity_state": "VERIFIED",
+      "sha256": "d9263fb5bae186f45a82121b668e19c99b79ad37c21e9db85086e27677d54103",
+      "bytes": 5966
+    },
+    {
+      "placement_id": "CS_4620d14bff563942186d:characteristics.txt",
+      "surface": "CHARACTERISTICS",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/Билайн/П10 Sim Guru/5236131496/CS_4620d14bff563942186d/01_Материалы/characteristics.txt",
+      "integrity_state": "VERIFIED",
+      "sha256": "f6dc8bfbe6749202711a9a0a46c85a75ff6f637eb518989cfa5967445d1e5f0a",
+      "bytes": 1035
+    },
+    {
+      "placement_id": "CS_4620d14bff563942186d:collection_status.txt",
+      "surface": "OTHER",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/Билайн/П10 Sim Guru/5236131496/CS_4620d14bff563942186d/01_Материалы/collection_status.txt",
+      "integrity_state": "VERIFIED",
+      "sha256": "cf01585829633e2debef0696d8101ca4fb4702310a2f2256b3b17bd0e753ce8c",
+      "bytes": 10
+    },
+    {
+      "placement_id": "CS_4620d14bff563942186d:content_type.txt",
+      "surface": "OTHER",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/Билайн/П10 Sim Guru/5236131496/CS_4620d14bff563942186d/01_Материалы/content_type.txt",
+      "integrity_state": "VERIFIED",
+      "sha256": "ef2f19aa952ed53e7278d36afe2186ded6897e77c46984147cc568a21901af62",
+      "bytes": 12
+    },
+    {
+      "placement_id": "CS_4620d14bff563942186d:description.txt",
+      "surface": "DESCRIPTION",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/Билайн/П10 Sim Guru/5236131496/CS_4620d14bff563942186d/01_Материалы/description.txt",
+      "integrity_state": "VERIFIED",
+      "sha256": "363f8c15db05408d85b5e1a291ccf304d7a43227ab9e9be9a2a9f534ad3dfd43",
+      "bytes": 1784
+    },
+    {
+      "placement_id": "CS_4620d14bff563942186d:manifest.json",
+      "surface": "OTHER",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/Билайн/П10 Sim Guru/5236131496/CS_4620d14bff563942186d/01_Материалы/manifest.json",
+      "integrity_state": "VERIFIED",
+      "sha256": "6d933d8f783e311fc5fd65c2055e9d5e5597d80363501e43fe14b2804c7f64a8",
+      "bytes": 4235
+    },
+    {
+      "placement_id": "CS_4620d14bff563942186d:price.txt",
+      "surface": "OTHER",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/Билайн/П10 Sim Guru/5236131496/CS_4620d14bff563942186d/01_Материалы/price.txt",
+      "integrity_state": "VERIFIED",
+      "sha256": "53c234e5e8472b6ac51c1ae1cab3fe06fad053beb8ebfd8977b010655bfdd3c3",
+      "bytes": 2
+    },
+    {
+      "placement_id": "CS_4620d14bff563942186d:rating.txt",
+      "surface": "OTHER",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/Билайн/П10 Sim Guru/5236131496/CS_4620d14bff563942186d/01_Материалы/rating.txt",
+      "integrity_state": "VERIFIED",
+      "sha256": "2e5d3cf3acb0a8d0cc0e152cde65449f85111c01edb6c7cd6a3cbf9ea06aea9d",
+      "bytes": 4
+    },
+    {
+      "placement_id": "CS_4620d14bff563942186d:reviews_count.txt",
+      "surface": "OTHER",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/Билайн/П10 Sim Guru/5236131496/CS_4620d14bff563942186d/01_Материалы/reviews_count.txt",
+      "integrity_state": "VERIFIED",
+      "sha256": "d6ba4fb19951b0a0175af857ec4891947aaf65d7de043c48a38b2daf2df0a329",
+      "bytes": 3
+    },
+    {
+      "placement_id": "CS_4620d14bff563942186d:seller.txt",
+      "surface": "OTHER",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/Билайн/П10 Sim Guru/5236131496/CS_4620d14bff563942186d/01_Материалы/seller.txt",
+      "integrity_state": "VERIFIED",
+      "sha256": "735a86f57bbb9da9f92a53deab6da6acbb7fd0d1dd294af8d204cbb1816c4eb1",
+      "bytes": 9
+    },
+    {
+      "placement_id": "CS_4620d14bff563942186d:tags.txt",
+      "surface": "OTHER",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/Билайн/П10 Sim Guru/5236131496/CS_4620d14bff563942186d/01_Материалы/tags.txt",
+      "integrity_state": "VERIFIED",
+      "sha256": "75874a8bd31b7fd5b9209ae333f6b304b729db2e69a56dee06a72434b71265b2",
+      "bytes": 1027
+    },
+    {
+      "placement_id": "CS_4620d14bff563942186d:title.txt",
+      "surface": "TITLE",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/Билайн/П10 Sim Guru/5236131496/CS_4620d14bff563942186d/01_Материалы/title.txt",
+      "integrity_state": "VERIFIED",
+      "sha256": "3401e5887cc751e37fd6482588f3aad3428755afc757106b68eade7a7e921464",
+      "bytes": 71
+    },
+    {
+      "placement_id": "CS_4620d14bff563942186d:url.txt",
+      "surface": "OTHER",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/Билайн/П10 Sim Guru/5236131496/CS_4620d14bff563942186d/01_Материалы/url.txt",
+      "integrity_state": "VERIFIED",
+      "sha256": "42fd56eff37f263c0ae10197f914e0f0a0b15836631d077986ffe55ed724e0eb",
+      "bytes": 92
+    }
+  ],
+  "data_format": "CAPTURE",
+  "change_number": 1,
+  "coverage_scope": "Все файлы предоставленного снимка; полнота действующей страницы и исполнение услуги отдельно не подтверждены.",
+  "source_note": "Точные сведения источника не являются независимой проверкой тарифного договора или юридических полномочий.",
+  "attributes": {
+    "preliminary_classification": {
+      "task_focus": "CONNECT",
+      "bundle_focus": "NOT_EMPHASIZED_IN_TITLE",
+      "configuration_focus": "NOT_EMPHASIZED_IN_TITLE",
+      "period_focus": "NOT_EMPHASIZED_IN_TITLE",
+      "group_id": "CONNECT_BASE",
+      "group_name": "Подключение: основное предложение",
+      "device_claims": [
+        "MULTIPLE_CLASSES_NOT_ENUMERATED"
+      ],
+      "device_claims_status": "PARTIAL_MULTIPLE_CLASS_CLAIM",
+      "money_roles": [],
+      "money_review_scope": "NOT_ATOMICALLY_REVIEWED",
+      "porting_role": "NOT_ESTABLISHED_IN_ROUTING_SCOPE",
+      "geo_claims": {
+        "legacy_title_claim": "REGION_NOT_IN_TITLE",
+        "verification": "NOT_VERIFIED",
+        "collection_region": "Moscow"
+      },
+      "targeted_evidence": [],
+      "review_note": "",
+      "flags": [],
+      "legal_party_id": "",
+      "authority_status": "UNKNOWN_IN_INSPECTED_INPUTS",
+      "commercial_readiness": "NOT_ESTABLISHED",
+      "content_effect": "NOT_ASSESSED",
+      "market_row_present": "True",
+      "promotion_row_present": "False",
+      "routing_support": {
+        "surface": "DESCRIPTION",
+        "source_file": "01_Карточки/Ozon/Билайн/П10 Sim Guru/5236131496/CS_4620d14bff563942186d/01_Материалы/description.txt",
+        "basis_text": "Сим-карта работает в любых устройствах: модемы, роутеры, смартфоны/телефоны, планшеты, ноутбуки, умные Smart часы, камеры видеонаблюдения, автомобильные сигнализации, устройства для умного дома, домофоны, магнитолы, GPS трекеры, умные розетки, ошейники и т.д.",
+        "basis_kind": "EXACT_STORED_TEXT",
+        "literal_text_match": true,
+        "source_classification_status": "PROVISIONAL_CONTENT_ROUTING",
+        "evidence_status": "INHERITED_NOT_INDEPENDENT_RECODE",
+        "scope_note": "Предоставленное основание предварительной группы; не новая независимая разметка и не проверка совместимости или эффекта.",
+        "quote": "Сим-карта работает в любых устройствах: модемы, роутеры, смартфоны/телефоны, планшеты, ноутбуки, умные Smart часы, камеры видеонаблюдения, автомобильные сигнализации, устройства для умного дома, домофоны, магнитолы, GPS трекеры, умные розетки, ошейники и т.д."
+      },
+      "device_scope_note": "Перечень устройств является исходной маршрутизацией, а не полной проверкой совместимости."
+    },
+    "classification_status": "PRELIMINARY_CONTENT_ROUTE_NOT_SALES_RANK",
+    "channel": {
+      "platform": "Ozon",
+      "legal_party": "UNKNOWN",
+      "shop_type": "UNKNOWN",
+      "brand_owner": "UNKNOWN",
+      "distributor_status": "UNKNOWN",
+      "budget": "UNKNOWN"
+    },
+    "source_url": "https://www.ozon.ru/product/sim-karta-bilayn-bezlimitnyy-internet-5236131496/?sh=f35iFfy3FQ"
+  },
+  "metadata_files": [
+    "01_Карточки/Ozon/Билайн/П10 Sim Guru/5236131496/CS_4620d14bff563942186d/02_Метаданные/Фрагменты источника.jsonl",
+    "01_Карточки/Ozon/Билайн/П10 Sim Guru/5236131496/CS_4620d14bff563942186d/02_Метаданные/Извлечённые сведения.jsonl"
+  ]
+}

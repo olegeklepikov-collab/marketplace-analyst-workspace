@@ -1,0 +1,68 @@
+{
+  "sku": "3945663362",
+  "cohort": "Megafon_competitors",
+  "selection_source": "ozon_seller_analytics_sim_karta_moscow_2026-09-25",
+  "analytics_rank": 83,
+  "analytics_snapshot": {
+    "rank": 83,
+    "sku": "3945663362",
+    "title": "SIM-Карта Мегафон. Безлимитный интернет для телефона.",
+    "seller": "Мегасеть мобайл",
+    "rating": "4.9",
+    "reviews": 100,
+    "price_rub": 2,
+    "url": "https://ozon.ru/context/detail/id/3945663362/"
+  },
+  "previous_title": "SIM-Карта Мегафон. Безлимитный интернет для телефона.",
+  "previous_seller": "Мегасеть мобайл",
+  "previous_url": "https://ozon.ru/context/detail/id/3945663362/",
+  "collection_started_at": "2026-09-25T09:41:50.897Z",
+  "collected_at": "2026-09-25T09:41:52.583Z",
+  "collection_status": "success",
+  "page_url": "https://www.ozon.ru/product/sim-karta-megafon-bezlimitnyy-internet-dlya-telefona-3945663362/?sh=f35iFbOWYQ",
+  "title": "SIM-Карта Мегафон. Безлимитный интернет для телефона.",
+  "seller": "Мегасеть мобайл",
+  "product_price_rub": "2",
+  "currency": "RUB",
+  "availability": "http://schema.org/InStock",
+  "rating": "4.9",
+  "reviews_count": "100",
+  "description": "",
+  "description_present": false,
+  "tags": [
+    "#sim",
+    "#тариф",
+    "#телефон",
+    "#смартфон",
+    "#интернет",
+    "#безлимит",
+    "#длятелефона",
+    "#непубличный_тариф",
+    "#симка",
+    "#симкарта"
+  ],
+  "characteristics": "Добавить к сравнению\nАртикул\n3945663362\nТип\nSIM-карта\nСтартовый баланс, руб\n0\nЕжемесячная плата, руб/мес\n350\nПредоплаченные минуты, мин\n1000\nПредоплаченные SMS, шт\n200\nБренд\nМегаФон\nДомашний регион\nМосква и Подмосковье\nНазначение\nМобильная связь, Мобильный интернет, Мобильный интернет и ТВ\nВид тарифного плана\nДля телефона\nТип абонентского номера\nФедеральный\nТип SIM-карты\nMicro-SIM, Apple SIM, Mini-SIM, Nano-SIM, eSIM\nВид оплаты\nАвансовый\nЕжедневная плата, руб/сут\n11.6\nСтрана-изготовитель\nРоссия\nИнформация о технических характеристиках, комплекте поставки, стране изготовления, внешнем виде и цвете товара носит справочный характер и основывается на последних доступных к моменту публикации сведениях",
+  "gallery_urls": [
+    "https://ir.ozone.ru/s3/multimedia-1-p/15188945137.jpg",
+    "https://ir.ozone.ru/s3/multimedia-1-h/14555538089.jpg",
+    "https://ir.ozone.ru/s3/multimedia-1-f/14360101431.jpg",
+    "https://ir.ozone.ru/s3/multimedia-1-w/14458620740.jpg",
+    "https://ir.ozone.ru/s3/multimedia-1-7/14458611139.jpg",
+    "https://ir.ozone.ru/s3/multimedia-1-x/14555537529.jpg",
+    "https://ir.ozone.ru/s3/multimedia-1-9/14458618989.jpg",
+    "https://ir.ozone.ru/s3/multimedia-1-e/14458621694.jpg",
+    "https://ir.ozone.ru/s3/multimedia-1-j/14909794003.jpg"
+  ],
+  "rich_urls": [],
+  "pseudo_rich_urls": [
+    "https://ir.ozone.ru/s3/multimedia-1-x/14555525973.jpg"
+  ],
+  "detailed_urls": [
+    "https://ir.ozone.ru/s3/multimedia-1-x/14555525973.jpg"
+  ],
+  "rich_present": false,
+  "pseudo_rich_present": true,
+  "content_type": "pseudo_rich",
+  "page_image_nodes": 95,
+  "source_evidence": "OBSERVED_live_ozon_product_page"
+}

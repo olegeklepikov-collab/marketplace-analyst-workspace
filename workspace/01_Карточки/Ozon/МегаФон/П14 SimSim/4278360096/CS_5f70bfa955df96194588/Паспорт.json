@@ -1,0 +1,391 @@
+{
+  "record_type": "CAPTURE",
+  "intake_id": "BASE:CS_5f70bfa955df96194588",
+  "card_id": "OZON:4278360096",
+  "capture_id": "CS_5f70bfa955df96194588",
+  "intake_status": "ACCEPTED",
+  "registered_at": null,
+  "platform": "Ozon",
+  "external_card_id": {
+    "state": "KNOWN",
+    "value": "4278360096",
+    "basis": "OBSERVED",
+    "scope": "внешний номер",
+    "source_locator": "01_Карточки/Ozon/МегаФон/П14 SimSim/4278360096/CS_5f70bfa955df96194588/01_Материалы/card_data.json:sku"
+  },
+  "observed_at": {
+    "state": "KNOWN",
+    "value": "2026-09-25T09:40:54.761Z",
+    "basis": "OBSERVED",
+    "scope": "время наблюдения",
+    "source_locator": "01_Карточки/Ozon/МегаФон/П14 SimSim/4278360096/CS_5f70bfa955df96194588/01_Материалы/card_data.json:collected_at"
+  },
+  "seller_display_name": {
+    "state": "KNOWN",
+    "value": "SimSim",
+    "basis": "OBSERVED",
+    "scope": "точная строка продавца",
+    "source_locator": "01_Карточки/Ozon/МегаФон/П14 SimSim/4278360096/CS_5f70bfa955df96194588/01_Материалы/card_data.json:seller"
+  },
+  "seller_label_code": "П14",
+  "brand": {
+    "state": "KNOWN",
+    "value": "МегаФон",
+    "basis": "OBSERVED",
+    "scope": "заявленный бренд",
+    "source_locator": "01_Карточки/Ozon/МегаФон/П14 SimSim/4278360096/CS_5f70bfa955df96194588/01_Материалы/card_data.json"
+  },
+  "title": {
+    "state": "KNOWN",
+    "value": "МегаФон SIM-карта Секретный безлимит для роутера и умных устройств (Вся Россия)",
+    "basis": "OBSERVED",
+    "scope": "заголовок",
+    "source_locator": "01_Карточки/Ozon/МегаФон/П14 SimSim/4278360096/CS_5f70bfa955df96194588/01_Материалы/card_data.json:title"
+  },
+  "source_origin": "Сохранённая страница маркетплейса; дата наблюдения указана в паспорте.",
+  "actual_relative_path": "01_Карточки/Ozon/МегаФон/П14 SimSim/4278360096/CS_5f70bfa955df96194588",
+  "mission": "Подключение: основное предложение",
+  "offer_model": "Услуга, условия не подтверждены",
+  "collection_region": "Moscow",
+  "materials": [
+    {
+      "placement_id": "CS_5f70bfa955df96194588:Gallery/G01.jpg",
+      "surface": "GALLERY",
+      "position": 1,
+      "relative_file": "01_Карточки/Ozon/МегаФон/П14 SimSim/4278360096/CS_5f70bfa955df96194588/01_Материалы/Gallery/G01.jpg",
+      "integrity_state": "VERIFIED",
+      "sha256": "0135bf27540ebf84892e2dc18a9cbd18abc22a0cc27ff47267d65d27c01bcd40",
+      "bytes": 98883
+    },
+    {
+      "placement_id": "CS_5f70bfa955df96194588:Gallery/G02.jpg",
+      "surface": "GALLERY",
+      "position": 2,
+      "relative_file": "01_Карточки/Ozon/МегаФон/П14 SimSim/4278360096/CS_5f70bfa955df96194588/01_Материалы/Gallery/G02.jpg",
+      "integrity_state": "VERIFIED",
+      "sha256": "936455ba8cab61b31cb993782a3cbd089bbff33f1d17a20a5fa33296613faf35",
+      "bytes": 94062
+    },
+    {
+      "placement_id": "CS_5f70bfa955df96194588:Gallery/G03.jpg",
+      "surface": "GALLERY",
+      "position": 3,
+      "relative_file": "01_Карточки/Ozon/МегаФон/П14 SimSim/4278360096/CS_5f70bfa955df96194588/01_Материалы/Gallery/G03.jpg",
+      "integrity_state": "VERIFIED",
+      "sha256": "f45204e195e19cd3bb20dd5e12841c61ee9bac369f1f4c16d40bb552c27e81f9",
+      "bytes": 79605
+    },
+    {
+      "placement_id": "CS_5f70bfa955df96194588:Gallery/G04.jpg",
+      "surface": "GALLERY",
+      "position": 4,
+      "relative_file": "01_Карточки/Ozon/МегаФон/П14 SimSim/4278360096/CS_5f70bfa955df96194588/01_Материалы/Gallery/G04.jpg",
+      "integrity_state": "VERIFIED",
+      "sha256": "3d2aa93a27cca731ff0bbacb611969fc03d4c5590a7c30cf86443b9ef28f0ff8",
+      "bytes": 86418
+    },
+    {
+      "placement_id": "CS_5f70bfa955df96194588:Gallery/G05.jpg",
+      "surface": "GALLERY",
+      "position": 5,
+      "relative_file": "01_Карточки/Ozon/МегаФон/П14 SimSim/4278360096/CS_5f70bfa955df96194588/01_Материалы/Gallery/G05.jpg",
+      "integrity_state": "VERIFIED",
+      "sha256": "deb5e17955973005a9414ca291b39cf1ff9a94a3d7a9d3cdbd62aa0f347f0cae",
+      "bytes": 82753
+    },
+    {
+      "placement_id": "CS_5f70bfa955df96194588:Gallery/G06.jpg",
+      "surface": "GALLERY",
+      "position": 6,
+      "relative_file": "01_Карточки/Ozon/МегаФон/П14 SimSim/4278360096/CS_5f70bfa955df96194588/01_Материалы/Gallery/G06.jpg",
+      "integrity_state": "VERIFIED",
+      "sha256": "f31dfdb962b02b3a2bf065d6bb0ff20ae0f6c246681934123b1d5743511cdfaf",
+      "bytes": 99474
+    },
+    {
+      "placement_id": "CS_5f70bfa955df96194588:Gallery/G07.jpg",
+      "surface": "GALLERY",
+      "position": 7,
+      "relative_file": "01_Карточки/Ozon/МегаФон/П14 SimSim/4278360096/CS_5f70bfa955df96194588/01_Материалы/Gallery/G07.jpg",
+      "integrity_state": "VERIFIED",
+      "sha256": "211ff1667850688a70e22fe165d551dba1ff69a53d97e4ed3836af5f9822041e",
+      "bytes": 98296
+    },
+    {
+      "placement_id": "CS_5f70bfa955df96194588:Gallery/G08.jpg",
+      "surface": "GALLERY",
+      "position": 8,
+      "relative_file": "01_Карточки/Ozon/МегаФон/П14 SimSim/4278360096/CS_5f70bfa955df96194588/01_Материалы/Gallery/G08.jpg",
+      "integrity_state": "VERIFIED",
+      "sha256": "bfe48801268b09b325a4b7af28c3c4121ab1f18642558e35ccd24888bf457e07",
+      "bytes": 86495
+    },
+    {
+      "placement_id": "CS_5f70bfa955df96194588:Gallery/G09.jpg",
+      "surface": "GALLERY",
+      "position": 9,
+      "relative_file": "01_Карточки/Ozon/МегаФон/П14 SimSim/4278360096/CS_5f70bfa955df96194588/01_Материалы/Gallery/G09.jpg",
+      "integrity_state": "VERIFIED",
+      "sha256": "34442359fc8e7b9f3f94f333560503cee295c5b1a2e70158068dad9ae8542546",
+      "bytes": 80714
+    },
+    {
+      "placement_id": "CS_5f70bfa955df96194588:Gallery/G10.jpg",
+      "surface": "GALLERY",
+      "position": 10,
+      "relative_file": "01_Карточки/Ozon/МегаФон/П14 SimSim/4278360096/CS_5f70bfa955df96194588/01_Материалы/Gallery/G10.jpg",
+      "integrity_state": "VERIFIED",
+      "sha256": "c3eb541f6921b69a2e361e7a5ba8deb85c43a1c68b50cc92cb9251e91b206a00",
+      "bytes": 80643
+    },
+    {
+      "placement_id": "CS_5f70bfa955df96194588:Gallery/G11.jpg",
+      "surface": "GALLERY",
+      "position": 11,
+      "relative_file": "01_Карточки/Ozon/МегаФон/П14 SimSim/4278360096/CS_5f70bfa955df96194588/01_Материалы/Gallery/G11.jpg",
+      "integrity_state": "VERIFIED",
+      "sha256": "053503e2e1bcfa5e5d503ea934e47a57ab6876c190bbe135fc5a783e45b9bf43",
+      "bytes": 99865
+    },
+    {
+      "placement_id": "CS_5f70bfa955df96194588:Gallery/G12.jpg",
+      "surface": "GALLERY",
+      "position": 12,
+      "relative_file": "01_Карточки/Ozon/МегаФон/П14 SimSim/4278360096/CS_5f70bfa955df96194588/01_Материалы/Gallery/G12.jpg",
+      "integrity_state": "VERIFIED",
+      "sha256": "ee8a499fef0cddcb1680827665b93089ff74534532a9deb0d149248cf7224a86",
+      "bytes": 99611
+    },
+    {
+      "placement_id": "CS_5f70bfa955df96194588:Gallery/G13.jpg",
+      "surface": "GALLERY",
+      "position": 13,
+      "relative_file": "01_Карточки/Ozon/МегаФон/П14 SimSim/4278360096/CS_5f70bfa955df96194588/01_Материалы/Gallery/G13.jpg",
+      "integrity_state": "VERIFIED",
+      "sha256": "746df1df8f8a07f5a37d8167be60a545a5dd3c8c1230ea9dcdeb34ac41ceedc4",
+      "bytes": 85171
+    },
+    {
+      "placement_id": "CS_5f70bfa955df96194588:Gallery/G14.jpg",
+      "surface": "GALLERY",
+      "position": 14,
+      "relative_file": "01_Карточки/Ozon/МегаФон/П14 SimSim/4278360096/CS_5f70bfa955df96194588/01_Материалы/Gallery/G14.jpg",
+      "integrity_state": "VERIFIED",
+      "sha256": "71fa01a5181a04dd0e66678268c15c4ae93aff14c976f7ea423f573a83a263b7",
+      "bytes": 83219
+    },
+    {
+      "placement_id": "CS_5f70bfa955df96194588:Rich/rich_ocr.json",
+      "surface": "RICH",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/МегаФон/П14 SimSim/4278360096/CS_5f70bfa955df96194588/01_Материалы/Rich/rich_ocr.json",
+      "integrity_state": "VERIFIED",
+      "sha256": "a62e0079957c9345855eb4c4f3155ada7f013c2e29578ab65e32bcd070f096b5",
+      "bytes": 428
+    },
+    {
+      "placement_id": "CS_5f70bfa955df96194588:Rich/rich_text.txt",
+      "surface": "RICH",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/МегаФон/П14 SimSim/4278360096/CS_5f70bfa955df96194588/01_Материалы/Rich/rich_text.txt",
+      "integrity_state": "VERIFIED",
+      "sha256": "475c6d9f67450ad806600893977435aa206f13a1fc313805a11336835014fb2e",
+      "bytes": 17
+    },
+    {
+      "placement_id": "CS_5f70bfa955df96194588:analytics_rank.txt",
+      "surface": "OTHER",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/МегаФон/П14 SimSim/4278360096/CS_5f70bfa955df96194588/01_Материалы/analytics_rank.txt",
+      "integrity_state": "VERIFIED",
+      "sha256": "076320a2a08267b4c026d06573bba408ea68841e73cdc20e62cce59de165ece3",
+      "bytes": 3
+    },
+    {
+      "placement_id": "CS_5f70bfa955df96194588:availability.txt",
+      "surface": "OTHER",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/МегаФон/П14 SimSim/4278360096/CS_5f70bfa955df96194588/01_Материалы/availability.txt",
+      "integrity_state": "VERIFIED",
+      "sha256": "f3db355a863e0dd7fa5ca1c95f35969d61f7cfb1f7a1c64da40b68a8ebed9c4d",
+      "bytes": 26
+    },
+    {
+      "placement_id": "CS_5f70bfa955df96194588:card_data.json",
+      "surface": "OTHER",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/МегаФон/П14 SimSim/4278360096/CS_5f70bfa955df96194588/01_Материалы/card_data.json",
+      "integrity_state": "VERIFIED",
+      "sha256": "fa488bd7da8c9f0447f339ec620a88cbc1b81953d97481238f4a2863aac25f84",
+      "bytes": 12793
+    },
+    {
+      "placement_id": "CS_5f70bfa955df96194588:characteristics.txt",
+      "surface": "CHARACTERISTICS",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/МегаФон/П14 SimSim/4278360096/CS_5f70bfa955df96194588/01_Материалы/characteristics.txt",
+      "integrity_state": "VERIFIED",
+      "sha256": "71b2328b2c9bb9fc037875a4373a6dbef197a488e30721615acad28a6a86d3f0",
+      "bytes": 1263
+    },
+    {
+      "placement_id": "CS_5f70bfa955df96194588:collection_status.txt",
+      "surface": "OTHER",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/МегаФон/П14 SimSim/4278360096/CS_5f70bfa955df96194588/01_Материалы/collection_status.txt",
+      "integrity_state": "VERIFIED",
+      "sha256": "cf01585829633e2debef0696d8101ca4fb4702310a2f2256b3b17bd0e753ce8c",
+      "bytes": 10
+    },
+    {
+      "placement_id": "CS_5f70bfa955df96194588:content_type.txt",
+      "surface": "OTHER",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/МегаФон/П14 SimSim/4278360096/CS_5f70bfa955df96194588/01_Материалы/content_type.txt",
+      "integrity_state": "VERIFIED",
+      "sha256": "ef2f19aa952ed53e7278d36afe2186ded6897e77c46984147cc568a21901af62",
+      "bytes": 12
+    },
+    {
+      "placement_id": "CS_5f70bfa955df96194588:description.txt",
+      "surface": "DESCRIPTION",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/МегаФон/П14 SimSim/4278360096/CS_5f70bfa955df96194588/01_Материалы/description.txt",
+      "integrity_state": "VERIFIED",
+      "sha256": "4b4f7351f3131b5e06c7f5df16384a0fe62ef11fe9140fc850cecadfaaee21b0",
+      "bytes": 8226
+    },
+    {
+      "placement_id": "CS_5f70bfa955df96194588:manifest.json",
+      "surface": "OTHER",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/МегаФон/П14 SimSim/4278360096/CS_5f70bfa955df96194588/01_Материалы/manifest.json",
+      "integrity_state": "VERIFIED",
+      "sha256": "c5c18acc3c617db6e7c412fc2718f38009291a9859ae890c70f46b7f8b5d91ec",
+      "bytes": 7927
+    },
+    {
+      "placement_id": "CS_5f70bfa955df96194588:price.txt",
+      "surface": "OTHER",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/МегаФон/П14 SimSim/4278360096/CS_5f70bfa955df96194588/01_Материалы/price.txt",
+      "integrity_state": "VERIFIED",
+      "sha256": "53c234e5e8472b6ac51c1ae1cab3fe06fad053beb8ebfd8977b010655bfdd3c3",
+      "bytes": 2
+    },
+    {
+      "placement_id": "CS_5f70bfa955df96194588:rating.txt",
+      "surface": "OTHER",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/МегаФон/П14 SimSim/4278360096/CS_5f70bfa955df96194588/01_Материалы/rating.txt",
+      "integrity_state": "VERIFIED",
+      "sha256": "8048d1e7e392843de42064d4c1ae59880ce5b149895a2cb79b0680fbf35e488c",
+      "bytes": 4
+    },
+    {
+      "placement_id": "CS_5f70bfa955df96194588:reviews_count.txt",
+      "surface": "OTHER",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/МегаФон/П14 SimSim/4278360096/CS_5f70bfa955df96194588/01_Материалы/reviews_count.txt",
+      "integrity_state": "VERIFIED",
+      "sha256": "9ab78c1c2d9142cd267c6a3a9bd936fa5ed67bdddf01b82f1da7c5fd5485e676",
+      "bytes": 5
+    },
+    {
+      "placement_id": "CS_5f70bfa955df96194588:seller.txt",
+      "surface": "OTHER",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/МегаФон/П14 SimSim/4278360096/CS_5f70bfa955df96194588/01_Материалы/seller.txt",
+      "integrity_state": "VERIFIED",
+      "sha256": "5bf43ab09ab2e82db046211b3d2449a41400d3a45970666b987bd57b7e5649d6",
+      "bytes": 7
+    },
+    {
+      "placement_id": "CS_5f70bfa955df96194588:tags.txt",
+      "surface": "OTHER",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/МегаФон/П14 SimSim/4278360096/CS_5f70bfa955df96194588/01_Материалы/tags.txt",
+      "integrity_state": "VERIFIED",
+      "sha256": "38f6932ad1adb313bc46cdf46091c771914157a649cfe511bfe95fe74070bbbb",
+      "bytes": 506
+    },
+    {
+      "placement_id": "CS_5f70bfa955df96194588:title.txt",
+      "surface": "TITLE",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/МегаФон/П14 SimSim/4278360096/CS_5f70bfa955df96194588/01_Материалы/title.txt",
+      "integrity_state": "VERIFIED",
+      "sha256": "fc127e5dc5f549fb085b99c48366005234303145faae09285303254b6f052ef6",
+      "bytes": 143
+    },
+    {
+      "placement_id": "CS_5f70bfa955df96194588:url.txt",
+      "surface": "OTHER",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/МегаФон/П14 SimSim/4278360096/CS_5f70bfa955df96194588/01_Материалы/url.txt",
+      "integrity_state": "VERIFIED",
+      "sha256": "59f0f953b05284f2a6d50c553f1c6e2772d7f2a704e94c6beae2e9ad52339676",
+      "bytes": 135
+    }
+  ],
+  "data_format": "CAPTURE",
+  "change_number": 1,
+  "coverage_scope": "Все файлы предоставленного снимка; полнота действующей страницы и исполнение услуги отдельно не подтверждены.",
+  "source_note": "Точные сведения источника не являются независимой проверкой тарифного договора или юридических полномочий.",
+  "attributes": {
+    "preliminary_classification": {
+      "task_focus": "CONNECT",
+      "bundle_focus": "NOT_EMPHASIZED_IN_TITLE",
+      "configuration_focus": "NOT_EMPHASIZED_IN_TITLE",
+      "period_focus": "NOT_EMPHASIZED_IN_TITLE",
+      "group_id": "CONNECT_BASE",
+      "group_name": "Подключение: основное предложение",
+      "device_claims": [
+        "MULTIPLE_CLASSES_NOT_ENUMERATED"
+      ],
+      "device_claims_status": "PARTIAL_MULTIPLE_CLASS_CLAIM",
+      "money_roles": [],
+      "money_review_scope": "NOT_ATOMICALLY_REVIEWED",
+      "porting_role": "NOT_ESTABLISHED_IN_ROUTING_SCOPE",
+      "geo_claims": {
+        "legacy_title_claim": "ALL_RUSSIA_CLAIM",
+        "verification": "NOT_VERIFIED",
+        "collection_region": "Moscow"
+      },
+      "targeted_evidence": [],
+      "review_note": "",
+      "flags": [],
+      "legal_party_id": "",
+      "authority_status": "UNKNOWN_IN_INSPECTED_INPUTS",
+      "commercial_readiness": "NOT_ESTABLISHED",
+      "content_effect": "NOT_ASSESSED",
+      "market_row_present": "True",
+      "promotion_row_present": "True",
+      "routing_support": {
+        "surface": "TITLE",
+        "source_file": "01_Карточки/Ozon/МегаФон/П14 SimSim/4278360096/CS_5f70bfa955df96194588/01_Материалы/title.txt",
+        "basis_text": "несколько классов устройств в TITLE",
+        "basis_kind": "PROVIDED_ROUTING_EXPLANATION",
+        "literal_text_match": false,
+        "source_classification_status": "PROVISIONAL_CONTENT_ROUTING",
+        "evidence_status": "INHERITED_NOT_INDEPENDENT_RECODE",
+        "scope_note": "Предоставленное основание предварительной группы; не новая независимая разметка и не проверка совместимости или эффекта."
+      },
+      "device_scope_note": "Перечень устройств является исходной маршрутизацией, а не полной проверкой совместимости."
+    },
+    "classification_status": "PRELIMINARY_CONTENT_ROUTE_NOT_SALES_RANK",
+    "channel": {
+      "platform": "Ozon",
+      "legal_party": "UNKNOWN",
+      "shop_type": "UNKNOWN",
+      "brand_owner": "UNKNOWN",
+      "distributor_status": "UNKNOWN",
+      "budget": "UNKNOWN"
+    },
+    "source_url": "https://www.ozon.ru/product/megafon-sim-karta-sekretnyy-bezlimit-dlya-routera-i-umnyh-ustroystv-vsya-rossiya-4278360096/?sh=f35iFSoX6A"
+  },
+  "metadata_files": [
+    "01_Карточки/Ozon/МегаФон/П14 SimSim/4278360096/CS_5f70bfa955df96194588/02_Метаданные/Фрагменты источника.jsonl",
+    "01_Карточки/Ozon/МегаФон/П14 SimSim/4278360096/CS_5f70bfa955df96194588/02_Метаданные/Извлечённые сведения.jsonl"
+  ]
+}

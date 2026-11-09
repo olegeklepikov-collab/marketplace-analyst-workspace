@@ -1,0 +1,329 @@
+{
+  "record_type": "CAPTURE",
+  "intake_id": "BASE:CS_a7f235114b63f890695e",
+  "card_id": "OZON:3579715199",
+  "capture_id": "CS_a7f235114b63f890695e",
+  "intake_status": "ACCEPTED",
+  "registered_at": null,
+  "platform": "Ozon",
+  "external_card_id": {
+    "state": "KNOWN",
+    "value": "3579715199",
+    "basis": "OBSERVED",
+    "scope": "внешний номер",
+    "source_locator": "01_Карточки/Ozon/МегаФон/П01 APPIX Pro/3579715199/CS_a7f235114b63f890695e/01_Материалы/card_data.json:sku"
+  },
+  "observed_at": {
+    "state": "KNOWN",
+    "value": "2026-09-25T09:41:57.706Z",
+    "basis": "OBSERVED",
+    "scope": "время наблюдения",
+    "source_locator": "01_Карточки/Ozon/МегаФон/П01 APPIX Pro/3579715199/CS_a7f235114b63f890695e/01_Материалы/card_data.json:collected_at"
+  },
+  "seller_display_name": {
+    "state": "KNOWN",
+    "value": "APPIX Pro",
+    "basis": "OBSERVED",
+    "scope": "точная строка продавца",
+    "source_locator": "01_Карточки/Ozon/МегаФон/П01 APPIX Pro/3579715199/CS_a7f235114b63f890695e/01_Материалы/card_data.json:seller"
+  },
+  "seller_label_code": "П01",
+  "brand": {
+    "state": "KNOWN",
+    "value": "МегаФон",
+    "basis": "OBSERVED",
+    "scope": "заявленный бренд",
+    "source_locator": "01_Карточки/Ozon/МегаФон/П01 APPIX Pro/3579715199/CS_a7f235114b63f890695e/01_Материалы/card_data.json"
+  },
+  "title": {
+    "state": "KNOWN",
+    "value": "Сим карта Мегафон безлимитный интернет и 1000 минут за 350 р SIM",
+    "basis": "OBSERVED",
+    "scope": "заголовок",
+    "source_locator": "01_Карточки/Ozon/МегаФон/П01 APPIX Pro/3579715199/CS_a7f235114b63f890695e/01_Материалы/card_data.json:title"
+  },
+  "source_origin": "Сохранённая страница маркетплейса; дата наблюдения указана в паспорте.",
+  "actual_relative_path": "01_Карточки/Ozon/МегаФон/П01 APPIX Pro/3579715199/CS_a7f235114b63f890695e",
+  "mission": "Подключение: основное предложение",
+  "offer_model": "Услуга, условия не подтверждены",
+  "collection_region": "Moscow",
+  "materials": [
+    {
+      "placement_id": "CS_a7f235114b63f890695e:Gallery/G01.jpg",
+      "surface": "GALLERY",
+      "position": 1,
+      "relative_file": "01_Карточки/Ozon/МегаФон/П01 APPIX Pro/3579715199/CS_a7f235114b63f890695e/01_Материалы/Gallery/G01.jpg",
+      "integrity_state": "VERIFIED",
+      "sha256": "19343a6386a11085f6a8c941d303f4e00ed366e827fe4de0441c0391eb0ded95",
+      "bytes": 228201
+    },
+    {
+      "placement_id": "CS_a7f235114b63f890695e:Gallery/G02.jpg",
+      "surface": "GALLERY",
+      "position": 2,
+      "relative_file": "01_Карточки/Ozon/МегаФон/П01 APPIX Pro/3579715199/CS_a7f235114b63f890695e/01_Материалы/Gallery/G02.jpg",
+      "integrity_state": "VERIFIED",
+      "sha256": "41116517e427e7312678e886b76746fb0a8823dda8e036319888a5e4a422e73e",
+      "bytes": 235884
+    },
+    {
+      "placement_id": "CS_a7f235114b63f890695e:Gallery/G03.jpg",
+      "surface": "GALLERY",
+      "position": 3,
+      "relative_file": "01_Карточки/Ozon/МегаФон/П01 APPIX Pro/3579715199/CS_a7f235114b63f890695e/01_Материалы/Gallery/G03.jpg",
+      "integrity_state": "VERIFIED",
+      "sha256": "9423a05e59313ee7e91e56eb7cea432eb73d8331c891a3e1e02cb9bf3aad5a9a",
+      "bytes": 161676
+    },
+    {
+      "placement_id": "CS_a7f235114b63f890695e:Gallery/G04.jpg",
+      "surface": "GALLERY",
+      "position": 4,
+      "relative_file": "01_Карточки/Ozon/МегаФон/П01 APPIX Pro/3579715199/CS_a7f235114b63f890695e/01_Материалы/Gallery/G04.jpg",
+      "integrity_state": "VERIFIED",
+      "sha256": "ae74e413dc2fff2ab9a2740a40032d80c55b268b9d5543c9388b89a602e1d2fa",
+      "bytes": 69244
+    },
+    {
+      "placement_id": "CS_a7f235114b63f890695e:Gallery/G05.jpg",
+      "surface": "GALLERY",
+      "position": 5,
+      "relative_file": "01_Карточки/Ozon/МегаФон/П01 APPIX Pro/3579715199/CS_a7f235114b63f890695e/01_Материалы/Gallery/G05.jpg",
+      "integrity_state": "VERIFIED",
+      "sha256": "e1b73f955f02230d1ecd89ea7f4747cd209e9e595b250076eb65ede1b994ce97",
+      "bytes": 63935
+    },
+    {
+      "placement_id": "CS_a7f235114b63f890695e:Gallery/G06.jpg",
+      "surface": "GALLERY",
+      "position": 6,
+      "relative_file": "01_Карточки/Ozon/МегаФон/П01 APPIX Pro/3579715199/CS_a7f235114b63f890695e/01_Материалы/Gallery/G06.jpg",
+      "integrity_state": "VERIFIED",
+      "sha256": "19f2f8e3c9c2e073b4cee10036f41ffd34d42d760bc98ae9e05690435d37ec40",
+      "bytes": 49639
+    },
+    {
+      "placement_id": "CS_a7f235114b63f890695e:Gallery/G07.jpg",
+      "surface": "GALLERY",
+      "position": 7,
+      "relative_file": "01_Карточки/Ozon/МегаФон/П01 APPIX Pro/3579715199/CS_a7f235114b63f890695e/01_Материалы/Gallery/G07.jpg",
+      "integrity_state": "VERIFIED",
+      "sha256": "ec8700bd41e7a7fb38b0550d401dbe558c4330e8d2e5e732d9baf2572c40fa53",
+      "bytes": 55741
+    },
+    {
+      "placement_id": "CS_a7f235114b63f890695e:Rich/rich_ocr.json",
+      "surface": "RICH",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/МегаФон/П01 APPIX Pro/3579715199/CS_a7f235114b63f890695e/01_Материалы/Rich/rich_ocr.json",
+      "integrity_state": "VERIFIED",
+      "sha256": "e09563b11355e28fa29b733076805706116874bc78f7afd96392f962abbdfc02",
+      "bytes": 428
+    },
+    {
+      "placement_id": "CS_a7f235114b63f890695e:Rich/rich_text.txt",
+      "surface": "RICH",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/МегаФон/П01 APPIX Pro/3579715199/CS_a7f235114b63f890695e/01_Материалы/Rich/rich_text.txt",
+      "integrity_state": "VERIFIED",
+      "sha256": "475c6d9f67450ad806600893977435aa206f13a1fc313805a11336835014fb2e",
+      "bytes": 17
+    },
+    {
+      "placement_id": "CS_a7f235114b63f890695e:analytics_rank.txt",
+      "surface": "OTHER",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/МегаФон/П01 APPIX Pro/3579715199/CS_a7f235114b63f890695e/01_Материалы/analytics_rank.txt",
+      "integrity_state": "VERIFIED",
+      "sha256": "39b8dc3fc8b44765c8e6f1adee04c5b465e555ab791cc42d0d9e810d5b64297c",
+      "bytes": 4
+    },
+    {
+      "placement_id": "CS_a7f235114b63f890695e:availability.txt",
+      "surface": "OTHER",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/МегаФон/П01 APPIX Pro/3579715199/CS_a7f235114b63f890695e/01_Материалы/availability.txt",
+      "integrity_state": "VERIFIED",
+      "sha256": "f3db355a863e0dd7fa5ca1c95f35969d61f7cfb1f7a1c64da40b68a8ebed9c4d",
+      "bytes": 26
+    },
+    {
+      "placement_id": "CS_a7f235114b63f890695e:card_data.json",
+      "surface": "OTHER",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/МегаФон/П01 APPIX Pro/3579715199/CS_a7f235114b63f890695e/01_Материалы/card_data.json",
+      "integrity_state": "VERIFIED",
+      "sha256": "47419bde0a306d74915687a38a3f85424a237e1428e210857fa4328493463df8",
+      "bytes": 7479
+    },
+    {
+      "placement_id": "CS_a7f235114b63f890695e:characteristics.txt",
+      "surface": "CHARACTERISTICS",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/МегаФон/П01 APPIX Pro/3579715199/CS_a7f235114b63f890695e/01_Материалы/characteristics.txt",
+      "integrity_state": "VERIFIED",
+      "sha256": "6735e453fd192db3eb46c350668879a1a5d15e14326a1b7501991f51514b9c49",
+      "bytes": 830
+    },
+    {
+      "placement_id": "CS_a7f235114b63f890695e:collection_status.txt",
+      "surface": "OTHER",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/МегаФон/П01 APPIX Pro/3579715199/CS_a7f235114b63f890695e/01_Материалы/collection_status.txt",
+      "integrity_state": "VERIFIED",
+      "sha256": "cf01585829633e2debef0696d8101ca4fb4702310a2f2256b3b17bd0e753ce8c",
+      "bytes": 10
+    },
+    {
+      "placement_id": "CS_a7f235114b63f890695e:content_type.txt",
+      "surface": "OTHER",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/МегаФон/П01 APPIX Pro/3579715199/CS_a7f235114b63f890695e/01_Материалы/content_type.txt",
+      "integrity_state": "VERIFIED",
+      "sha256": "ef2f19aa952ed53e7278d36afe2186ded6897e77c46984147cc568a21901af62",
+      "bytes": 12
+    },
+    {
+      "placement_id": "CS_a7f235114b63f890695e:description.txt",
+      "surface": "DESCRIPTION",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/МегаФон/П01 APPIX Pro/3579715199/CS_a7f235114b63f890695e/01_Материалы/description.txt",
+      "integrity_state": "VERIFIED",
+      "sha256": "2431bfafac096ff127a848a713589608fd78713e2fc16923abdb091bed1a1b2b",
+      "bytes": 4522
+    },
+    {
+      "placement_id": "CS_a7f235114b63f890695e:manifest.json",
+      "surface": "OTHER",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/МегаФон/П01 APPIX Pro/3579715199/CS_a7f235114b63f890695e/01_Материалы/manifest.json",
+      "integrity_state": "VERIFIED",
+      "sha256": "bce49b700b37d63e3794a85e2d00d68526baf5adb87f7f3b60d54250b4e4883d",
+      "bytes": 4738
+    },
+    {
+      "placement_id": "CS_a7f235114b63f890695e:price.txt",
+      "surface": "OTHER",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/МегаФон/П01 APPIX Pro/3579715199/CS_a7f235114b63f890695e/01_Материалы/price.txt",
+      "integrity_state": "VERIFIED",
+      "sha256": "53c234e5e8472b6ac51c1ae1cab3fe06fad053beb8ebfd8977b010655bfdd3c3",
+      "bytes": 2
+    },
+    {
+      "placement_id": "CS_a7f235114b63f890695e:rating.txt",
+      "surface": "OTHER",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/МегаФон/П01 APPIX Pro/3579715199/CS_a7f235114b63f890695e/01_Материалы/rating.txt",
+      "integrity_state": "VERIFIED",
+      "sha256": "8048d1e7e392843de42064d4c1ae59880ce5b149895a2cb79b0680fbf35e488c",
+      "bytes": 4
+    },
+    {
+      "placement_id": "CS_a7f235114b63f890695e:reviews_count.txt",
+      "surface": "OTHER",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/МегаФон/П01 APPIX Pro/3579715199/CS_a7f235114b63f890695e/01_Материалы/reviews_count.txt",
+      "integrity_state": "VERIFIED",
+      "sha256": "cc8153d5ad2763d9c094089908671d86d0dba25b58441ddb3f89c5a6596a8aa2",
+      "bytes": 4
+    },
+    {
+      "placement_id": "CS_a7f235114b63f890695e:seller.txt",
+      "surface": "OTHER",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/МегаФон/П01 APPIX Pro/3579715199/CS_a7f235114b63f890695e/01_Материалы/seller.txt",
+      "integrity_state": "VERIFIED",
+      "sha256": "8c2140e07879f276be2aafbbe2762071cb3beca20f5ce03b157773009a68f379",
+      "bytes": 10
+    },
+    {
+      "placement_id": "CS_a7f235114b63f890695e:tags.txt",
+      "surface": "OTHER",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/МегаФон/П01 APPIX Pro/3579715199/CS_a7f235114b63f890695e/01_Материалы/tags.txt",
+      "integrity_state": "VERIFIED",
+      "sha256": "3e436e7b9e69b71d2b1e9677f882ce3a3ddc1b3286742d2465c6d52bed0f9769",
+      "bytes": 36
+    },
+    {
+      "placement_id": "CS_a7f235114b63f890695e:title.txt",
+      "surface": "TITLE",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/МегаФон/П01 APPIX Pro/3579715199/CS_a7f235114b63f890695e/01_Материалы/title.txt",
+      "integrity_state": "VERIFIED",
+      "sha256": "236c043849edadfb0d76958d335464ed779aa8a92914128017e8ab296e5e1df6",
+      "bytes": 108
+    },
+    {
+      "placement_id": "CS_a7f235114b63f890695e:url.txt",
+      "surface": "OTHER",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/МегаФон/П01 APPIX Pro/3579715199/CS_a7f235114b63f890695e/01_Материалы/url.txt",
+      "integrity_state": "VERIFIED",
+      "sha256": "c12a801a95cc685b7ab2430ba67a99c159be8cd020b45201c57f7d38ee6c9093",
+      "bytes": 119
+    }
+  ],
+  "data_format": "CAPTURE",
+  "change_number": 1,
+  "coverage_scope": "Все файлы предоставленного снимка; полнота действующей страницы и исполнение услуги отдельно не подтверждены.",
+  "source_note": "Точные сведения источника не являются независимой проверкой тарифного договора или юридических полномочий.",
+  "attributes": {
+    "preliminary_classification": {
+      "task_focus": "CONNECT",
+      "bundle_focus": "NOT_EMPHASIZED_IN_TITLE",
+      "configuration_focus": "NOT_EMPHASIZED_IN_TITLE",
+      "period_focus": "NOT_EMPHASIZED_IN_TITLE",
+      "group_id": "CONNECT_BASE",
+      "group_name": "Подключение: основное предложение",
+      "device_claims": [
+        "MULTIPLE_CLASSES_NOT_ENUMERATED"
+      ],
+      "device_claims_status": "PARTIAL_MULTIPLE_CLASS_CLAIM",
+      "money_roles": [],
+      "money_review_scope": "NOT_ATOMICALLY_REVIEWED",
+      "porting_role": "NOT_ESTABLISHED_IN_ROUTING_SCOPE",
+      "geo_claims": {
+        "legacy_title_claim": "REGION_NOT_IN_TITLE",
+        "verification": "NOT_VERIFIED",
+        "collection_region": "Moscow"
+      },
+      "targeted_evidence": [],
+      "review_note": "",
+      "flags": [],
+      "legal_party_id": "",
+      "authority_status": "UNKNOWN_IN_INSPECTED_INPUTS",
+      "commercial_readiness": "NOT_ESTABLISHED",
+      "content_effect": "NOT_ASSESSED",
+      "market_row_present": "True",
+      "promotion_row_present": "False",
+      "routing_support": {
+        "surface": "DESCRIPTION",
+        "source_file": "01_Карточки/Ozon/МегаФон/П01 APPIX Pro/3579715199/CS_a7f235114b63f890695e/01_Материалы/description.txt",
+        "basis_text": "Сим-карта работает в смартфонах/телефонах/планшетах и прошитых устройствах вида: модемы, роутеры, ноутбуки, умные Smart часы, камеры видеонаблюдения, автомобильные сигнализации, устройства для умного дома, домофоны, магнитолы, GPS трекеры, умные розетки, ошейники;",
+        "basis_kind": "EXACT_STORED_TEXT",
+        "literal_text_match": true,
+        "source_classification_status": "PROVISIONAL_CONTENT_ROUTING",
+        "evidence_status": "INHERITED_NOT_INDEPENDENT_RECODE",
+        "scope_note": "Предоставленное основание предварительной группы; не новая независимая разметка и не проверка совместимости или эффекта.",
+        "quote": "Сим-карта работает в смартфонах/телефонах/планшетах и прошитых устройствах вида: модемы, роутеры, ноутбуки, умные Smart часы, камеры видеонаблюдения, автомобильные сигнализации, устройства для умного дома, домофоны, магнитолы, GPS трекеры, умные розетки, ошейники;"
+      },
+      "device_scope_note": "Перечень устройств является исходной маршрутизацией, а не полной проверкой совместимости."
+    },
+    "classification_status": "PRELIMINARY_CONTENT_ROUTE_NOT_SALES_RANK",
+    "channel": {
+      "platform": "Ozon",
+      "legal_party": "UNKNOWN",
+      "shop_type": "UNKNOWN",
+      "brand_owner": "UNKNOWN",
+      "distributor_status": "UNKNOWN",
+      "budget": "UNKNOWN"
+    },
+    "source_url": "https://www.ozon.ru/product/sim-karta-megafon-bezlimitnyy-internet-i-1000-minut-za-350-r-sim-3579715199/?sh=f35iFfy3FQ"
+  },
+  "metadata_files": [
+    "01_Карточки/Ozon/МегаФон/П01 APPIX Pro/3579715199/CS_a7f235114b63f890695e/02_Метаданные/Фрагменты источника.jsonl",
+    "01_Карточки/Ozon/МегаФон/П01 APPIX Pro/3579715199/CS_a7f235114b63f890695e/02_Метаданные/Извлечённые сведения.jsonl"
+  ]
+}

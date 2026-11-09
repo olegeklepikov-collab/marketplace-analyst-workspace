@@ -1,0 +1,383 @@
+{
+  "record_type": "CAPTURE",
+  "intake_id": "BASE:CS_7c279523de5999fd94ed",
+  "card_id": "OZON:4329743163",
+  "capture_id": "CS_7c279523de5999fd94ed",
+  "intake_status": "ACCEPTED",
+  "registered_at": null,
+  "platform": "Ozon",
+  "external_card_id": {
+    "state": "KNOWN",
+    "value": "4329743163",
+    "basis": "OBSERVED",
+    "scope": "внешний номер",
+    "source_locator": "01_Карточки/Ozon/Билайн/П02 BeruSim/4329743163/CS_7c279523de5999fd94ed/01_Материалы/card_data.json:sku"
+  },
+  "observed_at": {
+    "state": "KNOWN",
+    "value": "2026-09-25T09:43:16.133Z",
+    "basis": "OBSERVED",
+    "scope": "время наблюдения",
+    "source_locator": "01_Карточки/Ozon/Билайн/П02 BeruSim/4329743163/CS_7c279523de5999fd94ed/01_Материалы/card_data.json:collected_at"
+  },
+  "seller_display_name": {
+    "state": "KNOWN",
+    "value": "BeruSim",
+    "basis": "OBSERVED",
+    "scope": "точная строка продавца",
+    "source_locator": "01_Карточки/Ozon/Билайн/П02 BeruSim/4329743163/CS_7c279523de5999fd94ed/01_Материалы/card_data.json:seller"
+  },
+  "seller_label_code": "П02",
+  "brand": {
+    "state": "KNOWN",
+    "value": "Билайн",
+    "basis": "OBSERVED",
+    "scope": "заявленный бренд",
+    "source_locator": "01_Карточки/Ozon/Билайн/П02 BeruSim/4329743163/CS_7c279523de5999fd94ed/01_Материалы/card_data.json"
+  },
+  "title": {
+    "state": "KNOWN",
+    "value": "Сим карта Билайн, 1000 минут,безлимитный интернет 4G/LTE с раздачей, бесконечные звонки на билайн по России.",
+    "basis": "OBSERVED",
+    "scope": "заголовок",
+    "source_locator": "01_Карточки/Ozon/Билайн/П02 BeruSim/4329743163/CS_7c279523de5999fd94ed/01_Материалы/card_data.json:title"
+  },
+  "source_origin": "Сохранённая страница маркетплейса; дата наблюдения указана в паспорте.",
+  "actual_relative_path": "01_Карточки/Ozon/Билайн/П02 BeruSim/4329743163/CS_7c279523de5999fd94ed",
+  "mission": "Подключение: основное предложение",
+  "offer_model": "Услуга, условия не подтверждены",
+  "collection_region": "Moscow",
+  "materials": [
+    {
+      "placement_id": "CS_7c279523de5999fd94ed:Gallery/G01.jpg",
+      "surface": "GALLERY",
+      "position": 1,
+      "relative_file": "01_Карточки/Ozon/Билайн/П02 BeruSim/4329743163/CS_7c279523de5999fd94ed/01_Материалы/Gallery/G01.jpg",
+      "integrity_state": "VERIFIED",
+      "sha256": "d6a0d45a852683ba60ccce6ca7c2d87b30237939e80d611214a109e53ccfd384",
+      "bytes": 309542
+    },
+    {
+      "placement_id": "CS_7c279523de5999fd94ed:Gallery/G02.jpg",
+      "surface": "GALLERY",
+      "position": 2,
+      "relative_file": "01_Карточки/Ozon/Билайн/П02 BeruSim/4329743163/CS_7c279523de5999fd94ed/01_Материалы/Gallery/G02.jpg",
+      "integrity_state": "VERIFIED",
+      "sha256": "9ab8ca6d3f48fa044dfb0ece469d737d545915e3eb96f73f045b8e23f538508c",
+      "bytes": 163865
+    },
+    {
+      "placement_id": "CS_7c279523de5999fd94ed:Gallery/G03.jpg",
+      "surface": "GALLERY",
+      "position": 3,
+      "relative_file": "01_Карточки/Ozon/Билайн/П02 BeruSim/4329743163/CS_7c279523de5999fd94ed/01_Материалы/Gallery/G03.jpg",
+      "integrity_state": "VERIFIED",
+      "sha256": "79c439d455da6fe96d962a97843a0beda39f0c98eb2e8e82307a1ab399037b0d",
+      "bytes": 141107
+    },
+    {
+      "placement_id": "CS_7c279523de5999fd94ed:Gallery/G04.jpg",
+      "surface": "GALLERY",
+      "position": 4,
+      "relative_file": "01_Карточки/Ozon/Билайн/П02 BeruSim/4329743163/CS_7c279523de5999fd94ed/01_Материалы/Gallery/G04.jpg",
+      "integrity_state": "VERIFIED",
+      "sha256": "036f9b63e2561738e00290c5c25ce2347ee513c50fbec49740d8fbc0e7a76636",
+      "bytes": 136651
+    },
+    {
+      "placement_id": "CS_7c279523de5999fd94ed:Gallery/G05.jpg",
+      "surface": "GALLERY",
+      "position": 5,
+      "relative_file": "01_Карточки/Ozon/Билайн/П02 BeruSim/4329743163/CS_7c279523de5999fd94ed/01_Материалы/Gallery/G05.jpg",
+      "integrity_state": "VERIFIED",
+      "sha256": "cff4c8a27e7b82caf41c11ad4f87830a8fba350f14286d5b402134692889f1cc",
+      "bytes": 365240
+    },
+    {
+      "placement_id": "CS_7c279523de5999fd94ed:Gallery/G06.jpg",
+      "surface": "GALLERY",
+      "position": 6,
+      "relative_file": "01_Карточки/Ozon/Билайн/П02 BeruSim/4329743163/CS_7c279523de5999fd94ed/01_Материалы/Gallery/G06.jpg",
+      "integrity_state": "VERIFIED",
+      "sha256": "4fa42338ad67a16fcb9b6ceb0ea702baf446c7c66ae6ae2d47c6954a933be1d2",
+      "bytes": 139288
+    },
+    {
+      "placement_id": "CS_7c279523de5999fd94ed:Gallery/G07.jpg",
+      "surface": "GALLERY",
+      "position": 7,
+      "relative_file": "01_Карточки/Ozon/Билайн/П02 BeruSim/4329743163/CS_7c279523de5999fd94ed/01_Материалы/Gallery/G07.jpg",
+      "integrity_state": "VERIFIED",
+      "sha256": "3e7f86f608cd86a3e08d7c8fe2455d42236a840abe666eecd7b8a5a8661fe973",
+      "bytes": 172568
+    },
+    {
+      "placement_id": "CS_7c279523de5999fd94ed:Gallery/G08.jpg",
+      "surface": "GALLERY",
+      "position": 8,
+      "relative_file": "01_Карточки/Ozon/Билайн/П02 BeruSim/4329743163/CS_7c279523de5999fd94ed/01_Материалы/Gallery/G08.jpg",
+      "integrity_state": "VERIFIED",
+      "sha256": "a486f0ecafcf2374806296604adf2e339348478ee20221b161db1905b11b5f7e",
+      "bytes": 138368
+    },
+    {
+      "placement_id": "CS_7c279523de5999fd94ed:Gallery/G09.jpg",
+      "surface": "GALLERY",
+      "position": 9,
+      "relative_file": "01_Карточки/Ozon/Билайн/П02 BeruSim/4329743163/CS_7c279523de5999fd94ed/01_Материалы/Gallery/G09.jpg",
+      "integrity_state": "VERIFIED",
+      "sha256": "0b66c739cf34a4b7971f7c77ae47aa880a119e5c37f47547bfb035ec1ccd670e",
+      "bytes": 154072
+    },
+    {
+      "placement_id": "CS_7c279523de5999fd94ed:Gallery/G10.jpg",
+      "surface": "GALLERY",
+      "position": 10,
+      "relative_file": "01_Карточки/Ozon/Билайн/П02 BeruSim/4329743163/CS_7c279523de5999fd94ed/01_Материалы/Gallery/G10.jpg",
+      "integrity_state": "VERIFIED",
+      "sha256": "6638c6697c861abdb8523577f0998fda38770d17e8510ec06834270b0e7eb52e",
+      "bytes": 219885
+    },
+    {
+      "placement_id": "CS_7c279523de5999fd94ed:Gallery/G11.jpg",
+      "surface": "GALLERY",
+      "position": 11,
+      "relative_file": "01_Карточки/Ozon/Билайн/П02 BeruSim/4329743163/CS_7c279523de5999fd94ed/01_Материалы/Gallery/G11.jpg",
+      "integrity_state": "VERIFIED",
+      "sha256": "882d26d002a2e2c0434e521c841b0bf72b16acd2979ebf470f40280da0b6101c",
+      "bytes": 155119
+    },
+    {
+      "placement_id": "CS_7c279523de5999fd94ed:Gallery/G12.jpg",
+      "surface": "GALLERY",
+      "position": 12,
+      "relative_file": "01_Карточки/Ozon/Билайн/П02 BeruSim/4329743163/CS_7c279523de5999fd94ed/01_Материалы/Gallery/G12.jpg",
+      "integrity_state": "VERIFIED",
+      "sha256": "6d3c70aeb0faae9b25903b0dfc5ac62bba4c36ffe9995132a5fe8c115ba2a464",
+      "bytes": 1552423
+    },
+    {
+      "placement_id": "CS_7c279523de5999fd94ed:Gallery/G13.jpg",
+      "surface": "GALLERY",
+      "position": 13,
+      "relative_file": "01_Карточки/Ozon/Билайн/П02 BeruSim/4329743163/CS_7c279523de5999fd94ed/01_Материалы/Gallery/G13.jpg",
+      "integrity_state": "VERIFIED",
+      "sha256": "89ee4bf30c2a30a23f154d99e7155b13da22358d34fa60fb35adf87a720bff52",
+      "bytes": 157576
+    },
+    {
+      "placement_id": "CS_7c279523de5999fd94ed:Rich/rich_ocr.json",
+      "surface": "RICH",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/Билайн/П02 BeruSim/4329743163/CS_7c279523de5999fd94ed/01_Материалы/Rich/rich_ocr.json",
+      "integrity_state": "VERIFIED",
+      "sha256": "846b7058fc1e775d1194f5b9fae0469d2dd2eb4ba6b3896a59c40008da9098dc",
+      "bytes": 428
+    },
+    {
+      "placement_id": "CS_7c279523de5999fd94ed:Rich/rich_text.txt",
+      "surface": "RICH",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/Билайн/П02 BeruSim/4329743163/CS_7c279523de5999fd94ed/01_Материалы/Rich/rich_text.txt",
+      "integrity_state": "VERIFIED",
+      "sha256": "475c6d9f67450ad806600893977435aa206f13a1fc313805a11336835014fb2e",
+      "bytes": 17
+    },
+    {
+      "placement_id": "CS_7c279523de5999fd94ed:analytics_rank.txt",
+      "surface": "OTHER",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/Билайн/П02 BeruSim/4329743163/CS_7c279523de5999fd94ed/01_Материалы/analytics_rank.txt",
+      "integrity_state": "VERIFIED",
+      "sha256": "a5331f18877e9e1543361e44b4cb0a1f5f0ed5f8297d850bf1fcc68bd7a3ab5f",
+      "bytes": 3
+    },
+    {
+      "placement_id": "CS_7c279523de5999fd94ed:availability.txt",
+      "surface": "OTHER",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/Билайн/П02 BeruSim/4329743163/CS_7c279523de5999fd94ed/01_Материалы/availability.txt",
+      "integrity_state": "VERIFIED",
+      "sha256": "f3db355a863e0dd7fa5ca1c95f35969d61f7cfb1f7a1c64da40b68a8ebed9c4d",
+      "bytes": 26
+    },
+    {
+      "placement_id": "CS_7c279523de5999fd94ed:card_data.json",
+      "surface": "OTHER",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/Билайн/П02 BeruSim/4329743163/CS_7c279523de5999fd94ed/01_Материалы/card_data.json",
+      "integrity_state": "VERIFIED",
+      "sha256": "ba6ac64a5c8ff6002fdca425467fd232fdd9add72ec44c459abd6c82ab74e2d6",
+      "bytes": 6217
+    },
+    {
+      "placement_id": "CS_7c279523de5999fd94ed:characteristics.txt",
+      "surface": "CHARACTERISTICS",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/Билайн/П02 BeruSim/4329743163/CS_7c279523de5999fd94ed/01_Материалы/characteristics.txt",
+      "integrity_state": "VERIFIED",
+      "sha256": "f68fec9c27e3a5ef7c38f505e1b555b1228be6e944b0641e5d226768ea0126ef",
+      "bytes": 1200
+    },
+    {
+      "placement_id": "CS_7c279523de5999fd94ed:collection_status.txt",
+      "surface": "OTHER",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/Билайн/П02 BeruSim/4329743163/CS_7c279523de5999fd94ed/01_Материалы/collection_status.txt",
+      "integrity_state": "VERIFIED",
+      "sha256": "cf01585829633e2debef0696d8101ca4fb4702310a2f2256b3b17bd0e753ce8c",
+      "bytes": 10
+    },
+    {
+      "placement_id": "CS_7c279523de5999fd94ed:content_type.txt",
+      "surface": "OTHER",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/Билайн/П02 BeruSim/4329743163/CS_7c279523de5999fd94ed/01_Материалы/content_type.txt",
+      "integrity_state": "VERIFIED",
+      "sha256": "ef2f19aa952ed53e7278d36afe2186ded6897e77c46984147cc568a21901af62",
+      "bytes": 12
+    },
+    {
+      "placement_id": "CS_7c279523de5999fd94ed:description.txt",
+      "surface": "DESCRIPTION",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/Билайн/П02 BeruSim/4329743163/CS_7c279523de5999fd94ed/01_Материалы/description.txt",
+      "integrity_state": "VERIFIED",
+      "sha256": "cc0347dd69d593eba6a098b716136b2220ed91040282b2b0b3f9daa9bccd01dd",
+      "bytes": 1664
+    },
+    {
+      "placement_id": "CS_7c279523de5999fd94ed:manifest.json",
+      "surface": "OTHER",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/Билайн/П02 BeruSim/4329743163/CS_7c279523de5999fd94ed/01_Материалы/manifest.json",
+      "integrity_state": "VERIFIED",
+      "sha256": "d531470298c0237f9264dc04c64d36133ec1fad16c06754ec494c683770b0411",
+      "bytes": 7580
+    },
+    {
+      "placement_id": "CS_7c279523de5999fd94ed:price.txt",
+      "surface": "OTHER",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/Билайн/П02 BeruSim/4329743163/CS_7c279523de5999fd94ed/01_Материалы/price.txt",
+      "integrity_state": "VERIFIED",
+      "sha256": "53c234e5e8472b6ac51c1ae1cab3fe06fad053beb8ebfd8977b010655bfdd3c3",
+      "bytes": 2
+    },
+    {
+      "placement_id": "CS_7c279523de5999fd94ed:rating.txt",
+      "surface": "OTHER",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/Билайн/П02 BeruSim/4329743163/CS_7c279523de5999fd94ed/01_Материалы/rating.txt",
+      "integrity_state": "VERIFIED",
+      "sha256": "335f6442cc8f7e4980fe4ba346115a00101db5a939992b25b27ebf595238e8d5",
+      "bytes": 4
+    },
+    {
+      "placement_id": "CS_7c279523de5999fd94ed:reviews_count.txt",
+      "surface": "OTHER",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/Билайн/П02 BeruSim/4329743163/CS_7c279523de5999fd94ed/01_Материалы/reviews_count.txt",
+      "integrity_state": "VERIFIED",
+      "sha256": "f81bab2975735da43f75e6904516ae36e762efdcb6a5847aac2ca5b3ca7bef0e",
+      "bytes": 4
+    },
+    {
+      "placement_id": "CS_7c279523de5999fd94ed:seller.txt",
+      "surface": "OTHER",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/Билайн/П02 BeruSim/4329743163/CS_7c279523de5999fd94ed/01_Материалы/seller.txt",
+      "integrity_state": "VERIFIED",
+      "sha256": "090d78693097c7792232051c213d75c0ee1ba14dee91f736818371f375a6ec05",
+      "bytes": 8
+    },
+    {
+      "placement_id": "CS_7c279523de5999fd94ed:tags.txt",
+      "surface": "OTHER",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/Билайн/П02 BeruSim/4329743163/CS_7c279523de5999fd94ed/01_Материалы/tags.txt",
+      "integrity_state": "VERIFIED",
+      "sha256": "032e702190a2bcd3ad171e26048b0b11e115a5e4e2f06e842c085d8bb45705cd",
+      "bytes": 488
+    },
+    {
+      "placement_id": "CS_7c279523de5999fd94ed:title.txt",
+      "surface": "TITLE",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/Билайн/П02 BeruSim/4329743163/CS_7c279523de5999fd94ed/01_Материалы/title.txt",
+      "integrity_state": "VERIFIED",
+      "sha256": "777a0f6bfd32116d8ce8d2d56edc013f962fbb3884fbbb961b879d6734001670",
+      "bytes": 189
+    },
+    {
+      "placement_id": "CS_7c279523de5999fd94ed:url.txt",
+      "surface": "OTHER",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/Билайн/П02 BeruSim/4329743163/CS_7c279523de5999fd94ed/01_Материалы/url.txt",
+      "integrity_state": "VERIFIED",
+      "sha256": "0caef0d11a77fad7a59604950fd345b2127853b31bd735d30ca147e6fd6522e8",
+      "bytes": 152
+    }
+  ],
+  "data_format": "CAPTURE",
+  "change_number": 1,
+  "coverage_scope": "Все файлы предоставленного снимка; полнота действующей страницы и исполнение услуги отдельно не подтверждены.",
+  "source_note": "Точные сведения источника не являются независимой проверкой тарифного договора или юридических полномочий.",
+  "attributes": {
+    "preliminary_classification": {
+      "task_focus": "CONNECT",
+      "bundle_focus": "NOT_EMPHASIZED_IN_TITLE",
+      "configuration_focus": "NOT_EMPHASIZED_IN_TITLE",
+      "period_focus": "NOT_EMPHASIZED_IN_TITLE",
+      "group_id": "CONNECT_BASE",
+      "group_name": "Подключение: основное предложение",
+      "device_claims": [
+        "MULTIPLE_CLASSES_NOT_ENUMERATED"
+      ],
+      "device_claims_status": "PARTIAL_MULTIPLE_CLASS_CLAIM",
+      "money_roles": [],
+      "money_review_scope": "NOT_ATOMICALLY_REVIEWED",
+      "porting_role": "NOT_ESTABLISHED_IN_ROUTING_SCOPE",
+      "geo_claims": {
+        "legacy_title_claim": "ALL_RUSSIA_CLAIM",
+        "verification": "NOT_VERIFIED",
+        "collection_region": "Moscow"
+      },
+      "targeted_evidence": [],
+      "review_note": "",
+      "flags": [],
+      "legal_party_id": "",
+      "authority_status": "UNKNOWN_IN_INSPECTED_INPUTS",
+      "commercial_readiness": "NOT_ESTABLISHED",
+      "content_effect": "NOT_ASSESSED",
+      "market_row_present": "True",
+      "promotion_row_present": "False",
+      "routing_support": {
+        "surface": "DESCRIPTION",
+        "source_file": "01_Карточки/Ozon/Билайн/П02 BeruSim/4329743163/CS_7c279523de5999fd94ed/01_Материалы/description.txt",
+        "basis_text": "Сим-карта Билайн подходит для использования в разных устройствах и во всех регионах России с учётом условий покрытия и исключений оператора. Тариф доступен для подключения с 18 лет.",
+        "basis_kind": "EXACT_STORED_TEXT",
+        "literal_text_match": true,
+        "source_classification_status": "PROVISIONAL_CONTENT_ROUTING",
+        "evidence_status": "INHERITED_NOT_INDEPENDENT_RECODE",
+        "scope_note": "Предоставленное основание предварительной группы; не новая независимая разметка и не проверка совместимости или эффекта.",
+        "quote": "Сим-карта Билайн подходит для использования в разных устройствах и во всех регионах России с учётом условий покрытия и исключений оператора. Тариф доступен для подключения с 18 лет."
+      },
+      "device_scope_note": "Перечень устройств является исходной маршрутизацией, а не полной проверкой совместимости."
+    },
+    "classification_status": "PRELIMINARY_CONTENT_ROUTE_NOT_SALES_RANK",
+    "channel": {
+      "platform": "Ozon",
+      "legal_party": "UNKNOWN",
+      "shop_type": "UNKNOWN",
+      "brand_owner": "UNKNOWN",
+      "distributor_status": "UNKNOWN",
+      "budget": "UNKNOWN"
+    },
+    "source_url": "https://www.ozon.ru/product/sim-karta-bilayn-1000-minut-bezlimitnyy-internet-4g-lte-s-razdachey-beskonechnye-zvonki-na-bilayn-4329743163/?sh=f35iFfy3FQ"
+  },
+  "metadata_files": [
+    "01_Карточки/Ozon/Билайн/П02 BeruSim/4329743163/CS_7c279523de5999fd94ed/02_Метаданные/Фрагменты источника.jsonl",
+    "01_Карточки/Ozon/Билайн/П02 BeruSim/4329743163/CS_7c279523de5999fd94ed/02_Метаданные/Извлечённые сведения.jsonl"
+  ]
+}

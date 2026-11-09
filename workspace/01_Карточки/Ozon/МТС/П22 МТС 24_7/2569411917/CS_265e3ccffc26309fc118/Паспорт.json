@@ -1,0 +1,535 @@
+{
+  "record_type": "CAPTURE",
+  "intake_id": "BASE:CS_265e3ccffc26309fc118",
+  "card_id": "OZON:2569411917",
+  "capture_id": "CS_265e3ccffc26309fc118",
+  "intake_status": "ACCEPTED",
+  "registered_at": null,
+  "platform": "Ozon",
+  "external_card_id": {
+    "state": "KNOWN",
+    "value": "2569411917",
+    "basis": "OBSERVED",
+    "scope": "внешний номер",
+    "source_locator": "01_Карточки/Ozon/МТС/П22 МТС 24_7/2569411917/CS_265e3ccffc26309fc118/01_Материалы/card_data.json:sku"
+  },
+  "observed_at": {
+    "state": "KNOWN",
+    "value": "2026-09-25T09:43:19.635Z",
+    "basis": "OBSERVED",
+    "scope": "время наблюдения",
+    "source_locator": "01_Карточки/Ozon/МТС/П22 МТС 24_7/2569411917/CS_265e3ccffc26309fc118/01_Материалы/card_data.json:collected_at"
+  },
+  "seller_display_name": {
+    "state": "KNOWN",
+    "value": "МТС 24/7",
+    "basis": "OBSERVED",
+    "scope": "точная строка продавца",
+    "source_locator": "01_Карточки/Ozon/МТС/П22 МТС 24_7/2569411917/CS_265e3ccffc26309fc118/01_Материалы/card_data.json:seller"
+  },
+  "seller_label_code": "П22",
+  "brand": {
+    "state": "KNOWN",
+    "value": "МТС",
+    "basis": "OBSERVED",
+    "scope": "заявленный бренд",
+    "source_locator": "01_Карточки/Ozon/МТС/П22 МТС 24_7/2569411917/CS_265e3ccffc26309fc118/01_Материалы/card_data.json"
+  },
+  "title": {
+    "state": "KNOWN",
+    "value": "МТС SIM-карта Sim-карта мтс для роутера и модема  мтс симка безлимит для телефона, мтс сим  из карта безлимитный интернет для роутера (Весь мир)",
+    "basis": "OBSERVED",
+    "scope": "заголовок",
+    "source_locator": "01_Карточки/Ozon/МТС/П22 МТС 24_7/2569411917/CS_265e3ccffc26309fc118/01_Материалы/card_data.json:title"
+  },
+  "source_origin": "Сохранённая страница маркетплейса; дата наблюдения указана в паспорте.",
+  "actual_relative_path": "01_Карточки/Ozon/МТС/П22 МТС 24_7/2569411917/CS_265e3ccffc26309fc118",
+  "mission": "Подключение: основное предложение",
+  "offer_model": "Услуга, условия не подтверждены",
+  "collection_region": "Moscow",
+  "materials": [
+    {
+      "placement_id": "CS_265e3ccffc26309fc118:Gallery/G01.jpg",
+      "surface": "GALLERY",
+      "position": 1,
+      "relative_file": "01_Карточки/Ozon/МТС/П22 МТС 24_7/2569411917/CS_265e3ccffc26309fc118/01_Материалы/Gallery/G01.jpg",
+      "integrity_state": "VERIFIED",
+      "sha256": "faaed67612b9027b942e15fd4d27589c1bb466b037a980f12d2e5cd9063ba46f",
+      "bytes": 196049
+    },
+    {
+      "placement_id": "CS_265e3ccffc26309fc118:Gallery/G02.jpg",
+      "surface": "GALLERY",
+      "position": 2,
+      "relative_file": "01_Карточки/Ozon/МТС/П22 МТС 24_7/2569411917/CS_265e3ccffc26309fc118/01_Материалы/Gallery/G02.jpg",
+      "integrity_state": "VERIFIED",
+      "sha256": "3031926dc4a981d70be35d5f2159ffa2440e28cb0299b1017c7d90cdcedeadbe",
+      "bytes": 158254
+    },
+    {
+      "placement_id": "CS_265e3ccffc26309fc118:Gallery/G03.jpg",
+      "surface": "GALLERY",
+      "position": 3,
+      "relative_file": "01_Карточки/Ozon/МТС/П22 МТС 24_7/2569411917/CS_265e3ccffc26309fc118/01_Материалы/Gallery/G03.jpg",
+      "integrity_state": "VERIFIED",
+      "sha256": "825dc6f8a9623bca0e39fe68965761426edf8b6a6ff8bd64a8aaa6c48583931d",
+      "bytes": 112837
+    },
+    {
+      "placement_id": "CS_265e3ccffc26309fc118:Gallery/G04.jpg",
+      "surface": "GALLERY",
+      "position": 4,
+      "relative_file": "01_Карточки/Ozon/МТС/П22 МТС 24_7/2569411917/CS_265e3ccffc26309fc118/01_Материалы/Gallery/G04.jpg",
+      "integrity_state": "VERIFIED",
+      "sha256": "5531448eb48065cdbaceb807763e793b6caa373506d5fbfbca3bba605cc75389",
+      "bytes": 205004
+    },
+    {
+      "placement_id": "CS_265e3ccffc26309fc118:Gallery/G05.jpg",
+      "surface": "GALLERY",
+      "position": 5,
+      "relative_file": "01_Карточки/Ozon/МТС/П22 МТС 24_7/2569411917/CS_265e3ccffc26309fc118/01_Материалы/Gallery/G05.jpg",
+      "integrity_state": "VERIFIED",
+      "sha256": "aac3dd1444173a9ba99a329ede951554967bfe2eb18dff35a7a8808e86c82747",
+      "bytes": 215492
+    },
+    {
+      "placement_id": "CS_265e3ccffc26309fc118:Gallery/G06.jpg",
+      "surface": "GALLERY",
+      "position": 6,
+      "relative_file": "01_Карточки/Ozon/МТС/П22 МТС 24_7/2569411917/CS_265e3ccffc26309fc118/01_Материалы/Gallery/G06.jpg",
+      "integrity_state": "VERIFIED",
+      "sha256": "2cb3c8612493183092b7ec69f0473810bf4eda849c94970a8abf036b93fea7bb",
+      "bytes": 171079
+    },
+    {
+      "placement_id": "CS_265e3ccffc26309fc118:Gallery/G07.jpg",
+      "surface": "GALLERY",
+      "position": 7,
+      "relative_file": "01_Карточки/Ozon/МТС/П22 МТС 24_7/2569411917/CS_265e3ccffc26309fc118/01_Материалы/Gallery/G07.jpg",
+      "integrity_state": "VERIFIED",
+      "sha256": "71ef8d612002ff358df1379770e50a847a80a8f0e718631e9c7102c473e55f5e",
+      "bytes": 207202
+    },
+    {
+      "placement_id": "CS_265e3ccffc26309fc118:Gallery/G08.jpg",
+      "surface": "GALLERY",
+      "position": 8,
+      "relative_file": "01_Карточки/Ozon/МТС/П22 МТС 24_7/2569411917/CS_265e3ccffc26309fc118/01_Материалы/Gallery/G08.jpg",
+      "integrity_state": "VERIFIED",
+      "sha256": "94348ccd41e305377b9fb54e1ab7d3a06ad845790763253a0993e0d05c77db5a",
+      "bytes": 169318
+    },
+    {
+      "placement_id": "CS_265e3ccffc26309fc118:Gallery/G09.jpg",
+      "surface": "GALLERY",
+      "position": 9,
+      "relative_file": "01_Карточки/Ozon/МТС/П22 МТС 24_7/2569411917/CS_265e3ccffc26309fc118/01_Материалы/Gallery/G09.jpg",
+      "integrity_state": "VERIFIED",
+      "sha256": "36b178ff74addd5c4ce32fd78ed8c74dfa4bfcbdfebbb5753d96f3bc7cc0a74a",
+      "bytes": 220396
+    },
+    {
+      "placement_id": "CS_265e3ccffc26309fc118:Gallery/G10.jpg",
+      "surface": "GALLERY",
+      "position": 10,
+      "relative_file": "01_Карточки/Ozon/МТС/П22 МТС 24_7/2569411917/CS_265e3ccffc26309fc118/01_Материалы/Gallery/G10.jpg",
+      "integrity_state": "VERIFIED",
+      "sha256": "904643c57665681a7fba075c9d8037771e098393280ec88a5350258ab2078e3a",
+      "bytes": 215189
+    },
+    {
+      "placement_id": "CS_265e3ccffc26309fc118:Gallery/G11.jpg",
+      "surface": "GALLERY",
+      "position": 11,
+      "relative_file": "01_Карточки/Ozon/МТС/П22 МТС 24_7/2569411917/CS_265e3ccffc26309fc118/01_Материалы/Gallery/G11.jpg",
+      "integrity_state": "VERIFIED",
+      "sha256": "a2f6a730b828ee977ebdde69d5c696cac5748ce61369905383370006a5911910",
+      "bytes": 176674
+    },
+    {
+      "placement_id": "CS_265e3ccffc26309fc118:Gallery/G12.jpg",
+      "surface": "GALLERY",
+      "position": 12,
+      "relative_file": "01_Карточки/Ozon/МТС/П22 МТС 24_7/2569411917/CS_265e3ccffc26309fc118/01_Материалы/Gallery/G12.jpg",
+      "integrity_state": "VERIFIED",
+      "sha256": "5e3e3eabb7e1bedc58060e96e8b24736d44a30dd4de3a102988e618bf8b0787a",
+      "bytes": 154376
+    },
+    {
+      "placement_id": "CS_265e3ccffc26309fc118:Gallery/G13.jpg",
+      "surface": "GALLERY",
+      "position": 13,
+      "relative_file": "01_Карточки/Ozon/МТС/П22 МТС 24_7/2569411917/CS_265e3ccffc26309fc118/01_Материалы/Gallery/G13.jpg",
+      "integrity_state": "VERIFIED",
+      "sha256": "eaba3206a23dcb3f3cb98822501ab94904dce77e4189f223143a0c07e554a051",
+      "bytes": 196606
+    },
+    {
+      "placement_id": "CS_265e3ccffc26309fc118:Gallery/G14.jpg",
+      "surface": "GALLERY",
+      "position": 14,
+      "relative_file": "01_Карточки/Ozon/МТС/П22 МТС 24_7/2569411917/CS_265e3ccffc26309fc118/01_Материалы/Gallery/G14.jpg",
+      "integrity_state": "VERIFIED",
+      "sha256": "f3794bac580c558eb05ffd365719bc48193185301716a272b071f375387c508f",
+      "bytes": 194553
+    },
+    {
+      "placement_id": "CS_265e3ccffc26309fc118:Gallery/G15.jpg",
+      "surface": "GALLERY",
+      "position": 15,
+      "relative_file": "01_Карточки/Ozon/МТС/П22 МТС 24_7/2569411917/CS_265e3ccffc26309fc118/01_Материалы/Gallery/G15.jpg",
+      "integrity_state": "VERIFIED",
+      "sha256": "4aa45ea800deac4c2af298e6adc14f20cb76aa040b8770d507c64b3c696ad1ad",
+      "bytes": 146799
+    },
+    {
+      "placement_id": "CS_265e3ccffc26309fc118:Gallery/G16.jpg",
+      "surface": "GALLERY",
+      "position": 16,
+      "relative_file": "01_Карточки/Ozon/МТС/П22 МТС 24_7/2569411917/CS_265e3ccffc26309fc118/01_Материалы/Gallery/G16.jpg",
+      "integrity_state": "VERIFIED",
+      "sha256": "3a798083134a88274d98a19d4ff6589731ec8257886b377387ff9918adb31ebc",
+      "bytes": 179988
+    },
+    {
+      "placement_id": "CS_265e3ccffc26309fc118:Gallery/G17.jpg",
+      "surface": "GALLERY",
+      "position": 17,
+      "relative_file": "01_Карточки/Ozon/МТС/П22 МТС 24_7/2569411917/CS_265e3ccffc26309fc118/01_Материалы/Gallery/G17.jpg",
+      "integrity_state": "VERIFIED",
+      "sha256": "3c3e0caf58329b79d79ae7663173cc8ad648875173990b81ffd1b4b1a69f7a57",
+      "bytes": 173822
+    },
+    {
+      "placement_id": "CS_265e3ccffc26309fc118:Gallery/G18.jpg",
+      "surface": "GALLERY",
+      "position": 18,
+      "relative_file": "01_Карточки/Ozon/МТС/П22 МТС 24_7/2569411917/CS_265e3ccffc26309fc118/01_Материалы/Gallery/G18.jpg",
+      "integrity_state": "VERIFIED",
+      "sha256": "fbd4a9fbfef6eb0e4d0f662f62c1b914b37d3abd7c59b2ab7f2517341563e340",
+      "bytes": 119117
+    },
+    {
+      "placement_id": "CS_265e3ccffc26309fc118:Gallery/G19.jpg",
+      "surface": "GALLERY",
+      "position": 19,
+      "relative_file": "01_Карточки/Ozon/МТС/П22 МТС 24_7/2569411917/CS_265e3ccffc26309fc118/01_Материалы/Gallery/G19.jpg",
+      "integrity_state": "VERIFIED",
+      "sha256": "a6bcc5dd4b00b07ce74f340c4ad95b2b15b810e2b94db085b7e1e8858707c6ce",
+      "bytes": 139777
+    },
+    {
+      "placement_id": "CS_265e3ccffc26309fc118:Gallery/G20.jpg",
+      "surface": "GALLERY",
+      "position": 20,
+      "relative_file": "01_Карточки/Ozon/МТС/П22 МТС 24_7/2569411917/CS_265e3ccffc26309fc118/01_Материалы/Gallery/G20.jpg",
+      "integrity_state": "VERIFIED",
+      "sha256": "7e60c12c8f569fbd6bf86a3dfb330070f152db8950ee5afce361d4f6fd8e5991",
+      "bytes": 121924
+    },
+    {
+      "placement_id": "CS_265e3ccffc26309fc118:Gallery/G21.jpg",
+      "surface": "GALLERY",
+      "position": 21,
+      "relative_file": "01_Карточки/Ozon/МТС/П22 МТС 24_7/2569411917/CS_265e3ccffc26309fc118/01_Материалы/Gallery/G21.jpg",
+      "integrity_state": "VERIFIED",
+      "sha256": "983fbdcc9e3b5c2ed3dee6354ad96e0754f20cb99fd3d76244e3415b46ab4e6b",
+      "bytes": 139770
+    },
+    {
+      "placement_id": "CS_265e3ccffc26309fc118:Gallery/G22.jpg",
+      "surface": "GALLERY",
+      "position": 22,
+      "relative_file": "01_Карточки/Ozon/МТС/П22 МТС 24_7/2569411917/CS_265e3ccffc26309fc118/01_Материалы/Gallery/G22.jpg",
+      "integrity_state": "VERIFIED",
+      "sha256": "a56d1f4395e5787d7a4becbf991014a1367577879347d39e0c61c7ec806479d1",
+      "bytes": 114756
+    },
+    {
+      "placement_id": "CS_265e3ccffc26309fc118:Gallery/G23.jpg",
+      "surface": "GALLERY",
+      "position": 23,
+      "relative_file": "01_Карточки/Ozon/МТС/П22 МТС 24_7/2569411917/CS_265e3ccffc26309fc118/01_Материалы/Gallery/G23.jpg",
+      "integrity_state": "VERIFIED",
+      "sha256": "85bd94d160198283b1e1d6e887290e2015e5d8f1da36b7415bdef2f1d8b289ff",
+      "bytes": 110268
+    },
+    {
+      "placement_id": "CS_265e3ccffc26309fc118:Gallery/G24.jpg",
+      "surface": "GALLERY",
+      "position": 24,
+      "relative_file": "01_Карточки/Ozon/МТС/П22 МТС 24_7/2569411917/CS_265e3ccffc26309fc118/01_Материалы/Gallery/G24.jpg",
+      "integrity_state": "VERIFIED",
+      "sha256": "c7f75f902dccc66d640c20f6188f1883134c0237b7eb1cd3ef99e756e668864d",
+      "bytes": 162915
+    },
+    {
+      "placement_id": "CS_265e3ccffc26309fc118:Gallery/G25.jpg",
+      "surface": "GALLERY",
+      "position": 25,
+      "relative_file": "01_Карточки/Ozon/МТС/П22 МТС 24_7/2569411917/CS_265e3ccffc26309fc118/01_Материалы/Gallery/G25.jpg",
+      "integrity_state": "VERIFIED",
+      "sha256": "c0879ab3ef65ea829f7e14e560ebc638e1ad8cdb88b70f2ea18ecdf54232ea5b",
+      "bytes": 159617
+    },
+    {
+      "placement_id": "CS_265e3ccffc26309fc118:Gallery/G26.jpg",
+      "surface": "GALLERY",
+      "position": 26,
+      "relative_file": "01_Карточки/Ozon/МТС/П22 МТС 24_7/2569411917/CS_265e3ccffc26309fc118/01_Материалы/Gallery/G26.jpg",
+      "integrity_state": "VERIFIED",
+      "sha256": "8450619ba0597996839fc818575529aa3ed5c391c0b78d62f2029887a3b80e21",
+      "bytes": 139735
+    },
+    {
+      "placement_id": "CS_265e3ccffc26309fc118:Gallery/G27.jpg",
+      "surface": "GALLERY",
+      "position": 27,
+      "relative_file": "01_Карточки/Ozon/МТС/П22 МТС 24_7/2569411917/CS_265e3ccffc26309fc118/01_Материалы/Gallery/G27.jpg",
+      "integrity_state": "VERIFIED",
+      "sha256": "6f3f654eedebef75192784d405837d8f1474ca7b9d4f90f3a23c4dfc505ce336",
+      "bytes": 118055
+    },
+    {
+      "placement_id": "CS_265e3ccffc26309fc118:Gallery/G28.jpg",
+      "surface": "GALLERY",
+      "position": 28,
+      "relative_file": "01_Карточки/Ozon/МТС/П22 МТС 24_7/2569411917/CS_265e3ccffc26309fc118/01_Материалы/Gallery/G28.jpg",
+      "integrity_state": "VERIFIED",
+      "sha256": "a68b069d2e852d4d4ec5cfb63ac88b3bcaae29ead7ce934dd67eadfc5183c3f1",
+      "bytes": 127159
+    },
+    {
+      "placement_id": "CS_265e3ccffc26309fc118:Gallery/G29.jpg",
+      "surface": "GALLERY",
+      "position": 29,
+      "relative_file": "01_Карточки/Ozon/МТС/П22 МТС 24_7/2569411917/CS_265e3ccffc26309fc118/01_Материалы/Gallery/G29.jpg",
+      "integrity_state": "VERIFIED",
+      "sha256": "26d90df3a5ba5c441a0bb6f4b05585b45fad98a52985323d92245a0875fb56d6",
+      "bytes": 124356
+    },
+    {
+      "placement_id": "CS_265e3ccffc26309fc118:Gallery/G30.jpg",
+      "surface": "GALLERY",
+      "position": 30,
+      "relative_file": "01_Карточки/Ozon/МТС/П22 МТС 24_7/2569411917/CS_265e3ccffc26309fc118/01_Материалы/Gallery/G30.jpg",
+      "integrity_state": "VERIFIED",
+      "sha256": "0c7a931581f1bfe8502d8fcb5eb86332aff4f6d4b1f2b899a88595ac7069c01d",
+      "bytes": 123369
+    },
+    {
+      "placement_id": "CS_265e3ccffc26309fc118:Rich/rich_ocr.json",
+      "surface": "RICH",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/МТС/П22 МТС 24_7/2569411917/CS_265e3ccffc26309fc118/01_Материалы/Rich/rich_ocr.json",
+      "integrity_state": "VERIFIED",
+      "sha256": "597d237b4fab676203db749ff1a7f890c836252f0a345de9137ff3ecb423decd",
+      "bytes": 428
+    },
+    {
+      "placement_id": "CS_265e3ccffc26309fc118:Rich/rich_text.txt",
+      "surface": "RICH",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/МТС/П22 МТС 24_7/2569411917/CS_265e3ccffc26309fc118/01_Материалы/Rich/rich_text.txt",
+      "integrity_state": "VERIFIED",
+      "sha256": "475c6d9f67450ad806600893977435aa206f13a1fc313805a11336835014fb2e",
+      "bytes": 17
+    },
+    {
+      "placement_id": "CS_265e3ccffc26309fc118:analytics_rank.txt",
+      "surface": "OTHER",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/МТС/П22 МТС 24_7/2569411917/CS_265e3ccffc26309fc118/01_Материалы/analytics_rank.txt",
+      "integrity_state": "VERIFIED",
+      "sha256": "654ee9da442fa353f59f11beb688fc7f76c8de62a6c18b2a181fdde2a27cc3ef",
+      "bytes": 3
+    },
+    {
+      "placement_id": "CS_265e3ccffc26309fc118:availability.txt",
+      "surface": "OTHER",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/МТС/П22 МТС 24_7/2569411917/CS_265e3ccffc26309fc118/01_Материалы/availability.txt",
+      "integrity_state": "VERIFIED",
+      "sha256": "f3db355a863e0dd7fa5ca1c95f35969d61f7cfb1f7a1c64da40b68a8ebed9c4d",
+      "bytes": 26
+    },
+    {
+      "placement_id": "CS_265e3ccffc26309fc118:card_data.json",
+      "surface": "OTHER",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/МТС/П22 МТС 24_7/2569411917/CS_265e3ccffc26309fc118/01_Материалы/card_data.json",
+      "integrity_state": "VERIFIED",
+      "sha256": "07286e113dd479ea045706924b460b1f184b7cd453d2efaf5be24224de41d02b",
+      "bytes": 8663
+    },
+    {
+      "placement_id": "CS_265e3ccffc26309fc118:characteristics.txt",
+      "surface": "CHARACTERISTICS",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/МТС/П22 МТС 24_7/2569411917/CS_265e3ccffc26309fc118/01_Материалы/characteristics.txt",
+      "integrity_state": "VERIFIED",
+      "sha256": "5b69457e85eed027476333359c2c4808282e10c9f0fb051c2be59ea2b14157a9",
+      "bytes": 1149
+    },
+    {
+      "placement_id": "CS_265e3ccffc26309fc118:collection_status.txt",
+      "surface": "OTHER",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/МТС/П22 МТС 24_7/2569411917/CS_265e3ccffc26309fc118/01_Материалы/collection_status.txt",
+      "integrity_state": "VERIFIED",
+      "sha256": "cf01585829633e2debef0696d8101ca4fb4702310a2f2256b3b17bd0e753ce8c",
+      "bytes": 10
+    },
+    {
+      "placement_id": "CS_265e3ccffc26309fc118:content_type.txt",
+      "surface": "OTHER",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/МТС/П22 МТС 24_7/2569411917/CS_265e3ccffc26309fc118/01_Материалы/content_type.txt",
+      "integrity_state": "VERIFIED",
+      "sha256": "ef2f19aa952ed53e7278d36afe2186ded6897e77c46984147cc568a21901af62",
+      "bytes": 12
+    },
+    {
+      "placement_id": "CS_265e3ccffc26309fc118:description.txt",
+      "surface": "DESCRIPTION",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/МТС/П22 МТС 24_7/2569411917/CS_265e3ccffc26309fc118/01_Материалы/description.txt",
+      "integrity_state": "VERIFIED",
+      "sha256": "5eb1035327220b405292756e72ff022005bfc90d1a389ae52a0ce8fa8a978c54",
+      "bytes": 3759
+    },
+    {
+      "placement_id": "CS_265e3ccffc26309fc118:manifest.json",
+      "surface": "OTHER",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/МТС/П22 МТС 24_7/2569411917/CS_265e3ccffc26309fc118/01_Материалы/manifest.json",
+      "integrity_state": "VERIFIED",
+      "sha256": "0888ebdff2ddd8940ab36aaec8794622161e6ddb78c6b3434fd543d6b1d9255c",
+      "bytes": 15355
+    },
+    {
+      "placement_id": "CS_265e3ccffc26309fc118:price.txt",
+      "surface": "OTHER",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/МТС/П22 МТС 24_7/2569411917/CS_265e3ccffc26309fc118/01_Материалы/price.txt",
+      "integrity_state": "VERIFIED",
+      "sha256": "53c234e5e8472b6ac51c1ae1cab3fe06fad053beb8ebfd8977b010655bfdd3c3",
+      "bytes": 2
+    },
+    {
+      "placement_id": "CS_265e3ccffc26309fc118:rating.txt",
+      "surface": "OTHER",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/МТС/П22 МТС 24_7/2569411917/CS_265e3ccffc26309fc118/01_Материалы/rating.txt",
+      "integrity_state": "VERIFIED",
+      "sha256": "8048d1e7e392843de42064d4c1ae59880ce5b149895a2cb79b0680fbf35e488c",
+      "bytes": 4
+    },
+    {
+      "placement_id": "CS_265e3ccffc26309fc118:reviews_count.txt",
+      "surface": "OTHER",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/МТС/П22 МТС 24_7/2569411917/CS_265e3ccffc26309fc118/01_Материалы/reviews_count.txt",
+      "integrity_state": "VERIFIED",
+      "sha256": "f739882f40e2be8022d26517e0b963ab2351687845ebe1cf320efd0d0d3e388a",
+      "bytes": 5
+    },
+    {
+      "placement_id": "CS_265e3ccffc26309fc118:seller.txt",
+      "surface": "OTHER",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/МТС/П22 МТС 24_7/2569411917/CS_265e3ccffc26309fc118/01_Материалы/seller.txt",
+      "integrity_state": "VERIFIED",
+      "sha256": "60ca3031eae6bdafdc1028d6f60baf4704486fa8ee9e1c50ed2da1646bf7dbb7",
+      "bytes": 12
+    },
+    {
+      "placement_id": "CS_265e3ccffc26309fc118:tags.txt",
+      "surface": "OTHER",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/МТС/П22 МТС 24_7/2569411917/CS_265e3ccffc26309fc118/01_Материалы/tags.txt",
+      "integrity_state": "VERIFIED",
+      "sha256": "82a6cb6b8cedc71b98767d31f6ca89498e09999c62f12817596eb70ac24503c1",
+      "bytes": 26
+    },
+    {
+      "placement_id": "CS_265e3ccffc26309fc118:title.txt",
+      "surface": "TITLE",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/МТС/П22 МТС 24_7/2569411917/CS_265e3ccffc26309fc118/01_Материалы/title.txt",
+      "integrity_state": "VERIFIED",
+      "sha256": "caa88d2c7af459856454a70fa366e3d5d75203566ea84b5806debacd971d12fb",
+      "bytes": 254
+    },
+    {
+      "placement_id": "CS_265e3ccffc26309fc118:url.txt",
+      "surface": "OTHER",
+      "position": null,
+      "relative_file": "01_Карточки/Ozon/МТС/П22 МТС 24_7/2569411917/CS_265e3ccffc26309fc118/01_Материалы/url.txt",
+      "integrity_state": "VERIFIED",
+      "sha256": "04693fc2425a78bd1a9e3256380f3fdf7e71e05a6054cfaed8bab5b81f7e9128",
+      "bytes": 154
+    }
+  ],
+  "data_format": "CAPTURE",
+  "change_number": 1,
+  "coverage_scope": "Все файлы предоставленного снимка; полнота действующей страницы и исполнение услуги отдельно не подтверждены.",
+  "source_note": "Точные сведения источника не являются независимой проверкой тарифного договора или юридических полномочий.",
+  "attributes": {
+    "preliminary_classification": {
+      "task_focus": "CONNECT",
+      "bundle_focus": "NOT_EMPHASIZED_IN_TITLE",
+      "configuration_focus": "NOT_EMPHASIZED_IN_TITLE",
+      "period_focus": "NOT_EMPHASIZED_IN_TITLE",
+      "group_id": "CONNECT_BASE",
+      "group_name": "Подключение: основное предложение",
+      "device_claims": [
+        "MULTIPLE_CLASSES_NOT_ENUMERATED"
+      ],
+      "device_claims_status": "PARTIAL_MULTIPLE_CLASS_CLAIM",
+      "money_roles": [],
+      "money_review_scope": "NOT_ATOMICALLY_REVIEWED",
+      "porting_role": "NOT_ESTABLISHED_IN_ROUTING_SCOPE",
+      "geo_claims": {
+        "legacy_title_claim": "REGION_NOT_IN_TITLE",
+        "verification": "NOT_VERIFIED",
+        "collection_region": "Moscow"
+      },
+      "targeted_evidence": [],
+      "review_note": "",
+      "flags": [],
+      "legal_party_id": "",
+      "authority_status": "UNKNOWN_IN_INSPECTED_INPUTS",
+      "commercial_readiness": "NOT_ESTABLISHED",
+      "content_effect": "NOT_ASSESSED",
+      "market_row_present": "True",
+      "promotion_row_present": "False",
+      "routing_support": {
+        "surface": "TITLE",
+        "source_file": "01_Карточки/Ozon/МТС/П22 МТС 24_7/2569411917/CS_265e3ccffc26309fc118/01_Материалы/title.txt",
+        "basis_text": "несколько классов устройств в TITLE",
+        "basis_kind": "PROVIDED_ROUTING_EXPLANATION",
+        "literal_text_match": false,
+        "source_classification_status": "PROVISIONAL_CONTENT_ROUTING",
+        "evidence_status": "INHERITED_NOT_INDEPENDENT_RECODE",
+        "scope_note": "Предоставленное основание предварительной группы; не новая независимая разметка и не проверка совместимости или эффекта."
+      },
+      "device_scope_note": "Перечень устройств является исходной маршрутизацией, а не полной проверкой совместимости."
+    },
+    "classification_status": "PRELIMINARY_CONTENT_ROUTE_NOT_SALES_RANK",
+    "channel": {
+      "platform": "Ozon",
+      "legal_party": "UNKNOWN",
+      "shop_type": "UNKNOWN",
+      "brand_owner": "UNKNOWN",
+      "distributor_status": "UNKNOWN",
+      "budget": "UNKNOWN"
+    },
+    "source_url": "https://www.ozon.ru/product/mts-sim-karta-sim-karta-mts-dlya-routera-i-modema-mts-simka-bezlimit-dlya-telefona-mts-sim-iz-karta-2569411917/?sh=f35iFbOWYQ"
+  },
+  "metadata_files": [
+    "01_Карточки/Ozon/МТС/П22 МТС 24_7/2569411917/CS_265e3ccffc26309fc118/02_Метаданные/Фрагменты источника.jsonl",
+    "01_Карточки/Ozon/МТС/П22 МТС 24_7/2569411917/CS_265e3ccffc26309fc118/02_Метаданные/Извлечённые сведения.jsonl"
+  ]
+}
